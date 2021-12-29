@@ -6,6 +6,7 @@ Administrated and maintained by Physics students.
 - [CVMFS](https://cernvm.cern.ch/fs/)
 - ~[CMS Tier-3 Computing Cluster](https://twiki.cern.ch/twiki/bin/view/CMSPublic/USCMSTier3Doc)~
   - Chad and I talked, we don't think this is feasible
+  - OSG Compute Entrypoint [Request](https://opensciencegrid.org/docs/compute-element/hosted-ce/)
 - Container Runner - [singularity](https://sylabs.io/guides/3.7/user-guide/) or [docker](https://docs.docker.com/engine/install/)
 - Reliable Data Storage
   - ~[hadoop HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)~ 
@@ -86,3 +87,5 @@ whybee1 | Node hosting ZFS server (/data/cmszfs1)
 
 - [Slurm Cluster with Docker](https://medium.com/analytics-vidhya/slurm-cluster-with-docker-9f242deee601)
 - [Slurm Cluster Starting Point](https://github.com/rancavil/slurm-cluster)
+- [OSG Worker Node Docker Build Context](https://github.com/opensciencegrid/docker-osg-wn)
+- [OSG Worker Node Docs](https://opensciencegrid.org/docs/worker-node/using-wn/)
