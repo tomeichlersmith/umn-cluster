@@ -81,3 +81,7 @@ whybee1 | Node hosting ZFS server (/data/cmszfs1)
 - Storage access - For example whybee1 serves NFS based on AD accounts/groups
 - Home Directories - If others outside of CSE-IT have root access to machines, we cannot use CSE home directories due to security. Necessitate our own home directory server?
 - Jeremy has ~25 6TB hard drives. We could put them into a JBoD (Just a Bunch of Disks) and connect to whybee1 or use another box for a new ZFS pool.
+
+## References
+
+- [Slurm Cluster with Docker](https://medium.com/analytics-vidhya/slurm-cluster-with-docker-9f242deee601)
