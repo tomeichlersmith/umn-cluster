@@ -23,15 +23,19 @@ Administrated and maintained by Physics students.
 - Retire LDAP Auth, try to use VAS to use IDs from central IT
   - Can be accomplished most simply by CSE-IT adminiing lower-levels of cluster
 - Retire CFEngine admin tool in favor of unification with puppet
-- Update computers to CentOS7 across the board
+- Update computers to CentOS7 (minimum) across the board
   - SCL6 EoL was more than a year ago
 
 ## Open Questions
 
 ### Tom Answer
-- Can we _not_ be a full CMS Tier 3? Having all of the OSG software stack significantly adds to the complexity.
+- Can we _not_ be a full CMS Tier 3?
+  - Having all of the OSG software stack significantly adds to the complexity.
 - Is it possible to have a shared submit node for submitting to CMS cluster?
-- Can we host our workload manager within a container? This would allow us to not have full access to sensitive parts of cluster.
+  - Cannot find OSG documentation about requesting a submit-only node, probably a special case that we would need to investigate with OSG directly.
+- Can we host our workload manager within a container?
+  - This would allow us to not have full access to sensitive parts of cluster.
+  - **Not needed** without a split admin model, this would only introduce more complexity
 
 ### Chad Answer
 - Is CSE-IT open to a "split-admin" model where CSE-IT handles the bottom of the stack (OS, Auth, NFS home dirs, ZFS storage, container runner)
@@ -39,6 +43,7 @@ Administrated and maintained by Physics students.
   - have the entire top level be housed within a container (requires workload manager and container runner to be runnable within a container)
   - have Ansible script configure this top level that Chad deploys
   - CSE-IT provides admin privileges to single SPA point-person for admin the cluster (unlikely)
+  - **No split admin model**
 
 ## Notes from Chad
 > CSE-IT has determined that the cluster machines are no longer viable to support as they do not use modern remote [IPMI](https://en.wikipedia.org/wiki/Intelligent_Platform_Management_Interface) access.
