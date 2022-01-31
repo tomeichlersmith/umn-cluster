@@ -1,0 +1,24 @@
+# Example Ansible playbook used by CSE-IT to restart CVMFS on cluster
+#
+# USAGE:
+#   ansible-playbook -i scorpions.txt restart_cvmfs.eyaml -K
+
+---
+- hosts: all
+  gather_facts: false
+  user: sull0153
+
+  tasks:
+    - name: wipe cvmfs cache
+      shell: cvmfs_config wipecache
+      become: true
+
+    - name: Restart autofs
+      service:
+        name: autofs
+        state: restarted
+      become: true
+
+    - name: check /cvmfs/cms.cern.ch/
+      shell: ls /cvmfs/cms.cern.ch/
+
