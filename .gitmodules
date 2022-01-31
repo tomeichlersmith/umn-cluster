@@ -1,3 +1,0 @@
-[submodule "slurm-cluster"]
-	path = slurm-cluster
-	url = https://github.com/rancavil/slurm-cluster.git
