@@ -10,7 +10,7 @@ Administrated and maintained by HEP students.
 - Auth
   - VAS and AD using IDs from central IT
   - LDAP retired by central IT, would mean we'd need to handle our own auth ==> recipe for disaster
-- Storage
+- [Filesystem](filesystem) and storage
   - ZFS for some storage and larger home directories
     - i.e. merge `/data/cmszfs1/user/$USER` and `/home/$USER` for our lab's cluster
   - [hadoop HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
