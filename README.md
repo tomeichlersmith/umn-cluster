@@ -23,6 +23,12 @@ Administrated and maintained by HEP students.
   - [HTCondor](https://htcondor.org/)
   - [Slurm](https://slurm.schedmd.com/)
   - Decide based on ease of setup
+  - Discussion with Jeremy ==> having fixed resource allocation would be easier to maintain
+    - A main "feature" of HTCondor is dynamic determination of "nodes" and their availability,
+      this often leads to less-than-optimum use of the cluster.
+    - By default, slurm sets one node -> one job; however, it also has plugins that allow the
+      cluster admins to choose how jobs are allocated resources ("consumable resources").
+      For example, we can have (by default) one CPU/core per job so that one node could have `$(nproc)` jobs.
 - [CVMFS](https://cernvm.cern.ch/fs/)
   - CERN-related jobs, some containers are even distributed via CVMFS
   - **can we attach our own material to CVMFS?**
@@ -62,3 +68,4 @@ whybee1 | Node hosting ZFS server (/data/cmszfs1)
 
 - [OSG Worker Node Docker Build Context](https://github.com/opensciencegrid/docker-osg-wn)
 - [OSG Worker Node Docs](https://opensciencegrid.org/docs/worker-node/using-wn/)
+- [Consumable Resources in Slurm](https://slurm.schedmd.com/cons_res.html)
