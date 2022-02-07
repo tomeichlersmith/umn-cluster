@@ -7,8 +7,8 @@ import sys
 import timeit
 import json
 
-def read(cli_args) :
-    """Assumes all branches in tree can be summed together
+def analysim(cli_args) :
+    """simulate an analysis that loads all branches
 
     Parameters
     ----------
@@ -32,7 +32,7 @@ def read(cli_args) :
     for e in t :
         # do something to force branches loaded into memory
         attrs = [getattr(e,b) for b in branch_list]
-        break
+        # slow down reading with some dummy calculations?
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(f'ldmx python3 {sys.argv[0]}', description='Loop through a ROOT file.')
@@ -45,7 +45,7 @@ if __name__ == '__main__':
     arg = parser.parse_args()
 
     s = os.path.getsize(arg.input_file)
-    t = timeit.timeit(lambda: read(arg), number=arg.trials)
+    t = timeit.timeit(lambda: analysim(arg), number=arg.trials)
     l = arg.cp_to_local
 
     results = json.dumps({'size' : s, 'time' : t, 'local' : l})
