@@ -27,6 +27,10 @@ It looks like there are many commands available to report the CPU usage. These a
 From playing on my computer, it looks like `sar` will work best, but I will update with the actual plan.
 
 ## Plan
-1. Develop a non-interactive script which makes consistent reads to a ROOT file located somewhere on a remote mount.
-2. Wrap this "reader" in a script which can put that process into the background and monitor the CPU usage as well as time it.
+1. Develop a non-interactive script which makes consistent reads to a ROOT file located somewhere
+2. Wrap this "reader" in a script which either copies the remote file to local scratch space or provides the remote file to the reader
 3. Launch a large HTCondor campaign of these jobs in collaboration with Chad so he can monitor servers hosting the remote mount
+
+## Data Samples
+Mohammad: `/hdfs/cms/user/wadud/anTGC/ntuplesUL/ntuples2018UL/EGammaRun2018*`
+Michael: `/hdfs/cms/user/revering/dphoton/MuPlusXSkim/RunA2018UL/`
