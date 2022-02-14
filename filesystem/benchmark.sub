@@ -1,0 +1,16 @@
+# benchmark.sub - submit description file for FS benchmarking
+
+executable = image.sif
+arguments  = "--no-home --bind $(pwd),/mnt/hdfs/phys/ --cleanenv --env . python3 reader.py $(datafile)"
+# files to copy to running node
+transfer_input_files = reader.py
+
+log    = benchmark-$(Process).log
+output = benchmark-$(Process).json
+error  = benchmark-$(Process).err
+
+# Defaults
+#should_transfer_files   = IF_NEEDED
+#when_to_transfer_output = ON_EXIT
+
+queue datafile matching files test.root
