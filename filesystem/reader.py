@@ -18,7 +18,8 @@ def analysim(cli_args) :
     input_file = cli_args.input_file
     if cli_args.cp_to_local :
         # do copy
-        input_file = f'{cli_args.scratch_dir}/{os.path.basename(cli_args.input_file)}'
+        os.makedirs('/export/scratch/users/eichl008',exist_ok=True)
+        input_file = f'/export/scratch/users/eichl008/{os.path.basename(cli_args.input_file)}'
         rc = os.system(f'cp {cli_args.input_file} {input_file}')
         if rc != 0 :
             sys.exit(rc)
@@ -34,13 +35,16 @@ def analysim(cli_args) :
         attrs = [getattr(e,b) for b in branch_list]
         # slow down reading with some dummy calculations?
 
+    if cli_args.cp_to_local :
+        rc = os.system(f'rm {input_file}')
+        if rc != 0 :
+            sys.exit(rc)
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(f'ldmx python3 {sys.argv[0]}', description='Loop through a ROOT file.')
     parser.add_argument('input_file', help='an input file to loop over')
     parser.add_argument('--tree_name', required=True, help='tree to read')
     parser.add_argument('--cp_to_local', action='store_true', help='copy file to local scratch space')
-    parser.add_argument('--scratch_dir', default='/export/scratch/users/eichl008', help='scratch space')
-
     parser.add_argument('--trials', type=int, default=1, help='Number of reads on file to perform')
     arg = parser.parse_args()
 
