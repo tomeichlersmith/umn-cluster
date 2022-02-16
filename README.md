@@ -19,6 +19,9 @@ Administrated and maintained by HEP students.
 - Admin Config Manager
   - [Ansible](https://docs.ansible.com/) for ease of use
   - ~[Puppet](https://puppet.com/docs/)~ ruled out due to complexity
+- [Squid caching](http://www.squid-cache.org/) to help limit external network access to only what is necessary
+  - This is required for CMSSW (I think) and is helpful for CVMFS
+  - We can also look into connecting this caching to the container runner and its storage of container images
 - Workload Manager
   - [HTCondor](https://htcondor.org/)
   - [Slurm](https://slurm.schedmd.com/)
