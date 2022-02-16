@@ -18,18 +18,19 @@ Both of these reading methods also could be used on both of the different FS opt
 3. Read direct on HDFS
 4. Copy from HDFS and then read local
 
-## Tools
-It looks like there are many commands available to report the CPU usage. These are the ones installed on my computer:
-- `sar`
-- `mpstat`
-- `top`
-- `htop`
-From playing on my computer, it looks like `sar` will work best, but I will update with the actual plan.
+## Running
+In this directory, there is a python script [reader.py](reader.py) and a job description file [benchmark.sub](benchmark.sub). This python script assumes that it has access to ROOT's python bindings so that it can read through a TTree inside of a ROOT file. Since the system install of ROOT does not have python bindings available, I run this script inside of a container with ROOT available.
 
-## Plan
-1. Develop a non-interactive script which makes consistent reads to a ROOT file located somewhere
-2. Wrap this "reader" in a script which either copies the remote file to local scratch space or provides the remote file to the reader
-3. Launch a large HTCondor campaign of these jobs in collaboration with Chad so he can monitor servers hosting the remote mount
+The submission file has a few command line parameters allowing the user to decide which case to test. These parameters are provided _in between_ the `condor_submit` command and the description file.
+For example, in order to test reading directly, you only need to provide the directory of files to read:
+```
+condor_submit dir=/full/path/to/dir/to/read benchmark.sub
+```
+On the other hand, this same directory can be tested with copying and then reading localy by providing one more parameter.
+```
+condor_submit dir=/full/path/to/dir/to/read cp_to_local=yes benchmark.sub
+```
+The file system being tested is "chosen" based on the directory input.
 
 ## Data Samples
 Mohammad: `/hdfs/cms/user/wadud/anTGC/ntuplesUL/ntuples2018UL/EGammaRun2018*`

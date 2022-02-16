@@ -3,11 +3,12 @@
 #   to make the single submit file operational for our four cases
 #
 # USAGE:
-#   condor_submit <inputs> benchmark.sub
+#   condor_submit dir=/full/path/to/input/ [optional inputs] benchmark.sub
 #
 # INPUTS:
-#   cp_to_local : Defined to anything if the file should be copied to local scratch space before reading
 #   dir         : Defined to full dir path of files to read
+#   cp_to_local : Defined to anything if the file should be copied 
+#                 to local scratch space before reading
 #   tree_name   : Defined to be the name of the tree in the file to read
 
 # general definitions, same for all UMN submit scripts
@@ -48,16 +49,13 @@ endif
 # command line arguments to executable
 arguments  = "run --no-home --bind $(scratch),$(local),$(hdfs) --cleanenv $(image) . python3 $(script) $(datafile) $(cp_opt) $(tree_opt)"
 
-log    = benchmark-$(Process).log
-output = benchmark-$(Process).json
-error  = benchmark-$(Process).err
+job_name = benchmark-$(Cluster).$(Process)
+output = $(job_name).json
+if defined debug
+  log    = $(job_name).log
+  error  = $(job_name).err
+endif
 should_transfer_files   = yes
 when_to_transfer_output = on_exit
 
-if defined dir
-  input_dir = $(dir)
-else
-  input_dir = $(local)/eichl008/bench_filesystem
-endif
-
-queue datafile matching files $(input_dir)/*.root
+queue datafile matching files $(dir)/**.root
