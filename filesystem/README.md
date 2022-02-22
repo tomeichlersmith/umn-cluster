@@ -32,6 +32,23 @@ condor_submit dir=/full/path/to/dir/to/read cp_to_local=yes benchmark.sub
 ```
 The file system being tested is "chosen" based on the directory input.
 
+While the jobs are running, we also want to gather data on the nodes hosting the filesystem involved.
+For ZFS, this is simply whybee1 while for HDFS these are the "name nodes" hdfs-nn1 and hdfs-nn2. gc1-se is the "storage element" which may be needed as well.
+In order to collect load information during the job, it is important to start logging _before_ the jobs are submitted so that we can get a "baseline".
+```
+ssh <node>
+cd /export/scratch/users
+mkdir -p eichl008/load
+sar -o eichl008/load/log <interval> <count> >/dev/null 2>&1 &
+```
+The last line puts a system activity information logger into the background.
+The inputs are `<interval>` the time in seconds between sampling points
+and `<count>` the number of sampling points to get before exiting.
+The combination of these two parameters should be enough to cover the run of
+all the jobs.
+
+Make sure you don't overwrite a previous `log` file.
+
 ## Data Samples
 Mohammad: `/hdfs/cms/user/wadud/anTGC/ntuplesUL/ntuples2018UL/EGammaRun2018*`
 Michael: `/hdfs/cms/user/revering/dphoton/MuPlusXSkim/RunA2018UL/`

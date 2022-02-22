@@ -18,6 +18,7 @@ nice_user    = yes
 scratch      = /export/scratch/users
 local        = /data/cmszfs1/user
 hdfs         = /mnt/hdfs/phys/cms/user
+next_job_start_delay = 5
 
 # requirements on runner
 requirements = Machine != "zebra01.spa.umn.edu" && Machine != "zebra02.spa.umn.edu" && Machine != "zebra03.spa.umn.edu" && Machine != "zebra04.spa.umn.edu"
@@ -29,7 +30,7 @@ on_exit_hold_reason  = "Script exited with non-zero exit code (code in HoldReaso
 
 # executable we are running
 executable = /usr/bin/singularity
-transfer_executable = no # singularity already installed everywhere
+transfer_executable = no
 
 image  = $(local)/eichl008/ldmx/ldmx_dev_v2.0.sif
 script = $(local)/eichl008/umn-server/filesystem/reader.py
