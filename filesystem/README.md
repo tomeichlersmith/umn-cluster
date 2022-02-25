@@ -46,10 +46,20 @@ The [Admin Manual](https://htcondor.readthedocs.io/en/feature/admin-manual/confi
 
 **TODO**: Run some jobs without this parameter to confirm this hypothesis that the load will see a dramatic spike without the spacing.
 
+### Server Load
+
 While the jobs are running, we also want to gather data on the nodes hosting the filesystem involved.
 For ZFS, this is simply whybee1 while for HDFS these are the "name nodes" hdfs-nn1 and hdfs-nn2. gc1-se is the "storage element" which may be needed as well.
 In order to collect load information during the job, it is important to start logging _before_ the jobs are submitted so that we can get a "baseline". During the HDFS runs that read all the branches from the input files, Chad ran the `sar` command on hdfs-nn1 and we saw CPU usage stay > 98% idle for a vast majority of the run (full `sar` log sampling every 20s in file hdfs-nn1-sar.log).
 
+To help parse the logs, the table below lists the runs that were submitted in clusters and the time they were submitted.
+
+Run | Submission Time
+---|---
+HDFS All Branches Remote | 2/18 13:35
+HDFS All Branches Local  | 2/19 09:32
+ZFS All Branches Remote  | 2/25 10:12
+ZFS All Branches Local   | NA
 
 ## Data Samples
 - Mohammad: `/hdfs/cms/user/wadud/anTGC/ntuplesUL/ntuples2018UL/EGammaRun2018*`
