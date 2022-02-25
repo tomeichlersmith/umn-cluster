@@ -18,6 +18,7 @@ nice_user    = yes
 scratch      = /export/scratch/users
 local        = /data/cmszfs1/user
 hdfs         = /mnt/hdfs/phys/cms/user
+# prevent file system overloading, helps keep read-requests ordered
 next_job_start_delay = 5
 
 # requirements on runner
