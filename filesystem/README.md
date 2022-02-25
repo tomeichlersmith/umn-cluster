@@ -54,12 +54,12 @@ In order to collect load information during the job, it is important to start lo
 
 To help parse the logs, the table below lists the runs that were submitted in clusters and the time they were submitted.
 
-Run | Submission Time
----|---
-HDFS All Branches Remote | 2/18 13:35
-HDFS All Branches Local  | 2/19 09:32
-ZFS All Branches Remote  | 2/25 10:12
-ZFS All Branches Local   | NA
+Run | Submission Time | Last Job Completed
+----|-----------------|-------------------
+HDFS All Branches Remote | 2/18 13:35 | 2/18 17:11
+HDFS All Branches Local  | 2/19 09:32 | 2/19 12:21
+ZFS All Branches Remote  | 2/25 10:12 | NA
+ZFS All Branches Local   | NA | NA
 
 ## Data Samples
 - Mohammad: `/hdfs/cms/user/wadud/anTGC/ntuplesUL/ntuples2018UL/EGammaRun2018*`
