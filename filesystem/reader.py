@@ -51,6 +51,9 @@ if __name__ == '__main__':
     s = os.path.getsize(arg.input_file)
     t = timeit.timeit(lambda: analysim(arg), number=arg.trials)
     l = arg.cp_to_local
+    f = 'zfs'
+    if 'hdfs' in arg.input_file :
+        f = 'hdfs'
 
-    results = json.dumps({'size' : s, 'time' : t, 'local' : l})
+    results = json.dumps({'size' : s, 'time' : t, 'local' : l, 'filesystem' : f})
     print(results)
