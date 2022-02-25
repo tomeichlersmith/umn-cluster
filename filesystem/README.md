@@ -61,4 +61,7 @@ Convert a JSON file with a list of JSON entries. This overwrites `data.csv` and 
 ```
 jq -r '(map(keys) | add | unique) as $cols | map(. as $row | $cols | map($row[.])) as $rows | $cols, $rows[] | @csv' data.json > data.csv
 ```
-
+This put the headers in alphabetical order, so you can "append" a new JSON entry to `data.csv`, being careful to have the order of the keys correct.
+```
+jq -r '[.filesystem, .local, .size, .time] | @csv' new-entry.json >> data.csv
+```
