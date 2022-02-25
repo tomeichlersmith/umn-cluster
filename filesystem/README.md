@@ -33,11 +33,15 @@ condor_submit dir=/full/path/to/dir/to/read cp_to_local=yes benchmark.sub
 The file system being tested is "chosen" based on the directory input.
 
 ### Important Note
-A **big** parameter is the `next_job_start_delay` parameter. This allows us to space out the start time of the jobs so that the servers we are reading from aren't all hammered at once. For these tests, I have set this parameter to `5` (seconds) which means the jobs take longer to get going but it keeps the load on the servers hosting the files low.
+A **big** parameter is the `next_job_start_delay` parameter. 
+This allows us to space out the start time of the jobs so that the servers we are reading from aren't all hammered at once. 
+For these tests, I have set this parameter to `5` (seconds) which means the jobs take longer to get going but it keeps the load on the servers hosting the files low.
 The [HTCondor documentation](https://htcondor.readthedocs.io/en/feature/man-pages/condor_submit.html?#submit-description-file-commands) points out that this parameter can be completely avoid through more specific tuning of `condor_schedd`.
 > This command is no longer useful, as throttling should be accomplished through configuration of the condor\_schedd daemon. 
+
 The [Admin Manual](https://htcondor.readthedocs.io/en/feature/admin-manual/configuration-macros.html) provides two configuration parameters allowing for us to apply a blanket job-start-throttling policy for all cluster users.
 > `JOB_START_COUNT` This macro works together with the `JOB_START_DELAY` macro to throttle job starts. The default and minimum values for this integer configuration variable are both 1.
+>
 > `JOB_START_DELAY` This integer-valued macro works together with the `JOB_START_COUNT` macro to throttle job starts. The `condor_schedd` daemon starts `$(JOB_START_COUNT)` jobs at a time, then delays for `$(JOB_START_DELAY)` seconds before starting the next set of jobs. This delay prevents a sudden, large load on resources required by the jobs during their start up phase. The resulting job start rate averages as fast as `($(JOB_START_COUNT)/$(JOB_START_DELAY))` jobs/second. This setting is defined in terms of seconds and defaults to 0, which means jobs will be started as fast as possible. If you wish to throttle the rate of specific types of jobs, you can use the job attribute `NextJobStartDelay`.
 
 **TODO**: Run some jobs without this parameter to confirm this hypothesis that the load will see a dramatic spike without the spacing.
