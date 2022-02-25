@@ -50,5 +50,9 @@ all the jobs.
 Make sure you don't overwrite a previous `log` file.
 
 ## Data Samples
-Mohammad: `/hdfs/cms/user/wadud/anTGC/ntuplesUL/ntuples2018UL/EGammaRun2018*`
-Michael: `/hdfs/cms/user/revering/dphoton/MuPlusXSkim/RunA2018UL/`
+- Mohammad: `/hdfs/cms/user/wadud/anTGC/ntuplesUL/ntuples2018UL/EGammaRun2018*`
+- Michael: `/hdfs/cms/user/revering/dphoton/MuPlusXSkim/RunA2018UL/`
+
+## Converting JSON data to CSV
+- [Helpful answer](https://stackoverflow.com/a/32965227/17617632)
+- [jq](https://stedolan.github.io/jq/manual/)
