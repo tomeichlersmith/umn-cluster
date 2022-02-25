@@ -56,3 +56,9 @@ Make sure you don't overwrite a previous `log` file.
 ## Converting JSON data to CSV
 - [Helpful answer](https://stackoverflow.com/a/32965227/17617632)
 - [jq](https://stedolan.github.io/jq/manual/)
+
+Convert a JSON file with a list of JSON entries. This overwrites `data.csv` and includes the headers of the columns.
+```
+jq -r '(map(keys) | add | unique) as $cols | map(. as $row | $cols | map($row[.])) as $rows | $cols, $rows[] | @csv' data.json > data.csv
+```
+
