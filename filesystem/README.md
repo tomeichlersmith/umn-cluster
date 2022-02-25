@@ -32,6 +32,11 @@ condor_submit dir=/full/path/to/dir/to/read cp_to_local=yes benchmark.sub
 ```
 The file system being tested is "chosen" based on the directory input.
 
+### Important Note
+A **big** parameter is the `next_job_start_delay` parameter. This allows us to space out the start time of the jobs so that the servers we are reading from aren't all hammered at once. For these tests, I have set this parameter to `5` (seconds) which means the jobs take longer to get going but it keeps the load on the servers hosting the files low.
+
+**TODO**: Run some jobs without this parameter to confirm this hypothesis that the load will see a dramatic spike without the spacing.
+
 While the jobs are running, we also want to gather data on the nodes hosting the filesystem involved.
 For ZFS, this is simply whybee1 while for HDFS these are the "name nodes" hdfs-nn1 and hdfs-nn2. gc1-se is the "storage element" which may be needed as well.
 In order to collect load information during the job, it is important to start logging _before_ the jobs are submitted so that we can get a "baseline". During the HDFS runs that read all the branches from the input files, Chad ran the `sar` command on hdfs-nn1 and we saw CPU usage stay > 98% idle for a vast majority of the run (full `sar` log sampling every 20s in file hdfs-nn1-sar.log).
