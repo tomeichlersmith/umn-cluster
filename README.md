@@ -9,8 +9,6 @@ Administrated and maintained by HEP students.
   - Ubuntu or Fedora?
 - Auth
   - VAS and AD using IDs from central IT
-    - CSE "joiner" account to "join objects" between AD -> gives us ability to add machines to an Organizational Unit and allows us to give access to this OU to specific users
-    - AD handles groups (including sudoers group), distribute/sync sudoers file using a simple Ansible job to copy file from head node
   - LDAP retired by central IT, would mean we'd need to handle our own auth ==> recipe for disaster
 - [Filesystem](filesystem) and storage
   - ZFS for some storage and larger home directories
@@ -41,12 +39,6 @@ Administrated and maintained by HEP students.
   - [singularity](https://sylabs.io/guides/3.7/user-guide/) or [docker](https://docs.docker.com/engine/install/)
   - Decide based on ease of setup
 
-## Transition
-
-### Proto-Cluster
-- twins still participating in HDFS ==> dangerous to remove them, would probably lose blocks of data
-- more workable solution is to pull out a "box" of 4 scorpions, preferring ones that are already on people's block-lists due to their inconsistent connection to CVMFS
-
 ## Delayed
 These goals are not necessarily "removed", but will not be primary goals.
 - [CMS Tier-3 Computing Cluster](https://twiki.cern.ch/twiki/bin/view/CMSPublic/USCMSTier3Doc)
@@ -74,6 +66,13 @@ whybee1 | Node hosting ZFS server (/data/cmszfs1)
 - Home Directories - If others outside of CSE-IT have root access to machines, we cannot use CSE home directories due to security. We will need to manage our own home directories.
 - Jeremy has ~25 6TB hard drives. We could put them into a JBoD (Just a Bunch of Disks) and connect to whybee1 or use another box for a new ZFS pool.
 - Old drives consistently dieing leads to consistent re-calibration of Hadoop.
+
+### Authentication Discussion
+- Verify OIT will allow CMS to join machines
+- Create an Organizational Unit for CMS within CSE\CSE-IT\ to contain machines.
+- Create Joiner account to safely join machines to CMS OU
+- Create cse- account for person(s) to remove/modify objects in CMS OU
+- Use VAS or SSSD for joining machines to domain and authentication backend.
 
 ## References
 
