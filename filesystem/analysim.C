@@ -55,6 +55,8 @@ std::string cp_to_scratch(std::string filename) {
  * max_branches - maximum number of branches to be processed
  *  if negative, process all branches
  *
+ * actually_process - actually loop through events
+ *
  * Run like:
  * 
  *    root -lq '/full/path/to/analysim.C("/full/path/to/input_file.root","tree/name",true,-1)'
@@ -64,7 +66,7 @@ std::string cp_to_scratch(std::string filename) {
  * to the terminal. This can be captured by condor's 'output' command and then concatenated into
  * one CSV file with all the jobs for later analysis.
  */
-void analysim(const char* input_file, const char* tree_name, bool cp_to_local, int max_branches) {
+void analysim(const char* input_file, const char* tree_name, bool cp_to_local, int max_branches, bool actually_process) {
   auto begin = std::chrono::steady_clock::now();
   TFile* f;
   if (cp_to_local) {
@@ -84,25 +86,27 @@ void analysim(const char* input_file, const char* tree_name, bool cp_to_local, i
       std::cerr << "Unable to open " << input_file << std::endl;
     }
   }
-  auto t = (TTree*)f->Get(tree_name);
-  long long int size = t->GetEntriesFast();
-  if (max_branches < 0) {
-    // activate all branches
-    t->SetBranchStatus("*",1);
-  } else {
-    // loop through branches activating them until max_branches is reached
-    t->SetBranchStatus("*",0);
-    TObjArray* l = t->GetListOfBranches();
-    for (std::size_t i{0}; i < l->GetEntriesFast(); i++) {
-      if (i >= max_branches)
-        break;
-
-      TBranch* b = (TBranch*)l->At(i);
-      b->SetStatus(1);
+  if (actually_process) {
+    auto t = (TTree*)f->Get(tree_name);
+    long long int size = t->GetEntriesFast();
+    if (max_branches < 0) {
+      // activate all branches
+      t->SetBranchStatus("*",1);
+    } else {
+      // loop through branches activating them until max_branches is reached
+      t->SetBranchStatus("*",0);
+      TObjArray* l = t->GetListOfBranches();
+      for (std::size_t i{0}; i < l->GetEntriesFast(); i++) {
+        if (i >= max_branches)
+          break;
+  
+        TBranch* b = (TBranch*)l->At(i);
+        b->SetStatus(1);
+      }
     }
-  }
-  for (long long int i{0}; i < size; i++) {
-    t->GetEntry(i);
+    for (long long int i{0}; i < size; i++) {
+      t->GetEntry(i);
+    }
   }
   if (cp_to_local) {
     // perform system delete
@@ -114,11 +118,12 @@ void analysim(const char* input_file, const char* tree_name, bool cp_to_local, i
   auto end = std::chrono::steady_clock::now();
   std::chrono::duration<double> time = end - begin;
 
-  std::cout
-    << filesize(input_file) << "," // size
-    << time.count() << "," // time
-    << std::boolalpha << cp_to_local << "," // local
-    << filesystem(input_file) << "," // filesystem
-    << max_branches
+  std::cout << std::boolalpha
+    << filesize(input_file) << ","
+    << time.count() << ","
+    << cp_to_local << ","
+    << filesystem(input_file) << ","
+    << max_branches << ","
+    << actually_process
     << std::endl;
 }
