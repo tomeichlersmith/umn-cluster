@@ -15,14 +15,15 @@
 universe     = vanilla
 +CondorGroup = "cmsfarm"
 nice_user    = yes
-scratch      = /export/scratch/users
-local        = /data/cmszfs1/user
-hdfs         = /mnt/hdfs/phys/cms/user
+local        = /local/cms/user/eichl008
 # prevent file system overloading, helps keep read-requests ordered
 next_job_start_delay = 5
 
 # requirements on runner
-requirements = Machine != "zebra01.spa.umn.edu" && Machine != "zebra02.spa.umn.edu" && Machine != "zebra03.spa.umn.edu" && Machine != "zebra04.spa.umn.edu"
+requirements = Machine != "zebra01.spa.umn.edu" && \
+               Machine != "zebra02.spa.umn.edu" && \
+               Machine != "zebra03.spa.umn.edu" && \
+               Machine != "zebra04.spa.umn.edu"
 
 # hold a job if it exits with a non-zero exit status
 on_exit_hold = ExitCode != 0
@@ -30,29 +31,32 @@ on_exit_hold_subcode = ExitCode
 on_exit_hold_reason  = "Script exited with non-zero exit code (code in HoldReasonSubCode)"
 
 # executable we are running
-executable = /usr/bin/singularity
+executable = $(local)/umn-server/filesystem/run.sh
 transfer_executable = no
 
-image  = $(local)/eichl008/ldmx/ldmx_dev_v2.0.sif
-script = $(local)/eichl008/umn-server/filesystem/reader.py
+script = $(local)/umn-server/filesystem/analysim.C
 
 if defined cp_to_local
-  cp_opt = --cp_to_local
+  cp_opt = true
 else
-  cp_opt = 
+  cp_opt = false
 endif
 
-if defined tree_name
-  tree_opt = --tree_name $(tree_name)
+if defined max_branches
+  mb = $(max_branches)
 else
-  tree_opt = --tree_name ggNtuplizer/EventTree
+  mb = -1
+endif
+
+if ! defined tree_name
+  tree_name = ggNtuplizer/EventTree
 endif
 
 # command line arguments to executable
-arguments  = "run --no-home --bind $(scratch),$(local),$(hdfs) --cleanenv $(image) . python3 $(script) $(datafile) $(cp_opt) $(tree_opt)"
+arguments  = "'$(script)(""$(datafile)"",""$(tree_name)"",$(cp_opt),$(mb))'"
 
 job_name = benchmark-$(Cluster).$(Process)
-output = $(job_name).json
+output = $(job_name).out
 if defined debug
   log    = $(job_name).log
   error  = $(job_name).err
@@ -60,4 +64,5 @@ endif
 should_transfer_files   = yes
 when_to_transfer_output = on_exit
 
-queue datafile matching files $(dir)/**.root
+queue datafile matching files $(local)/bench_filesystem/anTGCtree_data_1.root
+#queue datafile matching files $(dir)/**.root

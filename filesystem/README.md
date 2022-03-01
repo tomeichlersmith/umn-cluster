@@ -32,6 +32,13 @@ condor_submit dir=/full/path/to/dir/to/read cp_to_local=yes benchmark.sub
 ```
 The file system being tested is "chosen" based on the directory input.
 
+By default, we read all of the branches within the input ROOT file.
+A more realistic test is to only read a subset of these branches,
+you can limit the number of branches read to at most N branches using another command line parameter.
+```
+condor_submit dir=/full/path/to/dir/to/read max_branches=N benchmark.sub
+```
+
 ### Important Note
 A **big** parameter is the `next_job_start_delay` parameter. 
 This allows us to space out the start time of the jobs so that the servers we are reading from aren't all hammered at once. 
@@ -76,4 +83,11 @@ jq -r '(map(keys) | add | unique) as $cols | map(. as $row | $cols | map($row[.]
 This put the headers in alphabetical order, so you can "append" a new JSON entry to `data.csv`, being careful to have the order of the keys correct.
 ```
 jq -r '[.filesystem, .local, .size, .time] | @csv' new-entry.json >> data.csv
+```
+
+## Converting ROOT macro output to CSV
+The ROOT macro analysim.C prints out the resulting CSV row at the end of processing;
+therefore, we can grab the last line of the output files and append them to the merged data file.
+```
+find . -maxdepth 1 -type f -name "*.out" -exec tail -n 1 {} >> data.csv ';' -delete
 ```
