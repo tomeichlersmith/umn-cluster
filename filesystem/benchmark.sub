@@ -23,7 +23,13 @@ next_job_start_delay = 5
 requirements = Machine != "zebra01.spa.umn.edu" && \
                Machine != "zebra02.spa.umn.edu" && \
                Machine != "zebra03.spa.umn.edu" && \
-               Machine != "zebra04.spa.umn.edu"
+               Machine != "zebra04.spa.umn.edu" && \
+               Machine != "scorpion7.spa.umn.edu"  && \
+               Machine != "scorpion10.spa.umn.edu" && \
+               Machine != "scorpion13.spa.umn.edu" && \
+               Machine != "scorpion15.spa.umn.edu" && \
+               Machine != "scorpion17.spa.umn.edu" && \
+               Machine != "scorpion48.spa.umn.edu"
 
 # hold a job if it exits with a non-zero exit status
 on_exit_hold = ExitCode != 0
@@ -64,5 +70,4 @@ endif
 should_transfer_files   = yes
 when_to_transfer_output = on_exit
 
-queue datafile matching files $(local)/bench_filesystem/anTGCtree_data_1.root
-#queue datafile matching files $(dir)/**.root
+queue datafile matching files $(dir)/**.root
