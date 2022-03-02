@@ -49,7 +49,7 @@ std::string cp_to_scratch(std::string filename) {
 /**
  * pretend analysis of the tree name 'tree_name' in the file 'input_file'.
  *
- * cp_to_local - copies file to /export/scratch/users/eichl008 before reading and then
+ * cp_to_scratch - copies file to /export/scratch/users/eichl008 before reading and then
  *  deletes the scratch file after processing. Copying and deleting included in timing
  *
  * max_branches - maximum number of branches to be processed
@@ -62,14 +62,14 @@ std::string cp_to_scratch(std::string filename) {
  *    root -lq '/full/path/to/analysim.C("/full/path/to/input_file.root","tree/name",true,-1)'
  *
  * Prints out a CSV row formatted as
- *  file size in bytes, time analysis took in s, cp_to_local, filesystem input_file was on, max_branches
+ *  file size in bytes, time analysis took in s, cp_to_scratch, filesystem input_file was on, max_branches
  * to the terminal. This can be captured by condor's 'output' command and then concatenated into
  * one CSV file with all the jobs for later analysis.
  */
-void analysim(const char* input_file, const char* tree_name, bool cp_to_local, int max_branches, bool actually_process) {
+void analysim(const char* input_file, const char* tree_name, bool cp_to_scratch, int max_branches, bool actually_process) {
   auto begin = std::chrono::steady_clock::now();
   TFile* f;
-  if (cp_to_local) {
+  if (cp_to_scratch) {
     // perform system copy
     auto file = cp_to_scratch(input_file);
     if (file.empty()) {
@@ -108,7 +108,7 @@ void analysim(const char* input_file, const char* tree_name, bool cp_to_local, i
       t->GetEntry(i);
     }
   }
-  if (cp_to_local) {
+  if (cp_to_scratch) {
     // perform system delete
     if (remove(f->GetName()) != 0) {
       std::cerr << "Could not delete " << f->GetName() << std::endl;
@@ -121,7 +121,7 @@ void analysim(const char* input_file, const char* tree_name, bool cp_to_local, i
   std::cout << std::boolalpha
     << filesize(input_file) << ","
     << time.count() << ","
-    << cp_to_local << ","
+    << cp_to_scratch << ","
     << filesystem(input_file) << ","
     << max_branches << ","
     << actually_process

@@ -3,13 +3,19 @@
 #   to make the single submit file operational for our four cases
 #
 # USAGE:
-#   condor_submit dir=/full/path/to/input/ [optional inputs] benchmark.sub
+#   condor_submit [optional inputs] benchmark.sub
 #
 # INPUTS:
-#   dir         : Defined to full dir path of files to read
-#   cp_to_local : Defined to anything if the file should be copied 
-#                 to local scratch space before reading
-#   tree_name   : Defined to be the name of the tree in the file to read
+#   zfs           : Defined to anything if should use data files in /local/
+#                   (default use data files in /hdfs/)
+#   cp_to_scratch : Defined to anything if the file should be copied 
+#                   to local scratch space before reading
+#                   (default to read directly from remote mount)
+#   max_branches  : Defined to maximum number of branches to read
+#                   (default read all branches)
+#   no_proc       : Defined to anything to skip processing of file
+#                   (default to loop through all events in file)
+#
 
 # general definitions, same for all UMN submit scripts
 universe     = vanilla
@@ -24,11 +30,20 @@ requirements = Machine != "zebra01.spa.umn.edu" && \
                Machine != "zebra02.spa.umn.edu" && \
                Machine != "zebra03.spa.umn.edu" && \
                Machine != "zebra04.spa.umn.edu" && \
+               Machine != "scorpion1.spa.umn.edu"  && \
+               Machine != "scorpion3.spa.umn.edu"  && \
+               Machine != "scorpion6.spa.umn.edu"  && \
                Machine != "scorpion7.spa.umn.edu"  && \
+               Machine != "scorpion9.spa.umn.edu"  && \
                Machine != "scorpion10.spa.umn.edu" && \
                Machine != "scorpion13.spa.umn.edu" && \
+               Machine != "scorpion14.spa.umn.edu" && \
                Machine != "scorpion15.spa.umn.edu" && \
-               Machine != "scorpion17.spa.umn.edu" && \
+               Machine != "scorpion18.spa.umn.edu" && \
+               Machine != "scorpion21.spa.umn.edu" && \
+               Machine != "scorpion22.spa.umn.edu" && \
+               Machine != "scorpion23.spa.umn.edu" && \
+               Machine != "scorpion24.spa.umn.edu" && \
                Machine != "scorpion48.spa.umn.edu"
 
 # hold a job if it exits with a non-zero exit status
@@ -42,26 +57,29 @@ transfer_executable = no
 
 script = $(local)/umn-server/filesystem/analysim.C
 
-if defined cp_to_local
-  cp_opt = true
-else
-  cp_opt = false
-endif
-
 if defined max_branches
   mb = $(max_branches)
 else
   mb = -1
 endif
 
-if ! defined tree_name
-  tree_name = ggNtuplizer/EventTree
+if defined cp_to_scratch
+  cp = true
+else
+  cp = false
+endif
+
+if defined no_proc
+  proc = false
+else
+  proc = true
 endif
 
 # command line arguments to executable
-arguments  = "'$(script)(""$(datafile)"",""$(tree_name)"",$(cp_opt),$(mb))'"
+arguments  = "'$(script)(""$(datafile)"",""ggNtuplizer/EventTree"",$(cp),$(mb),$(proc))'"
 
-job_name = benchmark-$(Cluster).$(Process)
+# requires output directory to be already created
+job_name = output/benchmark-$(Cluster).$(Process)
 output = $(job_name).out
 if defined debug
   log    = $(job_name).log
@@ -69,5 +87,11 @@ if defined debug
 endif
 should_transfer_files   = yes
 when_to_transfer_output = on_exit
+
+if defined zfs
+  dir=$(local)/bench_filesystem
+else
+  dir=/hdfs/cms/user/wadud/anTGC/ntuplesUL/ntuples2018UL/EGammaRun2018A12Nov2019UL2018v2/0000
+endif
 
 queue datafile matching files $(dir)/**.root

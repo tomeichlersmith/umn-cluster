@@ -19,24 +19,35 @@ Both of these reading methods also could be used on both of the different FS opt
 4. Copy from HDFS and then read local
 
 ## Running
-In this directory, there is a python script [reader.py](reader.py) and a job description file [benchmark.sub](benchmark.sub). This python script assumes that it has access to ROOT's python bindings so that it can read through a TTree inside of a ROOT file. Since the system install of ROOT does not have python bindings available, I run this script inside of a container with ROOT available.
+In this directory, there is a ROOT macro [analysim.C](analysim.C) and a job description file [benchmark.sub](benchmark.sub). We assume that we have access to CVMFS and my personal install of ROOT in my directory in /local/cms/user.
+The output of the condor jobs expect the directory `output` to already exist.
 
 The submission file has a few command line parameters allowing the user to decide which case to test. These parameters are provided _in between_ the `condor_submit` command and the description file.
-For example, in order to test reading directly, you only need to provide the directory of files to read:
+For example, in order to test reading all of the branches from the files on hdfs:
 ```
-condor_submit dir=/full/path/to/dir/to/read benchmark.sub
+condor_submit benchmark.sub
 ```
-On the other hand, this same directory can be tested with copying and then reading localy by providing one more parameter.
-```
-condor_submit dir=/full/path/to/dir/to/read cp_to_local=yes benchmark.sub
-```
-The file system being tested is "chosen" based on the directory input.
-
-By default, we read all of the branches within the input ROOT file.
 A more realistic test is to only read a subset of these branches,
 you can limit the number of branches read to at most N branches using another command line parameter.
 ```
-condor_submit dir=/full/path/to/dir/to/read max_branches=N benchmark.sub
+condor_submit max_branches=N benchmark.sub
+```
+The other paramters are in the table below.
+
+Parameter | Description
+---|---
+`zfs` | If defined, use data in local rather than hdfs.
+`cp_to_scratch` | If defined, copy data file to scratch before processing
+`no_proc` | If defined, don't process data file during job at all
+`max_branches` | Defined to maximum number of branches to process
+
+### Batch of Clusters
+Running the following will get a survey of the 4 different situations given that you want to be reading N branches.
+```
+condor_submit max_branches=N benchmark.sub # hdfs remote
+condor_submit max_branches=N cp_to_scratch=yes benchmark.sub # hdfs to scratch
+condor_submit max_branches=N zfs=yes benchmark.sub # zfs via nfs remote
+condor_submit max_branches=N zfs=yes cp_to_scratch=yes benchmark.sub # zfs via nfs to scratch
 ```
 
 ### Important Note
@@ -65,25 +76,13 @@ Run | Submission Time | Last Job Completed
 ----|-----------------|-------------------
 HDFS All Branches Remote | 2/18 13:35 | 2/18 17:11
 HDFS All Branches Local  | 2/19 09:32 | 2/19 12:21
-ZFS All Branches Remote  | 2/25 10:12 | NA
+ZFS All Branches Remote  | 2/25 10:12 | 2/25 13:57
 ZFS All Branches Local   | NA | NA
 
-## Data Samples
-- Mohammad: `/hdfs/cms/user/wadud/anTGC/ntuplesUL/ntuples2018UL/EGammaRun2018*`
-- Michael: `/hdfs/cms/user/revering/dphoton/MuPlusXSkim/RunA2018UL/`
-
-## Converting JSON data to CSV
-- [Helpful answer](https://stackoverflow.com/a/32965227/17617632)
-- [jq](https://stedolan.github.io/jq/manual/)
-
-Convert a JSON file with a list of JSON entries. This overwrites `data.csv` and includes the headers of the columns.
-```
-jq -r '(map(keys) | add | unique) as $cols | map(. as $row | $cols | map($row[.])) as $rows | $cols, $rows[] | @csv' data.json > data.csv
-```
-This put the headers in alphabetical order, so you can "append" a new JSON entry to `data.csv`, being careful to have the order of the keys correct.
-```
-jq -r '[.filesystem, .local, .size, .time] | @csv' new-entry.json >> data.csv
-```
+**Note**: The logs were generated using a python script reading the ROOT files via the python bindings. 
+This was expected to be slow, so I am repeating the jobs with the ROOT macro.
+Local testing does show a pretty good speed improvement when using a ROOT macro (or similar speed improvement
+when using `SetBranchStatus` instead of constructing/deleting Python objects on each loop).
 
 ## Converting ROOT macro output to CSV
 The ROOT macro analysim.C prints out the resulting CSV row at the end of processing;
