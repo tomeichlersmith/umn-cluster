@@ -1,4 +1,4 @@
-head -n 1 all-branches-runs.csv
+size,time,local,filesystem,branches,process
 3068425982,387.865,true,hdfs,-1,false
 2537734261,324.122,true,zfs,-1,false
 2956848231,120.656,true,hdfs,-1,false

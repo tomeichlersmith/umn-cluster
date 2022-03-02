@@ -88,5 +88,5 @@ when using `SetBranchStatus` instead of constructing/deleting Python objects on 
 The ROOT macro analysim.C prints out the resulting CSV row at the end of processing;
 therefore, we can grab the last line of the output files and append them to the merged data file.
 ```
-find . -maxdepth 1 -type f -name "*.out" -exec tail -n 1 {} >> data.csv ';' -delete
+find . -maxdepth 1 -type f -name "*.out" -exec tail -n 1 {} ';' | grep -v "Processing" >> data.csv
 ```
