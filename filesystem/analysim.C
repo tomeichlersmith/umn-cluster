@@ -66,10 +66,10 @@ std::string cp_to_scratch(std::string filename) {
  * to the terminal. This can be captured by condor's 'output' command and then concatenated into
  * one CSV file with all the jobs for later analysis.
  */
-void analysim(const char* input_file, const char* tree_name, bool cp_to_scratch, int max_branches, bool actually_process) {
+void analysim(const char* input_file, const char* tree_name, bool do_cp_to_scratch, int max_branches, bool actually_process) {
   auto begin = std::chrono::steady_clock::now();
   TFile* f;
-  if (cp_to_scratch) {
+  if (do_cp_to_scratch) {
     // perform system copy
     auto file = cp_to_scratch(input_file);
     if (file.empty()) {
@@ -108,7 +108,7 @@ void analysim(const char* input_file, const char* tree_name, bool cp_to_scratch,
       t->GetEntry(i);
     }
   }
-  if (cp_to_scratch) {
+  if (do_cp_to_scratch) {
     // perform system delete
     if (remove(f->GetName()) != 0) {
       std::cerr << "Could not delete " << f->GetName() << std::endl;
