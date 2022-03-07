@@ -1,0 +1,3273 @@
+size,time,local,filesystem,branches,process
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_779.root to scratch
+2521918745,2572.87,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_542.root to scratch
+3343610907,47.8263,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_499.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_806.root to scratch
+2872965655,462.55,true,zfs,50,true
+1771900405,28.3011,true,hdfs,50,true
+2615939585,331.52,true,zfs,50,true
+3337977027,611.338,true,hdfs,50,true
+3014468869,44.8134,true,hdfs,50,true
+3089987575,619.67,true,hdfs,50,true
+3023284311,1027.82,true,zfs,50,true
+2230213557,902.966,true,hdfs,50,true
+2643099198,33.5089,true,hdfs,50,true
+2383389535,20.7329,true,hdfs,50,true
+2312700217,69.5505,true,hdfs,50,true
+2625355308,637.417,true,hdfs,50,true
+2610124966,579.659,true,hdfs,50,true
+2394292985,269.025,true,zfs,50,true
+2510900488,1098.79,true,zfs,50,true
+2983440416,30.2747,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_755.root to scratch
+2712419681,404.638,true,hdfs,50,true
+2801136445,3106.82,true,zfs,50,true
+1973139944,46.7095,true,hdfs,50,true
+2602474490,266.581,true,zfs,50,true
+2327469372,439.13,true,hdfs,50,true
+2509465367,200.78,true,zfs,50,true
+2377530343,792.379,true,hdfs,50,true
+2638534086,599.126,true,hdfs,50,true
+2697665875,27.5548,true,hdfs,50,true
+2433933355,255.045,true,zfs,50,true
+3342760279,52.7565,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_458.root to scratch
+2524445099,757.013,true,hdfs,50,true
+2805845688,739.055,true,hdfs,50,true
+2763071205,272.285,true,zfs,50,true
+2857447241,28.8583,true,hdfs,50,true
+2713537878,3436.04,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_195.root to scratch
+3048099754,139.675,true,zfs,50,true
+2725209859,595.403,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_702.root to scratch
+2349076925,166.327,true,zfs,50,true
+3160866299,1302.92,true,zfs,50,true
+2558202424,2581.89,true,zfs,50,true
+3222315856,54.5388,true,hdfs,50,true
+2950218173,647.617,true,hdfs,50,true
+2657397063,44.5127,true,hdfs,50,true
+3043793239,210.977,true,zfs,50,true
+2761999649,874.365,true,hdfs,50,true
+2456069195,159.888,true,zfs,50,true
+2544765624,130.601,true,hdfs,50,true
+2869108867,41.7891,true,zfs,50,true
+2157133184,557.633,true,hdfs,50,true
+3193337997,58.2313,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_494.root to scratch
+3316718096,64.9137,true,hdfs,50,true
+3037014285,573.225,true,hdfs,50,true
+2936188226,219.304,true,zfs,50,true
+2119660541,372.087,true,hdfs,50,true
+1866398291,25.1147,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_603.root to scratch
+2379959688,198.041,true,zfs,50,true
+3063942468,492.486,true,hdfs,50,true
+2339367691,2863.05,true,zfs,50,true
+831114077,871.378,true,zfs,50,true
+2695531383,780.157,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_709.root to scratch
+2363913540,2947.23,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_778.root to scratch
+2767388964,57.1932,true,hdfs,50,true
+1870666517,21.0555,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_545.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_399.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_5.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_803.root to scratch
+3089987575,98.8587,true,zfs,50,true
+2815431222,598.921,true,hdfs,50,true
+3014807424,332.571,true,zfs,50,true
+2872965655,778.17,true,hdfs,50,true
+2299251902,42.7645,true,hdfs,50,true
+2923729949,1101.57,true,hdfs,50,true
+3434055760,1254.59,true,zfs,50,true
+3073761348,47.4536,true,hdfs,50,true
+2600851848,28.8579,true,hdfs,50,true
+2704407731,142.934,true,hdfs,50,true
+2152171494,263.437,true,zfs,50,true
+2177529475,557.824,true,hdfs,50,true
+2074426314,294.349,true,hdfs,50,true
+3019400370,452.665,true,zfs,50,true
+3080676618,496.345,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_749.root to scratch
+2530847081,3222.91,true,zfs,50,true
+2321456799,501.39,true,hdfs,50,true
+2403339553,222.555,true,zfs,50,true
+3068431440,2223.64,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_451.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_492.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_149.root to scratch
+2241866990,203.533,true,hdfs,50,true
+2439388783,191.892,true,zfs,50,true
+3079150634,167.975,true,hdfs,50,true
+2939085375,51.8478,true,hdfs,50,true
+2439674837,628.918,true,hdfs,50,true
+2916647220,1219,true,zfs,50,true
+2577319371,343.39,true,hdfs,50,true
+3208825019,70.2439,true,hdfs,50,true
+2528918620,36.7292,true,hdfs,50,true
+2796710543,48.9177,true,hdfs,50,true
+2872776222,1636.1,true,zfs,50,true
+2940927853,418.919,true,hdfs,50,true
+2549406644,152.132,true,zfs,50,true
+2593130868,2284.37,true,zfs,50,true
+2607125976,778.359,true,hdfs,50,true
+1953977780,21.8005,true,hdfs,50,true
+2401456385,193.717,true,zfs,50,true
+3065890241,1245.17,true,zfs,50,true
+3213056194,128.297,true,hdfs,50,true
+2352082299,546.648,true,hdfs,50,true
+2680587794,596.013,true,hdfs,50,true
+1955366098,766.455,true,zfs,50,true
+2769922491,25.274,true,hdfs,50,true
+2484252448,221.487,true,zfs,50,true
+2939856967,776.572,true,hdfs,50,true
+3007747295,37.4932,true,hdfs,50,true
+2699206499,1003.48,true,zfs,50,true
+2187464154,73.8395,true,hdfs,50,true
+2723584835,134.187,true,zfs,50,true
+2414971259,512.803,true,hdfs,50,true
+2748785915,53.6939,true,hdfs,50,true
+2469643650,560.593,true,hdfs,50,true
+3249658240,295.887,true,zfs,50,true
+3287790019,533.26,true,zfs,50,true
+2075914075,55.3119,true,hdfs,50,true
+3290090720,33.3704,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_560.root to scratch
+1834399416,2575.18,true,zfs,50,true
+2797992825,43.608,true,hdfs,50,true
+2186899561,44.1076,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_644.root to scratch
+2276031930,3164.67,true,zfs,50,true
+2915255037,70.6474,true,hdfs,50,true
+3343960467,816.547,true,hdfs,50,true
+2134780409,716.099,true,zfs,50,true
+2838018068,1160.48,true,hdfs,50,true
+2944738885,44.9951,true,hdfs,50,true
+2861352624,759.307,true,hdfs,50,true
+2335498226,1434.69,true,zfs,50,true
+2734648172,200.847,true,zfs,50,true
+2128430099,649.637,true,hdfs,50,true
+2542580748,635.751,true,zfs,50,true
+2158005300,39.0994,true,hdfs,50,true
+2870225577,620.449,true,hdfs,50,true
+3017906889,45.2269,true,hdfs,50,true
+3430163636,330.062,true,zfs,50,true
+2516519804,722.95,true,hdfs,50,true
+3041583776,58.91,true,hdfs,50,true
+3287790019,659.021,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_563.root to scratch
+2410791653,3199.71,true,zfs,50,true
+2699725889,576.459,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_641.root to scratch
+2735784480,49.7305,true,hdfs,50,true
+1758855902,2647.22,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_753.root to scratch
+2607125976,3446.79,true,zfs,50,true
+3134312563,442.223,true,hdfs,50,true
+2374952481,129.509,true,zfs,50,true
+2465545533,3108.44,true,zfs,50,true
+3438606889,3577.68,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_456.root to scratch
+2496979587,40.74,true,hdfs,50,true
+2741542714,586.063,true,hdfs,50,true
+2449315273,455.089,true,zfs,50,true
+2439674837,513.99,true,zfs,50,true
+2650470143,741.292,true,hdfs,50,true
+2786724991,220.611,true,zfs,50,true
+2955008199,422.872,true,hdfs,50,true
+2750284654,232.494,true,zfs,50,true
+2425422659,439.116,true,hdfs,50,true
+3034620086,925.583,true,zfs,50,true
+2135055645,35.0026,true,hdfs,50,true
+2317848970,273.014,true,hdfs,50,true
+2875194346,998.269,true,zfs,50,true
+2961090579,48.0583,true,hdfs,50,true
+1971512527,45.0328,true,hdfs,50,true
+2811951193,2606.39,true,zfs,50,true
+2781469605,49.1773,true,hdfs,50,true
+2315592560,173.563,true,zfs,50,true
+2978561029,507.677,true,hdfs,50,true
+1964159204,33.6273,true,hdfs,50,true
+2530847081,912.739,true,hdfs,50,true
+3087995446,1216.48,true,zfs,50,true
+2553024950,219.361,true,zfs,50,true
+1861969837,449.453,true,hdfs,50,true
+2339982738,1148.21,true,zfs,50,true
+3153591106,63.1546,true,hdfs,50,true
+2910043935,57.8577,true,hdfs,50,true
+3458728473,591.671,true,hdfs,50,true
+2498578591,30.7465,true,hdfs,50,true
+2697213276,202.517,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_53.root to scratch
+2749762684,61.8548,true,hdfs,50,true
+3184035849,81.5732,true,hdfs,50,true
+3032286989,43.4835,true,hdfs,50,true
+2670919200,246.695,true,zfs,50,true
+2302355277,81.3664,true,hdfs,50,true
+2586279535,71.8968,true,zfs,50,true
+2691850487,1008.47,true,hdfs,50,true
+2556963426,44.0016,true,hdfs,50,true
+2799943546,73.5236,true,hdfs,50,true
+1767084720,465.797,true,hdfs,50,true
+2622177016,245.648,true,zfs,50,true
+2735188127,3355.75,true,zfs,50,true
+2530958051,3000.83,true,zfs,50,true
+2488964446,933.245,true,zfs,50,true
+2410943486,2738.02,true,zfs,50,true
+2836013269,915.91,true,hdfs,50,true
+2273095683,77.1309,true,zfs,50,true
+2636486642,1173.73,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_568.root to scratch
+2389078070,2940.13,true,zfs,50,true
+2294293868,587.524,true,hdfs,50,true
+2930616096,224.647,true,zfs,50,true
+2961078914,472.781,true,zfs,50,true
+2914889697,4194.47,true,zfs,50,true
+2156640709,61.7331,true,hdfs,50,true
+3021474241,56.8106,true,hdfs,50,true
+1751293168,39.5471,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_434.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_741.root to scratch
+2562612132,68.376,true,hdfs,50,true
+2842494758,1102.1,true,zfs,50,true
+3332070147,273.648,true,zfs,50,true
+3002783996,45.0033,true,hdfs,50,true
+3696566217,67.391,true,hdfs,50,true
+3180500134,1176.57,true,zfs,50,true
+2565420259,414.544,true,hdfs,50,true
+2467101135,204.381,true,zfs,50,true
+2675904697,309.986,true,hdfs,50,true
+3047632917,1052.84,true,zfs,50,true
+2493987336,443.756,true,hdfs,50,true
+2134342121,29.4879,true,hdfs,50,true
+2408171197,181.411,true,zfs,50,true
+2685254823,158.258,true,zfs,50,true
+2553715152,442.786,true,hdfs,50,true
+3084103168,1119.19,true,zfs,50,true
+3246213634,445.842,true,hdfs,50,true
+2837225753,31.7895,true,hdfs,50,true
+3246213634,3227.96,true,zfs,50,true
+2941051743,35.4279,true,hdfs,50,true
+2516212399,48.6686,true,hdfs,50,true
+2747713802,4095.48,true,zfs,50,true
+2670086462,39.0629,true,hdfs,50,true
+2261329384,2720.38,true,zfs,50,true
+2335697475,50.0774,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_742.root to scratch
+3295505663,321.552,true,zfs,50,true
+2595536131,1131.49,true,zfs,50,true
+2794253209,33.7027,true,hdfs,50,true
+2720606810,57.5614,true,hdfs,50,true
+2132634831,194.064,true,zfs,50,true
+2594766337,310.107,true,hdfs,50,true
+2473689089,1156.72,true,zfs,50,true
+3049219889,753.627,true,hdfs,50,true
+2067390317,137.524,true,hdfs,50,true
+2966125962,1048.21,true,zfs,50,true
+2833898428,27.3836,true,hdfs,50,true
+2056620044,67.7272,true,hdfs,50,true
+2175779242,1014.53,true,zfs,50,true
+2195824852,270.36,true,zfs,50,true
+1923231529,138.116,true,zfs,50,true
+2374340479,29.5073,true,hdfs,50,true
+2961078914,613.306,true,hdfs,50,true
+2899750614,1123.71,true,zfs,50,true
+2914056330,674.632,true,hdfs,50,true
+2642483206,46.7852,true,hdfs,50,true
+2672763758,50.5011,true,hdfs,50,true
+2016224435,155.651,true,zfs,50,true
+3092582754,576.087,true,hdfs,50,true
+2645603941,25.3493,true,hdfs,50,true
+2504932171,53.8069,true,hdfs,50,true
+2488341627,3444.7,true,zfs,50,true
+1393492921,36.1739,true,hdfs,50,true
+2956848231,96.3726,true,hdfs,50,true
+2566504884,499.272,true,hdfs,50,true
+2537734261,161.221,true,zfs,50,true
+2908058909,41.3383,true,hdfs,50,true
+2607268085,193.13,true,zfs,50,true
+2655052742,32.1047,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_791.root to scratch
+2277489921,128.814,true,hdfs,50,true
+2734670461,205.457,true,zfs,50,true
+2900625438,942.631,true,zfs,50,true
+2747625125,2521.2,true,zfs,50,true
+2770853250,408.336,true,hdfs,50,true
+2770476308,84.7245,true,zfs,50,true
+2741409275,475.293,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_277.root to scratch
+2248450801,2941.1,true,zfs,50,true
+3062984079,98.9418,true,hdfs,50,true
+2227517607,36.5461,true,zfs,50,true
+2622652363,85.8694,true,zfs,50,true
+2627059208,3066.61,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_574.root to scratch
+2637914529,509.963,true,hdfs,50,true
+3311262354,69.7123,true,zfs,50,true
+2520669628,30.328,true,hdfs,50,true
+2598965730,20.9144,true,hdfs,50,true
+2899298504,623.473,true,hdfs,50,true
+1999768753,55.336,true,zfs,50,true
+3109161798,43.8045,true,hdfs,50,true
+2399132704,52.4922,true,hdfs,50,true
+3254865306,46.6307,true,hdfs,50,true
+2770842721,227.166,true,zfs,50,true
+2069818897,507.612,true,hdfs,50,true
+2801610798,35.9937,true,hdfs,50,true
+2411560876,41.1144,true,hdfs,50,true
+3035830003,632.006,true,hdfs,50,true
+3508200737,1067.39,true,zfs,50,true
+2768887610,3243.12,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_678.root to scratch
+2812881819,75.3908,true,hdfs,50,true
+2183797296,3223,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_723.root to scratch
+2297262398,461.288,true,hdfs,50,true
+2920014035,492.221,true,zfs,50,true
+2651833532,407.636,true,zfs,50,true
+2111941352,969.935,true,zfs,50,true
+2561035144,605.743,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_86.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_523.root to scratch
+2631932375,92.944,true,zfs,50,true
+2292218233,86.8263,true,hdfs,50,true
+3046376486,565.628,true,hdfs,50,true
+2488926623,43.8615,true,hdfs,50,true
+2559386591,3055.34,true,zfs,50,true
+1710016836,131.356,true,zfs,50,true
+2781351732,73.9723,true,zfs,50,true
+2316746509,186.214,true,hdfs,50,true
+2825964005,1217.19,true,zfs,50,true
+3394299373,268.885,true,zfs,50,true
+1887920501,2450.29,true,zfs,50,true
+2833890974,50.8086,true,hdfs,50,true
+2976723650,760.934,true,hdfs,50,true
+2390135294,83.0122,true,zfs,50,true
+2910110248,130.493,true,zfs,50,true
+2474763856,84.3735,true,hdfs,50,true
+2126279259,88.2918,true,zfs,50,true
+2699413870,759.951,true,hdfs,50,true
+1930087601,26.7496,true,hdfs,50,true
+3066295114,3003.12,true,zfs,50,true
+2848407847,40.8336,true,zfs,50,true
+2632354341,370.053,true,hdfs,50,true
+2419398422,729.257,true,hdfs,50,true
+3349296233,1014.42,true,zfs,50,true
+3020389872,40.8787,true,hdfs,50,true
+2419398422,435.427,true,zfs,50,true
+3058352121,2382.15,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_87.root to scratch
+2294930721,185.316,true,zfs,50,true
+2503807882,981.502,true,hdfs,50,true
+2962919459,3307.61,true,zfs,50,true
+2883654405,337.883,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_785.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_331.root to scratch
+2864134334,259.041,true,zfs,50,true
+2069815109,300.84,true,hdfs,50,true
+3049322502,1258.79,true,zfs,50,true
+2382002935,230.723,true,zfs,50,true
+2616369906,35.7842,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_675.root to scratch
+2015543742,190.776,true,zfs,50,true
+2522761039,571.461,true,hdfs,50,true
+2282995581,153.064,true,zfs,50,true
+2440121429,703.538,true,hdfs,50,true
+2093113353,1039.36,true,zfs,50,true
+2686419992,186.714,true,hdfs,50,true
+2557866382,37.2108,true,hdfs,50,true
+1342711524,386.722,true,hdfs,50,true
+3197757944,328.112,true,zfs,50,true
+2214735240,37.9148,true,hdfs,50,true
+2651833532,793.554,true,hdfs,50,true
+2739632555,3216.08,true,zfs,50,true
+3208551770,48.2495,true,zfs,50,true
+2343848770,557.466,true,hdfs,50,true
+2297262398,2561.51,true,zfs,50,true
+2233431045,21.29,true,hdfs,50,true
+2609447578,46.6629,true,zfs,50,true
+2497080381,21.1434,true,hdfs,50,true
+3020567937,633.617,true,hdfs,50,true
+2921036722,62.8227,true,hdfs,50,true
+3020637345,50.732,true,hdfs,50,true
+2724074163,55.6689,true,hdfs,50,true
+2378955853,542.548,true,hdfs,50,true
+2538821436,241.287,true,zfs,50,true
+3115383140,58.0851,true,hdfs,50,true
+2300240456,42.8553,true,hdfs,50,true
+2210390699,225.477,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_300.root to scratch
+2787150525,3073.48,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_680.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_724.root to scratch
+2315908541,2254,true,zfs,50,true
+2322187109,29.0081,true,hdfs,50,true
+2425823122,48.915,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_597.root to scratch
+2654363059,38.5174,true,hdfs,50,true
+2488964446,1022.77,true,zfs,50,true
+2963720143,693.796,true,hdfs,50,true
+2530958051,84.9046,true,zfs,50,true
+2907172457,810.425,true,hdfs,50,true
+2938781593,65.2277,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_368.root to scratch
+2735188127,165.529,true,zfs,50,true
+2926319283,154.385,true,hdfs,50,true
+2872965655,198.795,true,zfs,50,true
+2389078070,247.707,true,zfs,50,true
+1755463898,488.486,true,hdfs,50,true
+2723193366,969.741,true,zfs,50,true
+2930616096,2389.77,true,zfs,50,true
+2781102085,451.26,true,hdfs,50,true
+2410943486,254.057,true,zfs,50,true
+2557189806,46.9102,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_665.root to scratch
+2697213276,1675.3,true,zfs,50,true
+2086217809,483.515,true,hdfs,50,true
+2649745960,656.457,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_793.root to scratch
+2890726965,120.757,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_97.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_52.root to scratch
+2467101135,2669.76,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_716.root to scratch
+2863693200,66.3726,true,hdfs,50,true
+2946059345,66.1475,true,hdfs,50,true
+2842494758,2215.52,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_632.root to scratch
+2685254823,3499.21,true,zfs,50,true
+3047632917,814.094,true,zfs,50,true
+2914889697,256.034,true,zfs,50,true
+2050445273,691.371,true,hdfs,50,true
+2512663637,42.8172,true,hdfs,50,true
+1030324936,135.957,true,hdfs,50,true
+2545952291,68.2146,true,hdfs,50,true
+3010853191,47.4114,true,hdfs,50,true
+2349076925,789.412,true,zfs,50,true
+2824173540,21.1343,true,hdfs,50,true
+2494021169,681.735,true,hdfs,50,true
+2784891580,293.511,true,zfs,50,true
+2627352548,37.6774,true,hdfs,50,true
+3297695015,70.7271,true,hdfs,50,true
+3056200232,26.7088,true,hdfs,50,true
+2605187156,625.263,true,hdfs,50,true
+2387022294,49.2251,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_713.root to scratch
+2132634831,2933.52,true,zfs,50,true
+2349076925,523.252,true,hdfs,50,true
+2595536131,690.527,true,zfs,50,true
+2195824852,2384.43,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_635.root to scratch
+2966125962,538.249,true,zfs,50,true
+2601752044,39.4672,true,hdfs,50,true
+2000467172,422.207,true,hdfs,50,true
+2747713802,252.551,true,zfs,50,true
+2501350829,38.1285,true,hdfs,50,true
+2727604904,101.127,true,hdfs,50,true
+2669927779,49.8959,true,hdfs,50,true
+3367517137,55.7224,true,hdfs,50,true
+2840812129,23.1722,true,hdfs,50,true
+2596182512,843.293,true,zfs,50,true
+2577073639,922.245,true,hdfs,50,true
+2491548109,55.9715,true,hdfs,50,true
+2661957521,33.6228,true,hdfs,50,true
+2261329384,30.7139,true,zfs,50,true
+1982564027,49.192,true,hdfs,50,true
+2420386829,619.002,true,hdfs,50,true
+1999618732,35.7042,true,hdfs,50,true
+2770476308,2605.82,true,zfs,50,true
+2133146599,222.989,true,zfs,50,true
+2296684639,684.957,true,hdfs,50,true
+2741409275,1131.06,true,zfs,50,true
+2900924807,618.199,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_584.root to scratch
+2799762677,30.0361,true,hdfs,50,true
+3421037768,798.401,true,hdfs,50,true
+2747625125,327.237,true,zfs,50,true
+2309940504,583.274,true,hdfs,50,true
+2322408453,1198.27,true,zfs,50,true
+2627059208,209.394,true,zfs,50,true
+3089987575,244.303,true,zfs,50,true
+2248450801,153.671,true,zfs,50,true
+2878018132,601.037,true,hdfs,50,true
+2622652363,3682.88,true,zfs,50,true
+3186055324,31.9106,true,hdfs,50,true
+2016224435,2858.48,true,zfs,50,true
+2436386047,95.3061,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_8.root to scratch
+2743638947,1101.37,true,hdfs,50,true
+2688109425,1218.31,true,zfs,50,true
+2579325728,84.4964,true,hdfs,50,true
+3107969157,550.723,true,hdfs,50,true
+2488341627,209.67,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_513.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_94.root to scratch
+2813762753,65.5514,true,hdfs,50,true
+2777425502,1111.43,true,zfs,50,true
+2797144639,822.44,true,hdfs,50,true
+2196546879,38.7895,true,hdfs,50,true
+2553024950,585.264,true,hdfs,50,true
+2768887610,240.002,true,zfs,50,true
+2841434976,383.207,true,hdfs,50,true
+3508200737,55.9612,true,zfs,50,true
+2530847081,214.962,true,zfs,50,true
+2425422659,162.896,true,zfs,50,true
+2920014035,1170.76,true,zfs,50,true
+3264312427,1104.56,true,zfs,50,true
+2314694952,214.025,true,hdfs,50,true
+2183797296,156.082,true,zfs,50,true
+3018283253,153.147,true,hdfs,50,true
+2988829010,37.9352,true,hdfs,50,true
+2542445896,24.0244,true,hdfs,50,true
+1999768753,1210.04,true,zfs,50,true
+2305882062,50.7452,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_734.root to scratch
+2273095683,531.48,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_163.root to scratch
+2933252266,29.2042,true,hdfs,50,true
+2436016416,45.4999,true,hdfs,50,true
+2770842721,4186.2,true,zfs,50,true
+1887920501,208.995,true,zfs,50,true
+3047746132,440.83,true,hdfs,50,true
+2390135294,3135.14,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_582.root to scratch
+2781351732,3202.56,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_315.root to scratch
+3287790019,218.442,true,zfs,50,true
+3349296233,1272.72,true,zfs,50,true
+2126279259,3194.51,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_659.root to scratch
+3066295114,204.436,true,zfs,50,true
+2587847198,376.899,true,hdfs,50,true
+3139945973,303.549,true,zfs,50,true
+2140040420,35.6622,true,hdfs,50,true
+2979178131,136.757,true,zfs,50,true
+2376397317,569.368,true,hdfs,50,true
+2631932375,3237.5,true,zfs,50,true
+2873002402,98.5592,true,hdfs,50,true
+2704618205,41.6754,true,hdfs,50,true
+2544417328,142.264,true,hdfs,50,true
+2411599065,58.004,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_800.root to scratch
+2973973685,63.5285,true,hdfs,50,true
+2204847262,42.7852,true,hdfs,50,true
+2161508220,370.523,true,hdfs,50,true
+1710016836,1025.62,true,zfs,50,true
+2417763672,25.9618,true,hdfs,50,true
+2189055889,480.78,true,hdfs,50,true
+2463700642,28.7741,true,hdfs,50,true
+2559386591,186.443,true,zfs,50,true
+2470620115,1009.55,true,zfs,50,true
+2191500255,582.088,true,hdfs,50,true
+2015543742,2400.75,true,zfs,50,true
+2422602064,212.148,true,zfs,50,true
+1944616054,360.507,true,hdfs,50,true
+2382002935,3108.4,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_578.root to scratch
+3197757944,3448.86,true,zfs,50,true
+2739632555,261.598,true,zfs,50,true
+2382816892,666.738,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_663.root to scratch
+2282995581,2852.55,true,zfs,50,true
+2390209919,497.517,true,hdfs,50,true
+3266290244,139.797,true,zfs,50,true
+1974983725,48.6784,true,hdfs,50,true
+3058352121,790.412,true,zfs,50,true
+2635011620,31.2997,true,hdfs,50,true
+2931498792,38.2568,true,hdfs,50,true
+2004177115,769.327,true,hdfs,50,true
+2679576123,54.212,true,hdfs,50,true
+3116528499,46.8992,true,hdfs,50,true
+2433235953,50.3557,true,hdfs,50,true
+2912219809,1014.13,true,zfs,50,true
+2047377152,632.259,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_521.root to scratch
+2633761226,43.7762,true,hdfs,50,true
+2962919459,270.48,true,zfs,50,true
+3221517894,550.108,true,hdfs,50,true
+2658787770,54.9085,true,hdfs,50,true
+2989971121,51.9007,true,hdfs,50,true
+2847989447,298.395,true,hdfs,50,true
+2755551440,1197.54,true,zfs,50,true
+2401456385,174.511,true,hdfs,50,true
+2049310876,16.0145,true,hdfs,50,true
+2607125976,74.175,true,zfs,50,true
+2399314883,751.294,true,hdfs,50,true
+2787150525,879.1,true,zfs,50,true
+2969534551,259.911,true,zfs,50,true
+2981199617,1217.18,true,zfs,50,true
+2439674837,216.1,true,zfs,50,true
+2315908541,149.67,true,zfs,50,true
+2807274066,319.608,true,hdfs,50,true
+2995322045,1165.88,true,zfs,50,true
+2205747603,766.268,true,hdfs,50,true
+2706200938,31.7018,true,hdfs,50,true
+2968740679,37.2875,true,hdfs,50,true
+2138250316,39.2016,true,hdfs,50,true
+2609447578,2740.41,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_731.root to scratch
+2734432641,40.4009,true,hdfs,50,true
+2227517607,517.913,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_168.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_473.root to scratch
+2754435373,53.4926,true,hdfs,50,true
+3023284311,1517.08,true,zfs,50,true
+2455933882,49.5441,true,hdfs,50,true
+2615939585,2288.58,true,zfs,50,true
+3021474241,216.811,true,zfs,50,true
+2734670461,572.783,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_553.root to scratch
+2394292985,2483.24,true,zfs,50,true
+2189922996,29.0643,true,hdfs,50,true
+3068425982,36.0362,true,hdfs,50,true
+2520551282,243.466,true,zfs,50,true
+2631450737,260.549,true,hdfs,50,true
+2521918745,118.576,true,zfs,50,true
+2515529979,674.789,true,hdfs,50,true
+2888417660,70.2469,true,hdfs,50,true
+2188166908,418.659,true,hdfs,50,true
+3150698301,1037.35,true,zfs,50,true
+2581192079,1057.32,true,hdfs,50,true
+3067914722,776.427,true,hdfs,50,true
+2283876256,1157.86,true,zfs,50,true
+2957819414,73.5392,true,hdfs,50,true
+2664351953,274.585,true,zfs,50,true
+2394237273,678.311,true,hdfs,50,true
+2306318037,37.3975,true,hdfs,50,true
+2105328240,493.723,true,hdfs,50,true
+2520734643,152.947,true,zfs,50,true
+3045105703,57.0257,true,hdfs,50,true
+2713537878,1211.16,true,zfs,50,true
+2961078914,231.225,true,zfs,50,true
+1937705357,36.4256,true,hdfs,50,true
+1923231529,463.834,true,hdfs,50,true
+3295505663,938.187,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_62.root to scratch
+2927859908,41.4381,true,hdfs,50,true
+2558202424,118.931,true,zfs,50,true
+2578203178,411.378,true,hdfs,50,true
+2246933007,38.3466,true,hdfs,50,true
+1995781647,42.1222,true,hdfs,50,true
+3048099754,3086.63,true,zfs,50,true
+2588395871,1190.34,true,zfs,50,true
+2510910305,235.957,true,hdfs,50,true
+2801136445,37.4396,true,zfs,50,true
+2495042257,593.614,true,hdfs,50,true
+2509465367,596.344,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_478.root to scratch
+2830308181,182.227,true,zfs,50,true
+2238883417,875.569,true,hdfs,50,true
+3332070147,785.842,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_763.root to scratch
+2408171197,2343.65,true,zfs,50,true
+2433933355,2350.07,true,zfs,50,true
+2526260388,178.339,true,zfs,50,true
+3165458924,352.394,true,hdfs,50,true
+2339367691,129.595,true,zfs,50,true
+3057293193,607.03,true,hdfs,50,true
+2117750225,35.6634,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_700.root to scratch
+3246213634,231.4,true,zfs,50,true
+3563068882,1246.59,true,zfs,50,true
+2408171197,321.719,true,hdfs,50,true
+2379959688,2963.94,true,zfs,50,true
+1601538565,35.3856,true,hdfs,50,true
+2825801170,41.1992,true,hdfs,50,true
+3332070147,903.585,true,hdfs,50,true
+2614603552,405.632,true,hdfs,50,true
+2363913540,163.366,true,zfs,50,true
+2934504542,48.6426,true,hdfs,50,true
+1846461725,20.7069,true,hdfs,50,true
+3327720524,980.122,true,hdfs,50,true
+3275428610,1187.36,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_484.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_441.root to scratch
+3223252257,580.571,true,hdfs,50,true
+3295505663,528.676,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_757.root to scratch
+1923231529,2798.45,true,zfs,50,true
+3543942064,912.051,true,hdfs,50,true
+2869108867,3038.15,true,zfs,50,true
+2255114603,170.962,true,zfs,50,true
+2572579779,171.153,true,hdfs,50,true
+2412432832,36.007,true,hdfs,50,true
+3434055760,1551.78,true,zfs,50,true
+3014807424,3796.6,true,zfs,50,true
+2670086462,227.87,true,zfs,50,true
+3387783688,58.9335,true,hdfs,50,true
+3019400370,3090.2,true,zfs,50,true
+2152171494,2231.81,true,zfs,50,true
+2273257722,50.5062,true,hdfs,50,true
+2177781925,47.0837,true,hdfs,50,true
+2019358509,226.167,true,zfs,50,true
+2620973029,717.72,true,hdfs,50,true
+1834731240,348.481,true,zfs,50,true
+2790648541,91.0006,true,hdfs,50,true
+2608299318,519.324,true,hdfs,50,true
+2734670461,1612.72,true,zfs,50,true
+2186903100,96.0132,true,hdfs,50,true
+2240151947,1022.81,true,zfs,50,true
+2419143940,604.566,true,hdfs,50,true
+2893183908,805.438,true,hdfs,50,true
+2150299891,1222.27,true,zfs,50,true
+2721127940,947.202,true,hdfs,50,true
+2936582539,34.369,true,hdfs,50,true
+2160697143,637.222,true,hdfs,50,true
+2653555531,227.139,true,zfs,50,true
+3090011871,39.5743,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_7.root to scratch
+2439388783,2811.82,true,zfs,50,true
+2588439816,424.53,true,hdfs,50,true
+2593130868,209.042,true,zfs,50,true
+3065890241,792.537,true,zfs,50,true
+2625834074,351.101,true,hdfs,50,true
+2872776222,1215.32,true,zfs,50,true
+2549406644,2819.78,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_486.root to scratch
+2646561150,81.9065,true,hdfs,50,true
+3068581573,601.151,true,hdfs,50,true
+3068431440,35.903,true,zfs,50,true
+2911043757,51.1822,true,hdfs,50,true
+2422603145,832.035,true,hdfs,50,true
+2877155952,679.139,true,hdfs,50,true
+3305696845,273.825,true,zfs,50,true
+3062916892,755.368,true,hdfs,50,true
+2398714795,47.3308,true,hdfs,50,true
+2571714592,233.628,true,zfs,50,true
+3025698090,446.024,true,hdfs,50,true
+2261029662,118.717,true,zfs,50,true
+2121551783,632.295,true,hdfs,50,true
+2115471575,44.3974,true,hdfs,50,true
+2323070025,615.291,true,hdfs,50,true
+2856884871,585.635,true,hdfs,50,true
+1834399416,240.8,true,zfs,50,true
+2136720568,54.0081,true,hdfs,50,true
+2113786998,26.9944,true,hdfs,50,true
+3130932652,1368.67,true,zfs,50,true
+2651833532,210.885,true,zfs,50,true
+2864134334,952.359,true,hdfs,50,true
+3109063397,52.3074,true,hdfs,50,true
+2276031930,304.068,true,zfs,50,true
+2118376505,340.296,true,hdfs,50,true
+2316380122,42.9194,true,hdfs,50,true
+2594030765,1123.7,true,zfs,50,true
+2075995166,388.04,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_509.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_813.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_131.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_768.root to scratch
+3118155128,44.0109,true,hdfs,50,true
+2305394877,32.3854,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_390.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_535.root to scratch
+2410791653,259.717,true,zfs,50,true
+2480139809,671.572,true,hdfs,50,true
+3153466155,468.674,true,hdfs,50,true
+2491969571,40.8807,true,hdfs,50,true
+2810374108,37.1094,true,hdfs,50,true
+2419398422,209.4,true,zfs,50,true
+2527333064,623.798,true,zfs,50,true
+3303737818,53.1193,true,hdfs,50,true
+3394299373,617.017,true,hdfs,50,true
+2180904700,563.163,true,hdfs,50,true
+1758855902,231.994,true,zfs,50,true
+2955237770,95.0771,true,hdfs,50,true
+2862461956,763.06,true,hdfs,50,true
+3256016728,1023.99,true,zfs,50,true
+2629312303,107.251,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_506.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_814.root to scratch
+2864134334,506.867,true,zfs,50,true
+2168101790,59.1712,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_770.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_534.root to scratch
+2734648172,3270.69,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_695.root to scratch
+2195120789,477.42,true,hdfs,50,true
+2811951193,144.45,true,zfs,50,true
+2750284654,2562.85,true,zfs,50,true
+2297262398,167.044,true,zfs,50,true
+3034620086,1169.9,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_618.root to scratch
+2315592560,2944.88,true,zfs,50,true
+2571313042,41.4635,true,hdfs,50,true
+2374952481,457.494,true,zfs,50,true
+2465545533,28.2594,true,zfs,50,true
+2874760854,345.902,true,hdfs,50,true
+2351317310,96.9994,true,hdfs,50,true
+3024023539,680.43,true,hdfs,50,true
+3104069302,318.328,true,zfs,50,true
+2501146985,882.399,true,hdfs,50,true
+2553609177,797.856,true,hdfs,50,true
+1978440071,28.8336,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_765.root to scratch
+2241265945,99.1368,true,zfs,50,true
+2852902350,400.261,true,hdfs,50,true
+3438606889,276.8,true,zfs,50,true
+2867374350,476.035,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_421.root to scratch
+2683976564,45.9491,true,hdfs,50,true
+1612857383,130.197,true,zfs,50,true
+2794253209,3245.44,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_88.root to scratch
+2833898428,3949.89,true,zfs,50,true
+2643884243,737.608,true,hdfs,50,true
+2601752044,406.482,true,zfs,50,true
+2374340479,212.92,true,zfs,50,true
+2749838530,341.857,true,hdfs,50,true
+2870183857,228.307,true,zfs,50,true
+3367517137,262.918,true,zfs,50,true
+2669927779,1165,true,zfs,50,true
+2263134195,714.825,true,hdfs,50,true
+2941051743,2865.46,true,zfs,50,true
+2086793009,439.693,true,hdfs,50,true
+2501350829,213.781,true,zfs,50,true
+2747713802,44.0708,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_674.root to scratch
+2261329384,21.731,true,hdfs,50,true
+3119556351,432.272,true,hdfs,50,true
+2661957521,935.45,true,zfs,50,true
+1954340094,585.382,true,hdfs,50,true
+2491548109,152.884,true,zfs,50,true
+2596182512,42.5834,true,hdfs,50,true
+2335697475,3531.99,true,zfs,50,true
+2457007436,920.717,true,hdfs,50,true
+2840812129,291.432,true,zfs,50,true
+3227610802,114.207,true,hdfs,50,true
+2168508539,2398.63,true,zfs,50,true
+2747625125,33.9144,true,hdfs,50,true
+2679820179,751.326,true,hdfs,50,true
+2799762677,1172.8,true,zfs,50,true
+2741409275,46.8526,true,hdfs,50,true
+2133146599,56.5469,true,hdfs,50,true
+3037325045,636.218,true,hdfs,50,true
+2871554342,40.0716,true,hdfs,50,true
+1999618732,22.0975,true,zfs,50,true
+3186055324,222.153,true,zfs,50,true
+2651864330,633.155,true,hdfs,50,true
+2248450801,36.5409,true,hdfs,50,true
+2980167805,807.155,true,hdfs,50,true
+2627059208,44.1468,true,hdfs,50,true
+2322408453,47.4651,true,hdfs,50,true
+2642483206,962.582,true,zfs,50,true
+2672763758,2610.23,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_68.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_218.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_725.root to scratch
+2488341627,36.9734,true,hdfs,50,true
+2688109425,47.1599,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_598.root to scratch
+2735188127,32.7698,true,hdfs,50,true
+2938781593,1178.23,true,zfs,50,true
+2454328198,967.814,true,hdfs,50,true
+2530958051,57.6833,true,hdfs,50,true
+2488964446,28.5038,true,hdfs,50,true
+2654363059,65.7104,true,zfs,50,true
+3017763578,117.708,true,hdfs,50,true
+3046763177,25.2287,true,hdfs,50,true
+2810697703,801.683,true,hdfs,50,true
+2557189806,236.179,true,zfs,50,true
+2410943486,40.7311,true,hdfs,50,true
+2732888694,106.232,true,hdfs,50,true
+2723193366,25.2454,true,hdfs,50,true
+2389078070,50.7401,true,hdfs,50,true
+3153591106,3246.78,true,zfs,50,true
+2910043935,3533.52,true,zfs,50,true
+2749762684,964.567,true,zfs,50,true
+2649745960,91.1622,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_722.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_220.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_599.root to scratch
+2168508539,133.515,true,hdfs,50,true
+2146317429,584.651,true,hdfs,50,true
+2946059345,1246.72,true,zfs,50,true
+2457007436,456.643,true,zfs,50,true
+3166811432,572.741,true,hdfs,50,true
+3436934874,64.3239,true,hdfs,50,true
+2863693200,107.8,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_85.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_522.root to scratch
+2134342121,3227.89,true,zfs,50,true
+2574356266,35.0489,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_790.root to scratch
+3010853191,55.6062,true,zfs,50,true
+2364855239,350.302,true,hdfs,50,true
+2545952291,238.08,true,zfs,50,true
+2401928170,134.905,true,zfs,50,true
+2512663637,220.534,true,zfs,50,true
+2925544393,517.198,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_278.root to scratch
+2914889697,29.2602,true,hdfs,50,true
+2387022294,28.8874,true,hdfs,50,true
+1751293168,2987.84,true,zfs,50,true
+1905685924,465.273,true,hdfs,50,true
+3297695015,115.579,true,zfs,50,true
+2993329380,180.972,true,hdfs,50,true
+2627352548,1223.61,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_575.root to scratch
+1612857383,384.858,true,hdfs,50,true
+2784891580,43.7649,true,hdfs,50,true
+2805933112,405.298,true,hdfs,50,true
+2824173540,201.997,true,zfs,50,true
+2935366621,1614.07,true,zfs,50,true
+2422602064,26.3213,true,hdfs,50,true
+2470620115,35.4459,true,hdfs,50,true
+2616369906,4093.79,true,zfs,50,true
+2557866382,2534.06,true,zfs,50,true
+2227517607,35.5009,true,hdfs,50,true
+2739632555,50.6681,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_743.root to scratch
+2337279805,261.429,true,zfs,50,true
+2679576123,1086.79,true,zfs,50,true
+2429771279,455.131,true,hdfs,50,true
+2931498792,1226.32,true,zfs,50,true
+2876230558,311.279,true,hdfs,50,true
+2635011620,190.735,true,zfs,50,true
+3058352121,29.9088,true,hdfs,50,true
+3266290244,40.1725,true,hdfs,50,true
+2962919459,88.6577,true,hdfs,50,true
+2633761226,891.201,true,zfs,50,true
+2699271465,337.233,true,hdfs,50,true
+2912219809,65.5305,true,hdfs,50,true
+2144004586,277.287,true,hdfs,50,true
+2433235953,260.521,true,zfs,50,true
+3116528499,1219.16,true,zfs,50,true
+2699548505,210.21,true,hdfs,50,true
+2692873091,164.76,true,zfs,50,true
+2969534551,63.7086,true,hdfs,50,true
+2787150525,50.3647,true,hdfs,50,true
+2365443116,621.053,true,hdfs,50,true
+2049310876,746.224,true,zfs,50,true
+2755551440,42.9036,true,hdfs,50,true
+2633257711,88.7465,true,hdfs,50,true
+2549251233,545.668,true,hdfs,50,true
+2989971121,230.492,true,zfs,50,true
+2968740679,98.8509,true,zfs,50,true
+2706200938,298.678,true,zfs,50,true
+2537997493,23.7212,true,hdfs,50,true
+2014951129,554.143,true,hdfs,50,true
+2322187109,3122.66,true,zfs,50,true
+2995322045,51.445,true,hdfs,50,true
+2315908541,22.9649,true,hdfs,50,true
+2670752866,647.549,true,hdfs,50,true
+2981199617,61.489,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_792.root to scratch
+2233431045,2969.29,true,zfs,50,true
+2349448434,213.2,true,zfs,50,true
+2734432641,909.232,true,zfs,50,true
+2921036722,3130.99,true,zfs,50,true
+3020637345,938.756,true,zfs,50,true
+2138250316,78.3853,true,zfs,50,true
+3195648354,440.601,true,hdfs,50,true
+2754435373,95.3686,true,zfs,50,true
+2670086462,56.3467,true,zfs,50,true
+3122179915,143.609,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_231.root to scratch
+3115383140,1006.71,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_352.root to scratch
+3508200737,61.1605,true,hdfs,50,true
+2768887610,66.6924,true,hdfs,50,true
+2196546879,107.791,true,zfs,50,true
+2166402077,464.792,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_530.root to scratch
+2777425502,59.1514,true,hdfs,50,true
+2813762753,214.938,true,zfs,50,true
+2484708911,30.7644,true,hdfs,50,true
+2810671088,557.059,true,hdfs,50,true
+2179646200,545.931,true,hdfs,50,true
+1992795401,38.3825,true,hdfs,50,true
+2542445896,301.209,true,zfs,50,true
+2988829010,60.6111,true,zfs,50,true
+2183797296,41.3765,true,hdfs,50,true
+3264312427,72.618,true,hdfs,50,true
+2765658541,581.159,true,hdfs,50,true
+2920014035,60.5288,true,hdfs,50,true
+2520669628,2871.81,true,zfs,50,true
+2305882062,215.375,true,zfs,50,true
+2626128131,678.627,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_672.root to scratch
+2399132704,2949.28,true,zfs,50,true
+2436016416,951.106,true,zfs,50,true
+3021474241,58.2494,true,zfs,50,true
+2774379619,908.171,true,hdfs,50,true
+3254865306,3514.46,true,zfs,50,true
+2933252266,125.346,true,zfs,50,true
+2504417461,352.64,true,hdfs,50,true
+2801610798,2125.72,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_569.root to scratch
+2144004586,193.723,true,zfs,50,true
+2833890974,4194.63,true,zfs,50,true
+1887920501,56.6191,true,hdfs,50,true
+3066295114,57.3844,true,hdfs,50,true
+1930087601,3097.22,true,zfs,50,true
+2273095683,32.4811,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_740.root to scratch
+3349296233,78.9539,true,hdfs,50,true
+2411599065,1018.45,true,zfs,50,true
+2459685613,255.077,true,zfs,50,true
+2752661622,468.723,true,hdfs,50,true
+2704618205,206.407,true,zfs,50,true
+2774804344,687.065,true,hdfs,50,true
+2873002402,920.412,true,zfs,50,true
+2979178131,40.3178,true,hdfs,50,true
+3139945973,47.1264,true,hdfs,50,true
+2559386591,51.2069,true,hdfs,50,true
+2707716043,646.102,true,hdfs,50,true
+2417763672,924.643,true,zfs,50,true
+2935366621,480.124,true,hdfs,50,true
+1710016836,33.081,true,hdfs,50,true
+2811677863,170.692,true,zfs,50,true
+2204847262,1123.29,true,zfs,50,true
+2728080210,471.388,true,hdfs,50,true
+2973973685,270.297,true,zfs,50,true
+2382644461,395.188,true,hdfs,50,true
+1601538565,96.7672,true,zfs,50,true
+2447107336,592.433,true,hdfs,50,true
+3563068882,107.941,true,hdfs,50,true
+2117750225,117.583,true,zfs,50,true
+3073179818,529.957,true,hdfs,50,true
+2339367691,13.2974,true,hdfs,50,true
+3275428610,74.1601,true,hdfs,50,true
+2811212181,90.6987,true,hdfs,50,true
+2389834698,91.4225,true,hdfs,50,true
+1846461725,757.947,true,zfs,50,true
+2838812554,978.901,true,hdfs,50,true
+2934504542,208.858,true,zfs,50,true
+2363913540,47.5586,true,hdfs,50,true
+2786958543,524.702,true,hdfs,50,true
+2825801170,275.812,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_562.root to scratch
+3242141112,954.244,true,hdfs,50,true
+2657397063,2568.74,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_642.root to scratch
+2255114603,62.4392,true,hdfs,50,true
+2989671013,697.285,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_335.root to scratch
+2508466546,340.813,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_754.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_410.root to scratch
+2412432832,145.552,true,zfs,50,true
+3146921657,450.127,true,hdfs,50,true
+2273257722,60.7586,true,zfs,50,true
+2730733260,587.67,true,hdfs,50,true
+2935306989,32.188,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_457.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_487.root to scratch
+3387783688,262.603,true,zfs,50,true
+2185145731,549.353,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_147.root to scratch
+2767388964,920.072,true,zfs,50,true
+2433292719,371.995,true,hdfs,50,true
+2240151947,80.6247,true,hdfs,50,true
+2186903100,121.494,true,zfs,50,true
+2462273760,357.285,true,hdfs,50,true
+1834731240,35.4817,true,hdfs,50,true
+2019358509,40.3278,true,hdfs,50,true
+1870666517,2223.78,true,zfs,50,true
+2177781925,1151.01,true,zfs,50,true
+2951806519,855.735,true,hdfs,50,true
+2909526017,527.035,true,hdfs,50,true
+3090011871,165.975,true,zfs,50,true
+2653555531,38.9198,true,hdfs,50,true
+2936582539,129.062,true,zfs,50,true
+2445212148,66.8457,true,zfs,50,true
+2150299891,31.5959,true,hdfs,50,true
+3046512446,467.778,true,hdfs,50,true
+3046512446,3484.06,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_748.root to scratch
+2972024854,649.513,true,hdfs,50,true
+2643099198,2990.45,true,zfs,50,true
+2455933882,262.082,true,zfs,50,true
+1977122259,427.574,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_493.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_450.root to scratch
+2555450376,412.644,true,hdfs,50,true
+2433292719,2870.55,true,zfs,50,true
+3150698301,60.6496,true,hdfs,50,true
+2958790608,819.501,true,hdfs,50,true
+2361247458,229.805,true,hdfs,50,true
+2888417660,129.013,true,zfs,50,true
+2521918745,45.0017,true,hdfs,50,true
+2520551282,39.0153,true,hdfs,50,true
+2460069904,349.24,true,hdfs,50,true
+2189922996,1141.11,true,zfs,50,true
+2306318037,125.562,true,zfs,50,true
+2921544845,499.148,true,hdfs,50,true
+2664351953,45.3789,true,hdfs,50,true
+3343610907,1731.43,true,zfs,50,true
+3072618296,184.675,true,zfs,50,true
+2957819414,1233.63,true,zfs,50,true
+2508466546,594.468,true,hdfs,50,true
+1771900405,2958.64,true,zfs,50,true
+2283876256,19.6678,true,hdfs,50,true
+1937705357,181.927,true,zfs,50,true
+2837319789,712.967,true,hdfs,50,true
+3364589773,237.154,true,hdfs,50,true
+2713537878,52.222,true,hdfs,50,true
+2200790720,503.468,true,hdfs,50,true
+3045105703,280.15,true,zfs,50,true
+2520734643,25.2567,true,hdfs,50,true
+2588395871,55.1759,true,hdfs,50,true
+2225083887,273.077,true,hdfs,50,true
+1995781647,109.816,true,zfs,50,true
+3015860035,101.466,true,hdfs,50,true
+2246933007,270.624,true,zfs,50,true
+3024610747,36.4229,true,hdfs,50,true
+3242141112,775.203,true,zfs,50,true
+2558202424,59.3279,true,hdfs,50,true
+2927859908,979.575,true,zfs,50,true
+2421906603,380.525,true,hdfs,50,true
+2830308181,44.9693,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_561.root to scratch
+1973139944,2692.3,true,zfs,50,true
+2801136445,42.1241,true,hdfs,50,true
+2526260388,19.6681,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_643.root to scratch
+2857447241,3465.72,true,zfs,50,true
+3012839231,131.398,true,hdfs,50,true
+2527333064,21.268,true,hdfs,50,true
+2452097684,427.389,true,hdfs,50,true
+2810374108,259.091,true,zfs,50,true
+2397507955,911.458,true,hdfs,50,true
+2491969571,62.0389,true,zfs,50,true
+2410791653,41.8915,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_495.root to scratch
+3256016728,35.1259,true,hdfs,50,true
+2905022571,48.1211,true,hdfs,50,true
+2585459917,608.917,true,hdfs,50,true
+2955237770,66.2427,true,zfs,50,true
+1758855902,21.0696,true,hdfs,50,true
+2039997595,604.24,true,hdfs,50,true
+3303737818,283.35,true,zfs,50,true
+2931972078,595.07,true,hdfs,50,true
+2492717121,520.465,true,hdfs,50,true
+2168101790,377.494,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_604.root to scratch
+2718657908,535.85,true,hdfs,50,true
+2629312303,944.571,true,zfs,50,true
+2944738885,3464.62,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_708.root to scratch
+3041583776,3183.62,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_777.root to scratch
+3034620086,56.6778,true,hdfs,50,true
+2811951193,33.0418,true,hdfs,50,true
+2961090579,1801.01,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_544.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_50.root to scratch
+3029748768,386.937,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_804.root to scratch
+2750348816,757.444,true,hdfs,50,true
+3104069302,62.0755,true,hdfs,50,true
+2351317310,299.781,true,zfs,50,true
+3106300653,610.326,true,hdfs,50,true
+2465545533,33.5407,true,hdfs,50,true
+2571313042,1234.75,true,zfs,50,true
+3507300194,1110.05,true,hdfs,50,true
+2689044710,688.441,true,hdfs,50,true
+2469340395,502.989,true,hdfs,50,true
+2683976564,271.512,true,zfs,50,true
+3438606889,61.608,true,hdfs,50,true
+2241265945,23.3268,true,hdfs,50,true
+1978440071,292.061,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_78.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_543.root to scratch
+2528918620,2100.45,true,zfs,50,true
+2872776222,56.2855,true,hdfs,50,true
+2796710543,500.469,true,zfs,50,true
+2750348816,323.01,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_805.root to scratch
+2593130868,54.4728,true,hdfs,50,true
+3305696845,37.0496,true,hdfs,50,true
+3029748768,982.977,true,hdfs,50,true
+3427914727,614.962,true,hdfs,50,true
+2911043757,40.7808,true,zfs,50,true
+3068431440,71.0499,true,hdfs,50,true
+2518525383,995.724,true,hdfs,50,true
+2646561150,1183.08,true,zfs,50,true
+2115471575,265.575,true,zfs,50,true
+2960105670,709.872,true,hdfs,50,true
+2897400411,693.555,true,hdfs,50,true
+2261029662,31.2154,true,hdfs,50,true
+2571714592,141.291,true,hdfs,50,true
+2398714795,1020.35,true,zfs,50,true
+2389840742,700.008,true,hdfs,50,true
+3130932652,60.8808,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_756.root to scratch
+2837827541,517.829,true,hdfs,50,true
+2113786998,162.541,true,zfs,50,true
+2580655053,464.086,true,hdfs,50,true
+2136720568,238.045,true,zfs,50,true
+2797992825,3326.24,true,zfs,50,true
+1834399416,37.3772,true,hdfs,50,true
+2594030765,30.3386,true,hdfs,50,true
+2186899561,4087.01,true,zfs,50,true
+2316380122,53.6412,true,zfs,50,true
+2694501903,28.1253,true,hdfs,50,true
+2673054725,583.094,true,hdfs,50,true
+2276031930,22.3166,true,hdfs,50,true
+3109063397,191.167,true,zfs,50,true
+2479465478,410.481,true,hdfs,50,true
+2615943607,494.495,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_609.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_196.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_703.root to scratch
+2446842539,366.069,true,hdfs,50,true
+2305394877,167.063,true,zfs,50,true
+2075914075,2579.7,true,zfs,50,true
+2630652662,169.547,true,zfs,50,true
+3118155128,1174.1,true,zfs,50,true
+2456069195,49.713,true,hdfs,50,true
+3043793239,35.3835,true,hdfs,50,true
+2593073844,310.728,true,hdfs,50,true
+2443933528,599.816,true,hdfs,50,true
+2657397063,285.497,true,zfs,50,true
+1612857383,146.105,true,zfs,50,true
+3222315856,1240.13,true,zfs,50,true
+1866398291,32.6837,true,zfs,50,true
+2413756197,585.417,true,hdfs,50,true
+2936188226,43.5964,true,hdfs,50,true
+2401928170,630.992,true,hdfs,50,true
+3316718096,1219.15,true,zfs,50,true
+2323558742,526.915,true,hdfs,50,true
+2869108867,54.8972,true,hdfs,50,true
+831114077,10.9179,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_507.root to scratch
+2870183857,798.414,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_815.root to scratch
+2379959688,48.5897,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_77.root to scratch
+2934504542,3766.41,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_533.root to scratch
+1870666517,99.6345,true,zfs,50,true
+2054772891,208.444,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_694.root to scratch
+2168508539,185.497,true,zfs,50,true
+2767388964,935.901,true,zfs,50,true
+2186903100,3251.4,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_619.root to scratch
+3090011871,2680.2,true,zfs,50,true
+3131444118,637.038,true,hdfs,50,true
+3073761348,40.8199,true,zfs,50,true
+3434055760,75.3496,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_449.root to scratch
+2182851484,549.158,true,hdfs,50,true
+2299251902,245.292,true,zfs,50,true
+2356738244,606.145,true,hdfs,50,true
+3014807424,67.1437,true,hdfs,50,true
+3019400370,37.6069,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_764.root to scratch
+1947495538,266.223,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_422.root to scratch
+2152171494,43.3404,true,hdfs,50,true
+2592156266,137.637,true,hdfs,50,true
+2704407731,131.001,true,zfs,50,true
+3020515272,457.75,true,hdfs,50,true
+2600851848,47.0989,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_70.root to scratch
+2888417660,3426.68,true,zfs,50,true
+2957819414,3335.21,true,zfs,50,true
+1771900405,101.765,true,zfs,50,true
+3335816886,436.371,true,hdfs,50,true
+2306318037,557.679,true,zfs,50,true
+3343610907,1116.36,true,zfs,50,true
+2784754013,816.15,true,hdfs,50,true
+2643099198,44.8364,true,zfs,50,true
+2410934203,574.815,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_485.root to scratch
+3023284311,62.4442,true,hdfs,50,true
+3014468869,243.622,true,zfs,50,true
+2726739888,531.784,true,hdfs,50,true
+2865272544,444.514,true,hdfs,50,true
+2615939585,65.7179,true,hdfs,50,true
+2510900488,54.853,true,hdfs,50,true
+2931787123,804.294,true,hdfs,50,true
+2394292985,46.2962,true,hdfs,50,true
+2294769590,699.555,true,hdfs,50,true
+2312700217,273.079,true,zfs,50,true
+3091885858,351.124,true,hdfs,50,true
+2383389535,264.541,true,zfs,50,true
+2509465367,31.2264,true,hdfs,50,true
+2602474490,38.3622,true,hdfs,50,true
+1973139944,223.388,true,zfs,50,true
+3186052857,679.122,true,hdfs,50,true
+2826553263,698.264,true,hdfs,50,true
+2983440416,136.215,true,zfs,50,true
+2457007436,212.352,true,zfs,50,true
+2295802135,345.759,true,hdfs,50,true
+2857447241,122.181,true,zfs,50,true
+2870183857,887.959,true,hdfs,50,true
+2763071205,47.8425,true,hdfs,50,true
+2526258843,602.062,true,hdfs,50,true
+3342760279,1258.75,true,zfs,50,true
+2433933355,35.6266,true,hdfs,50,true
+3045105703,3052.84,true,zfs,50,true
+2401928170,330.726,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_812.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_769.root to scratch
+3160866299,56.0865,true,hdfs,50,true
+3048099754,39.8092,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_536.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_39.root to scratch
+2335498226,48.2226,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_701.root to scratch
+2561818839,527.314,true,hdfs,50,true
+2944738885,159.515,true,zfs,50,true
+2168101790,3416.46,true,zfs,50,true
+2811677863,547.107,true,hdfs,50,true
+2134780409,28.7687,true,hdfs,50,true
+2935366621,232.585,true,zfs,50,true
+2915255037,1191.15,true,zfs,50,true
+3041583776,133.045,true,zfs,50,true
+2749164267,426.64,true,hdfs,50,true
+3430163636,33.3914,true,hdfs,50,true
+2459685613,563.683,true,hdfs,50,true
+3017906889,1201.15,true,zfs,50,true
+2485201039,756.595,true,hdfs,50,true
+2542580748,51.0998,true,hdfs,50,true
+2734648172,31.1255,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_442.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_483.root to scratch
+2337279805,369.465,true,zfs,50,true
+2935891787,561.855,true,hdfs,50,true
+2214561215,694.829,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_184.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_758.root to scratch
+2590292393,749.499,true,hdfs,50,true
+2735784480,263.417,true,zfs,50,true
+2955237770,1382.5,true,zfs,50,true
+2374952481,27.4208,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_653.root to scratch
+2227517607,211.962,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_346.root to scratch
+2786724991,76.0426,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_551.root to scratch
+2683976564,3119.41,true,zfs,50,true
+2449315273,52.04,true,hdfs,50,true
+2333750466,600.709,true,hdfs,50,true
+2330279160,20.6765,true,hdfs,50,true
+1971512527,35.1776,true,zfs,50,true
+2753361009,693.658,true,hdfs,50,true
+2961090579,241.51,true,zfs,50,true
+2875194346,46.0983,true,hdfs,50,true
+2403779104,512.707,true,hdfs,50,true
+2135055645,99.8943,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_134.root to scratch
+2750284654,66.7804,true,hdfs,50,true
+3087995446,50.167,true,hdfs,50,true
+2657458695,111.914,true,hdfs,50,true
+1964159204,1049.02,true,zfs,50,true
+3085078428,419.188,true,hdfs,50,true
+2315592560,35.4678,true,hdfs,50,true
+2781469605,588.458,true,zfs,50,true
+2672167664,749.506,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_650.root to scratch
+2403339553,29.5737,true,hdfs,50,true
+2273095683,222.42,true,zfs,50,true
+2911043757,3067.29,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_554.root to scratch
+2349448434,273.057,true,hdfs,50,true
+2115471575,3137.05,true,zfs,50,true
+2574741408,980.949,true,hdfs,50,true
+2528918620,33.6858,true,zfs,50,true
+2653345568,112.001,true,hdfs,50,true
+3208825019,125.81,true,zfs,50,true
+2331422578,43.4032,true,hdfs,50,true
+2916647220,74.4834,true,hdfs,50,true
+2939085375,855.108,true,zfs,50,true
+2307533844,595.272,true,hdfs,50,true
+2439388783,62.6027,true,hdfs,50,true
+3065890241,69.0596,true,hdfs,50,true
+1953977780,1158.35,true,zfs,50,true
+2746615087,696.599,true,hdfs,50,true
+2352614030,963.466,true,hdfs,50,true
+2549406644,24.4331,true,hdfs,50,true
+2592461825,907.187,true,hdfs,50,true
+2796710543,243.857,true,zfs,50,true
+2484252448,35.5538,true,hdfs,50,true
+2769922491,165.333,true,zfs,50,true
+1829293292,383.894,true,hdfs,50,true
+1955366098,30.5177,true,hdfs,50,true
+2692873091,523.197,true,hdfs,50,true
+3213056194,1182.56,true,zfs,50,true
+2144004586,178.698,true,zfs,50,true
+2273811956,367.171,true,hdfs,50,true
+2075914075,158.242,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_620.root to scratch
+2337279805,568.979,true,hdfs,50,true
+3249658240,43.0873,true,hdfs,50,true
+3270538869,207.557,true,hdfs,50,true
+2748785915,1153.8,true,zfs,50,true
+2723584835,41.6735,true,hdfs,50,true
+2699206499,42.9931,true,hdfs,50,true
+2305394877,2283.49,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_479.root to scratch
+2113786998,581.062,true,zfs,50,true
+2378484721,297.812,true,hdfs,50,true
+2797992825,33.1704,true,zfs,50,true
+2459685613,615.509,true,zfs,50,true
+1849836761,452.545,true,hdfs,50,true
+3290090720,209.382,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_183.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_762.root to scratch
+3019642557,150.142,true,hdfs,50,true
+2186899561,172.029,true,zfs,50,true
+2316380122,2986.48,true,zfs,50,true
+2501350829,2419.28,true,zfs,50,true
+1896926809,511.436,true,hdfs,50,true
+2516212399,1173.31,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_577.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_367.root to scratch
+3215140369,437.625,true,hdfs,50,true
+2941051743,221.506,true,zfs,50,true
+293928252,64.7376,true,hdfs,50,true
+2335697475,247.182,true,zfs,50,true
+2840812129,3759.77,true,zfs,50,true
+2491548109,2332.61,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_664.root to scratch
+2473689089,58.9532,true,hdfs,50,true
+2132634831,41.0841,true,hdfs,50,true
+2720606810,132.91,true,zfs,50,true
+2794253209,273.014,true,zfs,50,true
+2295355525,75.057,true,hdfs,50,true
+2805564807,497.755,true,hdfs,50,true
+2595536131,58.8238,true,hdfs,50,true
+2748137809,888.442,true,hdfs,50,true
+2113101695,557.684,true,hdfs,50,true
+2374340479,773.553,true,zfs,50,true
+2195824852,59.127,true,hdfs,50,true
+2175779242,34.1186,true,hdfs,50,true
+2994262414,57.6254,true,hdfs,50,true
+2072138080,412.172,true,hdfs,50,true
+2833898428,264.613,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_520.root to scratch
+2966125962,44.4078,true,hdfs,50,true
+2504932171,970.526,true,zfs,50,true
+2588499432,316.034,true,hdfs,50,true
+2016224435,25.3363,true,hdfs,50,true
+2508466546,200.43,true,zfs,50,true
+2672763758,285.384,true,zfs,50,true
+2642483206,1020.96,true,zfs,50,true
+3274645570,794.024,true,hdfs,50,true
+3072618296,183.452,true,hdfs,50,true
+2899750614,47.8549,true,hdfs,50,true
+2655052742,1084.76,true,zfs,50,true
+2958790608,219.796,true,zfs,50,true
+2607268085,44.9368,true,hdfs,50,true
+2537734261,42.129,true,hdfs,50,true
+2891680911,660.943,true,hdfs,50,true
+2956848231,244.834,true,zfs,50,true
+2778334754,410.859,true,hdfs,50,true
+1393492921,117.963,true,zfs,50,true
+2770476308,47.4977,true,hdfs,50,true
+1999618732,3100.4,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_732.root to scratch
+2900625438,115.897,true,hdfs,50,true
+2445212148,2737.8,true,zfs,50,true
+2670086462,401.43,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_472.root to scratch
+2622652363,53.8809,true,hdfs,50,true
+2594351211,540.943,true,hdfs,50,true
+2749762684,1257.44,true,zfs,50,true
+2697213276,29.2224,true,hdfs,50,true
+2910043935,1183.56,true,zfs,50,true
+2335650197,440.88,true,hdfs,50,true
+3153591106,290.723,true,zfs,50,true
+3046512446,209.469,true,zfs,50,true
+2339982738,42.4802,true,hdfs,50,true
+2445212148,250.834,true,hdfs,50,true
+2433292719,179.786,true,zfs,50,true
+2556963426,1159.39,true,zfs,50,true
+2586279535,42.7988,true,hdfs,50,true
+2670919200,46.6312,true,hdfs,50,true
+2304549477,259.566,true,hdfs,50,true
+3032286989,155.638,true,zfs,50,true
+3218051189,532.357,true,hdfs,50,true
+3184035849,1223.32,true,zfs,50,true
+2654363059,2757.53,true,zfs,50,true
+2622177016,65.8201,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_733.root to scratch
+3072618296,811.13,true,zfs,50,true
+2930616096,30.5857,true,hdfs,50,true
+3021474241,534.984,true,hdfs,50,true
+2636486642,33.8936,true,hdfs,50,true
+2557189806,4091.11,true,zfs,50,true
+2512663637,2915,true,zfs,50,true
+2563572106,418.744,true,hdfs,50,true
+2156640709,80.0562,true,zfs,50,true
+2545952291,3318.28,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_583.root to scratch
+3242141112,213.788,true,zfs,50,true
+2562612132,1114.98,true,zfs,50,true
+2824173540,3092.81,true,zfs,50,true
+2259591115,328.639,true,hdfs,50,true
+1751293168,171.195,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_658.root to scratch
+3297695015,2429.48,true,zfs,50,true
+2863693200,2212.96,true,zfs,50,true
+2467101135,38.5591,true,hdfs,50,true
+3180500134,26.4607,true,hdfs,50,true
+2715488424,737.555,true,hdfs,50,true
+2746915345,44.8539,true,hdfs,50,true
+3696566217,366.341,true,zfs,50,true
+3002783996,127.21,true,zfs,50,true
+2842494758,40.2121,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_80.root to scratch
+2442263588,146.45,true,hdfs,50,true
+2837225753,1023.3,true,zfs,50,true
+1904811070,439.247,true,hdfs,50,true
+3084103168,46.8481,true,hdfs,50,true
+2685254823,186.708,true,hdfs,50,true
+2134342121,230.803,true,zfs,50,true
+2493315498,29.6737,true,hdfs,50,true
+2785231819,106.582,true,hdfs,50,true
+3047632917,47.4348,true,hdfs,50,true
+2635011620,2799.86,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_714.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_590.root to scratch
+2630652662,351.467,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_634.root to scratch
+2433235953,2746.56,true,zfs,50,true
+2633761226,1128.21,true,zfs,50,true
+2294930721,59.2795,true,hdfs,50,true
+2015543742,40.9843,true,hdfs,50,true
+2616369906,213.959,true,zfs,50,true
+2486215168,237.124,true,hdfs,50,true
+2382002935,49.7064,true,hdfs,50,true
+3049322502,114.823,true,hdfs,50,true
+3023085350,478.673,true,hdfs,50,true
+2853716439,710.105,true,hdfs,50,true
+2214735240,203.349,true,zfs,50,true
+3197757944,28.997,true,hdfs,50,true
+2426848113,616.225,true,hdfs,50,true
+2098906510,52.5726,true,hdfs,50,true
+2557866382,49.8656,true,zfs,50,true
+2093113353,29.6266,true,hdfs,50,true
+2282995581,38.5302,true,hdfs,50,true
+2778688237,454.14,true,hdfs,50,true
+3020637345,1177.31,true,zfs,50,true
+2706013868,800.529,true,hdfs,50,true
+2921036722,234.709,true,zfs,50,true
+2609447578,40.5179,true,hdfs,50,true
+2138250316,3232.19,true,zfs,50,true
+2233431045,121.338,true,zfs,50,true
+2858836859,783.764,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_585.root to scratch
+3208551770,19.4315,true,hdfs,50,true
+2300240456,155.163,true,zfs,50,true
+3115383140,1176.99,true,zfs,50,true
+2527554361,681.948,true,hdfs,50,true
+3029748768,258.242,true,zfs,50,true
+2754435373,3386.81,true,zfs,50,true
+2538821436,46.1269,true,hdfs,50,true
+1974850657,387.33,true,hdfs,50,true
+2724074163,444.067,true,zfs,50,true
+2941605641,42.4152,true,hdfs,50,true
+2989971121,3035.49,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_799.root to scratch
+2425823122,1218.43,true,zfs,50,true
+2609431546,1154.47,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_514.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_95.root to scratch
+2322187109,194.157,true,zfs,50,true
+2745865059,552.879,true,hdfs,50,true
+2559746432,29.679,true,hdfs,50,true
+3228161919,908.205,true,hdfs,50,true
+2399132704,98.0629,true,zfs,50,true
+3455060789,803.761,true,hdfs,50,true
+3109161798,876.4,true,zfs,50,true
+1999768753,16.7052,true,hdfs,50,true
+2719397302,437.934,true,hdfs,50,true
+2520669628,326.722,true,zfs,50,true
+3311262354,106.292,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_369.root to scratch
+2933252266,3060.31,true,zfs,50,true
+2750348816,198.535,true,zfs,50,true
+2411560876,881.722,true,zfs,50,true
+1414614209,402.158,true,hdfs,50,true
+2801610798,121.69,true,zfs,50,true
+2770842721,45.466,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_666.root to scratch
+3254865306,305.546,true,zfs,50,true
+2512750875,190.555,true,hdfs,50,true
+2812881819,1047.79,true,zfs,50,true
+2691394103,1069.42,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_379.root to scratch
+3123065939,843.761,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_794.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_96.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_519.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_715.root to scratch
+2704618205,2903.84,true,zfs,50,true
+2631932375,27.0458,true,hdfs,50,true
+2111941352,48.6899,true,hdfs,50,true
+2411599065,464.148,true,zfs,50,true
+2973973685,2113.88,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_633.root to scratch
+2417763672,793.911,true,zfs,50,true
+2390135294,42.5169,true,hdfs,50,true
+2512574352,716.738,true,hdfs,50,true
+2833890974,266.825,true,zfs,50,true
+2825964005,51.0102,true,hdfs,50,true
+2781351732,22.6452,true,hdfs,50,true
+2798529954,604.26,true,hdfs,50,true
+3020389872,247.692,true,zfs,50,true
+2753680403,962.93,true,hdfs,50,true
+2630652662,2827.91,true,zfs,50,true
+2848407847,52.6738,true,hdfs,50,true
+1930087601,43.2842,true,zfs,50,true
+2209846120,581.928,true,hdfs,50,true
+2514509159,41.4387,true,hdfs,50,true
+2126279259,48.6455,true,hdfs,50,true
+2910110248,50.2552,true,hdfs,50,true
+2853716439,3096.86,true,zfs,50,true
+2382816892,49.1462,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_698.root to scratch
+2486215168,3633.64,true,zfs,50,true
+2191500255,31.4352,true,hdfs,50,true
+1944616054,91.7175,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_615.root to scratch
+2559746432,508.295,true,zfs,50,true
+2047377152,67.2812,true,hdfs,50,true
+3116528499,513.879,true,hdfs,50,true
+2699548505,975.477,true,zfs,50,true
+2433235953,521.027,true,hdfs,50,true
+3221517894,51.2356,true,hdfs,50,true
+2699271465,25.926,true,zfs,50,true
+2633761226,182.281,true,hdfs,50,true
+2876230558,185.25,true,zfs,50,true
+2635011620,515.177,true,hdfs,50,true
+2429771279,248.099,true,zfs,50,true
+2931498792,291.352,true,hdfs,50,true
+2390209919,42.7823,true,hdfs,50,true
+2679576123,259.442,true,hdfs,50,true
+2004177115,42.3577,true,hdfs,50,true
+2941605641,545.115,true,zfs,50,true
+3197210955,231.176,true,zfs,50,true
+2905022571,206.372,true,zfs,50,true
+2670752866,1197.99,true,zfs,50,true
+2609431546,2953.16,true,zfs,50,true
+2014951129,256.269,true,zfs,50,true
+2968740679,580.779,true,hdfs,50,true
+2706200938,540.464,true,hdfs,50,true
+2807274066,33.0327,true,hdfs,50,true
+2205747603,51.0816,true,hdfs,50,true
+2745865059,961.998,true,zfs,50,true
+2847989447,40.7699,true,hdfs,50,true
+2989971121,641.096,true,hdfs,50,true
+2549251233,912.274,true,zfs,50,true
+2399314883,34.6116,true,hdfs,50,true
+2514509159,388.376,true,hdfs,50,true
+2049310876,295.964,true,hdfs,50,true
+2365443116,36.1178,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_811.root to scratch
+2098906510,681.991,true,zfs,50,true
+3122179915,499.559,true,zfs,50,true
+2754435373,674.249,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_510.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_537.root to scratch
+2706013868,3071.32,true,zfs,50,true
+3195648354,36.8168,true,zfs,50,true
+2138250316,599.99,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_766.root to scratch
+2734432641,143.77,true,hdfs,50,true
+2765658541,46.5499,true,zfs,50,true
+2694501903,192.683,true,zfs,50,true
+2542445896,652.679,true,hdfs,50,true
+2988829010,711.31,true,hdfs,50,true
+2179646200,191.436,true,zfs,50,true
+2314694952,21.3167,true,hdfs,50,true
+3018283253,45.4334,true,hdfs,50,true
+2797144639,42.3495,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_251.root to scratch
+2810671088,1238.36,true,zfs,50,true
+2813762753,720.32,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_557.root to scratch
+2098906510,390.722,true,hdfs,50,true
+2841434976,84.8873,true,hdfs,50,true
+2166402077,100.684,true,zfs,50,true
+2196546879,570.317,true,hdfs,50,true
+2504417461,1028.99,true,zfs,50,true
+2933252266,598,true,hdfs,50,true
+1414614209,216.659,true,zfs,50,true
+2514509159,615.919,true,zfs,50,true
+2774379619,27.1827,true,zfs,50,true
+2436016416,109.135,true,hdfs,50,true
+2630652662,46.2954,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_504.root to scratch
+3228161919,3400.19,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_532.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_772.root to scratch
+2626128131,128.726,true,zfs,50,true
+2305882062,974.331,true,hdfs,50,true
+2941605641,600.3,true,hdfs,50,true
+2753680403,3328.35,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_697.root to scratch
+2587847198,54.0816,true,hdfs,50,true
+3047746132,67.9067,true,hdfs,50,true
+2512574352,2352.01,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_616.root to scratch
+2559746432,804.56,true,hdfs,50,true
+2161508220,66.9438,true,hdfs,50,true
+2973973685,763.414,true,hdfs,50,true
+2204847262,411.395,true,hdfs,50,true
+2728080210,188.021,true,zfs,50,true
+2189055889,36.4134,true,hdfs,50,true
+2417763672,485.02,true,hdfs,50,true
+2707716043,28.662,true,zfs,50,true
+2774804344,202.12,true,zfs,50,true
+2873002402,493.835,true,hdfs,50,true
+2752661622,114.989,true,zfs,50,true
+2704618205,439.499,true,hdfs,50,true
+2376397317,47.5128,true,hdfs,50,true
+2411599065,494.971,true,hdfs,50,true
+2544417328,72.9807,true,hdfs,50,true
+2113101695,3079.23,true,zfs,50,true
+2935306989,201.266,true,zfs,50,true
+2206301421,171.437,true,zfs,50,true
+2749838530,1126.61,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_65.root to scratch
+2601752044,74.5258,true,hdfs,50,true
+2643884243,158.013,true,zfs,50,true
+2805564807,3249.09,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_555.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_818.root to scratch
+2577073639,83.7645,true,hdfs,50,true
+3227610802,135.878,true,zfs,50,true
+2840812129,718.876,true,hdfs,50,true
+2420386829,93.4637,true,hdfs,50,true
+1954340094,19.8787,true,zfs,50,true
+2491548109,741.505,true,hdfs,50,true
+3119556351,1279.97,true,zfs,50,true
+2445212148,26.4137,true,hdfs,50,true
+2661957521,180.181,true,hdfs,50,true
+2501350829,722.399,true,hdfs,50,true
+2086793009,235.306,true,zfs,50,true
+1896926809,2292.66,true,zfs,50,true
+2000467172,29.6761,true,hdfs,50,true
+2669927779,356.437,true,hdfs,50,true
+2263134195,1141.14,true,zfs,50,true
+3367517137,1113.82,true,hdfs,50,true
+2727604904,41.2446,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_774.root to scratch
+2389834698,189,true,zfs,50,true
+2980167805,1307.02,true,zfs,50,true
+2746915345,521.802,true,hdfs,50,true
+2309940504,34.9287,true,hdfs,50,true
+2651864330,160.437,true,zfs,50,true
+3186055324,262.223,true,hdfs,50,true
+2878018132,68.1268,true,hdfs,50,true
+2296684639,33.7211,true,hdfs,50,true
+2900924807,79.6972,true,hdfs,50,true
+1999618732,333.776,true,hdfs,50,true
+3037325045,1053.67,true,zfs,50,true
+3421037768,44.2914,true,hdfs,50,true
+2493315498,438.963,true,hdfs,50,true
+2799762677,427.139,true,hdfs,50,true
+2679820179,162.927,true,zfs,50,true
+2994262414,336.748,true,zfs,50,true
+2743638947,54.3642,true,hdfs,50,true
+3107969157,61.3934,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_48.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_446.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_418.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_761.root to scratch
+2295355525,2729.61,true,zfs,50,true
+2732888694,920.577,true,zfs,50,true
+3024610747,252.539,true,zfs,50,true
+1755463898,44.5611,true,hdfs,50,true
+2295355525,683.716,true,hdfs,50,true
+2557189806,104.444,true,hdfs,50,true
+2810697703,158.747,true,zfs,50,true
+2781102085,57.7273,true,hdfs,50,true
+2963720143,41.7052,true,hdfs,50,true
+2907172457,29.4338,true,hdfs,50,true
+3017763578,728.074,true,zfs,50,true
+2654363059,738.518,true,hdfs,50,true
+2994262414,597.684,true,hdfs,50,true
+2926319283,94.8684,true,hdfs,50,true
+2454328198,227.169,true,zfs,50,true
+2938781593,432.93,true,hdfs,50,true
+2493315498,515.39,true,zfs,50,true
+2304549477,542.964,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_482.root to scratch
+2086217809,43.9203,true,hdfs,50,true
+2594351211,3067.79,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_759.root to scratch
+2746915345,2849.23,true,zfs,50,true
+2890726965,53.4001,true,hdfs,50,true
+1904811070,2969.28,true,zfs,50,true
+2736159918,238.832,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_654.root to scratch
+2863693200,981.715,true,hdfs,50,true
+3166811432,57.8869,true,zfs,50,true
+2715488424,3363.89,true,zfs,50,true
+2946059345,216.091,true,hdfs,50,true
+2146317429,35.3541,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_550.root to scratch
+2494021169,83.0591,true,hdfs,50,true
+2824173540,1031.59,true,hdfs,50,true
+2805933112,1177.69,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_512.root to scratch
+2605187156,92.5927,true,hdfs,50,true
+3072618296,29.8243,true,hdfs,50,true
+2993329380,996.479,true,zfs,50,true
+2627352548,118.291,true,hdfs,50,true
+1905685924,120.743,true,zfs,50,true
+3297695015,746.939,true,hdfs,50,true
+2925544393,313.22,true,zfs,50,true
+2512663637,786.569,true,hdfs,50,true
+2050445273,12.2895,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_539.root to scratch
+2545952291,533.434,true,hdfs,50,true
+3010853191,93.4813,true,hdfs,50,true
+2364855239,1170.88,true,zfs,50,true
+1030324936,13.6282,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_593.root to scratch
+2331422578,566.909,true,hdfs,50,true
+2180904700,29.1296,true,hdfs,50,true
+2537997493,195.246,true,zfs,50,true
+3303737818,403.882,true,hdfs,50,true
+2931972078,992.828,true,zfs,50,true
+2039997595,254.786,true,zfs,50,true
+2862461956,40.6203,true,hdfs,50,true
+2590292393,2817.48,true,zfs,50,true
+2955237770,617.616,true,hdfs,50,true
+2585459917,1164.24,true,zfs,50,true
+2397507955,305.337,true,zfs,50,true
+2491969571,324.905,true,hdfs,50,true
+2452097684,1147.17,true,zfs,50,true
+2810374108,483.206,true,hdfs,50,true
+3153466155,56.1239,true,hdfs,50,true
+2480139809,46.5634,true,hdfs,50,true
+3012839231,1247.61,true,zfs,50,true
+2633257711,220.174,true,zfs,50,true
+2935891787,1057.48,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_736.root to scratch
+2485201039,3445.23,true,zfs,50,true
+2629312303,623.277,true,hdfs,50,true
+2349448434,99.7065,true,hdfs,50,true
+2718657908,344.584,true,zfs,50,true
+2561818839,4089.36,true,zfs,50,true
+2168101790,536.181,true,hdfs,50,true
+2492717121,231.621,true,zfs,50,true
+2584011579,648.493,true,hdfs,50,true
+2330279160,2742.42,true,zfs,50,true
+2657458695,2208.47,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_580.root to scratch
+2672167664,2608.46,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_660.root to scratch
+2753361009,2609.07,true,zfs,50,true
+2195120789,54.7308,true,hdfs,50,true
+2403779104,3131.44,true,zfs,50,true
+1978440071,102.239,true,hdfs,50,true
+2553609177,29.2528,true,hdfs,50,true
+2683976564,568.525,true,hdfs,50,true
+2689044710,163.271,true,zfs,50,true
+2692873091,60.5671,true,hdfs,50,true
+2469340395,926.459,true,zfs,50,true
+2852902350,34.8408,true,hdfs,50,true
+2867374350,52.1225,true,hdfs,50,true
+2874760854,49.5403,true,hdfs,50,true
+3507300194,220.951,true,zfs,50,true
+2571313042,681.789,true,hdfs,50,true
+2337279805,28.0434,true,hdfs,50,true
+3024023539,56.4829,true,hdfs,50,true
+2501146985,60.112,true,hdfs,50,true
+3106300653,252.023,true,zfs,50,true
+2351317310,828.474,true,hdfs,50,true
+2588439816,74.5107,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_58.root to scratch
+2352614030,2601.07,true,zfs,50,true
+2592461825,3464.18,true,zfs,50,true
+2625834074,38.3555,true,hdfs,50,true
+2574741408,2796.5,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_661.root to scratch
+2307533844,3204.49,true,zfs,50,true
+2398714795,675.509,true,hdfs,50,true
+3062916892,78.2777,true,hdfs,50,true
+2960105670,110.348,true,zfs,50,true
+2811677863,35.8299,true,hdfs,50,true
+2897400411,105.415,true,zfs,50,true
+2115471575,558.162,true,hdfs,50,true
+3025698090,47.7166,true,hdfs,50,true
+2121551783,38.6133,true,hdfs,50,true
+3068581573,44.4174,true,hdfs,50,true
+2646561150,553.122,true,hdfs,50,true
+2459685613,92.5377,true,hdfs,50,true
+2518525383,81.0192,true,zfs,50,true
+2422603145,35.826,true,hdfs,50,true
+2877155952,75.7353,true,hdfs,50,true
+2911043757,694.958,true,hdfs,50,true
+3427914727,1286.45,true,zfs,50,true
+2118376505,46.0586,true,hdfs,50,true
+2330279160,470.944,true,hdfs,50,true
+2615943607,271.437,true,zfs,50,true
+3109063397,799.876,true,hdfs,50,true
+2479465478,981.308,true,zfs,50,true
+1992795401,169.206,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_72.root to scratch
+2075995166,21.1494,true,hdfs,50,true
+2673054725,108.192,true,zfs,50,true
+2316380122,237.801,true,hdfs,50,true
+2580655053,750.536,true,zfs,50,true
+2136720568,715.675,true,hdfs,50,true
+2837827541,198.446,true,zfs,50,true
+2113786998,451.281,true,hdfs,50,true
+2856884871,42.5519,true,hdfs,50,true
+2323070025,51.1173,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_692.root to scratch
+2484708911,276.967,true,zfs,50,true
+2389840742,1190.27,true,zfs,50,true
+1849836761,2355.71,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_73.root to scratch
+3118155128,89.4939,true,hdfs,50,true
+3270538869,3342.15,true,zfs,50,true
+2305394877,245.777,true,hdfs,50,true
+2446842539,245.215,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_475.root to scratch
+2826183678,594.07,true,hdfs,50,true
+2331422578,2910.73,true,zfs,50,true
+2614603552,41.3575,true,hdfs,50,true
+2825801170,769.765,true,hdfs,50,true
+2786958543,39.875,true,zfs,50,true
+3327720524,75.748,true,hdfs,50,true
+2838812554,187.223,true,zfs,50,true
+2934504542,805.766,true,hdfs,50,true
+2811212181,1147.12,true,zfs,50,true
+1846461725,46.7378,true,hdfs,50,true
+3073179818,290.494,true,zfs,50,true
+2117750225,420.25,true,hdfs,50,true
+3057293193,31.0522,true,hdfs,50,true
+1601538565,438.119,true,hdfs,50,true
+2447107336,902.632,true,zfs,50,true
+2382644461,111.539,true,zfs,50,true
+2871554342,213.569,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_795.root to scratch
+3543942064,48.9231,true,hdfs,50,true
+2572579779,50.902,true,hdfs,50,true
+2323558742,2626.77,true,zfs,50,true
+2989671013,92.1161,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_518.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_99.root to scratch
+3223252257,57.8766,true,hdfs,50,true
+2185145731,412.997,true,zfs,50,true
+3387783688,790.348,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_587.root to scratch
+2730733260,1007.08,true,zfs,50,true
+2273257722,746.493,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_718.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_207.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_690.root to scratch
+3146921657,67.0081,true,zfs,50,true
+2412432832,411.776,true,hdfs,50,true
+2182851484,2358.42,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_630.root to scratch
+2936582539,485.66,true,hdfs,50,true
+2893183908,27.6314,true,hdfs,50,true
+2721127940,52.0144,true,hdfs,50,true
+3090011871,500.2,true,hdfs,50,true
+2909526017,47.2064,true,zfs,50,true
+2160697143,54.575,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_477.root to scratch
+2620973029,62.405,true,hdfs,50,true
+2608299318,64.6848,true,hdfs,50,true
+2951806519,285.085,true,zfs,50,true
+2870183857,24.5132,true,hdfs,50,true
+2177781925,591.609,true,hdfs,50,true
+2419143940,19.0664,true,hdfs,50,true
+2462273760,91.6659,true,zfs,50,true
+2186903100,538.654,true,hdfs,50,true
+2896252885,1117.61,true,hdfs,50,true
+2555450376,1102.64,true,zfs,50,true
+2574356266,214.42,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_591.root to scratch
+2294769590,3341.54,true,zfs,50,true
+3091885858,1729.02,true,zfs,50,true
+2410934203,1212.17,true,zfs,50,true
+1977122259,274.822,true,zfs,50,true
+2455933882,538.088,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_637.root to scratch
+2865272544,3747.11,true,zfs,50,true
+3436934874,255.405,true,zfs,50,true
+2972024854,35.6062,true,zfs,50,true
+2957819414,116.456,true,hdfs,50,true
+2581192079,65.4174,true,hdfs,50,true
+3067914722,35.573,true,hdfs,50,true
+3335816886,701.357,true,zfs,50,true
+2921544845,599.279,true,zfs,50,true
+2306318037,454.795,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_430.root to scratch
+2394237273,39.6905,true,hdfs,50,true
+2631450737,45.8351,true,hdfs,50,true
+2515529979,51.6348,true,hdfs,50,true
+2401928170,51.06,true,hdfs,50,true
+2189922996,597.51,true,hdfs,50,true
+2460069904,54.9687,true,zfs,50,true
+2188166908,23.5309,true,hdfs,50,true
+2888417660,473.545,true,hdfs,50,true
+2361247458,215.814,true,zfs,50,true
+2578203178,47.807,true,hdfs,50,true
+2421906603,214.586,true,zfs,50,true
+2927859908,785.67,true,hdfs,50,true
+2510910305,38.343,true,hdfs,50,true
+3015860035,51.7646,true,zfs,50,true
+2246933007,447.013,true,hdfs,50,true
+2225083887,84.8995,true,zfs,50,true
+1995781647,530.216,true,hdfs,50,true
+3045105703,303.483,true,hdfs,50,true
+2200790720,225.73,true,zfs,50,true
+2105328240,41.6496,true,hdfs,50,true
+3046763177,242.018,true,zfs,50,true
+3364589773,130.587,true,zfs,50,true
+1937705357,502.789,true,hdfs,50,true
+2837319789,1176.55,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_798.root to scratch
+2526258843,2098.07,true,zfs,50,true
+3165458924,42.8111,true,hdfs,50,true
+2495042257,73.3555,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_92.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_515.root to scratch
+2238883417,41.037,true,hdfs,50,true
+2485201039,60.1278,true,zfs,50,true
+3029748768,24.9118,true,hdfs,50,true
+3017906889,126.578,true,hdfs,50,true
+2128430099,53.6844,true,hdfs,50,true
+2870225577,62.8202,true,hdfs,50,true
+2749164267,218.738,true,zfs,50,true
+3041583776,897.841,true,hdfs,50,true
+2516519804,29.7271,true,hdfs,50,true
+3343960467,59.7155,true,hdfs,50,true
+2838018068,71.3,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_746.root to scratch
+2915255037,249.562,true,hdfs,50,true
+2718657908,141.883,true,zfs,50,true
+2861352624,56.1327,true,hdfs,50,true
+3197210955,53.335,true,hdfs,50,true
+2944738885,869.34,true,hdfs,50,true
+2561818839,264.645,true,zfs,50,true
+2735784480,390.658,true,hdfs,50,true
+2590292393,199.087,true,zfs,50,true
+2699725889,37.4724,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_676.root to scratch
+2559746432,264.343,true,zfs,50,true
+2214561215,1015.7,true,zfs,50,true
+2039997595,3193.89,true,zfs,50,true
+2931972078,989.356,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_600.root to scratch
+2935891787,1155.23,true,zfs,50,true
+2941605641,139.95,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_721.root to scratch
+2397507955,3862.94,true,zfs,50,true
+2741542714,47.8068,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_525.root to scratch
+2689044710,533.594,true,zfs,50,true
+2905022571,120.612,true,zfs,50,true
+2650470143,59.0081,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_788.root to scratch
+3507300194,1480.1,true,zfs,50,true
+3134312563,47.6052,true,hdfs,50,true
+2978561029,27.9803,true,hdfs,50,true
+2672167664,213.814,true,zfs,50,true
+2781469605,970.38,true,hdfs,50,true
+2098906510,244.723,true,zfs,50,true
+1964159204,95.5901,true,hdfs,50,true
+3085078428,134.863,true,zfs,50,true
+2657458695,232.924,true,zfs,50,true
+2135055645,408.256,true,hdfs,50,true
+2403779104,156.733,true,zfs,50,true
+2955008199,42.6123,true,hdfs,50,true
+2694501903,183.304,true,hdfs,50,true
+2753361009,106.233,true,zfs,50,true
+2961090579,911.405,true,hdfs,50,true
+2333750466,916.462,true,zfs,50,true
+2896252885,90.2017,true,zfs,50,true
+1971512527,290.833,true,hdfs,50,true
+2317848970,23.8377,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_89.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_526.root to scratch
+2241866990,45.3472,true,hdfs,50,true
+2694501903,396.478,true,zfs,50,true
+3427914727,1754.04,true,zfs,50,true
+3080676618,54.0094,true,hdfs,50,true
+2321456799,40.7524,true,hdfs,50,true
+2518525383,3398.32,true,zfs,50,true
+2940927853,82.5357,true,hdfs,50,true
+2796710543,696.057,true,hdfs,50,true
+2592461825,160.635,true,zfs,50,true
+2352614030,250.421,true,zfs,50,true
+1953977780,176.183,true,hdfs,50,true
+2746615087,1170.31,true,zfs,50,true
+2514509159,207.276,true,zfs,50,true
+2307533844,34.1211,true,zfs,50,true
+2939085375,117.816,true,hdfs,50,true
+2905022571,841.262,true,hdfs,50,true
+3079150634,42.6951,true,hdfs,50,true
+2653345568,1042.23,true,zfs,50,true
+3208825019,796.928,true,hdfs,50,true
+2574741408,31.7915,true,zfs,50,true
+2528918620,841.465,true,hdfs,50,true
+2577319371,35.1295,true,hdfs,50,true
+2750348816,108.906,true,hdfs,50,true
+2748785915,624.401,true,hdfs,50,true
+3270538869,60.4315,true,zfs,50,true
+2446842539,4095.79,true,zfs,50,true
+2187464154,42.8731,true,hdfs,50,true
+2414971259,80.7135,true,hdfs,50,true
+2075914075,797.659,true,hdfs,50,true
+2273811956,69.1505,true,zfs,50,true
+2469643650,23.8984,true,hdfs,50,true
+2352082299,48.3454,true,hdfs,50,true
+2680587794,41.9622,true,hdfs,50,true
+3213056194,810.653,true,hdfs,50,true
+2939856967,77.242,true,hdfs,50,true
+1829293292,36.6175,true,zfs,50,true
+2769922491,578.473,true,hdfs,50,true
+2186899561,321.772,true,hdfs,50,true
+3019642557,1222.02,true,zfs,50,true
+2673054725,1126.08,true,zfs,50,true
+2479465478,962.644,true,zfs,50,true
+2615943607,3053.36,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_595.root to scratch
+3290090720,813.029,true,hdfs,50,true
+1849836761,33.4059,true,zfs,50,true
+2837827541,3517.76,true,zfs,50,true
+2580655053,459.539,true,zfs,50,true
+2797992825,859.258,true,hdfs,50,true
+2378484721,582.811,true,zfs,50,true
+2323558742,233.595,true,zfs,50,true
+3316718096,587.526,true,hdfs,50,true
+2958790608,31.1942,true,hdfs,50,true
+2157133184,55.1079,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_90.root to scratch
+2413756197,656.13,true,zfs,50,true
+1866398291,451.889,true,hdfs,50,true
+2935306989,573.202,true,zfs,50,true
+3037014285,45.5813,true,hdfs,50,true
+2119660541,42.2479,true,hdfs,50,true
+2950218173,56.1991,true,hdfs,50,true
+3222315856,588.629,true,hdfs,50,true
+2761999649,66.9526,true,hdfs,50,true
+2544765624,42.947,true,hdfs,50,true
+2657397063,571.715,true,hdfs,50,true
+2593073844,90.4874,true,zfs,50,true
+2508466546,39.9747,true,hdfs,50,true
+2443933528,258.181,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_671.root to scratch
+2838812554,2724.33,true,zfs,50,true
+2786958543,2690.37,true,zfs,50,true
+3063942468,36.3266,true,hdfs,50,true
+2382644461,2382.18,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_57.root to scratch
+3073179818,2685.73,true,zfs,50,true
+2695531383,31.8051,true,hdfs,50,true
+2584011579,83.3732,true,zfs,50,true
+2909526017,4110.42,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_158.root to scratch
+2767388964,624.503,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_74.root to scratch
+2206301421,38.162,true,hdfs,50,true
+2054772891,234.521,true,zfs,50,true
+1870666517,258.276,true,hdfs,50,true
+2951806519,3399.59,true,zfs,50,true
+2074426314,33.8057,true,hdfs,50,true
+2177529475,34.7733,true,hdfs,50,true
+2730733260,577.912,true,zfs,50,true
+3020515272,212.378,true,zfs,50,true
+2600851848,278.222,true,hdfs,50,true
+2592156266,887.883,true,zfs,50,true
+2704407731,839.305,true,hdfs,50,true
+2185145731,2578.31,true,zfs,50,true
+2994262414,260.038,true,zfs,50,true
+1947495538,692.146,true,zfs,50,true
+2299251902,434.29,true,hdfs,50,true
+2356738244,720.268,true,zfs,50,true
+2182851484,154.41,true,zfs,50,true
+2295355525,177.171,true,zfs,50,true
+2815431222,23.7203,true,hdfs,50,true
+3024610747,191.231,true,hdfs,50,true
+3073761348,513.101,true,hdfs,50,true
+3131444118,1237.69,true,zfs,50,true
+3146921657,863.059,true,zfs,50,true
+2923729949,25.1602,true,hdfs,50,true
+2921544845,4111.7,true,zfs,50,true
+2784754013,52.2277,true,zfs,50,true
+3343610907,113.704,true,hdfs,50,true
+3242141112,33.9481,true,hdfs,50,true
+3024610747,3445.07,true,zfs,50,true
+3335816886,269.331,true,zfs,50,true
+1771900405,469.885,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_744.root to scratch
+2736159918,42.8453,true,hdfs,50,true
+2460069904,2738.92,true,zfs,50,true
+2610124966,66.7468,true,hdfs,50,true
+2625355308,41.2539,true,hdfs,50,true
+3091885858,1210.95,true,zfs,50,true
+2383389535,366.483,true,hdfs,50,true
+2294769590,160.771,true,zfs,50,true
+2312700217,366.223,true,hdfs,50,true
+2555450376,982.111,true,zfs,50,true
+2931787123,896.82,true,zfs,50,true
+2493315498,276.38,true,zfs,50,true
+2746915345,51.5477,true,zfs,50,true
+2865272544,275.635,true,zfs,50,true
+3014468869,448.267,true,hdfs,50,true
+2726739888,1187.99,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_602.root to scratch
+2389834698,409.19,true,hdfs,50,true
+3337977027,48.0515,true,hdfs,50,true
+2410934203,32.062,true,zfs,50,true
+2643099198,516.759,true,hdfs,50,true
+2230213557,28.0351,true,hdfs,50,true
+1977122259,2170.86,true,zfs,50,true
+3342760279,574.4,true,hdfs,50,true
+2433292719,21.3966,true,hdfs,50,true
+2526258843,213.498,true,zfs,50,true
+2638534086,45.3446,true,hdfs,50,true
+2857447241,652.503,true,hdfs,50,true
+2295802135,880.501,true,zfs,50,true
+2524445099,57.1112,true,hdfs,50,true
+2805845688,55.3002,true,hdfs,50,true
+2712419681,25.6871,true,hdfs,50,true
+2983440416,750.04,true,hdfs,50,true
+2327469372,40.5479,true,hdfs,50,true
+2377530343,38.41,true,hdfs,50,true
+3186052857,259.969,true,zfs,50,true
+3046512446,104.47,true,hdfs,50,true
+2826553263,73.6243,true,zfs,50,true
+1973139944,432.728,true,hdfs,50,true
+2225083887,3223.48,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_669.root to scratch
+2725209859,63.9412,true,hdfs,50,true
+2421906603,3508.97,true,zfs,50,true
+2837319789,571.094,true,zfs,50,true
+2935306989,579.091,true,hdfs,50,true
+3364589773,1479.71,true,zfs,50,true
+2200790720,2662.65,true,zfs,50,true
+2826183678,122.765,true,zfs,50,true
+2503807882,54.3224,true,hdfs,50,true
+2699271465,3452.72,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_750.root to scratch
+2537997493,2809.06,true,zfs,50,true
+2883654405,143.768,true,hdfs,50,true
+2633257711,3449.56,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_490.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_453.root to scratch
+2557866382,720.86,true,hdfs,50,true
+2426848113,733.84,true,zfs,50,true
+2440121429,32.4526,true,hdfs,50,true
+2686419992,73.4211,true,hdfs,50,true
+2214735240,449.088,true,hdfs,50,true
+2853716439,134.799,true,zfs,50,true
+2484708911,730.187,true,hdfs,50,true
+1342711524,30.6988,true,hdfs,50,true
+2069815109,23.2312,true,hdfs,50,true
+1992795401,527.414,true,hdfs,50,true
+3023085350,1257.31,true,zfs,50,true
+2330279160,68.5713,true,zfs,50,true
+2522761039,56.3911,true,hdfs,50,true
+2486215168,156.379,true,zfs,50,true
+2616369906,419.1,true,hdfs,50,true
+2378955853,45.4362,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_549.root to scratch
+2724074163,733.319,true,hdfs,50,true
+1974850657,221.747,true,zfs,50,true
+2210390699,23.7506,true,hdfs,50,true
+3115383140,455.879,true,hdfs,50,true
+2527554361,722.486,true,zfs,50,true
+2300240456,464.177,true,hdfs,50,true
+2858836859,200.791,true,zfs,50,true
+2233431045,413.28,true,hdfs,50,true
+2343848770,54.5763,true,hdfs,50,true
+2706013868,107.086,true,zfs,50,true
+2921036722,1257.19,true,hdfs,50,true
+2778688237,301.61,true,zfs,50,true
+2935366621,39.3561,true,hdfs,50,true
+3020637345,361.034,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_502.root to scratch
+3020567937,119.05,true,hdfs,50,true
+2014951129,2448.95,true,zfs,50,true
+2745865059,1148.41,true,zfs,50,true
+2322187109,448.568,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_559.root to scratch
+2609431546,185.534,true,zfs,50,true
+2425823122,586.191,true,hdfs,50,true
+2365443116,2255.03,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_646.root to scratch
+2774379619,3247.35,true,zfs,50,true
+2069818897,12.8044,true,hdfs,50,true
+2512750875,199.451,true,zfs,50,true
+3254865306,712.245,true,hdfs,50,true
+3035830003,31.7254,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_782.root to scratch
+2801610798,868.466,true,hdfs,50,true
+2411560876,300.525,true,hdfs,50,true
+1414614209,194.59,true,zfs,50,true
+2520669628,406.443,true,hdfs,50,true
+2719397302,1312.04,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_81.root to scratch
+2637914529,44.7847,true,hdfs,50,true
+2144004586,36.5003,true,hdfs,50,true
+3455060789,348.833,true,zfs,50,true
+3109161798,153.011,true,hdfs,50,true
+3228161919,142.684,true,zfs,50,true
+2399132704,905.233,true,hdfs,50,true
+2899298504,60.0299,true,hdfs,50,true
+2179646200,2948.43,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_565.root to scratch
+3123065939,1067.16,true,zfs,50,true
+2166402077,2397.39,true,zfs,50,true
+2691394103,271.605,true,zfs,50,true
+2812881819,482.508,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_64.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_41.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_751.root to scratch
+1992795401,2920.23,true,zfs,50,true
+2484708911,595.961,true,zfs,50,true
+2561035144,37.4295,true,hdfs,50,true
+3046376486,29.2976,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_454.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_49.root to scratch
+2209846120,1144.06,true,zfs,50,true
+1930087601,555.643,true,hdfs,50,true
+2474763856,29.0279,true,hdfs,50,true
+2699413870,46.9598,true,hdfs,50,true
+2753680403,99.2962,true,zfs,50,true
+3020389872,301.375,true,hdfs,50,true
+2632354341,28.509,true,hdfs,50,true
+2633257711,820.657,true,hdfs,50,true
+2537997493,745.067,true,hdfs,50,true
+2316746509,54.0073,true,hdfs,50,true
+2331422578,166.397,true,zfs,50,true
+2798529954,1208.96,true,zfs,50,true
+2976723650,70.7432,true,hdfs,50,true
+2833890974,352.507,true,hdfs,50,true
+2512574352,158.796,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_540.root to scratch
+1954340094,2846.13,true,zfs,50,true
+2335697475,549.476,true,hdfs,50,true
+293928252,70.6264,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_780.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_808.root to scratch
+2871554342,758.195,true,zfs,50,true
+2941051743,625.099,true,hdfs,50,true
+3215140369,1278.43,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_497.root to scratch
+2516212399,599.127,true,hdfs,50,true
+2168508539,37.6271,true,hdfs,50,true
+1896926809,110.137,true,zfs,50,true
+2833898428,1082.3,true,hdfs,50,true
+2072138080,697.867,true,zfs,50,true
+2067390317,18.1205,true,hdfs,50,true
+2643884243,3704.08,true,zfs,50,true
+2374340479,581.275,true,hdfs,50,true
+2113101695,34.464,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_567.root to scratch
+3046763177,473.827,true,hdfs,50,true
+2056620044,32.6424,true,hdfs,50,true
+2748137809,1075.71,true,zfs,50,true
+2594766337,29.8576,true,hdfs,50,true
+3049219889,58.0481,true,hdfs,50,true
+2805564807,258.743,true,zfs,50,true
+2720606810,586.897,true,hdfs,50,true
+2794253209,85.8028,true,hdfs,50,true
+2566504884,39.3191,true,hdfs,50,true
+2778334754,44.3332,true,zfs,50,true
+1393492921,410.6,true,hdfs,50,true
+2891680911,273.001,true,zfs,50,true
+2956848231,565.324,true,hdfs,50,true
+2277489921,38.9433,true,hdfs,50,true
+2655052742,135.426,true,hdfs,50,true
+2642483206,428.02,true,hdfs,50,true
+3274645570,273.549,true,zfs,50,true
+2672763758,835.721,true,hdfs,50,true
+2914056330,24.4566,true,hdfs,50,true
+2588499432,45.1895,true,zfs,50,true
+2504932171,591.054,true,hdfs,50,true
+1612857383,20.6388,true,hdfs,50,true
+3092582754,59.21,true,hdfs,50,true
+3062984079,50.3482,true,hdfs,50,true
+2651864330,2814.3,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_608.root to scratch
+3436934874,1109.1,true,hdfs,50,true
+2679820179,3069.84,true,zfs,50,true
+2574356266,583.838,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_704.root to scratch
+2770853250,65.7341,true,hdfs,50,true
+2691850487,46.6046,true,hdfs,50,true
+3218051189,253.138,true,zfs,50,true
+3184035849,488.533,true,hdfs,50,true
+2304549477,114.326,true,zfs,50,true
+3032286989,928.878,true,hdfs,50,true
+2799943546,61.3236,true,hdfs,50,true
+2574356266,3447.27,true,zfs,50,true
+2556963426,67.8023,true,hdfs,50,true
+3153591106,765.149,true,hdfs,50,true
+2910043935,714.197,true,hdfs,50,true
+2335650197,1130.25,true,zfs,50,true
+3436934874,418.548,true,zfs,50,true
+1861969837,24.1208,true,hdfs,50,true
+2749762684,605.768,true,hdfs,50,true
+2457007436,46.9686,true,hdfs,50,true
+2594351211,55.6431,true,zfs,50,true
+3458728473,29.6898,true,hdfs,50,true
+2810697703,3421.49,true,zfs,50,true
+2836013269,24.7327,true,hdfs,50,true
+2294293868,37.1774,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_605.root to scratch
+2454328198,3134.53,true,zfs,50,true
+1767084720,28.9436,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_707.root to scratch
+1751293168,473.353,true,hdfs,50,true
+2259591115,249.796,true,zfs,50,true
+1905685924,3038.45,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_547.root to scratch
+2562612132,510.976,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_776.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_801.root to scratch
+3046763177,371.152,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_500.root to scratch
+2156640709,679.218,true,hdfs,50,true
+2563572106,771.409,true,zfs,50,true
+2785231819,1132.28,true,zfs,50,true
+2134342121,825.508,true,hdfs,50,true
+2493987336,33.2329,true,hdfs,50,true
+1904811070,149.859,true,zfs,50,true
+2837225753,600.211,true,hdfs,50,true
+2553715152,44.318,true,hdfs,50,true
+2871554342,630.133,true,hdfs,50,true
+2146317429,2574.9,true,zfs,50,true
+2442263588,966.208,true,zfs,50,true
+2565420259,73.1739,true,hdfs,50,true
+2675904697,26.8199,true,hdfs,50,true
+3166811432,1383.64,true,zfs,50,true
+3696566217,1128.9,true,hdfs,50,true
+3002783996,606.426,true,hdfs,50,true
+2715488424,82.9746,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_592.root to scratch
+2241866990,764.461,true,zfs,50,true
+2488926623,197.942,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_712.root to scratch
+2121551783,3394.46,true,zfs,50,true
+2403339553,501.914,true,hdfs,50,true
+2321456799,279.597,true,zfs,50,true
+3068581573,1379.24,true,zfs,50,true
+2292218233,185.525,true,zfs,50,true
+3080676618,136.316,true,zfs,50,true
+2422603145,2432.7,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_636.root to scratch
+2746615087,29.5559,true,hdfs,50,true
+2352614030,46.2901,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_737.root to scratch
+3065890241,733.178,true,hdfs,50,true
+2625834074,3069.41,true,zfs,50,true
+2592461825,50.0811,true,hdfs,50,true
+2549406644,709.837,true,hdfs,50,true
+2940927853,270.736,true,zfs,50,true
+2577319371,52.8625,true,zfs,50,true
+2916647220,640.004,true,hdfs,50,true
+3394299373,56.2973,true,hdfs,50,true
+2574741408,41.2356,true,hdfs,50,true
+2653345568,66.381,true,hdfs,50,true
+3079150634,262.434,true,zfs,50,true
+2439388783,647.547,true,hdfs,50,true
+2307533844,20.2747,true,hdfs,50,true
+3249658240,449.489,true,hdfs,50,true
+2469643650,123.096,true,zfs,50,true
+2273811956,41.0358,true,hdfs,50,true
+2723584835,748.482,true,hdfs,50,true
+2414971259,159.522,true,zfs,50,true
+2699206499,502.362,true,hdfs,50,true
+2187464154,646.24,true,zfs,50,true
+3270538869,52.8013,true,hdfs,50,true
+1829293292,25.7561,true,hdfs,50,true
+2939856967,308.15,true,zfs,50,true
+2484252448,182.444,true,hdfs,50,true
+2598965730,160.296,true,zfs,50,true
+2680587794,1188.75,true,zfs,50,true
+1955366098,582.146,true,hdfs,50,true
+2352082299,105.601,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_797.root to scratch
+2075995166,2743.29,true,zfs,50,true
+3019642557,61.9476,true,hdfs,50,true
+2378484721,21.4077,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_93.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_516.root to scratch
+1849836761,53.0267,true,hdfs,50,true
+2516519804,113.853,true,zfs,50,true
+3430163636,793.722,true,hdfs,50,true
+2749164267,51.8461,true,hdfs,50,true
+2542580748,362.211,true,hdfs,50,true
+2870225577,1135.98,true,zfs,50,true
+2734648172,721.759,true,hdfs,50,true
+2128430099,419.291,true,zfs,50,true
+2485201039,32.3611,true,hdfs,50,true
+2561818839,38.4573,true,hdfs,50,true
+2335498226,554.428,true,hdfs,50,true
+2861352624,281.641,true,zfs,50,true
+2838018068,119.858,true,zfs,50,true
+3343960467,1206.76,true,zfs,50,true
+2134780409,554.194,true,hdfs,50,true
+2497080381,164.775,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_796.root to scratch
+2214561215,37.0161,true,hdfs,50,true
+2699725889,67.7564,true,zfs,50,true
+2590292393,31.3046,true,hdfs,50,true
+2862461956,2957.95,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_517.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_98.root to scratch
+2935891787,51.9885,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_586.root to scratch
+2786724991,804.506,true,hdfs,50,true
+2650470143,462.489,true,zfs,50,true
+2852902350,397.294,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_717.root to scratch
+2449315273,361.903,true,hdfs,50,true
+2741542714,1100.6,true,zfs,50,true
+2374952481,308.331,true,hdfs,50,true
+3134312563,111.897,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_691.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_631.root to scratch
+2501146985,2534.86,true,zfs,50,true
+2657458695,31.8493,true,hdfs,50,true
+3085078428,132.272,true,hdfs,50,true
+3087995446,300.569,true,hdfs,50,true
+2672167664,49.6799,true,hdfs,50,true
+2978561029,269.038,true,zfs,50,true
+2315592560,550.347,true,hdfs,50,true
+2875194346,638.545,true,hdfs,50,true
+2864134334,55.6063,true,hdfs,50,true
+2317848970,42.6692,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_476.root to scratch
+2333750466,29.2484,true,hdfs,50,true
+2753361009,66.0941,true,hdfs,50,true
+2750284654,1376.22,true,hdfs,50,true
+2955008199,21.9529,true,zfs,50,true
+3197210955,437.968,true,hdfs,50,true
+2403779104,17.4726,true,hdfs,50,true
+3335816886,46.0687,true,hdfs,50,true
+2581192079,2737.12,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_579.root to scratch
+2394237273,3003.67,true,zfs,50,true
+2784754013,29.4952,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_662.root to scratch
+2515529979,3003.62,true,zfs,50,true
+2188166908,2669.38,true,zfs,50,true
+2931787123,35.4528,true,hdfs,50,true
+2510900488,486.651,true,hdfs,50,true
+2294769590,29.3609,true,hdfs,50,true
+3091885858,71.6168,true,hdfs,50,true
+2394292985,515.134,true,hdfs,50,true
+2408171197,22.5696,true,hdfs,50,true
+2625355308,449.434,true,zfs,50,true
+2610124966,105.936,true,zfs,50,true
+2230213557,252.675,true,zfs,50,true
+3332070147,89.8977,true,hdfs,50,true
+3023284311,563.877,true,hdfs,50,true
+2410934203,48.3542,true,hdfs,50,true
+3337977027,425.17,true,zfs,50,true
+2615939585,727.606,true,hdfs,50,true
+2726739888,56.8253,true,hdfs,50,true
+2865272544,63.7642,true,hdfs,50,true
+2805845688,1178.4,true,zfs,50,true
+2763071205,776.103,true,hdfs,50,true
+2524445099,269.872,true,zfs,50,true
+2302355277,169.624,true,zfs,50,true
+2295802135,47.6977,true,hdfs,50,true
+2790648541,844.068,true,hdfs,50,true
+2433933355,355.904,true,hdfs,50,true
+2638534086,1157.24,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_719.root to scratch
+2526258843,21.6012,true,hdfs,50,true
+2826553263,42.1833,true,hdfs,50,true
+3186052857,47.585,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_693.root to scratch
+2509465367,312.008,true,hdfs,50,true
+2377530343,177.351,true,zfs,50,true
+2602474490,495.846,true,hdfs,50,true
+2327469372,663.011,true,zfs,50,true
+2238883417,2746.68,true,zfs,50,true
+2498578591,183.343,true,zfs,50,true
+2712419681,1230.7,true,zfs,50,true
+3160866299,669.448,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_730.root to scratch
+2725209859,258.671,true,zfs,50,true
+3048099754,369.545,true,hdfs,50,true
+2510910305,3113.84,true,zfs,50,true
+2105328240,785.643,true,zfs,50,true
+3068425982,3405.1,true,zfs,50,true
+2736159918,305.476,true,hdfs,50,true
+2908058909,203.377,true,zfs,50,true
+2119660541,273.011,true,zfs,50,true
+3037014285,915.465,true,zfs,50,true
+2936188226,790.016,true,hdfs,50,true
+3068425982,887.197,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_594.root to scratch
+2413756197,33.0077,true,hdfs,50,true
+2157133184,1164.66,true,zfs,50,true
+2869108867,256.737,true,hdfs,50,true
+2323558742,31.9516,true,hdfs,50,true
+2572579779,2947.51,true,zfs,50,true
+2443933528,32.1618,true,hdfs,50,true
+2593073844,43.1138,true,hdfs,50,true
+2456069195,460.694,true,hdfs,50,true
+2544765624,602.195,true,zfs,50,true
+3043793239,784.647,true,hdfs,50,true
+2761999649,282.936,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_638.root to scratch
+2950218173,1192.27,true,zfs,50,true
+2645603941,215.967,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_735.root to scratch
+3327720524,3094.84,true,zfs,50,true
+3057293193,4169.96,true,zfs,50,true
+2695531383,247.137,true,zfs,50,true
+2734670461,103.323,true,hdfs,50,true
+831114077,207.124,true,hdfs,50,true
+2790648541,3440.18,true,zfs,50,true
+3063942468,261.21,true,zfs,50,true
+2379959688,491.69,true,hdfs,50,true
+2206301421,531.579,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_581.root to scratch
+2721127940,1672.18,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_238.root to scratch
+2620973029,3261.31,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_66.root to scratch
+2054772891,28.5843,true,hdfs,50,true
+2419143940,2638.24,true,zfs,50,true
+1947495538,42.0252,true,hdfs,50,true
+3019400370,707.104,true,hdfs,50,true
+2592156266,57.5516,true,hdfs,50,true
+3020515272,55.7998,true,hdfs,50,true
+2177529475,87.3136,true,zfs,50,true
+2074426314,511.172,true,zfs,50,true
+1923231529,70.7754,true,hdfs,50,true
+2152171494,461.357,true,hdfs,50,true
+3295505663,49.9969,true,hdfs,50,true
+3434055760,328.348,true,hdfs,50,true
+2923729949,212.715,true,zfs,50,true
+3131444118,34.4993,true,hdfs,50,true
+3014807424,581.541,true,hdfs,50,true
+2815431222,955.349,true,zfs,50,true
+2182851484,52.3677,true,hdfs,50,true
+2356738244,40.5304,true,hdfs,50,true
+1414614209,25.0822,true,hdfs,50,true
+1974983725,305.432,true,hdfs,50,true
+3035830003,1061.65,true,zfs,50,true
+3007747295,223.346,true,zfs,50,true
+2512750875,44.8562,true,hdfs,50,true
+2069818897,131.389,true,zfs,50,true
+2770842721,386.924,true,hdfs,50,true
+1999768753,347.888,true,hdfs,50,true
+2899298504,1171.42,true,zfs,50,true
+3228161919,50.0078,true,hdfs,50,true
+3455060789,152.193,true,hdfs,50,true
+3311262354,440.298,true,hdfs,50,true
+2637914529,100.831,true,zfs,50,true
+2658787770,769.8,true,hdfs,50,true
+2719397302,66.0589,true,hdfs,50,true
+2463700642,623.654,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_481.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_444.root to scratch
+2691394103,54.4806,true,hdfs,50,true
+2797144639,2389.99,true,zfs,50,true
+2140040420,2928.84,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_76.root to scratch
+3123065939,65.7612,true,hdfs,50,true
+2826183678,204.479,true,zfs,50,true
+2161508220,3101.58,true,zfs,50,true
+2189055889,1044.92,true,zfs,50,true
+2376397317,2420.02,true,zfs,50,true
+3046376486,975.739,true,zfs,50,true
+2631932375,907.041,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_55.root to scratch
+2561035144,294.93,true,zfs,50,true
+2111941352,223.639,true,hdfs,50,true
+2632354341,1006.02,true,zfs,50,true
+2848407847,564.074,true,hdfs,50,true
+2753680403,71.1691,true,hdfs,50,true
+2126279259,653.409,true,hdfs,50,true
+2699413870,127.511,true,zfs,50,true
+2910110248,547.459,true,hdfs,50,true
+2474763856,1057.85,true,zfs,50,true
+2401456385,85.0045,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_511.root to scratch
+2209846120,25.321,true,hdfs,50,true
+2512574352,28.9763,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_54.root to scratch
+2390135294,800.737,true,hdfs,50,true
+2976723650,248.54,true,zfs,50,true
+2798529954,51.3251,true,hdfs,50,true
+2316746509,1065.7,true,zfs,50,true
+2825964005,858.071,true,hdfs,50,true
+2781351732,546.731,true,hdfs,50,true
+2584011579,213.018,true,zfs,50,true
+2496979587,172.189,true,zfs,50,true
+2883654405,1150.59,true,zfs,50,true
+2047377152,3096.69,true,zfs,50,true
+2503807882,461.792,true,zfs,50,true
+2294930721,240.704,true,hdfs,50,true
+3221517894,1523.74,true,zfs,50,true
+2390209919,3201.5,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_556.root to scratch
+3197757944,606.148,true,hdfs,50,true
+1342711524,786.143,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_82.root to scratch
+2853716439,63.2467,true,hdfs,50,true
+2093113353,367.196,true,hdfs,50,true
+2553024950,30.52,true,hdfs,50,true
+2686419992,1210.73,true,zfs,50,true
+2282995581,935.039,true,hdfs,50,true
+2440121429,203.597,true,zfs,50,true
+2426848113,34.0565,true,hdfs,50,true
+2191500255,2297.92,true,zfs,50,true
+2486215168,22.8201,true,hdfs,50,true
+2522761039,256.739,true,zfs,50,true
+2015543742,614.777,true,hdfs,50,true
+3023085350,54.6128,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_773.root to scratch
+2382002935,1001.11,true,hdfs,50,true
+2069815109,891.098,true,zfs,50,true
+3049322502,98.9324,true,hdfs,50,true
+2140040420,508.946,true,hdfs,50,true
+2527554361,37.7321,true,hdfs,50,true
+2158005300,183.931,true,zfs,50,true
+2210390699,828.012,true,zfs,50,true
+1974850657,54.2385,true,hdfs,50,true
+2538821436,342.177,true,hdfs,50,true
+2378955853,134.308,true,zfs,50,true
+3020567937,1207.41,true,zfs,50,true
+2609447578,366.818,true,hdfs,50,true
+2778688237,16.2327,true,hdfs,50,true
+2706013868,39.0151,true,hdfs,50,true
+2343848770,127.285,true,zfs,50,true
+3208551770,437.187,true,hdfs,50,true
+2858836859,64.2678,true,hdfs,50,true
+2463700642,381.395,true,hdfs,50,true
+2658787770,602.226,true,zfs,50,true
+2609431546,19.7705,true,hdfs,50,true
+2745865059,45.5737,true,hdfs,50,true
+2807274066,474.333,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_480.root to scratch
+2847989447,3474.33,true,zfs,50,true
+1974983725,787.179,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_760.root to scratch
+2799943546,632.023,true,zfs,50,true
+2697665875,224.981,true,zfs,50,true
+2304549477,18.1607,true,hdfs,50,true
+3218051189,47.9585,true,hdfs,50,true
+2691850487,448.862,true,zfs,50,true
+2670919200,324.745,true,hdfs,50,true
+2586279535,570.722,true,hdfs,50,true
+2697213276,652.212,true,hdfs,50,true
+3458728473,139.376,true,zfs,50,true
+2594351211,39.4282,true,hdfs,50,true
+2086217809,3083.01,true,zfs,50,true
+2339982738,580.73,true,hdfs,50,true
+1861969837,284.035,true,zfs,50,true
+1982564027,720.4,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_558.root to scratch
+2335650197,35.0321,true,hdfs,50,true
+3056200232,762.447,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_817.root to scratch
+2930616096,696.678,true,hdfs,50,true
+2294293868,175.523,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_505.root to scratch
+2349076925,48.9148,true,hdfs,50,true
+2636486642,201.448,true,hdfs,50,true
+2836013269,25.0682,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_531.root to scratch
+2907172457,1365.7,true,zfs,50,true
+2622177016,1040.25,true,hdfs,50,true
+1767084720,1056.18,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_771.root to scratch
+2494021169,2814.35,true,zfs,50,true
+2436386047,548.517,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_696.root to scratch
+2259591115,39.3507,true,hdfs,50,true
+2563572106,52.4895,true,hdfs,50,true
+2050445273,3604.53,true,zfs,50,true
+2579325728,341.021,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_617.root to scratch
+2553715152,205.563,true,zfs,50,true
+3084103168,703.394,true,hdfs,50,true
+2685254823,734.085,true,hdfs,50,true
+1904811070,36.0608,true,hdfs,50,true
+2493987336,46.3848,true,zfs,50,true
+3047632917,441.365,true,hdfs,50,true
+2785231819,45.5887,true,hdfs,50,true
+2715488424,46.3552,true,hdfs,50,true
+2467101135,549.587,true,hdfs,50,true
+2675904697,41.3619,true,zfs,50,true
+3180500134,357.316,true,hdfs,50,true
+2565420259,269.636,true,zfs,50,true
+2442263588,34.5141,true,hdfs,50,true
+2842494758,424.41,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_283.root to scratch
+293928252,4.31639,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_699.root to scratch
+2000467172,2906.98,true,zfs,50,true
+1896926809,19.08,true,hdfs,50,true
+3215140369,29.2808,true,hdfs,50,true
+2727604904,787.677,true,zfs,50,true
+2195824852,854.103,true,hdfs,50,true
+2056620044,966.014,true,zfs,50,true
+2175779242,533.464,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_143.root to scratch
+2113101695,17.8078,true,hdfs,50,true
+2966125962,594.426,true,hdfs,50,true
+2067390317,44.5665,true,zfs,50,true
+2072138080,27.5957,true,hdfs,50,true
+2805564807,44.2282,true,hdfs,50,true
+2473689089,566.571,true,hdfs,50,true
+3049219889,228.628,true,zfs,50,true
+2132634831,507.675,true,hdfs,50,true
+2594766337,174.563,true,zfs,50,true
+2748137809,65.8702,true,hdfs,50,true
+2436386047,2621.57,true,zfs,50,true
+2595536131,73.8188,true,hdfs,50,true
+2743638947,2803.84,true,zfs,50,true
+3193337997,228.273,true,zfs,50,true
+2896252885,229.048,true,zfs,50,true
+2277489921,1219.43,true,zfs,50,true
+2891680911,53.4734,true,hdfs,50,true
+2778334754,36.7462,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_657.root to scratch
+2537734261,681.446,true,hdfs,50,true
+2607268085,347.696,true,hdfs,50,true
+2566504884,222.442,true,zfs,50,true
+3092582754,1265.96,true,zfs,50,true
+2016224435,419.458,true,hdfs,50,true
+2588499432,50.8231,true,hdfs,50,true
+2914056330,330.973,true,zfs,50,true
+2899750614,140.74,true,hdfs,50,true
+3274645570,43.6558,true,hdfs,50,true
+3056200232,550.828,true,hdfs,50,true
+1982564027,340.595,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_810.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_51.root to scratch
+2622652363,942.125,true,hdfs,50,true
+3062984079,1197.91,true,zfs,50,true
+2770476308,578.962,true,hdfs,50,true
+2770853250,256.239,true,zfs,50,true
+2296684639,2590.47,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_538.root to scratch
+2900625438,102.204,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_767.root to scratch
+2183797296,559.436,true,hdfs,50,true
+3018283253,221.277,true,zfs,50,true
+3264312427,209.919,true,hdfs,50,true
+2314694952,274.511,true,zfs,50,true
+2179646200,43.6957,true,hdfs,50,true
+2920014035,143.074,true,hdfs,50,true
+2765658541,21.5889,true,hdfs,50,true
+2488926623,503.532,true,zfs,50,true
+2292218233,508.698,true,zfs,50,true
+2166402077,21.5595,true,hdfs,50,true
+2841434976,256.61,true,zfs,50,true
+3508200737,467.259,true,hdfs,50,true
+2768887610,605.036,true,hdfs,50,true
+2810671088,42.2208,true,hdfs,50,true
+2797144639,57.4941,true,zfs,50,true
+2651833532,42.934,true,hdfs,50,true
+2777425502,601.562,true,hdfs,50,true
+2069818897,3126.13,true,zfs,50,true
+2774379619,31.5766,true,hdfs,50,true
+2504417461,56.9158,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_606.root to scratch
+2637914529,2582.32,true,zfs,50,true
+2626128131,48.3891,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_706.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_546.root to scratch
+2699413870,3450.41,true,zfs,50,true
+2587847198,273.455,true,zfs,50,true
+3066295114,616.704,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_775.root to scratch
+3349296233,590.123,true,hdfs,50,true
+2598965730,569.236,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_802.root to scratch
+3047746132,1158.92,true,zfs,50,true
+1887920501,639.503,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_501.root to scratch
+2707716043,40.5786,true,hdfs,50,true
+2559386591,659.435,true,hdfs,50,true
+2189055889,964.796,true,zfs,50,true
+2728080210,56.3334,true,hdfs,50,true
+2497080381,515.001,true,hdfs,50,true
+1710016836,439.361,true,hdfs,50,true
+2161508220,190.288,true,zfs,50,true
+2544417328,1220.54,true,zfs,50,true
+2561035144,1658.47,true,zfs,50,true
+2376397317,266.761,true,zfs,50,true
+3139945973,493.959,true,hdfs,50,true
+2979178131,592.435,true,hdfs,50,true
+2752661622,29.0994,true,hdfs,50,true
+2774804344,43.5248,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_647.root to scratch
+2440121429,2770.37,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_541.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_781.root to scratch
+2382816892,704.736,true,zfs,50,true
+2739632555,568.581,true,hdfs,50,true
+1944616054,1045.63,true,zfs,50,true
+2422602064,958.31,true,hdfs,50,true
+2497080381,409.69,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_807.root to scratch
+2191500255,112.603,true,zfs,50,true
+2297262398,25.6674,true,hdfs,50,true
+2470620115,581.685,true,hdfs,50,true
+2522761039,3201.85,true,zfs,50,true
+2699271465,44.6149,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_260.root to scratch
+3221517894,806.26,true,zfs,50,true
+2962919459,1111.14,true,hdfs,50,true
+2598965730,917.878,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_566.root to scratch
+2699548505,40.6717,true,hdfs,50,true
+2047377152,258.783,true,zfs,50,true
+2912219809,610.487,true,hdfs,50,true
+2004177115,1161.32,true,zfs,50,true
+3266290244,716.184,true,hdfs,50,true
+3058352121,383.726,true,hdfs,50,true
+2390209919,269.883,true,zfs,50,true
+2429771279,61.6279,true,hdfs,50,true
+2876230558,24.4116,true,hdfs,50,true
+2995322045,431.865,true,hdfs,50,true
+2205747603,50.2731,true,zfs,50,true
+2315908541,537.815,true,hdfs,50,true
+2807274066,65.4863,true,zfs,50,true
+2014951129,38.6938,true,hdfs,50,true
+2981199617,443.649,true,hdfs,50,true
+2670752866,25.9166,true,hdfs,50,true
+2365443116,27.5605,true,hdfs,50,true
+2969534551,893.892,true,hdfs,50,true
+2399314883,268.406,true,zfs,50,true
+2787150525,634.882,true,hdfs,50,true
+2549251233,41.1253,true,hdfs,50,true
+2419398422,44.2166,true,hdfs,50,true
+2755551440,594.858,true,hdfs,50,true
+2847989447,302.106,true,zfs,50,true
+3122179915,36.8448,true,hdfs,50,true
+2378955853,3427.98,true,zfs,50,true
+2292218233,838.458,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_607.root to scratch
+2488926623,254.6,true,hdfs,50,true
+2343848770,3254.25,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_705.root to scratch
+3195648354,61.0686,true,hdfs,50,true
+2410943486,682.549,true,hdfs,50,true
+2781102085,189.422,true,zfs,50,true
+2836013269,2956.38,true,zfs,50,true
+2810697703,34.727,true,hdfs,50,true
+1755463898,152.684,true,zfs,50,true
+2723193366,324.051,true,hdfs,50,true
+2389078070,476.743,true,hdfs,50,true
+2732888694,41.4404,true,hdfs,50,true
+2294293868,187.297,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_809.root to scratch
+2454328198,47.9511,true,hdfs,50,true
+2926319283,1165.71,true,zfs,50,true
+2735188127,799.512,true,hdfs,50,true
+3017763578,106.959,true,hdfs,50,true
+2530958051,571.594,true,hdfs,50,true
+2907172457,236.007,true,zfs,50,true
+2488964446,595.682,true,hdfs,50,true
+2963720143,266.872,true,zfs,50,true
+2961078914,32.5761,true,hdfs,50,true
+2691850487,2673.36,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_564.root to scratch
+1861969837,3189.89,true,zfs,50,true
+2890726965,1197.79,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_640.root to scratch
+2649745960,743.827,true,hdfs,50,true
+2086217809,244.726,true,zfs,50,true
+2493987336,3039.95,true,zfs,50,true
+2302355277,3362.99,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_752.root to scratch
+2498578591,531.932,true,zfs,50,true
+2146317429,16.333,true,hdfs,50,true
+3166811432,58.4855,true,hdfs,50,true
+2565420259,2668.11,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_455.root to scratch
+1905685924,25.2192,true,hdfs,50,true
+2993329380,38.4064,true,hdfs,50,true
+2387022294,421.495,true,hdfs,50,true
+2605187156,1170.43,true,zfs,50,true
+2805933112,51.5851,true,hdfs,50,true
+2645603941,734.196,true,hdfs,50,true
+2784891580,340.114,true,hdfs,50,true
+2494021169,218.9,true,zfs,50,true
+3068425982,90.117,true,zfs,50,true
+1030324936,792.324,true,zfs,50,true
+2908058909,263.173,true,hdfs,50,true
+2364855239,41.5435,true,hdfs,50,true
+2050445273,133.426,true,zfs,50,true
+2914889697,353.35,true,hdfs,50,true
+2925544393,35.9278,true,hdfs,50,true
+2643884243,52.5098,true,hdfs,50,true
+2067390317,2584.61,true,zfs,50,true
+2908058909,2779.88,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_75.root to scratch
+2749838530,76.7145,true,hdfs,50,true
+2645603941,523.971,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_452.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_491.root to scratch
+3119556351,31.2514,true,hdfs,50,true
+1954340094,35.5963,true,hdfs,50,true
+2420386829,1127.32,true,zfs,50,true
+2261329384,599.908,true,hdfs,50,true
+2498578591,744.312,true,hdfs,50,true
+3227610802,54.553,true,hdfs,50,true
+2577073639,124.81,true,zfs,50,true
+2596182512,508.294,true,hdfs,50,true
+2727604904,1192.02,true,zfs,50,true
+2790648541,191.683,true,zfs,50,true
+2263134195,32.1368,true,hdfs,50,true
+2302355277,780.675,true,hdfs,50,true
+2747713802,1091.93,true,hdfs,50,true
+2000467172,151.256,true,zfs,50,true
+2086793009,27.0417,true,hdfs,50,true
+2878018132,190.779,true,zfs,50,true
+2248450801,446.158,true,hdfs,50,true
+2651864330,46.4907,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_548.root to scratch
+2627059208,552.332,true,hdfs,50,true
+2309940504,1225.15,true,zfs,50,true
+2322408453,646.39,true,hdfs,50,true
+2980167805,68.0343,true,hdfs,50,true
+2679820179,56.5421,true,hdfs,50,true
+2747625125,580.711,true,hdfs,50,true
+3421037768,973.919,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_503.root to scratch
+3037325045,104.52,true,hdfs,50,true
+2741409275,628.659,true,hdfs,50,true
+3246213634,40.3686,true,hdfs,50,true
+2900924807,542.831,true,zfs,50,true
+2133146599,505.625,true,hdfs,50,true
+2296684639,228.326,true,zfs,50,true
+2488341627,572.997,true,hdfs,50,true
+3107969157,1235.04,true,zfs,50,true
+2566504884,2605.89,true,zfs,50,true
+2688109425,596.908,true,hdfs,50,true
+2743638947,134.329,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_56.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_34.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_645.root to scratch
+3287790019,24.7055,true,hdfs,50,true
+2872776222,627.941,true,hdfs,50,true
+2625834074,58.2387,true,zfs,50,true
+2940927853,4197.74,true,zfs,50,true
+2593130868,752.699,true,hdfs,50,true
+2588439816,48.1185,true,zfs,50,true
+3007747295,611.35,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_745.root to scratch
+2577319371,2535.73,true,zfs,50,true
+2826183678,46.9765,true,hdfs,50,true
+2261029662,365.848,true,hdfs,50,true
+2121551783,210.603,true,zfs,50,true
+2571714592,384.735,true,hdfs,50,true
+3025698090,977.326,true,zfs,50,true
+2897400411,38.075,true,hdfs,50,true
+2960105670,79.4649,true,hdfs,50,true
+3062916892,1287.36,true,zfs,50,true
+2463700642,264.437,true,zfs,50,true
+2241866990,2204.54,true,zfs,50,true
+2158005300,566.243,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_601.root to scratch
+3427914727,59.7363,true,hdfs,50,true
+2140040420,44.4229,true,zfs,50,true
+2877155952,1192.34,true,zfs,50,true
+3305696845,163.466,true,hdfs,50,true
+2422603145,221.865,true,zfs,50,true
+2518525383,160.871,true,hdfs,50,true
+2321456799,2632.86,true,zfs,50,true
+3068431440,929.703,true,hdfs,50,true
+3068581573,1212.68,true,zfs,50,true
+2673054725,35.2856,true,hdfs,50,true
+2075995166,194.624,true,zfs,50,true
+2425422659,21.751,true,hdfs,50,true
+2594030765,589.767,true,hdfs,50,true
+2479465478,54.0229,true,hdfs,50,true
+2615943607,64.2837,true,hdfs,50,true
+2118376505,1125.55,true,zfs,50,true
+2276031930,519.019,true,hdfs,50,true
+3130932652,912.679,true,hdfs,50,true
+2389840742,37.2717,true,hdfs,50,true
+1834399416,430.142,true,hdfs,50,true
+2530847081,92.1447,true,hdfs,50,true
+2323070025,180.775,true,zfs,50,true
+2856884871,102.387,true,zfs,50,true
+2837827541,42.3243,true,hdfs,50,true
+2580655053,43.1425,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_67.root to scratch
+2414971259,3465.55,true,zfs,50,true
+2446842539,25.8363,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_326.root to scratch
+2352082299,2984.73,true,zfs,50,true
+2496979587,544.344,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_571.root to scratch
+2736159918,67.7752,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_23.root to scratch
+2585459917,47.8891,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_91.root to scratch
+2439674837,23.1281,true,hdfs,50,true
+3256016728,563.594,true,hdfs,50,true
+2862461956,211.603,true,zfs,50,true
+2496979587,392.161,true,zfs,50,true
+2039997595,49.4913,true,hdfs,50,true
+2931972078,39.4232,true,hdfs,50,true
+1758855902,560.827,true,hdfs,50,true
+2180904700,1079.93,true,zfs,50,true
+2527333064,486.428,true,hdfs,50,true
+3012839231,71.6958,true,hdfs,50,true
+2480139809,106.491,true,zfs,50,true
+3153466155,416.385,true,zfs,50,true
+2607125976,99.5686,true,hdfs,50,true
+2410791653,809.908,true,hdfs,50,true
+2452097684,72.1156,true,hdfs,50,true
+2397507955,49.3016,true,hdfs,50,true
+2128430099,2450.44,true,zfs,50,true
+2870225577,935.703,true,zfs,50,true
+2516519804,3329.51,true,zfs,50,true
+2492717121,23.634,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_570.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_355.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_1.root to scratch
+2861352624,3229.44,true,zfs,50,true
+2718657908,29.4473,true,hdfs,50,true
+2978561029,4115.32,true,zfs,50,true
+2158005300,2995.88,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_739.root to scratch
+3034620086,733.603,true,hdfs,50,true
+2317848970,2724.08,true,zfs,50,true
+2584011579,52.1772,true,hdfs,50,true
+2811951193,755.694,true,hdfs,50,true
+2195120789,118.542,true,zfs,50,true
+3438606889,230.107,true,hdfs,50,true
+2867374350,1191.59,true,zfs,50,true
+2241265945,330.186,true,hdfs,50,true
+2852902350,204.206,true,zfs,50,true
+2469340395,34.1969,true,hdfs,50,true
+2689044710,33.6888,true,hdfs,50,true
+2741542714,1224.54,true,zfs,50,true
+2658787770,272.241,true,zfs,50,true
+2553609177,1133.44,true,zfs,50,true
+2650470143,2554.01,true,zfs,50,true
+3106300653,45.7322,true,hdfs,50,true
+3007747295,597.708,true,hdfs,50,true
+2501146985,39.1601,true,zfs,50,true
+3024023539,1098.71,true,zfs,50,true
+3104069302,410.372,true,hdfs,50,true
+1974983725,178.849,true,zfs,50,true
+3134312563,864.774,true,zfs,50,true
+3507300194,43.2961,true,hdfs,50,true
+2874760854,1243.77,true,zfs,50,true
+2465545533,847.015,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_9.root to scratch
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_527.root to scratch
+2555450376,25.5776,true,hdfs,50,true
+2697665875,459.442,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_786.root to scratch
+2972024854,22.1896,true,hdfs,50,true
+1977122259,21.2418,true,hdfs,50,true
+2230213557,3016.84,true,zfs,50,true
+2394237273,217.6,true,zfs,50,true
+2664351953,627.278,true,hdfs,50,true
+2921544845,36.3574,true,hdfs,50,true
+3067914722,1069.78,true,zfs,50,true
+2283876256,353.864,true,hdfs,50,true
+2581192079,258.863,true,zfs,50,true
+3056200232,285.253,true,zfs,50,true
+3193337997,797.292,true,hdfs,50,true
+2361247458,42.9963,true,hdfs,50,true
+3150698301,429.42,true,hdfs,50,true
+2188166908,97.3511,true,zfs,50,true
+2460069904,44.4215,true,hdfs,50,true
+2521918745,850.737,true,hdfs,50,true
+2515529979,460.712,true,zfs,50,true
+2520551282,74.4693,true,hdfs,50,true
+2631450737,1138.44,true,zfs,50,true
+2725209859,4188.39,true,zfs,50,true
+2225083887,72.1316,true,hdfs,50,true
+3015860035,67.8167,true,hdfs,50,true
+2510910305,40.9276,true,zfs,50,true
+2588395871,620.067,true,hdfs,50,true
+2872965655,41.4608,true,hdfs,50,true
+2421906603,23.1427,true,hdfs,50,true
+2578203178,46.9545,true,zfs,50,true
+2558202424,734.52,true,hdfs,50,true
+2713537878,687.068,true,hdfs,50,true
+2837319789,25.4553,true,hdfs,50,true
+3364589773,43.7244,true,hdfs,50,true
+2520734643,154.326,true,hdfs,50,true
+2105328240,164.107,true,zfs,50,true
+2200790720,35.4335,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_681.root to scratch
+3165458924,1162.61,true,zfs,50,true
+2526260388,742.421,true,hdfs,50,true
+2524445099,3051.03,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_621.root to scratch
+2238883417,37.3166,true,zfs,50,true
+2830308181,785.174,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_596.root to scratch
+2495042257,1145.67,true,zfs,50,true
+2801136445,512.521,true,hdfs,50,true
+2327469372,1616.63,true,zfs,50,true
+2377530343,3300.85,true,zfs,50,true
+2811212181,68.4061,true,hdfs,50,true
+2838812554,55.6314,true,hdfs,50,true
+3275428610,129.443,true,hdfs,50,true
+3089987575,42.0062,true,hdfs,50,true
+3327720524,68.8629,true,zfs,50,true
+2786958543,22.249,true,hdfs,50,true
+2363913540,536.073,true,hdfs,50,true
+2614603552,142.276,true,zfs,50,true
+3563068882,133.426,true,hdfs,50,true
+2382644461,42.5513,true,hdfs,50,true
+2447107336,22.4344,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_747.root to scratch
+2896252885,40.683,true,hdfs,50,true
+3057293193,316.548,true,zfs,50,true
+2339367691,728.551,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_44.root to scratch
+3073179818,37.4001,true,hdfs,50,true
+2989671013,66.5726,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_677.root to scratch
+2572579779,172.885,true,zfs,50,true
+2255114603,370.345,true,hdfs,50,true
+3037014285,383.347,true,zfs,50,true
+2119660541,3101.19,true,zfs,50,true
+2579325728,269.337,true,zfs,50,true
+3543942064,1225.06,true,zfs,50,true
+3223252257,1216.94,true,zfs,50,true
+2436386047,148.334,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_60.root to scratch
+2761999649,2571.8,true,zfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_720.root to scratch
+2730733260,40.5302,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_524.root to scratch
+2177529475,522.378,true,zfs,50,true
+3193337997,481.471,true,zfs,50,true
+2185145731,45.3809,true,hdfs,50,true
+Unable to cp /local/cms/user/eichl008/bench_filesystem/anTGCtree_data_789.root to scratch
+2923729949,2857.56,true,zfs,50,true
+3146921657,58.1716,true,hdfs,50,true
+2653555531,542.696,true,hdfs,50,true
+2160697143,205.681,true,zfs,50,true
+2909526017,30.4175,true,hdfs,50,true
+1982564027,148.544,true,zfs,50,true
+2721127940,77.749,true,zfs,50,true
+2893183908,1126.74,true,zfs,50,true
+2150299891,186.255,true,hdfs,50,true
+2462273760,19.6115,true,hdfs,50,true
+2697665875,553.16,true,hdfs,50,true
+2419143940,124.491,true,zfs,50,true
+2240151947,138.084,true,hdfs,50,true
+2951806519,29.5949,true,hdfs,50,true
+1834731240,231.334,true,hdfs,50,true
+3197210955,243.298,true,zfs,50,true
+2608299318,1134.8,true,zfs,50,true
+2019358509,617.809,true,hdfs,50,true
+2620973029,108.66,true,zfs,50,true
