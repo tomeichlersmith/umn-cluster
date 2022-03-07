@@ -26,10 +26,10 @@ local        = /local/cms/user/eichl008
 next_job_start_delay = 1
 
 # requirements on runner
-requirements = Machine != "zebra01.spa.umn.edu" && \
-               Machine != "zebra02.spa.umn.edu" && \
-               Machine != "zebra03.spa.umn.edu" && \
-               Machine != "zebra04.spa.umn.edu" && \
+requirements = Machine != "zebra01.spa.umn.edu"    && \
+               Machine != "zebra02.spa.umn.edu"    && \
+               Machine != "zebra03.spa.umn.edu"    && \
+               Machine != "zebra04.spa.umn.edu"    && \
                Machine != "scorpion1.spa.umn.edu"  && \
                Machine != "scorpion3.spa.umn.edu"  && \
                Machine != "scorpion5.spa.umn.edu"  && \
@@ -42,6 +42,7 @@ requirements = Machine != "zebra01.spa.umn.edu" && \
                Machine != "scorpion15.spa.umn.edu" && \
                Machine != "scorpion17.spa.umn.edu" && \
                Machine != "scorpion18.spa.umn.edu" && \
+               Machine != "scorpion21.spa.umn.edu" && \
                Machine != "scorpion22.spa.umn.edu" && \
                Machine != "scorpion23.spa.umn.edu" && \
                Machine != "scorpion24.spa.umn.edu" && \
