@@ -31,7 +31,8 @@ std::string filesystem(std::string filename) {
  * Do a system cp, return true if successful
  */
 bool cp(std::string src, std::string dest) {
-  return (system("cp "+src+" "+dest+" && sync") == 0);
+  std::string cmd{"cp "+src+" "+dest+" && sync"};
+  return (system(cmd.c_str()) == 0);
 }
 
 /**
@@ -40,10 +41,9 @@ bool cp(std::string src, std::string dest) {
  * return empty string if failed to copy
  */
 std::string cp_to_scratch(std::string filename) {
-  std::ifstream src(filename, std::ios::binary);
   std::string destname = filename.substr(filename.find_last_of("/")+1);
   destname = "/export/scratch/users/eichl008/"+destname;
-  if (cp(src, destname)) { 
+  if (cp(filename, destname)) { 
     // successful copy
     return destname;
   } else {
@@ -64,7 +64,7 @@ std::string cp_to_scratch(std::string filename) {
  *
  * Run like:
  * 
- *    root -lq '/full/path/to/analysim.C("/full/path/to/input_file.root","tree/name",true,-1)'
+ *    root -l -q '/full/path/to/analysim.C("/full/path/to/input_file.root","tree/name",true,-1)'
  *
  * Prints out a CSV row formatted as
  *  file size in bytes, time analysis took in s, cp_to_scratch, filesystem input_file was on, max_branches
