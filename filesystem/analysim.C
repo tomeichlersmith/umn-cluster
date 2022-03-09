@@ -121,7 +121,7 @@ void analysim(const char* input_file, const char* tree_name, bool do_cp_to_scrat
   std::cout << std::boolalpha
     << filesize(input_file) << ","
     << time.count() << ","
-    << cp_to_scratch << ","
+    << do_cp_to_scratch << ","
     << filesystem(input_file) << ","
     << max_branches << ","
     << actually_process
