@@ -11,7 +11,7 @@
 /**
  * get the filesize in bytes of the input file
  */
-std::ifstream::pos_type filesize(const char* filename) {
+std::ifstream::pos_type filesize(const std::string& filename) {
   std::ifstream in(filename, std::ifstream::ate | std::ifstream::binary);
   return in.tellg();
 }
@@ -19,7 +19,7 @@ std::ifstream::pos_type filesize(const char* filename) {
 /**
  * get the filesystem the input file is hosted on
  */
-std::string filesystem(std::string filename) {
+std::string filesystem(const std::string& filename) {
   if (filename.find("hdfs") != std::string::npos) {
     return "hdfs";
   } else {
@@ -30,7 +30,7 @@ std::string filesystem(std::string filename) {
 /**
  * Do a system cp, return true if successful
  */
-bool cp(std::string src, std::string dest) {
+bool cp(const std::string& src, const std::string& dest) {
   std::string cmd{"cp "+src+" "+dest+" && sync"};
   return (system(cmd.c_str()) == 0);
 }
@@ -40,7 +40,7 @@ bool cp(std::string src, std::string dest) {
  *
  * return empty string if failed to copy
  */
-std::string cp_to_scratch(std::string filename) {
+std::string cp_to_scratch(const std::string& filename) {
   std::string destname = filename.substr(filename.find_last_of("/")+1);
   destname = "/export/scratch/users/eichl008/"+destname;
   if (cp(filename, destname)) { 
@@ -71,7 +71,7 @@ std::string cp_to_scratch(std::string filename) {
  * to the terminal. This can be captured by condor's 'output' command and then concatenated into
  * one CSV file with all the jobs for later analysis.
  */
-void analysim(const char* input_file, const char* tree_name, bool do_cp_to_scratch, int max_branches, bool actually_process) {
+void analysim(std::string input_file, const char* tree_name, bool do_cp_to_scratch, int max_branches, bool actually_process) {
   auto begin = std::chrono::steady_clock::now();
   TFile* f;
   if (do_cp_to_scratch) {
@@ -86,7 +86,7 @@ void analysim(const char* input_file, const char* tree_name, bool do_cp_to_scrat
       std::cerr << "Unable to open " << file << std::endl;
     }
   } else {
-    f = TFile::Open(input_file);
+    f = TFile::Open(input_file.c_str());
     if (f == 0) {
       std::cerr << "Unable to open " << input_file << std::endl;
     }
@@ -123,12 +123,18 @@ void analysim(const char* input_file, const char* tree_name, bool do_cp_to_scrat
   auto end = std::chrono::steady_clock::now();
   std::chrono::duration<double> time = end - begin;
 
+  char hostname[HOST_NAME_MAX];
+  gethostname(hostname, HOST_NAME_MAX);
+
+
   std::cout << std::boolalpha
     << filesize(input_file) << ","
     << time.count() << ","
     << do_cp_to_scratch << ","
     << filesystem(input_file) << ","
     << max_branches << ","
-    << actually_process
+    << actually_process << ","
+    << hostname << ","
+    << input_file.substr(input_file.find_last_of("/")+1)
     << std::endl;
 }
