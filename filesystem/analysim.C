@@ -28,6 +28,13 @@ std::string filesystem(std::string filename) {
 }
 
 /**
+ * Do a system cp, return true if successful
+ */
+bool cp(std::string src, std::string dest) {
+  return (system("cp "+src+" "+dest+" && sync") == 0);
+}
+
+/**
  * copy a file to scratch, return the new filepath to read from
  *
  * return empty string if failed to copy
@@ -36,9 +43,7 @@ std::string cp_to_scratch(std::string filename) {
   std::ifstream src(filename, std::ios::binary);
   std::string destname = filename.substr(filename.find_last_of("/")+1);
   destname = "/export/scratch/users/eichl008/"+destname;
-  std::ofstream dest(destname, std::ios::binary);
-  dest << src.rdbuf();
-  if (src and dest) {
+  if (cp(src, destname)) { 
     // successful copy
     return destname;
   } else {
