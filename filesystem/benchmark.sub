@@ -33,10 +33,12 @@ requirements = Machine != "zebra01.spa.umn.edu"    && \
                Machine != "scorpion1.spa.umn.edu"  && \
                Machine != "scorpion3.spa.umn.edu"  && \
                Machine != "scorpion5.spa.umn.edu"  && \
+               Machine != "scorpion6.spa.umn.edu"  && \
                Machine != "scorpion7.spa.umn.edu"  && \
                Machine != "scorpion9.spa.umn.edu"  && \
                Machine != "scorpion10.spa.umn.edu" && \
                Machine != "scorpion11.spa.umn.edu" && \
+               Machine != "scorpion12.spa.umn.edu" && \
                Machine != "scorpion13.spa.umn.edu" && \
                Machine != "scorpion14.spa.umn.edu" && \
                Machine != "scorpion15.spa.umn.edu" && \
