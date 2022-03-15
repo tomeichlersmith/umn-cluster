@@ -9,32 +9,13 @@ universe     = vanilla
 nice_user    = yes
 local        = /local/cms/user/eichl008
 # prevent file system overloading, helps keep read-requests ordered
-next_job_start_delay = 5
+next_job_start_delay = 1
 
 # requirements on runner
 requirements = Machine != "zebra01.spa.umn.edu"    && \
                Machine != "zebra02.spa.umn.edu"    && \
                Machine != "zebra03.spa.umn.edu"    && \
-               Machine != "zebra04.spa.umn.edu"    && \
-               Machine != "scorpion1.spa.umn.edu"  && \
-               Machine != "scorpion3.spa.umn.edu"  && \
-               Machine != "scorpion5.spa.umn.edu"  && \
-               Machine != "scorpion6.spa.umn.edu"  && \
-               Machine != "scorpion7.spa.umn.edu"  && \
-               Machine != "scorpion9.spa.umn.edu"  && \
-               Machine != "scorpion10.spa.umn.edu" && \
-               Machine != "scorpion11.spa.umn.edu" && \
-               Machine != "scorpion12.spa.umn.edu" && \
-               Machine != "scorpion13.spa.umn.edu" && \
-               Machine != "scorpion14.spa.umn.edu" && \
-               Machine != "scorpion15.spa.umn.edu" && \
-               Machine != "scorpion17.spa.umn.edu" && \
-               Machine != "scorpion18.spa.umn.edu" && \
-               Machine != "scorpion21.spa.umn.edu" && \
-               Machine != "scorpion22.spa.umn.edu" && \
-               Machine != "scorpion23.spa.umn.edu" && \
-               Machine != "scorpion24.spa.umn.edu" && \
-               Machine != "scorpion48.spa.umn.edu"
+               Machine != "zebra04.spa.umn.edu"
 
 # hold a job if it exits with a non-zero exit status
 on_exit_hold = ExitCode != 0
