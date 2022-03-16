@@ -84,11 +84,13 @@ void analysim(std::string input_file, const char* tree_name, bool do_cp_to_scrat
     f = TFile::Open(file.c_str());
     if (f == 0) {
       std::cerr << "Unable to open " << file << std::endl;
+      return;
     }
   } else {
     f = TFile::Open(input_file.c_str());
     if (f == 0) {
       std::cerr << "Unable to open " << input_file << std::endl;
+      return;
     }
   }
   if (actually_process) {
@@ -125,7 +127,6 @@ void analysim(std::string input_file, const char* tree_name, bool do_cp_to_scrat
 
   char hostname[HOST_NAME_MAX];
   gethostname(hostname, HOST_NAME_MAX);
-
 
   std::cout << std::boolalpha
     << filesize(input_file) << ","
