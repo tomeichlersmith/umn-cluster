@@ -31,7 +31,8 @@ std::string filesystem(const std::string& filename) {
  * Do a system cp, return true if successful
  */
 bool cp(const std::string& src, const std::string& dest) {
-  std::string cmd{"cp "+src+" "+dest+" && sync"};
+  std::string destdir = dest.substr(0,dest.find_last_of("/"));
+  std::string cmd{"mkdir -p "+destdir+" && cp "+src+" "+dest+" && sync"};
   return (system(cmd.c_str()) == 0);
 }
 
