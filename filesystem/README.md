@@ -49,6 +49,34 @@ condor_submit max_branches=N cp_to_scratch=yes benchmark.sub # hdfs to scratch
 condor_submit max_branches=N zfs=yes benchmark.sub # zfs via nfs remote
 condor_submit max_branches=N zfs=yes cp_to_scratch=yes benchmark.sub # zfs via nfs to scratch
 ```
+Additional situations to include.
+```
+condor_submit zfs=yes cp_to_scratch=yes no_proc=yes benchmark.sub # just do the copy to scratch
+```
+We've settled into two values of `max_branches` `-1` to test the maximum analysis where all branches are necessary and `50` to test and average analysis were a large subset is required. 
+This means to rerun _all_ of the benchmark tests, you need to submit the following 9 clusters of jobs.
+```
+condor_submit max_branches=-1 benchmark.sub # hdfs remote
+condor_submit max_branches=-1 cp_to_scratch=yes benchmark.sub # hdfs to scratch
+condor_submit max_branches=-1 zfs=yes benchmark.sub # zfs via nfs remote
+condor_submit max_branches=-1 zfs=yes cp_to_scratch=yes benchmark.sub # zfs via nfs to scratch
+condor_submit max_branches=50 benchmark.sub # hdfs remote
+condor_submit max_branches=50 cp_to_scratch=yes benchmark.sub # hdfs to scratch
+condor_submit max_branches=50 zfs=yes benchmark.sub # zfs via nfs remote
+condor_submit max_branches=50 zfs=yes cp_to_scratch=yes benchmark.sub # zfs via nfs to scratch
+condor_submit zfs=yes cp_to_scratch=yes no_proc=yes benchmark.sub # just do the copy to scratch
+```
+
+In addition, we can check the load on the ZFS disks without interference from the variable disks holding the scratch space
+by copying the file to `/dev/null`.
+```
+condor_submit cp_dev_null.sub
+```
+The output of these jobs is different from `benchmark.sub` and requires a bit more manipulation.
+```
+find output/ -type f -exec head -n 1 {} ';' | cut -d ' ' -f 2 | sed 's/system/,<delay-time>/' >> cp_dev_null.csv
+```
+where `<delay-time>` is the value of the `next_job_start_delay` parameter in `cp_dev_null.sub`.
 
 ### Important Note
 A **big** parameter is the `next_job_start_delay` parameter. 
@@ -75,9 +103,9 @@ To help parse the logs, the table below lists the runs that were submitted in cl
 Run | Submission Time | Last Job Completed
 ----|-----------------|-------------------
 HDFS All Branches Remote | 2/18 13:35 | 2/18 17:11
-HDFS All Branches Local  | 2/19 09:32 | 2/19 12:21
+HDFS All Branches cp to scratch  | 2/19 09:32 | 2/19 12:21
 ZFS All Branches Remote  | 2/25 10:12 | 2/25 13:57
-ZFS All Branches Local   | NA | NA
+ZFS All Branches cp to scratch   | NA | NA
 
 **Note**: The logs were generated using a python script reading the ROOT files via the python bindings. 
 This was expected to be slow, so I am repeating the jobs with the ROOT macro.
@@ -88,5 +116,5 @@ when using `SetBranchStatus` instead of constructing/deleting Python objects on 
 The ROOT macro analysim.C prints out the resulting CSV row at the end of processing;
 therefore, we can grab the last line of the output files and append them to the merged data file.
 ```
-find . -maxdepth 1 -type f -name "*.out" -exec tail -n 1 {} ';' | grep -v "Processing" >> data.csv
+find output/ -type f -name "*.out" -exec tail -n 1 {} ';' | grep -v "Processing" >> data.csv
 ```
