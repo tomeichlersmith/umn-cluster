@@ -16,6 +16,9 @@ Administrated and maintained by HEP students.
   - [hadoop HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
     - Not very feasible given the age of our cluster hardware
     - need some performance research, **can a medium cluster operate effectively on more simplified storage solution?**
+  - Higher performance scratch disks
+    - Separate partition/mount for system caches so that users don't prevent CVMFS/related from using necessary cache area
+    - (money alert) upgrade dozen(ish) scorpions with scratch space < 10GB
 - Admin Config Manager
   - [Ansible](https://docs.ansible.com/) for ease of use
   - ~[Puppet](https://puppet.com/docs/)~ ruled out due to complexity
