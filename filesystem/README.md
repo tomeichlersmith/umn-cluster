@@ -44,7 +44,8 @@ Parameter | Description
 ### Batch of Clusters
 Running the following will get a survey of the 4 different situations given that you want to be reading N branches.
 The `priority` argument is one provided by HTCondor allowing us to order the jobs in the intended sequence.
-Higher priority means that those jobs will be run first.
+Higher priority means that those jobs will be run first, so we can keep the different situations separated 
+from one another for the purposes of testing.
 ```
 condor_submit priority=4 max_branches=N benchmark.sub # hdfs remote
 condor_submit priority=3 max_branches=N cp_to_scratch=yes benchmark.sub # hdfs to scratch
