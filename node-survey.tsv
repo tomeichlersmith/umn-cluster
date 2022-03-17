@@ -52,22 +52,22 @@
  gopher-12-1	   24	47 GB	  yes	 yes	   865G	  no	Scientific Linux release 6.10 (Carbon)
  gopher-12-2	   24	47 GB	  yes	 yes	   407G	  no	Scientific Linux release 6.10 (Carbon)
  gopher-12-3	   24	47 GB	  yes	 yes	   407G	  no	Scientific Linux release 6.10 (Carbon)
- gopher-12-4	can't connect
+ gopher-12-4	   NA	   NA	   NA	  NA	     NA	  NA	NA
    scorpion1	   16	23 GB	  yes	 yes	   9.8G	 yes	CentOS Linux release 7.9.2009 (Core)
    scorpion2	   16	23 GB	  yes	 yes	   780G	 yes	CentOS Linux release 7.9.2009 (Core)
    scorpion3	   16	23 GB	  yes	 yes	   9.8G	 yes	CentOS Linux release 7.8.2003 (Core)
    scorpion4	   16	23 GB	  yes	 yes	    93G	 yes	CentOS Linux release 7.8.2003 (Core)
    scorpion5	   16	23 GB	  yes	 yes	   9.8G	 yes	CentOS Linux release 7.8.2003 (Core)
    scorpion6	   16	23 GB	  yes	 yes	   9.8G	 yes	CentOS Linux release 7.9.2009 (Core)
-   scorpion7	can't connect
+   scorpion7	   NA	   NA	   NA	  NA	     NA	  NA	NA
    scorpion8	   16	23 GB	  yes	 yes	    93G	 yes	CentOS Linux release 7.9.2009 (Core)
    scorpion9	   16	23 GB	  yes	 yes	   9.8G	 yes	CentOS Linux release 7.9.2009 (Core)
-  scorpion10	can't connect
+  scorpion10	   NA	   NA	   NA	  NA	     NA	  NA	NA
   scorpion11	   16	23 GB	  yes	 yes	   9.8G	 yes	CentOS Linux release 7.9.2009 (Core)
   scorpion12	   16	23 GB	  yes	 yes	   9.8G	 yes	CentOS Linux release 7.9.2009 (Core)
-  scorpion13	can't connect
+  scorpion13	   NA	   NA	   NA	  NA	     NA	  NA	NA
   scorpion14	   16	23 GB	  yes	 yes	   9.8G	 yes	CentOS Linux release 7.9.2009 (Core)
-  scorpion15	can't connect
+  scorpion15	   NA	   NA	   NA	  NA	     NA	  NA	NA
   scorpion16	   16	23 GB	  yes	 yes	   551G	 yes	CentOS Linux release 7.9.2009 (Core)
   scorpion17	   16	23 GB	  yes	 yes	   9.8G	 yes	CentOS Linux release 7.9.2009 (Core)
   scorpion18	   16	23 GB	  yes	 yes	    12G	 yes	CentOS Linux release 7.9.2009 (Core)
@@ -100,7 +100,7 @@
   scorpion45	   16	23 GB	  yes	 yes	   322G	 yes	CentOS Linux release 7.9.2009 (Core)
   scorpion46	   16	23 GB	  yes	 yes	   322G	 yes	CentOS Linux release 7.9.2009 (Core)
   scorpion47	   16	23 GB	  yes	 yes	   322G	 yes	CentOS Linux release 7.9.2009 (Core)
-  scorpion48	can't connect
+  scorpion48	   NA	   NA	   NA	  NA	     NA	  NA	NA
      zebra01	   16	23 GB	  yes	 yes	   3.6T	 yes	CentOS Linux release 7.9.2009 (Core)
      zebra02	   16	23 GB	  yes	 yes	   3.6T	 yes	CentOS Linux release 7.9.2009 (Core)
      zebra03	   16	23 GB	  yes	 yes	   3.6T	 yes	CentOS Linux release 7.9.2009 (Core)
@@ -108,14 +108,14 @@
    spa-cdms2	   24	46 GB	  yes	 yes	   769G	 yes	CentOS Linux release 7.9.2009 (Core)
    twins-a07	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-a08	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
-   twins-a09	can't connect
+   twins-a09	   NA	   NA	   NA	  NA	     NA	  NA	NA
    twins-a10	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-a11	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-a12	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-a13	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-a14	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-a15	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
-   twins-a16	can't connect
+   twins-a16	   NA	   NA	   NA	  NA	     NA	  NA	NA
    twins-a17	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-a18	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-a19	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
@@ -127,14 +127,14 @@
    twins-b01	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-b02	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-b03	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
-   twins-b04	can't connect
+   twins-b04	   NA	   NA	   NA	  NA	     NA	  NA	NA
    twins-b05	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-b06	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
-   twins-b07	can't connect
+   twins-b07	   NA	   NA	   NA	  NA	     NA	  NA	NA
    twins-b08	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
-   twins-b09	can't connect
-   twins-b10	can't connect
-   twins-b11	can't connect
+   twins-b09	   NA	   NA	   NA	  NA	     NA	  NA	NA
+   twins-b10	   NA	   NA	   NA	  NA	     NA	  NA	NA
+   twins-b11	   NA	   NA	   NA	  NA	     NA	  NA	NA
    twins-b12	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-b13	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-b14	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
@@ -143,7 +143,7 @@
    twins-b17	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-b18	   16	23 GB	  yes	 yes	   419G	  no	Scientific Linux release 6.10 (Carbon)
    twins-b19	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
-   twins-b20	can't connect
+   twins-b20	   NA	   NA	   NA	  NA	     NA	  NA	NA
    twins-b21	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-b22	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
    twins-b23	   16	23 GB	  yes	 yes	   107G	  no	Scientific Linux release 6.10 (Carbon)
