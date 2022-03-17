@@ -72,7 +72,7 @@ std::string cp_to_scratch(const std::string& filename) {
  * to the terminal. This can be captured by condor's 'output' command and then concatenated into
  * one CSV file with all the jobs for later analysis.
  */
-void analysim(std::string input_file, const char* tree_name, bool do_cp_to_scratch, int max_branches, bool actually_process) {
+int analysim(std::string input_file, const char* tree_name, bool do_cp_to_scratch, int max_branches, bool actually_process) {
   auto begin = std::chrono::steady_clock::now();
   TFile* f;
   if (do_cp_to_scratch) {
@@ -80,22 +80,26 @@ void analysim(std::string input_file, const char* tree_name, bool do_cp_to_scrat
     auto file = cp_to_scratch(input_file);
     if (file.empty()) {
       std::cerr << "Unable to cp " << input_file << " to scratch" << std::endl;
-      return;
+      return 1;
     }
     f = TFile::Open(file.c_str());
     if (f == 0) {
       std::cerr << "Unable to open " << file << std::endl;
-      return;
+      return 2;
     }
   } else {
     f = TFile::Open(input_file.c_str());
     if (f == 0) {
       std::cerr << "Unable to open " << input_file << std::endl;
-      return;
+      return 3;
     }
   }
   if (actually_process) {
     auto t = (TTree*)f->Get(tree_name);
+    if (t == 0) {
+      std::cerr << "No TTree named " << tree_name << std::endl;
+      return 4;
+    }
     long long int size = t->GetEntriesFast();
     if (max_branches < 0) {
       // activate all branches
@@ -120,7 +124,7 @@ void analysim(std::string input_file, const char* tree_name, bool do_cp_to_scrat
     // perform system delete
     if (remove(f->GetName()) != 0) {
       std::cerr << "Could not delete " << f->GetName() << std::endl;
-      return;
+      return 5;
     }
   }
   auto end = std::chrono::steady_clock::now();
@@ -139,4 +143,5 @@ void analysim(std::string input_file, const char* tree_name, bool do_cp_to_scrat
     << hostname << ","
     << input_file.substr(input_file.find_last_of("/")+1)
     << std::endl;
+  return 0;
 }
