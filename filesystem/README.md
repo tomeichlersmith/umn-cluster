@@ -13,7 +13,7 @@ I forsee two different methods for reading a file within a single job.
 2. Copy the file to local scratch space before processing
 
 Both of these reading methods also could be used on both of the different FS options, so we have four test cases.
-1. Read direct on ZFS
+1. Read direct on ZFS - so slow upon early tests, we will not always include this case in more refined testing
 2. Copy from ZFS and then read local
 3. Read direct on HDFS
 4. Copy from HDFS and then read local
@@ -44,33 +44,42 @@ Parameter | Description
 ### Batch of Clusters
 Running the following will get a survey of the 4 different situations given that you want to be reading N branches.
 The `priority` argument is one provided by HTCondor allowing us to order the jobs in the intended sequence.
-Higher priority means that those jobs will be run first, so we can keep the different situations separated 
-from one another for the purposes of testing.
+After trying to run with this design, we still observed some overlapping between the different "clusters" of jobs,
+so we will _not_ use `priority` and instead run clusters of jobs separately manually.
+With 818 jobs and a 5s start delay between them, the clusters will have a _minimum_ run time of 68 minutes.
 ```
-condor_submit priority=4 max_branches=N benchmark.sub # hdfs remote
-condor_submit priority=3 max_branches=N cp_to_scratch=yes benchmark.sub # hdfs to scratch
-condor_submit priority=2 max_branches=N zfs=yes benchmark.sub # zfs via nfs remote
-condor_submit priority=1 max_branches=N zfs=yes cp_to_scratch=yes benchmark.sub # zfs via nfs to scratch
+condor_submit max_branches=N benchmark.sub # hdfs remote
+condor_submit max_branches=N cp_to_scratch=yes benchmark.sub # hdfs to scratch
+condor_submit max_branches=N zfs=yes benchmark.sub # zfs via nfs remote, very intensive on /local/, may omit
+condor_submit max_branches=N zfs=yes cp_to_scratch=yes benchmark.sub # zfs via nfs to scratch
 ```
 Additional situations to include.
 ```
 condor_submit zfs=yes cp_to_scratch=yes no_proc=yes benchmark.sub # just do the copy to scratch
 ```
-We've settled into two values of `max_branches` `-1` to test the maximum analysis where all branches are necessary and `50` to test and average analysis were a large subset is required. 
-This means to rerun _all_ of the benchmark tests, you need to submit the following 9 clusters of jobs.
-We use priority to make sure that these clusters don't ever overlap during running.
+We've settled into two values of `max_branches`, `-1` to test the maximum analysis where all branches are necessary 
+and `50` to test an average analysis were a large subset is required. 
+This means to rerun _all_ of the benchmark tests, you need to submit the following 7 clusters of jobs.
+**Make sure one "cluster" completes before you submit the next "cluster".**
 ```
-condor_submit priority=9 max_branches=-1 benchmark.sub # hdfs remote
-condor_submit priority=8 max_branches=-1 cp_to_scratch=yes benchmark.sub # hdfs to scratch
-condor_submit priority=7 max_branches=-1 zfs=yes benchmark.sub # zfs via nfs remote
-condor_submit priority=6 max_branches=-1 zfs=yes cp_to_scratch=yes benchmark.sub # zfs via nfs to scratch
-condor_submit priority=5 max_branches=50 benchmark.sub # hdfs remote
-condor_submit priority=4 max_branches=50 cp_to_scratch=yes benchmark.sub # hdfs to scratch
-condor_submit priority=3 max_branches=50 zfs=yes benchmark.sub # zfs via nfs remote
-condor_submit priority=2 max_branches=50 zfs=yes cp_to_scratch=yes benchmark.sub # zfs via nfs to scratch
-condor_submit priority=1 zfs=yes cp_to_scratch=yes no_proc=yes benchmark.sub # just do the copy to scratch
+condor_submit max_branches=-1 benchmark.sub # hdfs remote
+condor_submit max_branches=-1 cp_to_scratch=yes benchmark.sub # hdfs to scratch
+condor_submit max_branches=-1 zfs=yes cp_to_scratch=yes benchmark.sub # zfs via nfs to scratch
+condor_submit max_branches=50 benchmark.sub # hdfs remote
+condor_submit max_branches=50 cp_to_scratch=yes benchmark.sub # hdfs to scratch
+condor_submit max_branches=50 zfs=yes cp_to_scratch=yes benchmark.sub # zfs via nfs to scratch
+condor_submit zfs=yes cp_to_scratch=yes no_proc=yes benchmark.sub # just do the copy to scratch
 ```
 
+### Converting ROOT macro output to CSV
+The ROOT macro analysim.C prints out the resulting CSV row at the end of processing.
+It is the only line (errors or no errors) that begins with a numeric digi, so we can
+```
+grep -ohr '^[0-9].*' output/ >> data.csv
+```
+`-o` prints only matching pattern, `-h` suppresses the file name, and `-r` recursively goes through directories provided.
+
+### Copying to /dev/null
 In addition, we can check the load on the ZFS disks without interference from the variable disks holding the scratch space
 by copying the file to `/dev/null`.
 ```
@@ -116,9 +125,3 @@ This was expected to be slow, so I am repeating the jobs with the ROOT macro.
 Local testing does show a pretty good speed improvement when using a ROOT macro (or similar speed improvement
 when using `SetBranchStatus` instead of constructing/deleting Python objects on each loop).
 
-## Converting ROOT macro output to CSV
-The ROOT macro analysim.C prints out the resulting CSV row at the end of processing;
-therefore, we can grab the last line of the output files and append them to the merged data file.
-```
-find output/ -type f -name "*.out" -exec tail -n 1 {} ';' | grep -v "Processing" >> data.csv
-```
