@@ -23,7 +23,7 @@ universe     = vanilla
 nice_user    = yes
 local        = /local/cms/user/eichl008
 # prevent file system overloading, helps keep read-requests ordered
-next_job_start_delay = 5
+next_job_start_delay = 10
 
 # requirements on runner
 requirements = Machine != "zebra01.spa.umn.edu"    && \
