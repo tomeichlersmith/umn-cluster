@@ -1,0 +1,42 @@
+# cp_dev_null.sub - submit description file for FS benchmarking
+#
+# USAGE:
+#   condor_submit cp_dev_null.sub
+
+# general definitions, same for all UMN submit scripts
+universe     = vanilla
++CondorGroup = "cmsfarm"
+nice_user    = yes
+local        = /local/cms/user/eichl008
+# prevent file system overloading, helps keep read-requests ordered
+next_job_start_delay = 1
+
+# requirements on runner
+requirements = Machine != "zebra01.spa.umn.edu"    && \
+               Machine != "zebra02.spa.umn.edu"    && \
+               Machine != "zebra03.spa.umn.edu"    && \
+               Machine != "zebra04.spa.umn.edu"
+
+# hold a job if it exits with a non-zero exit status
+on_exit_hold = ExitCode != 0
+on_exit_hold_subcode = ExitCode
+on_exit_hold_reason  = "Script exited with non-zero exit code (code in HoldReasonSubCode)"
+
+# executable we are running
+executable = $(local)/umn-server/filesystem/dd.sh
+transfer_executable = no
+
+# command line arguments to executable
+arguments  = "$(datafile)"
+
+# requires output directory to be already created
+job_name = output/$(Cluster)-$(Process)
+output = $(job_name).out
+error  = $(job_name).out
+if defined debug
+  log    = $(job_name).log
+endif
+should_transfer_files   = yes
+when_to_transfer_output = on_exit
+
+queue datafile matching files $(local)/bench_filesystem/**.root
