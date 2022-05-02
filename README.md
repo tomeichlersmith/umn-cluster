@@ -7,6 +7,8 @@ Administrated and maintained by HEP students.
 - OS
   - Stable, CERN has not made a public decision on future of CentOS ==> go more mainstream?
   - Ubuntu or Fedora?
+  - [Rocky Linux](https://rockylinux.org/)
+    - [Installation docs](https://docs.rockylinux.org/guides/installation/)
 - Auth
   - VAS and AD using IDs from central IT
   - LDAP retired by central IT, would mean we'd need to handle our own auth ==> recipe for disaster
