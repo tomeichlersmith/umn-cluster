@@ -9,8 +9,12 @@ Administrated and maintained by HEP students.
   - Ubuntu or Fedora?
   - [Rocky Linux](https://rockylinux.org/)
     - [Installation docs](https://docs.rockylinux.org/guides/installation/)
+  - **Needs driver support for hard disk controllers used in R410 computers**
+    - Chad discovered that RedHat 8.5 variants _do not_ have these drivers and require a hacky workaround
+    - Proprietary cables could be used to rewire the disks to use the onboard SATA connections
 - Auth
   - VAS and AD using IDs from central IT
+  - General confirmation from Keith Mein that Self Managed machines (us) could be allowed into the domain
   - LDAP retired by central IT, would mean we'd need to handle our own auth ==> recipe for disaster
 - [Filesystem](filesystem) and storage
   - ZFS for some storage and larger home directories
@@ -18,6 +22,7 @@ Administrated and maintained by HEP students.
   - [hadoop HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
     - Not very feasible given the age of our cluster hardware
     - need some performance research, **can a medium cluster operate effectively on more simplified storage solution?**
+    - would require a rebuild from scratch since such a large portion of HDFS is using such an old OS (SL6)
   - Higher performance scratch disks
     - Separate partition/mount for system caches so that users don't prevent CVMFS/related from using necessary cache area
     - (money alert) upgrade dozen(ish) scorpions with scratch space < 10GB
@@ -50,6 +55,9 @@ These goals are not necessarily "removed", but will not be primary goals.
   - Chad and I talked, we don't think this is feasible
   - OSG Compute Entrypoint [Request](https://opensciencegrid.org/docs/compute-element/hosted-ce/)
   - Perhaps a "Tier-3 in a box" solution?
+  - OSG 3.3 not available for download anymore
+  - Current OSG system relies upon VMs running on SPA's vsphere servers which are reaching end of life
+    - `gc-1se`,`gc2-ce`,`gc2-hn`,`hadoop-nfs`,`morpheus` (Phedex)
 - Connect to LDCS?
   - [ARC Client Tools](https://www.nordugrid.org/arc/arc6/users/client_install.html)
   - Ask Florido (ARC dev and Lund sysadmin) for advice on setup
