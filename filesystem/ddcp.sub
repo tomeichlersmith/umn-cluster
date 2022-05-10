@@ -1,7 +1,7 @@
-# cp_dev_null.sub - submit description file for FS benchmarking
+# ddcp.sub - submit description file for FS benchmarking
 #
 # USAGE:
-#   condor_submit cp_dev_null.sub
+#   condor_submit ddcp.sub
 
 # general definitions, same for all UMN submit scripts
 universe     = vanilla

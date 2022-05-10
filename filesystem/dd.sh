@@ -17,6 +17,6 @@ fi
 
 _filename=$(basename ${_file})
 
-if time dd bs=5M if=${_file} of=${_scratch}/${_filename}; then
+if /usr/bin/time dd bs=5M if=${_file} of=${_scratch}/${_filename}; then
   rm ${_scratch}/${_filename}
 fi
