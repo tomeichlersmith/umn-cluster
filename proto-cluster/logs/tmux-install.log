@@ -1,0 +1,32 @@
+Last metadata expiration check: 0:06:19 ago on Thu 12 May 2022 05:07:30 PM EDT.
+Dependencies resolved.
+================================================================================
+ Package         Architecture      Version              Repository         Size
+================================================================================
+Installing:
+ tmux            x86_64            2.7-1.el8            baseos            315 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 315 k
+Installed size: 726 k
+Is this ok [y/N]: Downloading Packages:
+tmux-2.7-1.el8.x86_64.rpm                       1.1 MB/s | 315 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           932 kB/s | 315 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Installing       : tmux-2.7-1.el8.x86_64                                  1/1 
+  Running scriptlet: tmux-2.7-1.el8.x86_64                                  1/1 
+  Verifying        : tmux-2.7-1.el8.x86_64                                  1/1 
+
+Installed:
+  tmux-2.7-1.el8.x86_64                                                         
+
+Complete!
