@@ -1,0 +1,67 @@
+Last metadata expiration check: 0:40:42 ago on Thu 12 May 2022 05:07:30 PM EDT.
+Dependencies resolved.
+================================================================================
+ Package             Arch       Version                     Repository     Size
+================================================================================
+Installing:
+ gcc                 x86_64     8.5.0-4.el8_5               appstream      23 M
+Installing dependencies:
+ cpp                 x86_64     8.5.0-4.el8_5               appstream      10 M
+ glibc-devel         x86_64     2.28-164.el8_5.3            baseos        1.0 M
+ glibc-headers       x86_64     2.28-164.el8_5.3            baseos        479 k
+ isl                 x86_64     0.16.1-6.el8                appstream     834 k
+ kernel-headers      x86_64     4.18.0-348.23.1.el8_5       baseos        8.3 M
+ libxcrypt-devel     x86_64     4.1.1-6.el8                 baseos         24 k
+
+Transaction Summary
+================================================================================
+Install  7 Packages
+
+Total download size: 44 M
+Installed size: 98 M
+Is this ok [y/N]: Downloading Packages:
+(1/7): isl-0.16.1-6.el8.x86_64.rpm              1.6 MB/s | 834 kB     00:00    
+(2/7): glibc-devel-2.28-164.el8_5.3.x86_64.rpm  2.6 MB/s | 1.0 MB     00:00    
+(3/7): glibc-headers-2.28-164.el8_5.3.x86_64.rp 1.6 MB/s | 479 kB     00:00    
+(4/7): cpp-8.5.0-4.el8_5.x86_64.rpm             5.9 MB/s |  10 MB     00:01    
+(5/7): libxcrypt-devel-4.1.1-6.el8.x86_64.rpm   137 kB/s |  24 kB     00:00    
+(6/7): kernel-headers-4.18.0-348.23.1.el8_5.x86 7.0 MB/s | 8.3 MB     00:01    
+(7/7): gcc-8.5.0-4.el8_5.x86_64.rpm             6.8 MB/s |  23 MB     00:03    
+--------------------------------------------------------------------------------
+Total                                            13 MB/s |  44 MB     00:03     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Installing       : kernel-headers-4.18.0-348.23.1.el8_5.x86_64            1/7 
+  Running scriptlet: glibc-headers-2.28-164.el8_5.3.x86_64                  2/7 
+  Installing       : glibc-headers-2.28-164.el8_5.3.x86_64                  2/7 
+  Installing       : libxcrypt-devel-4.1.1-6.el8.x86_64                     3/7 
+  Installing       : glibc-devel-2.28-164.el8_5.3.x86_64                    4/7 
+  Running scriptlet: glibc-devel-2.28-164.el8_5.3.x86_64                    4/7 
+  Installing       : isl-0.16.1-6.el8.x86_64                                5/7 
+  Running scriptlet: isl-0.16.1-6.el8.x86_64                                5/7 
+  Installing       : cpp-8.5.0-4.el8_5.x86_64                               6/7 
+  Running scriptlet: cpp-8.5.0-4.el8_5.x86_64                               6/7 
+  Installing       : gcc-8.5.0-4.el8_5.x86_64                               7/7 
+  Running scriptlet: gcc-8.5.0-4.el8_5.x86_64                               7/7 
+  Verifying        : cpp-8.5.0-4.el8_5.x86_64                               1/7 
+  Verifying        : gcc-8.5.0-4.el8_5.x86_64                               2/7 
+  Verifying        : isl-0.16.1-6.el8.x86_64                                3/7 
+  Verifying        : glibc-devel-2.28-164.el8_5.3.x86_64                    4/7 
+  Verifying        : glibc-headers-2.28-164.el8_5.3.x86_64                  5/7 
+  Verifying        : kernel-headers-4.18.0-348.23.1.el8_5.x86_64            6/7 
+  Verifying        : libxcrypt-devel-4.1.1-6.el8.x86_64                     7/7 
+
+Installed:
+  cpp-8.5.0-4.el8_5.x86_64                                                      
+  gcc-8.5.0-4.el8_5.x86_64                                                      
+  glibc-devel-2.28-164.el8_5.3.x86_64                                           
+  glibc-headers-2.28-164.el8_5.3.x86_64                                         
+  isl-0.16.1-6.el8.x86_64                                                       
+  kernel-headers-4.18.0-348.23.1.el8_5.x86_64                                   
+  libxcrypt-devel-4.1.1-6.el8.x86_64                                            
+
+Complete!

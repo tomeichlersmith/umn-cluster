@@ -1,0 +1,32 @@
+make: Entering directory '/home/eichl008/singularity/builddir'
+ GEN GO DEP /home/eichl008/singularity/builddir/starter.d
+ GEN GO DEP /home/eichl008/singularity/builddir/singularity.d
+ GEN /home/eichl008/singularity/scripts/go-generate
+ GO singularity
+    [+] GO_TAGS "containers_image_openpgp exclude_graphdriver_btrfs exclude_graphdriver_devicemapper sylog oci_engine singularity_engine fakeroot_engine apparmor selinux seccomp"
+ GEN etc/bash_completion.d/singularity
+ GEN singularity.conf from /usr/local/etc/singularity/singularity.conf
+ MAN usr/local/share/man/man1
+mkdir -p usr/local/share/man/man1
+ CNI PLUGIN dhcp
+ CNI PLUGIN host-local
+ CNI PLUGIN static
+ CNI PLUGIN bridge
+ CNI PLUGIN host-device
+ CNI PLUGIN ipvlan
+ CNI PLUGIN loopback
+ CNI PLUGIN macvlan
+ CNI PLUGIN ptp
+ CNI PLUGIN vlan
+ CNI PLUGIN bandwidth
+ CNI PLUGIN firewall
+ CNI PLUGIN portmap
+ CNI PLUGIN sbr
+ CNI PLUGIN tuning
+ CNI PLUGIN vrf
+ GO clean -cache
+ GO cmd/starter/c/starter
+ GO cmd/starter/c/starter-suid
+    [+] GO_TAGS "containers_image_openpgp exclude_graphdriver_btrfs exclude_graphdriver_devicemapper sylog singularity_engine fakeroot_engine apparmor selinux seccomp"
+ GEN /home/eichl008/singularity/scripts/go-test
+make: Leaving directory '/home/eichl008/singularity/builddir'

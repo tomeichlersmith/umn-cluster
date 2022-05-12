@@ -1,0 +1,36 @@
+make: Entering directory '/home/eichl008/singularity/builddir'
+ INSTALL /usr/local/bin/singularity
+ INSTALL /usr/local/etc/bash_completion.d/singularity
+ INSTALL /usr/local/etc/singularity/singularity.conf
+ INSTALL /usr/local/etc/singularity/remote.yaml
+ INSTALL /usr/local/share/man/man1
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/dhcp
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/host-local
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/static
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/bridge
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/host-device
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/ipvlan
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/loopback
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/macvlan
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/ptp
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/vlan
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/bandwidth
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/firewall
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/portmap
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/sbr
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/tuning
+ INSTALL CNI PLUGIN /usr/local/libexec/singularity/cni/vrf
+ INSTALL CNI CONFIGURATION FILES
+ INSTALL /usr/local/libexec/singularity/bin/starter
+ INSTALL /usr/local/var/singularity/mnt/session
+ INSTALL /usr/local/bin/run-singularity
+ INSTALL /usr/local/etc/singularity/capability.json
+ INSTALL /usr/local/etc/singularity/ecl.toml
+ INSTALL /usr/local/etc/singularity/seccomp-profiles/default.json
+ INSTALL /usr/local/etc/singularity/nvliblist.conf
+ INSTALL /usr/local/etc/singularity/rocmliblist.conf
+ INSTALL /usr/local/etc/singularity/cgroups/cgroups.toml
+ INSTALL /usr/local/etc/singularity/global-pgp-public
+ INSTALL SUID /usr/local/libexec/singularity/bin/starter-suid
+ DONE
+make: Leaving directory '/home/eichl008/singularity/builddir'

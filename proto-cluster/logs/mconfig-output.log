@@ -1,0 +1,101 @@
+Configuring for project `singularity-ce' with languages: C, Golang
+=> running pre-basechecks project specific checks ...
+=> running base system checks ...
+ checking: host C compiler... cc
+ checking: host C++ compiler... not found!
+ checking: host Go compiler (at least version 1.16)... /usr/local/go/bin/go
+ checking: host C compiler option -Wall... yes
+ checking: host C compiler option -Werror... yes
+ checking: host C compiler option -Wfatal-errors... yes
+ checking: host C compiler option -Wno-unknown-warning-option... yes
+ checking: host C compiler option -Wstrict-prototypes... yes
+ checking: host C compiler option -Wpointer-arith... yes
+ checking: host C compiler option -Wbad-function-cast... yes
+ checking: host C compiler option -Woverlength-strings... yes
+ checking: host C compiler option -Wframe-larger-than=2047... yes
+ checking: host C compiler option -Wno-sign-compare... yes
+ checking: host C compiler option -Wclobbered... yes
+ checking: host C compiler option -Wempty-body... yes
+ checking: host C compiler option -Wmissing-parameter-type... yes
+ checking: host C compiler option -Wtype-limits... yes
+ checking: host C compiler option -Wunused-parameter... yes
+ checking: host C compiler option -Wunused-but-set-parameter... yes
+ checking: host C compiler option -Wno-discarded-qualifiers... yes
+ checking: host C compiler option -Wno-incompatible-pointer-types... yes
+ checking: host C compiler option -pipe... yes
+ checking: host C compiler option -fmessage-length=0... yes
+ checking: host C compiler option -fPIC... yes
+ checking: host `ar' path... ar
+ checking: host `ld' path... ld
+ checking: host `ranlib' path... ranlib
+ checking: host `objcopy' path... objcopy
+ checking: target C compiler... cc
+ checking: target C++ compiler...  cannot compile test code!
+ checking: target `ar' path... ar
+ checking: target `ld' path... ld
+ checking: target `ranlib' path... ranlib
+ checking: target `objcopy' path... objcopy
+ checking: host compiles static binaries... no
+ checking: target compiles static binaries... no
+ checking: host os type... unix
+ checking: host architecture... x86_64
+ checking: target architecture... x86_64
+ checking: host architecture word size... 64
+ checking: target architecture word size... 64
+ checking: project version... 3.9.9
+ checking: project short version... 3.9.9
+=> running post-basechecks project specific checks ...
+ checking: namespace: CLONE_NEWPID... yes
+ checking: namespace: CLONE_FS... yes
+ checking: namespace: CLONE_NEWNS... yes
+ checking: namespace: CLONE_NEWUSER... yes
+ checking: namespace: CLONE_NEWIPC... yes
+ checking: namespace: CLONE_NEWNET... yes
+ checking: namespace: CLONE_NEWUTS... yes
+ checking: namespace: CLONE_NEWCGROUP... yes
+ checking: feature: NO_NEW_PRIVS... yes
+ checking: feature: MS_SLAVE... yes
+ checking: feature: MS_REC... yes
+ checking: feature: MS_PRIVATE... yes
+ checking: user capabilities... yes
+ checking: header linux/securebits.h... yes
+ checking: header linux/capability.h... yes
+ checking: libseccomp+headers... yes
+
+Finding paths to external executables.
+These paths are written into singularity.conf and can be overridden there.
+
+ checking: cryptsetup... yes (/usr/sbin/cryptsetup)
+ checking: go... yes (/usr/local/go/bin/go)
+ checking: ldconfig... yes (/usr/sbin/ldconfig)
+ checking: mksquashfs... yes (/usr/sbin/mksquashfs)
+ checking: nvidia-container-cli... no
+ checking: unsquashfs... yes (/usr/sbin/unsquashfs)
+
+=> generating fragments ...
+=> building Makefile ...
+=> generating singularity-ce.spec ...
+=> project singularity-ce setup with :
+    - host arch: x86_64
+    - host wordsize: 64-bit
+    - host C compiler: cc
+    - host Go compiler: /usr/local/go/bin/go
+    - host system: unix
+      ---
+    - target arch: x86_64
+    - target wordsize: 64-bit
+    - target C compiler: cc
+      ---
+    - config profile: release
+      ---
+    - SUID install: yes
+    - Network plugins: yes
+      ---
+    - verbose: no
+      ---
+    - cryptsetup: /usr/sbin/cryptsetup
+      ---
+    - version: 3.9.9
+=> /home/eichl008/singularity/builddir/Makefile ready, try:
+   $ cd /home/eichl008/singularity/builddir
+   $ make
