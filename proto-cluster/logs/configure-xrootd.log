@@ -1,0 +1,119 @@
+-- The C compiler identification is GNU 8.5.0
+-- The CXX compiler identification is GNU 8.5.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Looking for setresuid
+-- Looking for setresuid - found
+-- Looking for strlcpy
+-- Looking for strlcpy - not found
+-- Looking for fstatat
+-- Looking for fstatat - found
+-- Looking for sigwaitinfo
+-- Looking for sigwaitinfo - found
+-- Looking for shadow.h
+-- Looking for shadow.h - found
+-- Looking for getifaddrs
+-- Looking for getifaddrs - found
+-- Looking for getnameinfo
+-- Looking for getnameinfo - found
+-- Looking for getprotobyname_r
+-- Looking for getprotobyname_r - found
+-- Looking for gethostbyaddr_r
+-- Looking for gethostbyaddr_r - found
+-- Looking for sendfile
+-- Looking for sendfile - found
+-- Looking for crypt
+-- Looking for crypt - not found
+-- Looking for crypt in crypt
+-- Looking for crypt in crypt - found
+-- Looking for et/com_err.h
+-- Looking for et/com_err.h - found
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Check if compiler accepts -pthread
+-- Check if compiler accepts -pthread - yes
+-- Found Threads: TRUE  
+-- Performing Test HAVE_ATOMICS
+-- Performing Test HAVE_ATOMICS - Success
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB
+-- Performing Test HAVE_CXX_ATOMICS_WITHOUT_LIB - Success
+-- Found ZLIB: /usr/lib64/libz.so (found version "1.2.11") 
+-- Looking for uuid_generate_random in uuid
+-- Looking for uuid_generate_random in uuid - found
+-- Found uuid: /usr/include  
+-- Could NOT find READLINE (missing: READLINE_LIBRARY READLINE_INCLUDE_DIR) 
+-- Could NOT find TinyXml (missing: TINYXML_LIBRARIES TINYXML_INCLUDE_DIR) 
+-- Could NOT find LibXml2 (missing: LIBXML2_LIBRARY LIBXML2_INCLUDE_DIR) 
+-- Could NOT find systemd (missing: SYSTEMD_INCLUDE_DIRS SYSTEMD_LIBRARIES) 
+-- Could NOT find CURL (missing: CURL_LIBRARY CURL_INCLUDE_DIR) 
+-- Found OpenSSL: /usr/lib64/libssl.so;/usr/lib64/libcrypto.so  
+-- Looking for TLS_method
+-- Looking for TLS_method - found
+-- Looking for TLS_method
+-- Looking for TLS_method - found
+-- Looking for TLSv1_2_method
+-- Looking for TLSv1_2_method - found
+-- Looking for TLSv1_2_method
+-- Looking for TLSv1_2_method - found
+-- Looking for TLSv1_1_method
+-- Looking for TLSv1_1_method - found
+-- Looking for TLSv1_1_method
+-- Looking for TLSv1_1_method - found
+-- Looking for TLSv1_method
+-- Looking for TLSv1_method - found
+-- Looking for TLSv1_method
+-- Looking for TLSv1_method - found
+-- Looking for DH_compute_key_padded
+-- Looking for DH_compute_key_padded - found
+-- Looking for DH_compute_key_padded
+-- Looking for DH_compute_key_padded - found
+-- Found KERBEROS5: /usr/lib64/libkrb5.so;/usr/lib64/libcom_err.so  
+-- Could NOT find fuse (missing: FUSE_INCLUDE_DIR FUSE_LIBRARY) 
+-- Could NOT find Macaroons (missing: MACAROONS_INCLUDES MACAROONS_LIB) 
+-- Found PkgConfig: /usr/bin/pkg-config (found version "1.4.2") 
+-- Checking for module 'json-c'
+--   Package 'json-c', required by 'virtual:world', not found
+-- Checking for module 'uuid'
+--   Found uuid, version 2.32.1
+-- Could NOT find SciTokensCpp (missing: SCITOKENS_CPP_LIBRARIES SCITOKENS_CPP_INCLUDE_DIR) 
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.8", minimum required is "3") 
+-- Could NOT find PythonLibs (missing: PYTHON_LIBRARIES PYTHON_INCLUDE_DIRS) (Required is at least version "3")
+-- Could NOT find VOMS (missing: VOMS_LIBRARY VOMS_INCLUDE_DIR) 
+-- Could NOT find Davix (missing: Davix_LIBRARIES Davix_INCLUDE_DIRS) 
+-- Submodule update
+-- ----------------------------------------
+-- Installation path: /usr/local
+-- C Compiler:        /usr/bin/cc
+-- C++ Compiler:      /usr/bin/c++
+-- Build type:        RelWithDebInfo
+-- Plug-in version:   5
+-- 
+-- Readline support:  libs not found
+-- Fuse support:      disabled
+-- Crypto support:    yes
+-- Kerberos5 support: yes
+-- XrdCl:             yes
+-- XrdClHttp:         libs not found
+-- Tests:             disabled
+-- HTTP support:      yes
+-- HTTP TPC support:  disabled
+-- Macaroons support: disabled
+-- VOMS support:      disabled
+-- Python support:    disabled
+-- XrdEc:             disabled
+-- Macaroons:         disabled
+-- SciTokens:         disabled
+-- ----------------------------------------
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/eichl008/xrootd/build

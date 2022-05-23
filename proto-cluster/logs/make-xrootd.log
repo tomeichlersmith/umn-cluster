@@ -1,0 +1,636 @@
+[  0%] Built target XrdVersion.hh
+[  0%] Building CXX object src/CMakeFiles/XrdUtils.dir/XProtocol/XProtocol.cc.o
+[  1%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysDir.cc.o
+[  1%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysE2T.cc.o
+[  1%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysError.cc.o
+[  1%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysFAttr.cc.o
+[  1%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysFallocate.cc.o
+[  1%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysIOEvents.cc.o
+[  2%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysLogger.cc.o
+[  2%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysLogging.cc.o
+[  2%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysPlatform.cc.o
+[  2%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysPlugin.cc.o
+[  2%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysPriv.cc.o
+[  2%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysPthread.cc.o
+[  3%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysTimer.cc.o
+[  3%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysTrace.cc.o
+[  3%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysUtils.cc.o
+[  3%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysXAttr.cc.o
+[  3%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSys/XrdSysXSLock.cc.o
+[  3%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdTls/XrdTls.cc.o
+[  4%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdTls/XrdTlsContext.cc.o
+[  4%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdTls/XrdTlsNotary.cc.o
+[  4%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdTls/XrdTlsPeerCerts.cc.o
+[  4%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdTls/XrdTlsSocket.cc.o
+[  4%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdTls/XrdTlsTempCA.cc.o
+[  5%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCrypto/XrdCryptosslAux.cc.o
+[  5%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCrypto/XrdCryptosslX509.cc.o
+[  5%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCrypto/XrdCryptoX509.cc.o
+[  5%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCrypto/XrdCryptoX509Chain.cc.o
+[  5%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCrypto/XrdCryptosslRSA.cc.o
+[  5%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCrypto/XrdCryptoRSA.cc.o
+[  6%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCrypto/XrdCryptosslgsiAux.cc.o
+[  6%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCrypto/XrdCryptosslX509Req.cc.o
+[  6%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCrypto/XrdCryptoX509Req.cc.o
+[  6%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCrypto/XrdCryptoAux.cc.o
+[  6%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCrypto/XrdCryptosslX509Crl.cc.o
+[  6%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCrypto/XrdCryptoX509Crl.cc.o
+[  7%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOuca2x.cc.o
+[  7%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucArgs.cc.o
+[  7%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucBackTrace.cc.o
+[  7%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucBuffer.cc.o
+[  7%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucCache.cc.o
+[  8%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucCallBack.cc.o
+[  8%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucCRC.cc.o
+[  8%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucCRC32C.cc.o
+[  8%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucEnv.cc.o
+[  8%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucERoute.cc.o
+[  8%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucExport.cc.o
+[  9%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucFileInfo.cc.o
+[  9%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucGatherConf.cc.o
+[  9%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucGMap.cc.o
+[  9%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucHashVal.cc.o
+[  9%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucLogging.cc.o
+[  9%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucMsubs.cc.o
+[ 10%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucName2Name.cc.o
+[ 10%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucN2NLoader.cc.o
+[ 10%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucNList.cc.o
+[ 10%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucNSWalk.cc.o
+[ 10%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucPgrwUtils.cc.o
+[ 11%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucPinLoader.cc.o
+[ 11%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucPinPath.cc.o
+[ 11%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucPreload.cc.o
+[ 11%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucProg.cc.o
+[ 11%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucPsx.cc.o
+[ 11%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucPup.cc.o
+[ 12%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucReqID.cc.o
+[ 12%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucSHA3.cc.o
+[ 12%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucSid.cc.o
+[ 12%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucSiteName.cc.o
+[ 12%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucStream.cc.o
+[ 12%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucString.cc.o
+[ 13%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucSxeq.cc.o
+[ 13%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucTokenizer.cc.o
+[ 13%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucTPC.cc.o
+[ 13%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucTrace.cc.o
+[ 13%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucUri.cc.o
+[ 13%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucUtils.cc.o
+[ 14%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdOuc/XrdOucVerName.cc.o
+[ 14%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNet.cc.o
+[ 14%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetAddr.cc.o
+[ 14%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetAddrInfo.cc.o
+[ 14%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetBuffer.cc.o
+[ 15%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetCache.cc.o
+[ 15%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetCmsNotify.cc.o
+[ 15%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetConnect.cc.o
+[ 15%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetIdentity.cc.o
+[ 15%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetIF.cc.o
+[ 15%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetMsg.cc.o
+[ 16%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetPMark.cc.o
+[ 16%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetPMarkCfg.cc.o
+[ 16%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetPMarkFF.cc.o
+[ 16%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetRegistry.cc.o
+[ 16%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetSecurity.cc.o
+[ 16%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetSocket.cc.o
+[ 17%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdNet/XrdNetUtils.cc.o
+[ 17%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSut/XrdSutAux.cc.o
+[ 17%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSut/XrdSutPFCache.cc.o
+[ 17%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSut/XrdSutBucket.cc.o
+[ 17%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSut/XrdSutBuckList.cc.o
+[ 18%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSut/XrdSutBuffer.cc.o
+[ 18%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSut/XrdSutPFile.cc.o
+[ 18%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSut/XrdSutCacheEntry.cc.o
+[ 18%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSut/XrdSutPFEntry.cc.o
+[ 18%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSut/XrdSutRndm.cc.o
+[ 18%] Building CXX object src/CMakeFiles/XrdUtils.dir/Xrd/XrdBuffer.cc.o
+[ 19%] Building CXX object src/CMakeFiles/XrdUtils.dir/Xrd/XrdBuffXL.cc.o
+[ 19%] Building CXX object src/CMakeFiles/XrdUtils.dir/Xrd/XrdInet.cc.o
+[ 19%] Building CXX object src/CMakeFiles/XrdUtils.dir/Xrd/XrdInfo.cc.o
+[ 19%] Building CXX object src/CMakeFiles/XrdUtils.dir/Xrd/XrdLink.cc.o
+[ 19%] Building CXX object src/CMakeFiles/XrdUtils.dir/Xrd/XrdLinkCtl.cc.o
+[ 19%] Building CXX object src/CMakeFiles/XrdUtils.dir/Xrd/XrdLinkXeq.cc.o
+[ 20%] Building CXX object src/CMakeFiles/XrdUtils.dir/Xrd/XrdLinkMatch.cc.o
+[ 20%] Building CXX object src/CMakeFiles/XrdUtils.dir/Xrd/XrdGlobals.cc.o
+[ 20%] Building CXX object src/CMakeFiles/XrdUtils.dir/Xrd/XrdPoll.cc.o
+[ 20%] Building CXX object src/CMakeFiles/XrdUtils.dir/Xrd/XrdScheduler.cc.o
+[ 20%] Building CXX object src/CMakeFiles/XrdUtils.dir/Xrd/XrdSendQ.cc.o
+[ 21%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCks/XrdCksAssist.cc.o
+[ 21%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCks/XrdCksCalccrc32.cc.o
+[ 21%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCks/XrdCksCalccrc32C.cc.o
+[ 21%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCks/XrdCksCalcmd5.cc.o
+[ 21%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCks/XrdCksConfig.cc.o
+[ 21%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCks/XrdCksLoader.cc.o
+[ 22%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCks/XrdCksManager.cc.o
+[ 22%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdCks/XrdCksManOss.cc.o
+[ 22%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdRmc/XrdRmc.cc.o
+[ 22%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdRmc/XrdRmcData.cc.o
+[ 22%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdRmc/XrdRmcReal.cc.o
+[ 22%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSec/XrdSecEntity.cc.o
+[ 23%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSec/XrdSecEntityAttr.cc.o
+[ 23%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSec/XrdSecEntityXtra.cc.o
+[ 23%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSec/XrdSecLoadSecurity.cc.o
+[ 23%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSecsss/XrdSecsssCon.cc.o
+[ 23%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSecsss/XrdSecsssEnt.cc.o
+[ 23%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSecsss/XrdSecsssID.cc.o
+[ 24%] Building CXX object src/CMakeFiles/XrdUtils.dir/XrdSecsss/XrdSecsssKT.cc.o
+[ 24%] Linking CXX shared library libXrdUtils.so
+[ 24%] Built target XrdUtils
+[ 24%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdAdmin.cc.o
+[ 24%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdAioBuff.cc.o
+[ 25%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdAioFob.cc.o
+[ 25%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdAioPgrw.cc.o
+[ 25%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdAioTask.cc.o
+[ 25%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdBridge.cc.o
+[ 25%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdCallBack.cc.o
+[ 25%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdConfig.cc.o
+[ 26%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdConfigMon.cc.o
+[ 26%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdFile.cc.o
+[ 26%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdFileLock1.cc.o
+[ 26%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdJob.cc.o
+[ 26%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdLoadLib.cc.o
+[ 27%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdMonFile.cc.o
+[ 27%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdMonFMap.cc.o
+[ 27%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdMonitor.cc.o
+[ 27%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdNormAio.cc.o
+[ 27%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdPgrwAio.cc.o
+[ 27%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdPgwBadCS.cc.o
+[ 28%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdPgwCtl.cc.o
+[ 28%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdPgwFob.cc.o
+[ 28%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdPio.cc.o
+[ 28%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdPrepare.cc.o
+[ 28%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdProtocol.cc.o
+[ 28%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdResponse.cc.o
+[ 29%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdStats.cc.o
+[ 29%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdGSReal.cc.o
+[ 29%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdGStream.cc.o
+[ 29%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdTpcMon.cc.o
+[ 29%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdTransit.cc.o
+[ 30%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdTransPend.cc.o
+[ 30%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdTransSend.cc.o
+[ 30%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdXeq.cc.o
+[ 30%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdXeqChkPnt.cc.o
+[ 30%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdXeqFAttr.cc.o
+[ 30%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdXrootd/XrdXrootdXeqPgrw.cc.o
+[ 31%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfs.cc.o
+[ 31%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsChkPnt.cc.o
+[ 31%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsConfig.cc.o
+[ 31%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsConfigCP.cc.o
+[ 31%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsConfigPI.cc.o
+[ 31%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsCPFile.cc.o
+[ 32%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsEvr.cc.o
+[ 32%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsEvs.cc.o
+[ 32%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsFAttr.cc.o
+[ 32%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsFS.cc.o
+[ 32%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsFSctl.cc.o
+[ 32%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsHandle.cc.o
+[ 33%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsPoscq.cc.o
+[ 33%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsStats.cc.o
+[ 33%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsTPC.cc.o
+[ 33%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsTPCAuth.cc.o
+[ 33%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsTPCJob.cc.o
+[ 34%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsTPCInfo.cc.o
+[ 34%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOfs/XrdOfsTPCProg.cc.o
+[ 34%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdSfs/XrdSfsNative.cc.o
+[ 34%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdSfs/XrdSfsInterface.cc.o
+[ 34%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdSfs/XrdSfsXio.cc.o
+[ 34%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdFrc/XrdFrcCID.cc.o
+[ 35%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdFrc/XrdFrcProxy.cc.o
+[ 35%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdFrc/XrdFrcReqAgent.cc.o
+[ 35%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdFrc/XrdFrcReqFile.cc.o
+[ 35%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdFrc/XrdFrcTrace.cc.o
+[ 35%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdFrc/XrdFrcUtils.cc.o
+[ 35%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOss.cc.o
+[ 36%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssAt.cc.o
+[ 36%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssAio.cc.o
+[ 36%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssApi.cc.o
+[ 36%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssCache.cc.o
+[ 36%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssConfig.cc.o
+[ 37%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssCopy.cc.o
+[ 37%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssCreate.cc.o
+[ 37%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssMio.cc.o
+[ 37%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssMSS.cc.o
+[ 37%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssPath.cc.o
+[ 37%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssReloc.cc.o
+[ 38%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssRename.cc.o
+[ 38%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssSpace.cc.o
+[ 38%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssStage.cc.o
+[ 38%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssStat.cc.o
+[ 38%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdOss/XrdOssUnlink.cc.o
+[ 38%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdAcc/XrdAccAccess.cc.o
+[ 39%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdAcc/XrdAccAudit.cc.o
+[ 39%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdAcc/XrdAccAuthFile.cc.o
+[ 39%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdAcc/XrdAccCapability.cc.o
+[ 39%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdAcc/XrdAccConfig.cc.o
+[ 39%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdAcc/XrdAccEntity.cc.o
+[ 40%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdAcc/XrdAccGroups.cc.o
+[ 40%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsBlackList.cc.o
+[ 40%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsClientConfig.cc.o
+[ 40%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsClientMan.cc.o
+[ 40%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsClientMsg.cc.o
+[ 40%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsClient.cc.o
+[ 41%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsFinder.cc.o
+[ 41%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsLogin.cc.o
+[ 41%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsParser.cc.o
+[ 41%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsResp.cc.o
+[ 41%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsRRData.cc.o
+[ 41%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsRTable.cc.o
+[ 42%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsSecurity.cc.o
+[ 42%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsTalk.cc.o
+[ 42%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdCms/XrdCmsUtils.cc.o
+[ 42%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdDig/XrdDigAuth.cc.o
+[ 42%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdDig/XrdDigConfig.cc.o
+[ 42%] Building CXX object src/CMakeFiles/XrdServer.dir/XrdDig/XrdDigFS.cc.o
+[ 43%] Linking CXX shared library libXrdServer.so
+[ 43%] Built target XrdServer
+[ 44%] Building CXX object src/CMakeFiles/XrdCrypto.dir/XrdCrypto/XrdCryptoAux.cc.o
+[ 44%] Building CXX object src/CMakeFiles/XrdCrypto.dir/XrdCrypto/XrdCryptoBasic.cc.o
+[ 44%] Building CXX object src/CMakeFiles/XrdCrypto.dir/XrdCrypto/XrdCryptoCipher.cc.o
+[ 44%] Building CXX object src/CMakeFiles/XrdCrypto.dir/XrdCrypto/XrdCryptoFactory.cc.o
+[ 44%] Building CXX object src/CMakeFiles/XrdCrypto.dir/XrdCrypto/XrdCryptoMsgDigest.cc.o
+[ 44%] Building CXX object src/CMakeFiles/XrdCrypto.dir/XrdCrypto/XrdCryptoRSA.cc.o
+[ 45%] Building CXX object src/CMakeFiles/XrdCrypto.dir/XrdCrypto/XrdCryptoX509.cc.o
+[ 45%] Building CXX object src/CMakeFiles/XrdCrypto.dir/XrdCrypto/XrdCryptoX509Chain.cc.o
+[ 45%] Building CXX object src/CMakeFiles/XrdCrypto.dir/XrdCrypto/XrdCryptoX509Crl.cc.o
+[ 45%] Building CXX object src/CMakeFiles/XrdCrypto.dir/XrdCrypto/XrdCryptoX509Req.cc.o
+[ 45%] Building CXX object src/CMakeFiles/XrdCrypto.dir/XrdCrypto/XrdCryptogsiX509Chain.cc.o
+[ 46%] Linking CXX shared library libXrdCrypto.so
+[ 46%] Built target XrdCrypto
+[ 46%] Building CXX object src/CMakeFiles/XrdHttpUtils.dir/XrdHttp/XrdHttpProtocol.cc.o
+[ 46%] Building CXX object src/CMakeFiles/XrdHttpUtils.dir/XrdHttp/XrdHttpSecurity.cc.o
+[ 46%] Building CXX object src/CMakeFiles/XrdHttpUtils.dir/XrdHttp/XrdHttpReq.cc.o
+[ 46%] Building CXX object src/CMakeFiles/XrdHttpUtils.dir/XrdHttp/XrdHttpExtHandler.cc.o
+[ 46%] Building CXX object src/CMakeFiles/XrdHttpUtils.dir/XrdHttp/XrdHttpUtils.cc.o
+[ 47%] Linking CXX shared library libXrdHttpUtils.so
+[ 47%] Built target XrdHttpUtils
+[ 47%] Building CXX object src/CMakeFiles/XrdHttp-5.dir/XrdHttp/XrdHttpModule.cc.o
+[ 48%] Linking CXX shared module libXrdHttp-5.so
+[ 48%] Built target XrdHttp-5
+[ 48%] Building CXX object src/CMakeFiles/XrdXml.dir/XrdXml/tinyxml/tinystr.cpp.o
+[ 48%] Building CXX object src/CMakeFiles/XrdXml.dir/XrdXml/tinyxml/tinyxml.cpp.o
+[ 48%] Building CXX object src/CMakeFiles/XrdXml.dir/XrdXml/tinyxml/tinyxmlerror.cpp.o
+[ 49%] Building CXX object src/CMakeFiles/XrdXml.dir/XrdXml/tinyxml/tinyxmlparser.cpp.o
+[ 49%] Building CXX object src/CMakeFiles/XrdXml.dir/XrdXml/XrdXmlMetaLink.cc.o
+[ 49%] Building CXX object src/CMakeFiles/XrdXml.dir/XrdXml/XrdXmlRdrTiny.cc.o
+[ 49%] Building CXX object src/CMakeFiles/XrdXml.dir/XrdXml/XrdXmlReader.cc.o
+[ 49%] Linking CXX shared library libXrdXml.so
+[ 49%] Built target XrdXml
+[ 49%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClLog.cc.o
+[ 49%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClUtils.cc.o
+[ 49%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClEnv.cc.o
+[ 50%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClDefaultEnv.cc.o
+[ 50%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClURL.cc.o
+[ 50%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClStatus.cc.o
+[ 50%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClSocket.cc.o
+[ 50%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClTls.cc.o
+[ 51%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClPollerFactory.cc.o
+[ 51%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClPollerBuiltIn.cc.o
+[ 51%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClPostMaster.cc.o
+[ 51%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClChannel.cc.o
+[ 51%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClStream.cc.o
+[ 51%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClXRootDTransport.cc.o
+[ 52%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClInQueue.cc.o
+[ 52%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClOutQueue.cc.o
+[ 52%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClTaskManager.cc.o
+[ 52%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClSIDManager.cc.o
+[ 52%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClFileSystem.cc.o
+[ 52%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClXRootDMsgHandler.cc.o
+[ 53%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClMessageUtils.cc.o
+[ 53%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClXRootDResponses.cc.o
+[ 53%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClFile.cc.o
+[ 53%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClFileStateHandler.cc.o
+[ 53%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClCopyProcess.cc.o
+[ 54%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClClassicCopyJob.cc.o
+[ 54%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClThirdPartyCopyJob.cc.o
+[ 54%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClAsyncSocketHandler.cc.o
+[ 54%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClChannelHandlerList.cc.o
+[ 54%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClForkHandler.cc.o
+[ 54%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClCheckSumManager.cc.o
+[ 55%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClTransportManager.cc.o
+[ 55%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClJobManager.cc.o
+[ 55%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClFileTimer.cc.o
+[ 55%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClPlugInManager.cc.o
+[ 55%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClFileSystemUtils.cc.o
+[ 55%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClTPFallBackCopyJob.cc.o
+[ 56%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClMetalinkRedirector.cc.o
+[ 56%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClRedirectorRegistry.cc.o
+[ 56%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClXCpCtx.cc.o
+[ 56%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClXCpSrc.cc.o
+[ 56%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClLocalFileHandler.cc.o
+[ 57%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClLocalFileTask.cc.o
+[ 57%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClZipListHandler.cc.o
+[ 57%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClZipArchive.cc.o
+[ 57%] Building CXX object src/XrdCl/CMakeFiles/XrdCl.dir/XrdClOperations.cc.o
+[ 57%] Linking CXX shared library libXrdCl.so
+[ 57%] Built target XrdCl
+[ 57%] Building CXX object src/CMakeFiles/xrdpfc_print.dir/XrdPfc/XrdPfcPrint.cc.o
+[ 57%] Building CXX object src/CMakeFiles/xrdpfc_print.dir/XrdPfc/XrdPfcInfo.cc.o
+[ 58%] Linking CXX executable xrdpfc_print
+[ 58%] Built target xrdpfc_print
+[ 58%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiAlert.cc.o
+[ 58%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiAtomics.cc.o
+[ 59%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiClient.cc.o
+[ 59%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiCms.cc.o
+[ 59%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiErrInfo.cc.o
+[ 59%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiEvent.cc.o
+[ 59%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiFileResource.cc.o
+[ 59%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiLogger.cc.o
+[ 60%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiRequest.cc.o
+[ 60%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiResponder.cc.o
+[ 60%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiScale.cc.o
+[ 60%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiServReal.cc.o
+[ 60%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiService.cc.o
+[ 61%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiSessReal.cc.o
+[ 61%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiStats.cc.o
+[ 61%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiTaskReal.cc.o
+[ 61%] Building CXX object src/CMakeFiles/XrdSsiLib.dir/XrdSsi/XrdSsiUtils.cc.o
+[ 61%] Linking CXX shared library libXrdSsiLib.so
+[ 61%] Built target XrdSsiLib
+[ 61%] Building CXX object src/CMakeFiles/XrdSsiLog-5.dir/XrdSsi/XrdSsiLogging.cc.o
+[ 62%] Linking CXX shared module libXrdSsiLog-5.so
+[ 62%] Built target XrdSsiLog-5
+[ 62%] Building CXX object src/CMakeFiles/XrdBlacklistDecision-5.dir/XrdPfc/XrdPfcBlacklistDecision.cc.o
+[ 63%] Linking CXX shared module libXrdBlacklistDecision-5.so
+[ 63%] Built target XrdBlacklistDecision-5
+[ 63%] Building CXX object src/CMakeFiles/XrdSsiShMap.dir/XrdSsi/XrdSsiShMam.cc.o
+[ 63%] Building CXX object src/CMakeFiles/XrdSsiShMap.dir/XrdSsi/XrdSsiShMat.cc.o
+[ 63%] Linking CXX shared library libXrdSsiShMap.so
+[ 63%] Built target XrdSsiShMap
+[ 63%] Building CXX object src/CMakeFiles/XrdOssCsi-5.dir/XrdOssCsi/XrdOssCsi.cc.o
+[ 64%] Building CXX object src/CMakeFiles/XrdOssCsi-5.dir/XrdOssCsi/XrdOssCsiFile.cc.o
+[ 64%] Building CXX object src/CMakeFiles/XrdOssCsi-5.dir/XrdOssCsi/XrdOssCsiFileAio.cc.o
+[ 64%] Building CXX object src/CMakeFiles/XrdOssCsi-5.dir/XrdOssCsi/XrdOssCsiPages.cc.o
+[ 64%] Building CXX object src/CMakeFiles/XrdOssCsi-5.dir/XrdOssCsi/XrdOssCsiPagesUnaligned.cc.o
+[ 64%] Building CXX object src/CMakeFiles/XrdOssCsi-5.dir/XrdOssCsi/XrdOssCsiTagstoreFile.cc.o
+[ 64%] Building CXX object src/CMakeFiles/XrdOssCsi-5.dir/XrdOssCsi/XrdOssCsiRanges.cc.o
+[ 65%] Building CXX object src/CMakeFiles/XrdOssCsi-5.dir/XrdOssCsi/XrdOssCsiConfig.cc.o
+[ 65%] Building CXX object src/CMakeFiles/XrdOssCsi-5.dir/XrdOssCsi/XrdOssCsiCrcUtils.cc.o
+[ 65%] Linking CXX shared module libXrdOssCsi-5.so
+[ 65%] Built target XrdOssCsi-5
+[ 65%] Building CXX object src/CMakeFiles/XrdCmsRedirectLocal-5.dir/XrdCms/XrdCmsRedirLocal.cc.o
+[ 65%] Linking CXX shared module libXrdCmsRedirectLocal-5.so
+[ 65%] Built target XrdCmsRedirectLocal-5
+[ 65%] Building CXX object src/CMakeFiles/XrdThrottle-5.dir/XrdOfs/XrdOfsFS.cc.o
+[ 65%] Building CXX object src/CMakeFiles/XrdThrottle-5.dir/XrdThrottle/XrdThrottleFileSystem.cc.o
+[ 66%] Building CXX object src/CMakeFiles/XrdThrottle-5.dir/XrdThrottle/XrdThrottleFileSystemConfig.cc.o
+[ 66%] Building CXX object src/CMakeFiles/XrdThrottle-5.dir/XrdThrottle/XrdThrottleFile.cc.o
+[ 66%] Building CXX object src/CMakeFiles/XrdThrottle-5.dir/XrdThrottle/XrdThrottleManager.cc.o
+[ 66%] Linking CXX shared module libXrdThrottle-5.so
+[ 66%] Built target XrdThrottle-5
+[ 66%] Building CXX object src/CMakeFiles/XrdCksCalczcrc32-5.dir/XrdCks/XrdCksCalczcrc32.cc.o
+[ 66%] Linking CXX shared module libXrdCksCalczcrc32-5.so
+[ 66%] Built target XrdCksCalczcrc32-5
+[ 66%] Building CXX object src/CMakeFiles/XrdOfsPrepGPI-5.dir/XrdOfs/XrdOfsPrepGPI.cc.o
+[ 66%] Linking CXX shared module libXrdOfsPrepGPI-5.so
+[ 66%] Built target XrdOfsPrepGPI-5
+[ 66%] Building CXX object src/CMakeFiles/XrdOssSIgpfsT-5.dir/XrdOss/XrdOssSIgpfsT.cc.o
+[ 66%] Linking CXX shared module libXrdOssSIgpfsT-5.so
+[ 66%] Built target XrdOssSIgpfsT-5
+[ 66%] Building CXX object src/CMakeFiles/XrdN2No2p-5.dir/XrdOuc/XrdOucN2No2p.cc.o
+[ 66%] Linking CXX shared module libXrdN2No2p-5.so
+[ 66%] Built target XrdN2No2p-5
+[ 66%] Building CXX object src/CMakeFiles/XrdBwm-5.dir/XrdBwm/XrdBwm.cc.o
+[ 66%] Building CXX object src/CMakeFiles/XrdBwm-5.dir/XrdBwm/XrdBwmConfig.cc.o
+[ 66%] Building CXX object src/CMakeFiles/XrdBwm-5.dir/XrdBwm/XrdBwmHandle.cc.o
+[ 66%] Building CXX object src/CMakeFiles/XrdBwm-5.dir/XrdBwm/XrdBwmLogger.cc.o
+[ 66%] Building CXX object src/CMakeFiles/XrdBwm-5.dir/XrdBwm/XrdBwmPolicy1.cc.o
+[ 67%] Linking CXX shared module libXrdBwm-5.so
+[ 67%] Built target XrdBwm-5
+[ 67%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixAdmin.cc.o
+[ 68%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixCache.cc.o
+[ 68%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixCallBack.cc.o
+[ 68%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixConfig.cc.o
+[ 68%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixDir.cc.o
+[ 68%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixExtra.cc.o
+[ 69%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixFile.cc.o
+[ 69%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixFileRH.cc.o
+[ 69%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixMap.cc.o
+[ 69%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixObject.cc.o
+[ 69%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixPrepIO.cc.o
+[ 69%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixXrootd.cc.o
+[ 70%] Building CXX object src/CMakeFiles/XrdPosix.dir/XrdPosix/XrdPosixXrootdPath.cc.o
+[ 70%] Linking CXX shared library libXrdPosix.so
+[ 70%] Built target XrdPosix
+[ 70%] Building CXX object src/CMakeFiles/XrdFfs.dir/XrdFfs/XrdFfsDent.cc.o
+[ 70%] Building CXX object src/CMakeFiles/XrdFfs.dir/XrdFfs/XrdFfsFsinfo.cc.o
+[ 70%] Building CXX object src/CMakeFiles/XrdFfs.dir/XrdFfs/XrdFfsMisc.cc.o
+[ 71%] Building CXX object src/CMakeFiles/XrdFfs.dir/XrdFfs/XrdFfsPosix.cc.o
+[ 71%] Building CXX object src/CMakeFiles/XrdFfs.dir/XrdFfs/XrdFfsQueue.cc.o
+[ 71%] Building CXX object src/CMakeFiles/XrdFfs.dir/XrdFfs/XrdFfsWcache.cc.o
+[ 71%] Linking CXX shared library libXrdFfs.so
+[ 71%] Built target XrdFfs
+[ 71%] Building CXX object src/CMakeFiles/XrdPosixPreload.dir/XrdPosix/XrdPosixPreload32.cc.o
+[ 71%] Building CXX object src/CMakeFiles/XrdPosixPreload.dir/XrdPosix/XrdPosixPreload.cc.o
+[ 71%] Building CXX object src/CMakeFiles/XrdPosixPreload.dir/XrdPosix/XrdPosix.cc.o
+[ 71%] Building CXX object src/CMakeFiles/XrdPosixPreload.dir/XrdPosix/XrdPosixLinkage.cc.o
+[ 72%] Linking CXX shared library libXrdPosixPreload.so
+[ 72%] Built target XrdPosixPreload
+[ 72%] Building CXX object src/CMakeFiles/XrdPss-5.dir/XrdPss/XrdPssAio.cc.o
+[ 72%] Building CXX object src/CMakeFiles/XrdPss-5.dir/XrdPss/XrdPssAioCB.cc.o
+[ 72%] Building CXX object src/CMakeFiles/XrdPss-5.dir/XrdPss/XrdPss.cc.o
+[ 72%] Building CXX object src/CMakeFiles/XrdPss-5.dir/XrdPss/XrdPssCks.cc.o
+[ 73%] Building CXX object src/CMakeFiles/XrdPss-5.dir/XrdPss/XrdPssConfig.cc.o
+[ 73%] Building CXX object src/CMakeFiles/XrdPss-5.dir/XrdPss/XrdPssUrlInfo.cc.o
+[ 73%] Building CXX object src/CMakeFiles/XrdPss-5.dir/XrdPss/XrdPssUtils.cc.o
+[ 73%] Linking CXX shared module libXrdPss-5.so
+[ 73%] Built target XrdPss-5
+[ 73%] Building CXX object src/CMakeFiles/XrdFrm.dir/XrdFrm/XrdFrmConfig.cc.o
+[ 73%] Building CXX object src/CMakeFiles/XrdFrm.dir/XrdFrm/XrdFrmFiles.cc.o
+[ 74%] Building CXX object src/CMakeFiles/XrdFrm.dir/XrdFrm/XrdFrmMonitor.cc.o
+[ 74%] Building CXX object src/CMakeFiles/XrdFrm.dir/XrdFrm/XrdFrmTSort.cc.o
+[ 74%] Building CXX object src/CMakeFiles/XrdFrm.dir/XrdFrm/XrdFrmCns.cc.o
+[ 74%] Building CXX object src/CMakeFiles/XrdFrm.dir/XrdFrm/XrdFrmMigrate.cc.o
+[ 74%] Building CXX object src/CMakeFiles/XrdFrm.dir/XrdFrm/XrdFrmReqBoss.cc.o
+[ 74%] Building CXX object src/CMakeFiles/XrdFrm.dir/XrdFrm/XrdFrmTransfer.cc.o
+[ 75%] Building CXX object src/CMakeFiles/XrdFrm.dir/XrdFrm/XrdFrmXfrAgent.cc.o
+[ 75%] Building CXX object src/CMakeFiles/XrdFrm.dir/XrdFrm/XrdFrmXfrDaemon.cc.o
+[ 75%] Building CXX object src/CMakeFiles/XrdFrm.dir/XrdFrm/XrdFrmXfrQueue.cc.o
+[ 75%] Linking CXX static library libXrdFrm.a
+[ 75%] Built target XrdFrm
+[ 75%] Building CXX object src/CMakeFiles/frm_purged.dir/XrdFrm/XrdFrmPurge.cc.o
+[ 75%] Building CXX object src/CMakeFiles/frm_purged.dir/XrdFrm/XrdFrmPurgMain.cc.o
+[ 76%] Linking CXX executable frm_purged
+[ 76%] Built target frm_purged
+[ 76%] Building CXX object src/CMakeFiles/frm_admin.dir/XrdFrm/XrdFrmAdminAudit.cc.o
+[ 76%] Building CXX object src/CMakeFiles/frm_admin.dir/XrdFrm/XrdFrmAdmin.cc.o
+[ 76%] Building CXX object src/CMakeFiles/frm_admin.dir/XrdFrm/XrdFrmAdminFiles.cc.o
+[ 76%] Building CXX object src/CMakeFiles/frm_admin.dir/XrdFrm/XrdFrmAdminFind.cc.o
+[ 77%] Building CXX object src/CMakeFiles/frm_admin.dir/XrdFrm/XrdFrmAdminMain.cc.o
+[ 77%] Building CXX object src/CMakeFiles/frm_admin.dir/XrdFrm/XrdFrmAdminQuery.cc.o
+[ 77%] Building CXX object src/CMakeFiles/frm_admin.dir/XrdFrm/XrdFrmAdminUnlink.cc.o
+[ 77%] Linking CXX executable frm_admin
+[ 77%] Built target frm_admin
+[ 77%] Building CXX object src/CMakeFiles/XrdSecpwd-5.dir/XrdSecpwd/XrdSecProtocolpwd.cc.o
+[ 77%] Linking CXX shared module libXrdSecpwd-5.so
+[ 77%] Built target XrdSecpwd-5
+[ 77%] Building CXX object src/CMakeFiles/XrdSeckrb5-5.dir/XrdSeckrb5/XrdSecProtocolkrb5.cc.o
+[ 77%] Linking CXX shared module libXrdSeckrb5-5.so
+[ 77%] Built target XrdSeckrb5-5
+[ 77%] Building CXX object src/CMakeFiles/XrdAppUtils.dir/XrdApps/XrdCpConfig.cc.o
+[ 77%] Building CXX object src/CMakeFiles/XrdAppUtils.dir/XrdApps/XrdCpFile.cc.o
+[ 77%] Building CXX object src/CMakeFiles/XrdAppUtils.dir/XrdApps/XrdMpxXml.cc.o
+[ 77%] Linking CXX shared library libXrdAppUtils.so
+[ 77%] Built target XrdAppUtils
+[ 77%] Building CXX object src/CMakeFiles/xrdqstats.dir/XrdApps/XrdQStats.cc.o
+[ 77%] Linking CXX executable xrdqstats
+[ 77%] Built target xrdqstats
+[ 77%] Building CXX object src/CMakeFiles/XrdCryptoLite.dir/XrdCrypto/XrdCryptoLite.cc.o
+[ 77%] Building CXX object src/CMakeFiles/XrdCryptoLite.dir/XrdCrypto/XrdCryptoLite_bf32.cc.o
+[ 77%] Linking CXX shared library libXrdCryptoLite.so
+[ 77%] Built target XrdCryptoLite
+[ 77%] Building CXX object src/CMakeFiles/xrdpinls.dir/XrdApps/XrdPinls.cc.o
+[ 77%] Linking CXX executable xrdpinls
+[ 77%] Built target xrdpinls
+[ 77%] Building CXX object src/CMakeFiles/XrdSecunix-5.dir/XrdSecunix/XrdSecProtocolunix.cc.o
+[ 77%] Linking CXX shared module libXrdSecunix-5.so
+[ 77%] Built target XrdSecunix-5
+[ 77%] Building CXX object src/CMakeFiles/xrdacctest.dir/XrdApps/XrdAccTest.cc.o
+[ 77%] Linking CXX executable xrdacctest
+[ 77%] Built target xrdacctest
+[ 77%] Building CXX object src/CMakeFiles/XrdSecgsiGMAPDN-5.dir/XrdSecgsi/XrdSecgsiGMAPFunDN.cc.o
+[ 78%] Linking CXX shared module libXrdSecgsiGMAPDN-5.so
+[ 78%] Built target XrdSecgsiGMAPDN-5
+[ 78%] Building CXX object src/CMakeFiles/wait41.dir/XrdApps/XrdWait41.cc.o
+[ 78%] Linking CXX executable wait41
+[ 78%] Built target wait41
+[ 78%] Building CXX object src/CMakeFiles/xrdsssadmin.dir/XrdSecsss/XrdSecsssAdmin.cc.o
+[ 79%] Linking CXX executable xrdsssadmin
+[ 79%] Built target xrdsssadmin
+[ 79%] Building CXX object src/CMakeFiles/XrdSsi-5.dir/XrdSsi/XrdSsiDir.cc.o
+[ 79%] Building CXX object src/CMakeFiles/XrdSsi-5.dir/XrdSsi/XrdSsiFile.cc.o
+[ 79%] Building CXX object src/CMakeFiles/XrdSsi-5.dir/XrdSsi/XrdSsiFileReq.cc.o
+[ 79%] Building CXX object src/CMakeFiles/XrdSsi-5.dir/XrdSsi/XrdSsiFileSess.cc.o
+[ 80%] Building CXX object src/CMakeFiles/XrdSsi-5.dir/XrdSsi/XrdSsiSfs.cc.o
+[ 80%] Building CXX object src/CMakeFiles/XrdSsi-5.dir/XrdSsi/XrdSsiSfsConfig.cc.o
+[ 80%] Building CXX object src/CMakeFiles/XrdSsi-5.dir/XrdSsi/XrdSsiStat.cc.o
+[ 80%] Linking CXX shared module libXrdSsi-5.so
+[ 80%] Built target XrdSsi-5
+[ 80%] Building CXX object src/CMakeFiles/frm_xfragent.dir/XrdFrm/XrdFrmXfrMain.cc.o
+[ 80%] Linking CXX executable frm_xfragent
+[ 80%] Built target frm_xfragent
+[ 80%] Building CXX object src/CMakeFiles/xrootd.dir/Xrd/XrdConfig.cc.o
+[ 80%] Building CXX object src/CMakeFiles/xrootd.dir/Xrd/XrdProtLoad.cc.o
+[ 80%] Building CXX object src/CMakeFiles/xrootd.dir/Xrd/XrdStats.cc.o
+[ 80%] Building CXX object src/CMakeFiles/xrootd.dir/Xrd/XrdMain.cc.o
+[ 81%] Linking CXX executable xrootd
+[ 81%] Built target xrootd
+[ 81%] Building CXX object src/CMakeFiles/XrdXrootd-5.dir/XrdXrootd/XrdXrootdPlugin.cc.o
+[ 82%] Linking CXX shared module libXrdXrootd-5.so
+[ 82%] Built target XrdXrootd-5
+[ 82%] Building CXX object src/CMakeFiles/xrdmapc.dir/XrdApps/XrdMapCluster.cc.o
+[ 82%] Linking CXX executable xrdmapc
+[ 82%] Built target xrdmapc
+[ 83%] Building CXX object src/CMakeFiles/xrdadler32.dir/XrdApps/Xrdadler32.cc.o
+[ 83%] Linking CXX executable xrdadler32
+[ 83%] Built target xrdadler32
+[ 83%] Building CXX object src/CMakeFiles/XrdSecgsiAUTHZVO-5.dir/XrdSecgsi/XrdSecgsiAuthzFunVO.cc.o
+[ 83%] Linking CXX shared module libXrdSecgsiAUTHZVO-5.so
+[ 83%] Built target XrdSecgsiAUTHZVO-5
+[ 83%] Building CXX object src/CMakeFiles/xrdpwdadmin.dir/XrdSecpwd/XrdSecpwdSrvAdmin.cc.o
+[ 84%] Linking CXX executable xrdpwdadmin
+[ 84%] Built target xrdpwdadmin
+[ 84%] Building CXX object src/CMakeFiles/xrdgsitest.dir/XrdSecgsi/XrdSecgsitest.cc.o
+[ 85%] Linking CXX executable xrdgsitest
+[ 85%] Built target xrdgsitest
+[ 86%] Building CXX object src/CMakeFiles/XrdPfc-5.dir/XrdPfc/XrdPfc.cc.o
+[ 86%] Building CXX object src/CMakeFiles/XrdPfc-5.dir/XrdPfc/XrdPfcConfiguration.cc.o
+[ 86%] Building CXX object src/CMakeFiles/XrdPfc-5.dir/XrdPfc/XrdPfcPurge.cc.o
+[ 86%] Building CXX object src/CMakeFiles/XrdPfc-5.dir/XrdPfc/XrdPfcCommand.cc.o
+[ 86%] Building CXX object src/CMakeFiles/XrdPfc-5.dir/XrdPfc/XrdPfcFile.cc.o
+[ 86%] Building CXX object src/CMakeFiles/XrdPfc-5.dir/XrdPfc/XrdPfcVRead.cc.o
+[ 87%] Building CXX object src/CMakeFiles/XrdPfc-5.dir/XrdPfc/XrdPfcInfo.cc.o
+[ 87%] Building CXX object src/CMakeFiles/XrdPfc-5.dir/XrdPfc/XrdPfcIO.cc.o
+[ 87%] Building CXX object src/CMakeFiles/XrdPfc-5.dir/XrdPfc/XrdPfcIOEntireFile.cc.o
+[ 87%] Building CXX object src/CMakeFiles/XrdPfc-5.dir/XrdPfc/XrdPfcIOFileBlock.cc.o
+[ 87%] Linking CXX shared module libXrdPfc-5.so
+[ 87%] Built target XrdPfc-5
+[ 87%] Building CXX object src/CMakeFiles/XrdClRecorder-5.dir/XrdApps/XrdClRecordPlugin/XrdClRecorderPlugin.cc.o
+[ 87%] Linking CXX shared module libXrdClRecorder-5.so
+[ 87%] Built target XrdClRecorder-5
+[ 87%] Building CXX object src/CMakeFiles/xrdcrc32c.dir/XrdApps/XrdCrc32c.cc.o
+[ 87%] Linking CXX executable xrdcrc32c
+[ 87%] Built target xrdcrc32c
+[ 87%] Building CXX object src/CMakeFiles/cconfig.dir/XrdApps/XrdAppsCconfig.cc.o
+[ 87%] Linking CXX executable cconfig
+[ 87%] Built target cconfig
+[ 87%] Building CXX object src/CMakeFiles/mpxstats.dir/XrdApps/XrdMpxStats.cc.o
+[ 88%] Linking CXX executable mpxstats
+[ 88%] Built target mpxstats
+[ 89%] Building CXX object src/CMakeFiles/XrdSecsss-5.dir/XrdSecsss/XrdSecProtocolsss.cc.o
+[ 89%] Linking CXX shared module libXrdSecsss-5.so
+[ 89%] Built target XrdSecsss-5
+[ 89%] Building CXX object src/CMakeFiles/xrdprep.dir/XrdApps/XrdPrep.cc.o
+[ 89%] Linking CXX executable xrdprep
+[ 89%] Built target xrdprep
+[ 89%] Building CXX object src/CMakeFiles/XrdCryptossl-5.dir/XrdCrypto/XrdCryptosslAux.cc.o
+[ 89%] Building CXX object src/CMakeFiles/XrdCryptossl-5.dir/XrdCrypto/XrdCryptosslgsiAux.cc.o
+[ 90%] Building CXX object src/CMakeFiles/XrdCryptossl-5.dir/XrdCrypto/XrdCryptosslCipher.cc.o
+[ 90%] Building CXX object src/CMakeFiles/XrdCryptossl-5.dir/XrdCrypto/XrdCryptosslMsgDigest.cc.o
+[ 90%] Building CXX object src/CMakeFiles/XrdCryptossl-5.dir/XrdCrypto/XrdCryptosslRSA.cc.o
+[ 90%] Building CXX object src/CMakeFiles/XrdCryptossl-5.dir/XrdCrypto/XrdCryptosslX509.cc.o
+[ 90%] Building CXX object src/CMakeFiles/XrdCryptossl-5.dir/XrdCrypto/XrdCryptosslX509Crl.cc.o
+[ 90%] Building CXX object src/CMakeFiles/XrdCryptossl-5.dir/XrdCrypto/XrdCryptosslX509Req.cc.o
+[ 91%] Building CXX object src/CMakeFiles/XrdCryptossl-5.dir/XrdCrypto/XrdCryptosslFactory.cc.o
+[ 91%] Linking CXX shared module libXrdCryptossl-5.so
+[ 91%] Built target XrdCryptossl-5
+[ 91%] Building CXX object src/CMakeFiles/xrdreplay.dir/XrdApps/XrdClRecordPlugin/XrdClReplay.cc.o
+[ 91%] Linking CXX executable xrdreplay
+[ 91%] Built target xrdreplay
+[ 91%] Building CXX object src/CMakeFiles/XrdSec-5.dir/XrdSec/XrdSecClient.cc.o
+[ 91%] Building CXX object src/CMakeFiles/XrdSec-5.dir/XrdSec/XrdSecPManager.cc.o
+[ 92%] Building CXX object src/CMakeFiles/XrdSec-5.dir/XrdSec/XrdSecProtocolhost.cc.o
+[ 92%] Building CXX object src/CMakeFiles/XrdSec-5.dir/XrdSec/XrdSecServer.cc.o
+[ 92%] Building CXX object src/CMakeFiles/XrdSec-5.dir/XrdSec/XrdSecTLayer.cc.o
+[ 92%] Linking CXX shared module libXrdSec-5.so
+[ 92%] Built target XrdSec-5
+[ 92%] Building CXX object src/CMakeFiles/XrdClProxyPlugin-5.dir/XrdApps/XrdClProxyPlugin/ProxyPrefixPlugin.cc.o
+[ 93%] Building CXX object src/CMakeFiles/XrdClProxyPlugin-5.dir/XrdApps/XrdClProxyPlugin/ProxyPrefixFile.cc.o
+[ 93%] Linking CXX shared module libXrdClProxyPlugin-5.so
+[ 93%] Built target XrdClProxyPlugin-5
+[ 93%] Building CXX object src/CMakeFiles/XrdSecProt-5.dir/XrdSec/XrdSecProtect.cc.o
+[ 93%] Building CXX object src/CMakeFiles/XrdSecProt-5.dir/XrdSec/XrdSecProtector.cc.o
+[ 94%] Linking CXX shared module libXrdSecProt-5.so
+[ 94%] Built target XrdSecProt-5
+[ 94%] Building CXX object src/CMakeFiles/frm_xfrd.dir/XrdFrm/XrdFrmXfrMain.cc.o
+[ 94%] Linking CXX executable frm_xfrd
+[ 94%] Built target frm_xfrd
+[ 94%] Building CXX object src/CMakeFiles/XrdSecgsi-5.dir/XrdSecgsi/XrdSecProtocolgsi.cc.o
+[ 94%] Linking CXX shared module libXrdSecgsi-5.so
+[ 94%] Built target XrdSecgsi-5
+[ 94%] Building CXX object src/CMakeFiles/xrdgsiproxy.dir/XrdSecgsi/XrdSecgsiProxy.cc.o
+[ 94%] Linking CXX executable xrdgsiproxy
+[ 94%] Built target xrdgsiproxy
+[ 94%] Building CXX object src/CMakeFiles/cmsd.dir/Xrd/XrdConfig.cc.o
+[ 94%] Building CXX object src/CMakeFiles/cmsd.dir/Xrd/XrdProtLoad.cc.o
+[ 94%] Building CXX object src/CMakeFiles/cmsd.dir/Xrd/XrdStats.cc.o
+[ 95%] Building CXX object src/CMakeFiles/cmsd.dir/Xrd/XrdMain.cc.o
+[ 95%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsAdmin.cc.o
+[ 95%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsBaseFS.cc.o
+[ 95%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsCache.cc.o
+[ 95%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsCluster.cc.o
+[ 96%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsClustID.cc.o
+[ 96%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsConfig.cc.o
+[ 96%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsJob.cc.o
+[ 96%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsKey.cc.o
+[ 96%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsManager.cc.o
+[ 96%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsManList.cc.o
+[ 97%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsManTree.cc.o
+[ 97%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsMeter.cc.o
+[ 97%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsNash.cc.o
+[ 97%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsNode.cc.o
+[ 97%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsPList.cc.o
+[ 97%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsPrepare.cc.o
+[ 98%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsPrepArgs.cc.o
+[ 98%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsProtocol.cc.o
+[ 98%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsRouting.cc.o
+[ 98%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsRRQ.cc.o
+[ 98%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsState.cc.o
+[ 99%] Building CXX object src/CMakeFiles/cmsd.dir/XrdCms/XrdCmsSupervisor.cc.o
+[ 99%] Linking CXX executable cmsd
+[ 99%] Built target cmsd
+[100%] Building CXX object src/XrdCl/CMakeFiles/xrdfs.dir/XrdClFS.cc.o
+[100%] Building CXX object src/XrdCl/CMakeFiles/xrdfs.dir/XrdClFSExecutor.cc.o
+[100%] Linking CXX executable xrdfs
+[100%] Built target xrdfs
+[100%] Building CXX object src/XrdCl/CMakeFiles/xrdcp.dir/XrdClCopy.cc.o
+[100%] Linking CXX executable xrdcp
+[100%] Built target xrdcp

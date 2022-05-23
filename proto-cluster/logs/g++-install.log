@@ -1,0 +1,37 @@
+Last metadata expiration check: 0:08:03 ago on Mon 16 May 2022 01:28:54 PM EDT.
+Dependencies resolved.
+================================================================================
+ Package               Architecture Version               Repository       Size
+================================================================================
+Installing:
+ gcc-c++               x86_64       8.5.0-4.el8_5         appstream        12 M
+Installing dependencies:
+ libstdc++-devel       x86_64       8.5.0-4.el8_5         appstream       2.0 M
+
+Transaction Summary
+================================================================================
+Install  2 Packages
+
+Total download size: 14 M
+Installed size: 42 M
+Is this ok [y/N]: Downloading Packages:
+(1/2): libstdc++-devel-8.5.0-4.el8_5.x86_64.rpm 1.6 MB/s | 2.0 MB     00:01    
+(2/2): gcc-c++-8.5.0-4.el8_5.x86_64.rpm         4.5 MB/s |  12 MB     00:02    
+--------------------------------------------------------------------------------
+Total                                           5.2 MB/s |  14 MB     00:02     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+  Preparing        :                                                        1/1 
+  Installing       : libstdc++-devel-8.5.0-4.el8_5.x86_64                   1/2 
+  Installing       : gcc-c++-8.5.0-4.el8_5.x86_64                           2/2 
+  Running scriptlet: gcc-c++-8.5.0-4.el8_5.x86_64                           2/2 
+  Verifying        : gcc-c++-8.5.0-4.el8_5.x86_64                           1/2 
+  Verifying        : libstdc++-devel-8.5.0-4.el8_5.x86_64                   2/2 
+
+Installed:
+  gcc-c++-8.5.0-4.el8_5.x86_64       libstdc++-devel-8.5.0-4.el8_5.x86_64      
+
+Complete!

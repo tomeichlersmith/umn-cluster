@@ -1,0 +1,497 @@
+[  0%] Built target XrdVersion.hh
+Consolidate compiler generated dependencies of target XrdUtils
+[ 24%] Built target XrdUtils
+Consolidate compiler generated dependencies of target XrdServer
+[ 43%] Built target XrdServer
+Consolidate compiler generated dependencies of target XrdCrypto
+[ 46%] Built target XrdCrypto
+Consolidate compiler generated dependencies of target XrdHttpUtils
+[ 47%] Built target XrdHttpUtils
+Consolidate compiler generated dependencies of target XrdHttp-5
+[ 48%] Built target XrdHttp-5
+Consolidate compiler generated dependencies of target XrdXml
+[ 49%] Built target XrdXml
+Consolidate compiler generated dependencies of target XrdCl
+[ 57%] Built target XrdCl
+Consolidate compiler generated dependencies of target xrdpfc_print
+[ 58%] Built target xrdpfc_print
+Consolidate compiler generated dependencies of target XrdSsiLib
+[ 61%] Built target XrdSsiLib
+Consolidate compiler generated dependencies of target XrdSsiLog-5
+[ 62%] Built target XrdSsiLog-5
+Consolidate compiler generated dependencies of target XrdBlacklistDecision-5
+[ 63%] Built target XrdBlacklistDecision-5
+Consolidate compiler generated dependencies of target XrdSsiShMap
+[ 63%] Built target XrdSsiShMap
+Consolidate compiler generated dependencies of target XrdOssCsi-5
+[ 65%] Built target XrdOssCsi-5
+Consolidate compiler generated dependencies of target XrdCmsRedirectLocal-5
+[ 65%] Built target XrdCmsRedirectLocal-5
+Consolidate compiler generated dependencies of target XrdThrottle-5
+[ 66%] Built target XrdThrottle-5
+Consolidate compiler generated dependencies of target XrdCksCalczcrc32-5
+[ 66%] Built target XrdCksCalczcrc32-5
+Consolidate compiler generated dependencies of target XrdOfsPrepGPI-5
+[ 66%] Built target XrdOfsPrepGPI-5
+Consolidate compiler generated dependencies of target XrdOssSIgpfsT-5
+[ 66%] Built target XrdOssSIgpfsT-5
+Consolidate compiler generated dependencies of target XrdN2No2p-5
+[ 66%] Built target XrdN2No2p-5
+Consolidate compiler generated dependencies of target XrdBwm-5
+[ 67%] Built target XrdBwm-5
+Consolidate compiler generated dependencies of target XrdPosix
+[ 70%] Built target XrdPosix
+Consolidate compiler generated dependencies of target XrdFfs
+[ 71%] Built target XrdFfs
+Consolidate compiler generated dependencies of target XrdPosixPreload
+[ 72%] Built target XrdPosixPreload
+Consolidate compiler generated dependencies of target XrdPss-5
+[ 73%] Built target XrdPss-5
+Consolidate compiler generated dependencies of target XrdFrm
+[ 75%] Built target XrdFrm
+Consolidate compiler generated dependencies of target frm_purged
+[ 76%] Built target frm_purged
+Consolidate compiler generated dependencies of target frm_admin
+[ 77%] Built target frm_admin
+Consolidate compiler generated dependencies of target XrdSecpwd-5
+[ 77%] Built target XrdSecpwd-5
+Consolidate compiler generated dependencies of target XrdSeckrb5-5
+[ 77%] Built target XrdSeckrb5-5
+Consolidate compiler generated dependencies of target XrdAppUtils
+[ 77%] Built target XrdAppUtils
+Consolidate compiler generated dependencies of target xrdqstats
+[ 77%] Built target xrdqstats
+Consolidate compiler generated dependencies of target XrdCryptoLite
+[ 77%] Built target XrdCryptoLite
+Consolidate compiler generated dependencies of target xrdpinls
+[ 77%] Built target xrdpinls
+Consolidate compiler generated dependencies of target XrdSecunix-5
+[ 77%] Built target XrdSecunix-5
+Consolidate compiler generated dependencies of target xrdacctest
+[ 77%] Built target xrdacctest
+Consolidate compiler generated dependencies of target XrdSecgsiGMAPDN-5
+[ 78%] Built target XrdSecgsiGMAPDN-5
+Consolidate compiler generated dependencies of target wait41
+[ 78%] Built target wait41
+Consolidate compiler generated dependencies of target xrdsssadmin
+[ 79%] Built target xrdsssadmin
+Consolidate compiler generated dependencies of target XrdSsi-5
+[ 80%] Built target XrdSsi-5
+Consolidate compiler generated dependencies of target frm_xfragent
+[ 80%] Built target frm_xfragent
+Consolidate compiler generated dependencies of target xrootd
+[ 81%] Built target xrootd
+Consolidate compiler generated dependencies of target XrdXrootd-5
+[ 82%] Built target XrdXrootd-5
+Consolidate compiler generated dependencies of target xrdmapc
+[ 82%] Built target xrdmapc
+Consolidate compiler generated dependencies of target xrdadler32
+[ 83%] Built target xrdadler32
+Consolidate compiler generated dependencies of target XrdSecgsiAUTHZVO-5
+[ 83%] Built target XrdSecgsiAUTHZVO-5
+Consolidate compiler generated dependencies of target xrdpwdadmin
+[ 84%] Built target xrdpwdadmin
+Consolidate compiler generated dependencies of target xrdgsitest
+[ 85%] Built target xrdgsitest
+Consolidate compiler generated dependencies of target XrdPfc-5
+[ 87%] Built target XrdPfc-5
+Consolidate compiler generated dependencies of target XrdClRecorder-5
+[ 87%] Built target XrdClRecorder-5
+Consolidate compiler generated dependencies of target xrdcrc32c
+[ 87%] Built target xrdcrc32c
+Consolidate compiler generated dependencies of target cconfig
+[ 87%] Built target cconfig
+Consolidate compiler generated dependencies of target mpxstats
+[ 88%] Built target mpxstats
+Consolidate compiler generated dependencies of target XrdSecsss-5
+[ 89%] Built target XrdSecsss-5
+Consolidate compiler generated dependencies of target xrdprep
+[ 89%] Built target xrdprep
+Consolidate compiler generated dependencies of target XrdCryptossl-5
+[ 91%] Built target XrdCryptossl-5
+Consolidate compiler generated dependencies of target xrdreplay
+[ 91%] Built target xrdreplay
+Consolidate compiler generated dependencies of target XrdSec-5
+[ 92%] Built target XrdSec-5
+Consolidate compiler generated dependencies of target XrdClProxyPlugin-5
+[ 93%] Built target XrdClProxyPlugin-5
+Consolidate compiler generated dependencies of target XrdSecProt-5
+[ 94%] Built target XrdSecProt-5
+Consolidate compiler generated dependencies of target frm_xfrd
+[ 94%] Built target frm_xfrd
+Consolidate compiler generated dependencies of target XrdSecgsi-5
+[ 94%] Built target XrdSecgsi-5
+Consolidate compiler generated dependencies of target xrdgsiproxy
+[ 94%] Built target xrdgsiproxy
+Consolidate compiler generated dependencies of target cmsd
+[ 99%] Built target cmsd
+Consolidate compiler generated dependencies of target xrdfs
+[100%] Built target xrdfs
+Consolidate compiler generated dependencies of target xrdcp
+[100%] Built target xrdcp
+Install the project...
+-- Install configuration: "RelWithDebInfo"
+-- Installing: /usr/local/share/xrootd/cmake/XRootDConfig.cmake
+-- Installing: /usr/local/lib64/libXrdUtils.so.3.0.0
+-- Installing: /usr/local/lib64/libXrdUtils.so.3
+-- Set runtime path of "/usr/local/lib64/libXrdUtils.so.3.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdUtils.so
+-- Installing: /usr/local/lib64/libXrdAppUtils.so.2.0.0
+-- Installing: /usr/local/lib64/libXrdAppUtils.so.2
+-- Set runtime path of "/usr/local/lib64/libXrdAppUtils.so.2.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdAppUtils.so
+-- Installing: /usr/local/lib64/libXrdClProxyPlugin-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdClProxyPlugin-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdClRecorder-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdClRecorder-5.so" to ""
+-- Installing: /usr/local/bin/xrdacctest
+-- Set runtime path of "/usr/local/bin/xrdacctest" to ""
+-- Installing: /usr/local/bin/xrdadler32
+-- Set runtime path of "/usr/local/bin/xrdadler32" to ""
+-- Installing: /usr/local/bin/cconfig
+-- Set runtime path of "/usr/local/bin/cconfig" to ""
+-- Installing: /usr/local/bin/mpxstats
+-- Set runtime path of "/usr/local/bin/mpxstats" to ""
+-- Installing: /usr/local/bin/wait41
+-- Set runtime path of "/usr/local/bin/wait41" to ""
+-- Installing: /usr/local/bin/xrdmapc
+-- Set runtime path of "/usr/local/bin/xrdmapc" to ""
+-- Installing: /usr/local/bin/xrdpinls
+-- Installing: /usr/local/bin/xrdcrc32c
+-- Set runtime path of "/usr/local/bin/xrdcrc32c" to ""
+-- Installing: /usr/local/bin/xrdreplay
+-- Set runtime path of "/usr/local/bin/xrdreplay" to ""
+-- Installing: /usr/local/share/man/man1/xrdadler32.1
+-- Installing: /usr/local/share/man/man8/mpxstats.8
+-- Installing: /usr/local/lib64/libXrdCrypto.so.2.0.0
+-- Installing: /usr/local/lib64/libXrdCrypto.so.2
+-- Set runtime path of "/usr/local/lib64/libXrdCrypto.so.2.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdCrypto.so
+-- Installing: /usr/local/lib64/libXrdCryptoLite.so.2.0.0
+-- Installing: /usr/local/lib64/libXrdCryptoLite.so.2
+-- Set runtime path of "/usr/local/lib64/libXrdCryptoLite.so.2.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdCryptoLite.so
+-- Installing: /usr/local/lib64/libXrdCryptossl-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdCryptossl-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdSec-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdSec-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdSecpwd-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdSecpwd-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdSecsss-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdSecsss-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdSecunix-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdSecunix-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdSecProt-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdSecProt-5.so" to ""
+-- Installing: /usr/local/bin/xrdsssadmin
+-- Set runtime path of "/usr/local/bin/xrdsssadmin" to ""
+-- Installing: /usr/local/bin/xrdpwdadmin
+-- Set runtime path of "/usr/local/bin/xrdpwdadmin" to ""
+-- Installing: /usr/local/share/man/man8/xrdsssadmin.8
+-- Installing: /usr/local/share/man/man8/xrdpwdadmin.8
+-- Installing: /usr/local/lib64/libXrdXml.so.3.0.0
+-- Installing: /usr/local/lib64/libXrdXml.so.3
+-- Set runtime path of "/usr/local/lib64/libXrdXml.so.3.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdXml.so
+-- Installing: /usr/local/include/xrootd/XrdVersion.hh
+-- Installing: /usr/local/include/xrootd/XProtocol/XProtocol.hh
+-- Installing: /usr/local/include/xrootd/XProtocol/XPtypes.hh
+-- Installing: /usr/local/include/xrootd/Xrd/XrdBuffer.hh
+-- Installing: /usr/local/include/xrootd/Xrd/XrdJob.hh
+-- Installing: /usr/local/include/xrootd/Xrd/XrdLink.hh
+-- Installing: /usr/local/include/xrootd/Xrd/XrdLinkMatch.hh
+-- Installing: /usr/local/include/xrootd/Xrd/XrdProtocol.hh
+-- Installing: /usr/local/include/xrootd/Xrd/XrdScheduler.hh
+-- Installing: /usr/local/include/xrootd/Xrd/XrdTcpMonPin.hh
+-- Installing: /usr/local/include/xrootd/XrdNet/XrdNet.hh
+-- Installing: /usr/local/include/xrootd/XrdNet/XrdNetAddr.hh
+-- Installing: /usr/local/include/xrootd/XrdNet/XrdNetAddrInfo.hh
+-- Installing: /usr/local/include/xrootd/XrdNet/XrdNetUtils.hh
+-- Installing: /usr/local/include/xrootd/XrdNet/XrdNetCmsNotify.hh
+-- Installing: /usr/local/include/xrootd/XrdNet/XrdNetConnect.hh
+-- Installing: /usr/local/include/xrootd/XrdNet/XrdNetOpts.hh
+-- Installing: /usr/local/include/xrootd/XrdNet/XrdNetSockAddr.hh
+-- Installing: /usr/local/include/xrootd/XrdNet/XrdNetSocket.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucBuffer.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucCRC.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucCacheCM.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucCacheStats.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucCallBack.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucChain.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucDLlist.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucEnv.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucErrInfo.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucGMap.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucHash.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucHash.icc
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucIOVec.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucLock.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucName2Name.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucPinPath.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucPinObject.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucRash.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucRash.icc
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucSFVec.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucStream.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucString.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucTList.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucTable.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucTokenizer.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucTrace.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucUtils.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOuca2x.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucEnum.hh
+-- Installing: /usr/local/include/xrootd/XrdOuc/XrdOucCompiler.hh
+-- Installing: /usr/local/include/xrootd/XrdSec/XrdSecAttr.hh
+-- Installing: /usr/local/include/xrootd/XrdSec/XrdSecEntity.hh
+-- Installing: /usr/local/include/xrootd/XrdSec/XrdSecEntityAttr.hh
+-- Installing: /usr/local/include/xrootd/XrdSec/XrdSecEntityPin.hh
+-- Installing: /usr/local/include/xrootd/XrdSec/XrdSecInterface.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysAtomics.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysError.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysFD.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysHeaders.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysLogger.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysLogPI.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysPageSize.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysPlatform.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysPlugin.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysPthread.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysSemWait.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysTimer.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysXAttr.hh
+-- Installing: /usr/local/include/xrootd/XrdSys/XrdSysXSLock.hh
+-- Installing: /usr/local/include/xrootd/XrdXml/XrdXmlReader.hh
+-- Installing: /usr/local/include/xrootd/XrdXrootd/XrdXrootdMonData.hh
+-- Installing: /usr/local/include/xrootd/XrdXrootd/XrdXrootdGStream.hh
+-- Installing: /usr/local/include/xrootd/XrdXrootd/XrdXrootdBridge.hh
+-- Installing: /usr/local/include/xrootd/XrdHttp/XrdHttpSecXtractor.hh
+-- Installing: /usr/local/include/xrootd/XrdAcc/XrdAccAuthorize.hh
+-- Installing: /usr/local/include/xrootd/XrdAcc/XrdAccPrivs.hh
+-- Installing: /usr/local/include/xrootd/XrdCks/XrdCks.hh
+-- Installing: /usr/local/include/xrootd/XrdCks/XrdCksAssist.hh
+-- Installing: /usr/local/include/xrootd/XrdCks/XrdCksCalc.hh
+-- Installing: /usr/local/include/xrootd/XrdCks/XrdCksData.hh
+-- Installing: /usr/local/include/xrootd/XrdCks/XrdCksManager.hh
+-- Installing: /usr/local/include/xrootd/XrdCks/XrdCksWrapper.hh
+-- Installing: /usr/local/include/xrootd/XrdCms/XrdCmsClient.hh
+-- Installing: /usr/local/include/xrootd/XrdCms/XrdCmsPerfMon.hh
+-- Installing: /usr/local/include/xrootd/XrdCms/XrdCmsVnId.hh
+-- Installing: /usr/local/include/xrootd/XrdPfc/XrdPfcDecision.hh
+-- Installing: /usr/local/include/xrootd/XrdOfs/XrdOfsFSctl_PI.hh
+-- Installing: /usr/local/include/xrootd/XrdOfs/XrdOfsPrepare.hh
+-- Installing: /usr/local/include/xrootd/XrdOss/XrdOss.hh
+-- Installing: /usr/local/include/xrootd/XrdOss/XrdOssVS.hh
+-- Installing: /usr/local/include/xrootd/XrdOss/XrdOssDefaultSS.hh
+-- Installing: /usr/local/include/xrootd/XrdOss/XrdOssStatInfo.hh
+-- Installing: /usr/local/include/xrootd/XrdOss/XrdOssWrapper.hh
+-- Installing: /usr/local/include/xrootd/XrdPosix/XrdPosix.hh
+-- Installing: /usr/local/include/xrootd/XrdPosix/XrdPosixCache.hh
+-- Installing: /usr/local/include/xrootd/XrdPosix/XrdPosixCallBack.hh
+-- Installing: /usr/local/include/xrootd/XrdPosix/XrdPosixExtern.hh
+-- Installing: /usr/local/include/xrootd/XrdPosix/XrdPosixOsDep.hh
+-- Installing: /usr/local/include/xrootd/XrdPosix/XrdPosixXrootd.hh
+-- Installing: /usr/local/include/xrootd/XrdPosix/XrdPosixXrootdPath.hh
+-- Installing: /usr/local/include/xrootd/XrdSfs/XrdSfsAio.hh
+-- Installing: /usr/local/include/xrootd/XrdSfs/XrdSfsDio.hh
+-- Installing: /usr/local/include/xrootd/XrdSfs/XrdSfsXio.hh
+-- Installing: /usr/local/include/xrootd/XrdSfs/XrdSfsFlags.hh
+-- Installing: /usr/local/include/xrootd/XrdSfs/XrdSfsGPFile.hh
+-- Installing: /usr/local/include/xrootd/XrdSfs/XrdSfsInterface.hh
+-- Up-to-date: /usr/local/include/xrootd/XrdXrootd/XrdXrootdMonData.hh
+-- Up-to-date: /usr/local/include/xrootd/XrdXrootd/XrdXrootdBridge.hh
+-- Up-to-date: /usr/local/include/xrootd/XrdHttp/XrdHttpSecXtractor.hh
+-- Installing: /usr/local/include/xrootd/private/Xrd/XrdPoll.hh
+-- Installing: /usr/local/include/xrootd/private/XrdNet/XrdNetPeer.hh
+-- Installing: /usr/local/include/xrootd/private/XrdNet/XrdNetBuffer.hh
+-- Installing: /usr/local/include/xrootd/private/XrdNet/XrdNetIF.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSecsss/XrdSecsssID.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSys/XrdSysPriv.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOuc/XrdOucExport.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOuc/XrdOucGatherConf.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOuc/XrdOucPList.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOuc/XrdOucN2NLoader.hh
+-- Installing: /usr/local/include/xrootd/private/XrdPosix/XrdPosixMap.hh
+-- Installing: /usr/local/include/xrootd/private/XrdZip/XrdZipCDFH.hh
+-- Installing: /usr/local/include/xrootd/private/XrdZip/XrdZipEOCD.hh
+-- Installing: /usr/local/include/xrootd/private/XrdZip/XrdZipExtra.hh
+-- Installing: /usr/local/include/xrootd/private/XrdZip/XrdZipLFH.hh
+-- Installing: /usr/local/include/xrootd/private/XrdZip/XrdZipUtils.hh
+-- Installing: /usr/local/include/xrootd/private/XrdZip/XrdZipZIP64EOCD.hh
+-- Installing: /usr/local/include/xrootd/private/XrdZip/XrdZipZIP64EOCDL.hh
+-- Installing: /usr/local/include/xrootd/private/XrdHttp/XrdHttpExtHandler.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSys/XrdSysTrace.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOfs/XrdOfs.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOfs/XrdOfsEvr.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOfs/XrdOfsHandle.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOfs/XrdOfsTrace.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOfs/XrdOfsTPCInfo.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSsi/XrdSsiAtomics.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSsi/XrdSsiCluster.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSsi/XrdSsiEntity.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSsi/XrdSsiErrInfo.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSsi/XrdSsiLogger.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSsi/XrdSsiProvider.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSsi/XrdSsiRequest.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSsi/XrdSsiRespInfo.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSsi/XrdSsiResponder.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSsi/XrdSsiResource.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSsi/XrdSsiService.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSsi/XrdSsiStream.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOss/XrdOssApi.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOss/XrdOssConfig.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOss/XrdOssError.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCrypto/XrdCryptoX509.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCrypto/XrdCryptoX509Chain.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCrypto/XrdCryptoAux.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCrypto/XrdCryptosslAux.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCrypto/XrdCryptoX509Crl.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCrypto/XrdCryptoX509Req.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCrypto/XrdCryptoRSA.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCrypto/XrdCryptosslgsiAux.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSut/XrdSutAux.hh
+-- Installing: /usr/local/include/xrootd/private/XrdSut/XrdSutBucket.hh
+-- Installing: /usr/local/include/xrootd/private/XrdVoms/XrdVoms.hh
+-- Installing: /usr/local/include/xrootd/private/XrdOuc/XrdOucPgrwUtils.hh
+-- Installing: /usr/local/lib64/libXrdSecgsi-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdSecgsi-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdSecgsiAUTHZVO-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdSecgsiAUTHZVO-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdSecgsiGMAPDN-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdSecgsiGMAPDN-5.so" to ""
+-- Installing: /usr/local/bin/xrdgsiproxy
+-- Set runtime path of "/usr/local/bin/xrdgsiproxy" to ""
+-- Installing: /usr/local/bin/xrdgsitest
+-- Set runtime path of "/usr/local/bin/xrdgsitest" to ""
+-- Installing: /usr/local/share/man/man1/xrdgsiproxy.1
+-- Installing: /usr/local/share/man/man1/xrdgsitest.1
+-- Installing: /usr/local/lib64/libXrdSeckrb5-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdSeckrb5-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdServer.so.3.0.0
+-- Installing: /usr/local/lib64/libXrdServer.so.3
+-- Set runtime path of "/usr/local/lib64/libXrdServer.so.3.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdServer.so
+-- Installing: /usr/local/lib64/libXrdXrootd-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdXrootd-5.so" to ""
+-- Installing: /usr/local/bin/xrootd
+-- Set runtime path of "/usr/local/bin/xrootd" to ""
+-- Installing: /usr/local/bin/cmsd
+-- Set runtime path of "/usr/local/bin/cmsd" to ""
+-- Installing: /usr/local/share/man/man8/cmsd.8
+-- Installing: /usr/local/share/man/man8/xrootd.8
+-- Installing: /usr/local/bin/frm_admin
+-- Set runtime path of "/usr/local/bin/frm_admin" to ""
+-- Installing: /usr/local/bin/frm_purged
+-- Set runtime path of "/usr/local/bin/frm_purged" to ""
+-- Installing: /usr/local/bin/frm_xfrd
+-- Set runtime path of "/usr/local/bin/frm_xfrd" to ""
+-- Installing: /usr/local/bin/frm_xfragent
+-- Set runtime path of "/usr/local/bin/frm_xfragent" to ""
+-- Installing: /usr/local/share/man/man8/frm_admin.8
+-- Installing: /usr/local/share/man/man8/frm_purged.8
+-- Installing: /usr/local/share/man/man8/frm_xfrd.8
+-- Installing: /usr/local/share/man/man8/frm_xfragent.8
+-- Installing: /usr/local/lib64/libXrdPosix.so.3.0.0
+-- Installing: /usr/local/lib64/libXrdPosix.so.3
+-- Set runtime path of "/usr/local/lib64/libXrdPosix.so.3.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdPosix.so
+-- Installing: /usr/local/lib64/libXrdPosixPreload.so.2.0.0
+-- Installing: /usr/local/lib64/libXrdPosixPreload.so.2
+-- Set runtime path of "/usr/local/lib64/libXrdPosixPreload.so.2.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdPosixPreload.so
+-- Installing: /usr/local/lib64/libXrdFfs.so.3.0.0
+-- Installing: /usr/local/lib64/libXrdFfs.so.3
+-- Set runtime path of "/usr/local/lib64/libXrdFfs.so.3.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdFfs.so
+-- Installing: /usr/local/lib64/libXrdPss-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdPss-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdBwm-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdBwm-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdOssSIgpfsT-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdOssSIgpfsT-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdCksCalczcrc32-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdCksCalczcrc32-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdThrottle-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdThrottle-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdN2No2p-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdN2No2p-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdCmsRedirectLocal-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdCmsRedirectLocal-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdSsiLib.so.2.0.0
+-- Installing: /usr/local/lib64/libXrdSsiLib.so.2
+-- Set runtime path of "/usr/local/lib64/libXrdSsiLib.so.2.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdSsiLib.so
+-- Installing: /usr/local/lib64/libXrdSsiShMap.so.2.0.0
+-- Installing: /usr/local/lib64/libXrdSsiShMap.so.2
+-- Set runtime path of "/usr/local/lib64/libXrdSsiShMap.so.2.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdSsiShMap.so
+-- Installing: /usr/local/lib64/libXrdSsi-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdSsi-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdSsiLog-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdSsiLog-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdPfc-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdPfc-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdBlacklistDecision-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdBlacklistDecision-5.so" to ""
+-- Installing: /usr/local/bin/xrdpfc_print
+-- Set runtime path of "/usr/local/bin/xrdpfc_print" to ""
+-- Installing: /usr/local/share/man/man8/xrdpfc_print.8
+-- Installing: /usr/local/lib64/libXrdOssCsi-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdOssCsi-5.so" to ""
+-- Installing: /usr/local/lib64/libXrdHttpUtils.so.2.0.0
+-- Installing: /usr/local/lib64/libXrdHttpUtils.so.2
+-- Set runtime path of "/usr/local/lib64/libXrdHttpUtils.so.2.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdHttpUtils.so
+-- Installing: /usr/local/lib64/libXrdHttp-5.so
+-- Set runtime path of "/usr/local/lib64/libXrdHttp-5.so" to ""
+-- Installing: /usr/local/share/xrootd/utils/XrdCmsNotify.pm
+-- Installing: /usr/local/share/xrootd/utils/netchk
+-- Installing: /usr/local/share/xrootd/utils/XrdOlbMonPerf
+-- Installing: /usr/local/share/xrootd/utils/cms_monPerf
+-- Installing: /usr/local/lib64/libXrdCl.so.3.0.0
+-- Installing: /usr/local/lib64/libXrdCl.so.3
+-- Set runtime path of "/usr/local/lib64/libXrdCl.so.3.0.0" to ""
+-- Installing: /usr/local/lib64/libXrdCl.so
+-- Installing: /usr/local/bin/xrdfs
+-- Set runtime path of "/usr/local/bin/xrdfs" to ""
+-- Installing: /usr/local/bin/xrdcp
+-- Set runtime path of "/usr/local/bin/xrdcp" to ""
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClAnyObject.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClBuffer.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClConstants.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClCopyProcess.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClDefaultEnv.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClEnv.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClFile.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClFileSystem.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClFileSystemUtils.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClMonitor.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClStatus.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClURL.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClXRootDResponses.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClOptional.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClPlugInInterface.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClPlugInManager.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClPropertyList.hh
+-- Installing: /usr/local/include/xrootd/XrdCl/XrdClLog.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClMessage.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClPostMaster.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClPostMasterInterfaces.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClTransportManager.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClResponseJob.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClZipArchive.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClZipCache.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClOperations.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClOperationHandlers.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClOperationTimeout.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClArg.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClCtx.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClFwd.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClParallelOperation.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClFileOperations.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClFileSystemOperations.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClFinalOperation.hh
+-- Installing: /usr/local/include/xrootd/private/XrdCl/XrdClZipOperations.hh
+-- Installing: /usr/local/share/man/man1/xrdfs.1
+-- Installing: /usr/local/share/man/man1/xrdcp.1
+-- Installing: /usr/local/share/man/man1/xrdmapc.1
