@@ -1,0 +1,595 @@
+   cdms-04-1
+NA
+   cdms-04-2
+NA
+   cdms-04-3
+NA
+   cdms-04-4
+NA
+       cdms1
+NA
+       cdms3
+NA
+ gopher-01-1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-01-2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-01-3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.7T  1.5T  1.3T  53% /export/hadoop/hadoop1
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-01-4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-02-1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-02-2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-02-3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       1.8T  1.1T  719G  61% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.1T  1.6T  42% /export/hadoop/hadoop2
+ gopher-02-4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.7T  1.5T  1.3T  53% /export/hadoop/hadoop1
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-03-1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdc1       2.7T  1.5T  1.3T  53% /export/hadoop/hadoop2
+ gopher-03-2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-03-3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdc1       2.7T  1.5T  1.3T  53% /export/hadoop/hadoop2
+ gopher-03-4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.7T  1.5T  1.3T  55% /export/hadoop/hadoop1
+/dev/sdc1       2.7T  1.5T  1.3T  55% /export/hadoop/hadoop2
+ gopher-04-1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-04-2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.1T  1.6T  41% /export/hadoop/hadoop1
+/dev/sdb1       1.8T  1.1T  729G  60% /export/hadoop/hadoop2
+ gopher-04-3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-04-4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.7T  1.1T  1.7T  39% /export/hadoop/hadoop1
+/dev/sdc1       2.7T  1.9T  868G  69% /export/hadoop/hadoop2
+ gopher-05-1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-05-2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  53% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-05-3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       1.8T  1.1T  731G  60% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.1T  1.6T  41% /export/hadoop/hadoop2
+ gopher-05-4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  53% /export/hadoop/hadoop2
+ gopher-06-1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       1.8T  1.1T  741G  60% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.1T  1.6T  41% /export/hadoop/hadoop2
+ gopher-06-2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-06-3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-06-4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.5T  1.3T  54% /export/hadoop/hadoop2
+ gopher-07-1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-07-2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       1.8T 1011G  805G  56% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.1T  1.7T  39% /export/hadoop/hadoop2
+ gopher-07-3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-07-4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-08-1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-08-2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.4T  52% /export/hadoop/hadoop2
+ gopher-08-3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-08-4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.4T  52% /export/hadoop/hadoop2
+ gopher-09-1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.4T  51% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.4T  51% /export/hadoop/hadoop2
+ gopher-09-2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-09-3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-09-4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-10-1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.4T  52% /export/hadoop/hadoop2
+ gopher-10-2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-10-3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-10-4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-11-1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.4T  51% /export/hadoop/hadoop2
+ gopher-11-2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-11-3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-11-4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-12-1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-12-2
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+ gopher-12-3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdc1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop1
+/dev/sdb1       2.7T  1.4T  1.3T  52% /export/hadoop/hadoop2
+   scorpion1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  1.3T  1.5T  46% /export/hadoop/hadoop1
+/dev/sdc1       1.9T  1.3T  593G  69% /export/hadoop/hadoop2
+/dev/sdd1       3.7T  1.3T  2.4T  35% /export/hadoop/hadoop3
+   scorpion2
+NA
+   scorpion3
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  1.8T 1023G  64% /export/hadoop/hadoop1
+/dev/sdd1       3.7T  2.0T  1.7T  54% /export/hadoop/hadoop3
+NA
+   scorpion4
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.3T  2.1T  185G  92% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  1.8T   64G  97% /export/hadoop/hadoop2
+/dev/sdd1       2.3T  2.1T  177G  93% /export/hadoop/hadoop3
+   scorpion5
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  933G  1.9T  34% /export/hadoop/hadoop1
+/dev/sdc1       1.9T  933G  930G  51% /export/hadoop/hadoop2
+/dev/sdd1       1.9T  934G  929G  51% /export/hadoop/hadoop3
+   scorpion6
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  2.1T  645G  77% /export/hadoop/hadoop1
+/dev/sdc1       5.5T  2.2T  3.4T  39% /export/hadoop/hadoop2
+/dev/sdd1       3.7T  2.1T  1.6T  58% /export/hadoop/hadoop3
+   scorpion7
+NA
+   scorpion8
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  1.4T  1.4T  51% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  619G  1.2T  35% /export/hadoop/hadoop2
+/dev/sdd1       2.8T  1.4T  1.4T  51% /export/hadoop/hadoop3
+   scorpion9
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  1.3T  1.5T  47% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.3T  2.4T  36% /export/hadoop/hadoop2
+/dev/sdd1       1.9T  1.3T  541G  71% /export/hadoop/hadoop3
+  scorpion10
+NA
+  scorpion11
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  1.7T  1.2T  59% /export/hadoop/hadoop1
+/dev/sdc1       5.5T  1.6T  3.9T  30% /export/hadoop/hadoop2
+/dev/sdd1       1.9T  1.7T  219G  89% /export/hadoop/hadoop3
+  scorpion12
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  1.6T  1.2T  59% /export/hadoop/hadoop1
+/dev/sdc1       5.5T  1.6T  3.9T  30% /export/hadoop/hadoop2
+/dev/sdd1       1.9T  1.7T  216G  89% /export/hadoop/hadoop3
+  scorpion13
+NA
+  scorpion14
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  912G  1.9T  33% /export/hadoop/hadoop1
+/dev/sdc1       1.9T  913G  950G  49% /export/hadoop/hadoop2
+/dev/sdd1       1.9T  908G  955G  49% /export/hadoop/hadoop3
+  scorpion15
+NA
+  scorpion16
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  1.1T  1.7T  39% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  479G  1.4T  27% /export/hadoop/hadoop2
+/dev/sdd1       1.9T  1.1T  801G  58% /export/hadoop/hadoop3
+  scorpion17
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  1.2T  1.6T  42% /export/hadoop/hadoop1
+/dev/sdc1       1.9T  1.2T  702G  63% /export/hadoop/hadoop2
+/dev/sdd1       2.8T  1.2T  1.6T  42% /export/hadoop/hadoop3
+  scorpion18
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  1.1T  1.8T  37% /export/hadoop/hadoop1
+/dev/sdc1       1.9T  1.1T  837G  56% /export/hadoop/hadoop2
+/dev/sdd1       2.8T 1021G  1.8T  37% /export/hadoop/hadoop3
+  scorpion19
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  1.4T  1.4T  50% /export/hadoop/hadoop1
+/dev/sdc1       1.9T  1.4T  465G  76% /export/hadoop/hadoop2
+NA
+  scorpion20
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  2.0T  817G  71% /export/hadoop/hadoop1
+/dev/sdc1       5.5T  2.0T  3.6T  36% /export/hadoop/hadoop2
+/dev/sdd1       3.7T  2.0T  1.8T  54% /export/hadoop/hadoop3
+  scorpion21
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  1.4T  1.5T  48% /export/hadoop/hadoop1
+/dev/sdc1       1.9T  1.4T  526G  72% /export/hadoop/hadoop2
+/dev/sdd1       3.7T  1.4T  2.4T  36% /export/hadoop/hadoop3
+  scorpion22
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.8T  1.3T  1.5T  47% /export/hadoop/hadoop1
+/dev/sdc1       1.9T  1.3T  580G  69% /export/hadoop/hadoop2
+/dev/sdd1       3.7T  1.3T  2.4T  35% /export/hadoop/hadoop3
+  scorpion23
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.0T  905G  1.2T  45% /export/hadoop/hadoop1
+/dev/sdc1       1.9T  909G  954G  49% /export/hadoop/hadoop2
+/dev/sdd1       1.9T  903G  960G  49% /export/hadoop/hadoop3
+  scorpion24
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.9T  1.1T  787G  58% /export/hadoop/hadoop1
+/dev/sdc1       1.9T  1.1T  775G  59% /export/hadoop/hadoop2
+/dev/sdd1       3.7T  1.1T  2.6T  30% /export/hadoop/hadoop3
+  scorpion25
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.8T  2.0T  47% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop2
+  scorpion26
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop2
+  scorpion27
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop2
+  scorpion28
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.8T  1.9T  49% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.8T  1.9T  48% /export/hadoop/hadoop2
+  scorpion29
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop2
+  scorpion30
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop2
+  scorpion31
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.7T  2.0T  47% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.7T  2.0T  47% /export/hadoop/hadoop2
+  scorpion32
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.7T  2.0T  47% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.7T  2.0T  47% /export/hadoop/hadoop2
+  scorpion33
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop2
+  scorpion34
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.8T  1.9T  48% /export/hadoop/hadoop2
+  scorpion35
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.7T  2.0T  47% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.7T  2.0T  47% /export/hadoop/hadoop2
+  scorpion36
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.7T  2.0T  47% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop2
+  scorpion37
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop2
+  scorpion38
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.8T  2.0T  47% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.7T  2.0T  47% /export/hadoop/hadoop2
+  scorpion39
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.8T  2.0T  47% /export/hadoop/hadoop2
+  scorpion40
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.8T  2.0T  47% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.8T  2.0T  48% /export/hadoop/hadoop2
+  scorpion41
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  1.7T  2.0T  47% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  1.7T  2.0T  47% /export/hadoop/hadoop2
+  scorpion42
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  547G  3.2T  15% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  546G  3.2T  15% /export/hadoop/hadoop2
+  scorpion43
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T   33M  3.7T   1% /export/hadoop/hadoop1
+/dev/sdc1       3.7T   33M  3.7T   1% /export/hadoop/hadoop2
+  scorpion44
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  553G  3.1T  15% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  555G  3.1T  15% /export/hadoop/hadoop2
+  scorpion45
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  274G  3.4T   8% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  276G  3.4T   8% /export/hadoop/hadoop2
+  scorpion46
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  269G  3.4T   8% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  274G  3.4T   8% /export/hadoop/hadoop2
+  scorpion47
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       3.7T  269G  3.4T   8% /export/hadoop/hadoop1
+/dev/sdc1       3.7T  266G  3.4T   8% /export/hadoop/hadoop2
+  scorpion48
+NA
+     zebra01
+NA
+     zebra02
+NA
+     zebra03
+NA
+     zebra04
+NA
+   spa-cdms2
+NA
+   twins-a07
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  964G  852G  54% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  968G  848G  54% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  965G  851G  54% /export/hadoop/hadoop3
+   twins-a08
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  964G  852G  54% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  965G  851G  54% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  964G  852G  54% /export/hadoop/hadoop3
+   twins-a09
+NA
+   twins-a10
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd1       2.0T  1.1T  934G  54% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  733G  1.1T  41% /export/hadoop/hadoop2
+/dev/sdb1       1.8T  1.1T  723G  61% /export/hadoop/hadoop4
+   twins-a11
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  871G  945G  48% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  1.4T  411G  78% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  609G  1.2T  34% /export/hadoop/hadoop3
+   twins-a12
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  1.3T  584G  68% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  1.2T  621G  66% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  472G  1.4T  26% /export/hadoop/hadoop3
+   twins-a13
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  388G  1.4T  22% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  1.3T  577G  69% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  1.3T  573G  69% /export/hadoop/hadoop3
+   twins-a14
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  969G  847G  54% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  958G  858G  53% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  970G  846G  54% /export/hadoop/hadoop3
+   twins-a15
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  997G  819G  55% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  1.1T  780G  58% /export/hadoop/hadoop2
+/dev/sdd1       2.0T  1.1T  958G  53% /export/hadoop/hadoop3
+   twins-a16
+NA
+   twins-a17
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  962G  854G  53% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  964G  852G  54% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  969G  847G  54% /export/hadoop/hadoop3
+   twins-a18
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  1.3T  578G  69% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  1.3T  577G  69% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  422G  1.4T  24% /export/hadoop/hadoop3
+   twins-a19
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  1.3T  548G  70% /export/hadoop/hadoop1
+/dev/sdc1       2.7T  1.3T  1.5T  47% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  1.3T  550G  70% /export/hadoop/hadoop3
+   twins-a20
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  1.1T  789G  57% /export/hadoop/hadoop1
+/dev/sdd1       1.8T  1.1T  788G  57% /export/hadoop/hadoop2
+/dev/sdc1       2.0T 1022G  975G  52% /export/hadoop/hadoop3
+   twins-a21
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  966G  850G  54% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  964G  852G  54% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  967G  849G  54% /export/hadoop/hadoop3
+   twins-a22
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  970G  846G  54% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  957G  859G  53% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  965G  851G  54% /export/hadoop/hadoop3
+   twins-a23
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  1.4T  429G  77% /export/hadoop/hadoop1
+/dev/sdc1       2.7T  585G  2.1T  22% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  1.8T   59M 100% /export/hadoop/hadoop3
+   twins-a24
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  979G  837G  54% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  972G  844G  54% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  948G  868G  53% /export/hadoop/hadoop3
+   twins-b01
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  939G  877G  52% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  940G  876G  52% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  941G  875G  52% /export/hadoop/hadoop3
+   twins-b02
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  938G  878G  52% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  937G  879G  52% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  922G  894G  51% /export/hadoop/hadoop3
+   twins-b03
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  956G  860G  53% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  938G  878G  52% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  912G  904G  51% /export/hadoop/hadoop3
+   twins-b04
+NA
+   twins-b05
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  1.2T  653G  65% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  511G  1.3T  29% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  1.2T  683G  63% /export/hadoop/hadoop3
+   twins-b06
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  934G  882G  52% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  934G  882G  52% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  941G  875G  52% /export/hadoop/hadoop3
+   twins-b07
+NA
+   twins-b08
+NA
+   twins-b09
+NA
+   twins-b10
+NA
+   twins-b11
+NA
+   twins-b12
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  779G  1.1T  43% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  1.1T  765G  58% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  963G  854G  54% /export/hadoop/hadoop3
+   twins-b13
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       2.0T  1.1T  928G  54% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  1.1T  784G  57% /export/hadoop/hadoop2
+/dev/sdd1       2.0T  1.1T  932G  54% /export/hadoop/hadoop3
+   twins-b14
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  711G  1.1T  40% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  1.1T  779G  58% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  1.1T  769G  58% /export/hadoop/hadoop3
+   twins-b15
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  925G  891G  51% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  941G  875G  52% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  940G  876G  52% /export/hadoop/hadoop3
+   twins-b16
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  467G  1.4T  26% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  1.2T  645G  65% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  1.2T  646G  65% /export/hadoop/hadoop3
+   twins-b17
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  936G  880G  52% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  938G  878G  52% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  933G  883G  52% /export/hadoop/hadoop3
+   twins-b18
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  911G  905G  51% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  939G  878G  52% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  949G  867G  53% /export/hadoop/hadoop3
+   twins-b19
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  940G  876G  52% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  931G  885G  52% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  940G  876G  52% /export/hadoop/hadoop3
+   twins-b20
+NA
+   twins-b21
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  932G  884G  52% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  936G  880G  52% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  930G  886G  52% /export/hadoop/hadoop3
+   twins-b22
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  939G  877G  52% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  926G  890G  52% /export/hadoop/hadoop2
+/dev/sdd1       1.8T  932G  884G  52% /export/hadoop/hadoop3
+   twins-b23
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdb1       1.8T  107G  1.7T   6% /export/hadoop/hadoop1
+/dev/sdc1       1.8T  1.1T  716G  61% /export/hadoop/hadoop2
+/dev/sdd1       2.0T  1.1T  929G  54% /export/hadoop/hadoop3
+      wn01-1
+NA
+      wn01-2
+NA
+      wn01-4
+NA
+      wn02-2
+NA
