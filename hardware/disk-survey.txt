@@ -1,0 +1,1897 @@
+   cdms-04-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 223.6G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  22.4G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 172.2G  0 part /export/scratch
+   cdms-04-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 223.6G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  22.4G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 172.2G  0 part /export/scratch
+   cdms-04-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 223.6G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  22.4G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 172.2G  0 part /export/scratch
+   cdms-04-4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 223.6G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  22.4G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1    74G  0 part /export/scratch
+       cdms1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/data/cdmsdb
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  49.3G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 387.5G  0 part /export/scratch
+sr0     11:0    1  1024M  0 rom  
+       cdms3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  49.3G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 387.5G  0 part /export/scratch
+sr0     11:0    1  1024M  0 rom  
+ gopher-01-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-01-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-01-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop2
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-01-4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-02-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  19.7G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 417.1G  0 part /export/scratch
+ gopher-02-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-02-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-02-4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop2
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-03-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop2
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-03-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop2
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-03-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop2
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-03-4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop2
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-04-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-04-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-04-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 233.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.4G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 181.4G  0 part /export/scratch
+ gopher-04-4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop2
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-05-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-05-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-05-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-05-4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-06-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-06-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-06-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-06-4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+ gopher-07-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 931.5G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 878.9G  0 part /export/scratch
+ gopher-07-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-07-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-07-4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop2
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-08-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-08-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-08-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-08-4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-09-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-09-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-09-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-09-4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-10-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-10-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-10-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-10-4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-11-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-11-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-11-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-11-4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-12-1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 931.5G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 878.9G  0 part /export/scratch
+ gopher-12-2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+ gopher-12-3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop2
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop1
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  23.6G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 413.1G  0 part /export/scratch
+   scorpion1
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   3.7T  0 disk 
+└─sdd1   8:49   0   3.7T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+   scorpion2
+NA
+   scorpion3
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   3.7T  0 disk 
+└─sdd1   8:49   0   3.7T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+   scorpion4
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 232.9G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0  93.9G  0 part /export/scratch
+sdb      8:16   0   2.3T  0 disk 
+└─sdb1   8:17   0   2.3T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   2.3T  0 disk 
+└─sdd1   8:49   0   2.3T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+   scorpion5
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+   scorpion6
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   5.5T  0 disk 
+└─sdc1   8:33   0   5.5T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   3.7T  0 disk 
+└─sdd1   8:49   0   3.7T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+   scorpion7
+NA
+   scorpion8
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 232.9G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0  93.9G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   2.7T  0 disk 
+└─sdd1   8:49   0   2.7T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+   scorpion9
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   3.7T  0 disk 
+└─sdc1   8:33   0   3.7T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+  scorpion10
+NA
+  scorpion11
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   5.5T  0 disk 
+└─sdc1   8:33   0   5.5T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+  scorpion12
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   5.5T  0 disk 
+└─sdc1   8:33   0   5.5T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+  scorpion13
+NA
+  scorpion14
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+  scorpion15
+NA
+  scorpion16
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 698.7G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 559.6G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+  scorpion17
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   2.7T  0 disk 
+└─sdd1   8:49   0   2.7T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+  scorpion18
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0    10G  0 part /tmp
+├─sda3   8:3    0   9.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    12G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   2.7T  0 disk 
+└─sdd1   8:49   0   2.7T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+  scorpion19
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 931.5G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 792.5G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   5.5T  0 disk 
+└─sdd1   8:49   0   5.5T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+  scorpion20
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   5.5T  0 disk 
+└─sdc1   8:33   0   5.5T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   3.7T  0 disk 
+└─sdd1   8:49   0   3.7T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+  scorpion21
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   3.7T  0 disk 
+└─sdd1   8:49   0   3.7T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+  scorpion22
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   2.7T  0 disk 
+└─sdb1   8:17   0   2.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   3.7T  0 disk 
+└─sdd1   8:49   0   3.7T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+  scorpion23
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0     2T  0 disk 
+└─sdb1   8:17   0     2T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+  scorpion24
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  11.8G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0    10G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   3.7T  0 disk 
+└─sdd1   8:49   0   3.7T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+  scorpion25
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion26
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion27
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion28
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion29
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion30
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion31
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion32
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion33
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 232.9G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1  93.9G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion34
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion35
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion36
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion37
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 232.9G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1  93.9G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion38
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion39
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion40
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion41
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion42
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion43
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1    60G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1     4G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1   390G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion44
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion45
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion46
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion47
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+├─sda3   8:3    1    10G  0 part /tmp
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1 326.8G  0 part /export/scratch
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/hadoop/hadoop1
+sdc      8:32   1   3.7T  0 disk 
+└─sdc1   8:33   1   3.7T  0 part /export/hadoop/hadoop2
+  scorpion48
+NA
+     zebra01
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+└─sda3   8:3    1    10G  0 part /tmp
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/scratch
+sdc      8:32   1   3.7T  0 disk 
+     zebra02
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+└─sda3   8:3    1    10G  0 part /tmp
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/scratch
+sdc      8:32   1   3.7T  0 disk 
+     zebra03
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1 117.2G  0 part /
+├─sda2   8:2    1  11.8G  0 part [SWAP]
+└─sda3   8:3    1    10G  0 part /tmp
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/scratch
+sdc      8:32   1   3.7T  0 disk 
+     zebra04
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    1 465.8G  0 disk 
+├─sda1   8:1    1     4G  0 part /boot
+├─sda2   8:2    1  78.1G  0 part /
+├─sda3   8:3    1  11.8G  0 part [SWAP]
+├─sda4   8:4    1     1K  0 part 
+└─sda5   8:5    1     4G  0 part /tmp
+sdb      8:16   1   3.7T  0 disk 
+└─sdb1   8:17   1   3.7T  0 part /export/scratch
+sdc      8:32   1   3.7T  0 disk 
+   spa-cdms2
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0 931.5G  0 disk 
+├─sda1   8:1    0 117.2G  0 part /
+├─sda2   8:2    0  23.6G  0 part [SWAP]
+├─sda3   8:3    0    10G  0 part /tmp
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 780.7G  0 part /export/scratch
+sr0     11:0    1  1024M  0 rom  
+   twins-a07
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-3145732-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-3145732-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sr0     11:0    1  1024M  0 rom  
+   twins-a08
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-4063246-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-4063246-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+   twins-a09
+NA
+   twins-a10
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop4
+sdd      8:48   0     2T  0 disk 
+└─sdd1   8:49   0     2T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sr0     11:0    1  1024M  0 rom  
+   twins-a11
+NAME                            MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0                             7:0    0   100G  0 loop 
+└─docker-8:5-262587-pool (dm-0) 253:0    0   100G  0 dm   
+loop1                             7:1    0     2G  0 loop 
+└─docker-8:5-262587-pool (dm-0) 253:0    0   100G  0 dm   
+sda                               8:0    0   149G  0 disk 
+├─sda1                            8:1    0    25G  0 part /
+├─sda2                            8:2    0     4G  0 part /var
+├─sda3                            8:3    0  11.8G  0 part [SWAP]
+├─sda4                            8:4    0     1K  0 part 
+└─sda5                            8:5    0 108.2G  0 part /export/scratch
+sdc                               8:32   0   1.8T  0 disk 
+└─sdc1                            8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd                               8:48   0   1.8T  0 disk 
+└─sdd1                            8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sdb                               8:16   0   1.8T  0 disk 
+└─sdb1                            8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sr0                              11:0    1  1024M  0 rom  
+   twins-a12
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-1966340-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-1966340-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sr0     11:0    1  1024M  0 rom  
+   twins-a13
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-6160811-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-6160811-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sr0     11:0    1  1024M  0 rom  
+   twins-a14
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-2359300-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-2359300-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sr0     11:0    1  1024M  0 rom  
+   twins-a15
+NAME                            MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0                             7:0    0   100G  0 loop 
+└─docker-8:5-262424-pool (dm-0) 253:0    0   100G  0 dm   
+loop1                             7:1    0     2G  0 loop 
+└─docker-8:5-262424-pool (dm-0) 253:0    0   100G  0 dm   
+sdb                               8:16   0   1.8T  0 disk 
+└─sdb1                            8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sda                               8:0    0   149G  0 disk 
+├─sda1                            8:1    0    25G  0 part /
+├─sda2                            8:2    0     4G  0 part /var
+├─sda3                            8:3    0  11.8G  0 part [SWAP]
+├─sda4                            8:4    0     1K  0 part 
+└─sda5                            8:5    0 108.2G  0 part /export/scratch
+sdc                               8:32   0   1.8T  0 disk 
+└─sdc1                            8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd                               8:48   0     2T  0 disk 
+└─sdd1                            8:49   0     2T  0 part /export/hadoop/hadoop3
+sr0                              11:0    1  1024M  0 rom  
+   twins-a16
+NA
+   twins-a17
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-1311142-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-1311142-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+   twins-a18
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-5767381-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-5767381-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+   twins-a19
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-6422971-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-6422971-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+   twins-a20
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-6029509-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-6029509-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdc      8:32   0   3.7T  0 disk 
+└─sdc1   8:33   0     2T  0 part /export/hadoop/hadoop3
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop2
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+   twins-a21
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-30408856-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-30408856-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0 931.5G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 890.7G  0 part /export/scratch
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+   twins-a22
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-3146173-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-3146173-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+   twins-a23
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-5898464-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-5898464-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   2.7T  0 disk 
+└─sdc1   8:33   0   2.7T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+   twins-a24
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-6291893-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-6291893-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+   twins-b01
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-2228669-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-2228669-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+   twins-b02
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-6947261-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-6947261-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+   twins-b03
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-2359529-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-2359529-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+   twins-b04
+NA
+   twins-b05
+NAME                            MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0                             7:0    0   100G  0 loop 
+└─docker-8:5-131498-pool (dm-0) 253:0    0   100G  0 dm   
+loop1                             7:1    0     2G  0 loop 
+└─docker-8:5-131498-pool (dm-0) 253:0    0   100G  0 dm   
+sdd                               8:48   0   1.8T  0 disk 
+└─sdd1                            8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sda                               8:0    0   149G  0 disk 
+├─sda1                            8:1    0    25G  0 part /
+├─sda2                            8:2    0     4G  0 part /var
+├─sda3                            8:3    0  11.8G  0 part [SWAP]
+├─sda4                            8:4    0     1K  0 part 
+└─sda5                            8:5    0 108.2G  0 part /export/scratch
+sdc                               8:32   0   1.8T  0 disk 
+└─sdc1                            8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdb                               8:16   0   1.8T  0 disk 
+└─sdb1                            8:17   0   1.8T  0 part /export/hadoop/hadoop1
+   twins-b06
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-2884015-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-2884015-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+   twins-b07
+NA
+   twins-b08
+NA
+   twins-b09
+NA
+   twins-b10
+NA
+   twins-b11
+NA
+   twins-b12
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-4718601-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-4718601-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+   twins-b13
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-4849881-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-4849881-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0     2T  0 disk 
+└─sdb1   8:17   0     2T  0 part /export/hadoop/hadoop1
+sdd      8:48   0     2T  0 disk 
+└─sdd1   8:49   0     2T  0 part /export/hadoop/hadoop3
+   twins-b14
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-2097595-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-2097595-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+   twins-b15
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-5767392-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-5767392-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+   twins-b16
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-6816183-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-6816183-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+   twins-b17
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-6422972-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-6422972-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+   twins-b18
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-20578732-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-20578732-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0 465.8G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0   425G  0 part /export/scratch
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+   twins-b19
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-5898465-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-5898465-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+   twins-b20
+NA
+   twins-b21
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-2359736-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-2359736-pool (dm-0)
+       253:0    0   100G  0 dm   
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+   twins-b22
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-1704380-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-1704380-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0   1.8T  0 disk 
+└─sdd1   8:49   0   1.8T  0 part /export/hadoop/hadoop3
+   twins-b23
+NAME   MAJ:MIN RM   SIZE RO TYPE MOUNTPOINT
+loop0    7:0    0   100G  0 loop 
+└─docker-8:5-5898678-pool (dm-0)
+       253:0    0   100G  0 dm   
+loop1    7:1    0     2G  0 loop 
+└─docker-8:5-5898678-pool (dm-0)
+       253:0    0   100G  0 dm   
+sda      8:0    0   149G  0 disk 
+├─sda1   8:1    0    25G  0 part /
+├─sda2   8:2    0     4G  0 part /var
+├─sda3   8:3    0  11.8G  0 part [SWAP]
+├─sda4   8:4    0     1K  0 part 
+└─sda5   8:5    0 108.2G  0 part /export/scratch
+sdb      8:16   0   1.8T  0 disk 
+└─sdb1   8:17   0   1.8T  0 part /export/hadoop/hadoop1
+sdc      8:32   0   1.8T  0 disk 
+└─sdc1   8:33   0   1.8T  0 part /export/hadoop/hadoop2
+sdd      8:48   0     2T  0 disk 
+└─sdd1   8:49   0     2T  0 part /export/hadoop/hadoop3
+      wn01-1
+NA
+      wn01-2
+NA
+      wn01-4
+NA
+      wn02-2
+NA

@@ -24,4 +24,4 @@ __loop_over_hosts__() {
 }
 
 #Host nproc RAM CVMFS HDFS scratch sing OS
-__loop_over_hosts__ df -h /export/hadoop/hadoop*
+__loop_over_hosts__ lsblk
