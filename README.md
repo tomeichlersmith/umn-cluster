@@ -37,7 +37,7 @@ Partially administrated and maintained by HEP students.
   - CERN-related jobs, some containers are even distributed via CVMFS
   - **can we attach our own material to CVMFS?**
 - Container Runner ✔️
-  - [singularity](https://sylabs.io/guides/3.7/user-guide/) 
+  - [singularity](https://sylabs.io/guides/3.7/user-guide/) easy to install
 
 ## Delayed
 These goals are not necessarily "removed", but will not be primary goals.
@@ -48,12 +48,35 @@ These goals are not necessarily "removed", but will not be primary goals.
 - Connect to LDCS?
   - [ARC Client Tools](https://www.nordugrid.org/arc/arc6/users/client_install.html)
   - Ask Florido (ARC dev and Lund sysadmin) for advice on setup
-- Globus
+- Globus ✔️
   - Extremely useful in rare situations
   - Make sure our storage node is available to it
   - UMN has expanded its license so we are probably good
   - ID tied to internet ID
 
-### Other considerations:
+## Assembly
+All nodes have the Stack detailed above.
+
+### Head Node
+- Combined duties to simplify design of cluster
+- Runs the Condor Scheduler + other "god" activities
+
+### Login/Submit Node
+- ssh to it to submit jobs
+- Condor client with submit privileges
+- Allow login by users
+
+### Worker Nodes
+- condor client to receive jobs
+- not allow un-privileged users to ssh directly to
+- ? allow specific non-sudo users to connect to help debug ?
+
+### Nodes Already Provided
+- Globus
+  - May need to move it to Keller off of old v-sphere host
+- Squid Proxy
+  - Already in Keller
+
+## Other considerations:
 - Jeremy has 21 6TB hard drives. We could put them into a JBoD (Just a Bunch of Disks) and connect to whybee1 or use another box for a new ZFS pool.
 - Want 5TB drives for JBoD to maintain performance with current set (which are 5TB)
