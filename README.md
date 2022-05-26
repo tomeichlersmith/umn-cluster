@@ -5,13 +5,11 @@ Administrated and maintained by HEP students.
 ## Stack
 
 - OS
-  - Stable, CERN has not made a public decision on future of CentOS ==> go more mainstream?
-  - Ubuntu or Fedora?
   - [Rocky Linux](https://rockylinux.org/)
     - [Installation docs](https://docs.rockylinux.org/guides/installation/)
   - **Needs driver support for hard disk controllers used in R410 computers**
     - Chad discovered that RedHat 8.5 variants _do not_ have these drivers and require a hacky workaround
-    - Proprietary cables could be used to rewire the disks to use the onboard SATA connections
+    - A workaround has been found by loading the driver on boot
 - Auth
   - VAS and AD using IDs from central IT
   - General confirmation from Keith Mein that Self Managed machines (us) could be allowed into the domain
