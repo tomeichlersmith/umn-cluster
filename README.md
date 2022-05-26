@@ -1,6 +1,6 @@
 # UMN HEP Computing Cluster
 
-Administrated and maintained by HEP students.
+Partially administrated and maintained by HEP students.
 
 ## Stack
 
