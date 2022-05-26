@@ -12,81 +12,48 @@ Administrated and maintained by HEP students.
     - A workaround has been found by loading the driver on boot
 - Auth
   - VAS and AD using IDs from central IT
-  - General confirmation from Keith Mein that Self Managed machines (us) could be allowed into the domain
-  - LDAP retired by central IT, would mean we'd need to handle our own auth ==> recipe for disaster
 - [Filesystem](filesystem) and storage
-  - ZFS for some storage and larger home directories
-    - i.e. merge `/data/cmszfs1/user/$USER` and `/home/$USER` for our lab's cluster
-  - [hadoop HDFS](https://hadoop.apache.org/docs/r1.2.1/hdfs_design.html)
-    - Not very feasible given the age of our cluster hardware
-    - need some performance research, **can a medium cluster operate effectively on more simplified storage solution?**
-    - would require a rebuild from scratch since such a large portion of HDFS is using such an old OS (SL6)
-  - Higher performance scratch disks
+  - ZFS for data storage
+  - HDFS data evacuated to expanded ZFS+NFS area
+    - Once decomissioned, allows us to set a minimum of O(2TB) for boot disks
+    - No reason to go lower than O(500GB) 
+  - Home directories provided by CSE-IT
+  - ? Higher performance scratch disks ?
     - Separate partition/mount for system caches so that users don't prevent CVMFS/related from using necessary cache area
     - (money alert) upgrade dozen(ish) scorpions with scratch space < 10GB
+    - at minimum, harvest HDFS disks so that scratch areas can be larger
 - Admin Config Manager
-  - [Ansible](https://docs.ansible.com/) for ease of use
-  - ~[Puppet](https://puppet.com/docs/)~ ruled out due to complexity
-- [Squid caching](http://www.squid-cache.org/) to help limit external network access to only what is necessary
+  - Handled by CSE-IT
+  - [Ansible](https://docs.ansible.com/) for ease of use https://github.com/tomeichlersmith/umn-cluster/issues/5
+  - [Puppet](https://puppet.com/docs/) ruled out due to complexity
+- [Squid caching](http://www.squid-cache.org/) to help limit external network access to only what is necessary ✔️
   - This is required for CMSSW (I think) and is helpful for CVMFS
   - We can also look into connecting this caching to the container runner and its storage of container images
 - Workload Manager
   - [HTCondor](https://htcondor.org/)
-  - [Slurm](https://slurm.schedmd.com/)
-  - Decide based on ease of setup
-  - Discussion with Jeremy ==> having fixed resource allocation would be easier to maintain
-    - A main "feature" of HTCondor is dynamic determination of "nodes" and their availability,
-      this often leads to less-than-optimum use of the cluster.
-    - By default, slurm sets one node -> one job; however, it also has plugins that allow the
-      cluster admins to choose how jobs are allocated resources ("consumable resources").
-      For example, we can have (by default) one CPU/core per job so that one node could have `$(nproc)` jobs.
-- [CVMFS](https://cernvm.cern.ch/fs/)
+  - Reconfigure with central job throttling
+  - Define working nodes to make it easier for users to use the highest number of cores possible
+- [CVMFS](https://cernvm.cern.ch/fs/) ✔️
   - CERN-related jobs, some containers are even distributed via CVMFS
   - **can we attach our own material to CVMFS?**
-- Container Runner 
-  - [singularity](https://sylabs.io/guides/3.7/user-guide/) or [docker](https://docs.docker.com/engine/install/)
-  - Decide based on ease of setup
+- Container Runner ✔️
+  - [singularity](https://sylabs.io/guides/3.7/user-guide/) 
 
 ## Delayed
 These goals are not necessarily "removed", but will not be primary goals.
-- [CMS Tier-3 Computing Cluster](https://twiki.cern.ch/twiki/bin/view/CMSPublic/USCMSTier3Doc)
-  - Chad and I talked, we don't think this is feasible
-  - OSG Compute Entrypoint [Request](https://opensciencegrid.org/docs/compute-element/hosted-ce/)
-  - Perhaps a "Tier-3 in a box" solution?
-  - OSG 3.3 not available for download anymore
-  - Current OSG system relies upon VMs running on SPA's vsphere servers which are reaching end of life
-    - `gc-1se`,`gc2-ce`,`gc2-hn`,`hadoop-nfs`,`morpheus` (Phedex)
+- OSG Storage Entrypoint
+  - Depends on xrootd
+  - Allows jobs out in OSG to read/write files here
+- Setting up certificates so folks can submit crab jobs from this cluster
 - Connect to LDCS?
   - [ARC Client Tools](https://www.nordugrid.org/arc/arc6/users/client_install.html)
   - Ask Florido (ARC dev and Lund sysadmin) for advice on setup
 - Globus
-  - Would be nice for sharing data between systems
-
-Specific Node | Description
----|---
-gc1-hn | Head Node for cluster
-gc1-se | Storage Element connects HDFS
-gc1-ce | compute element - Condor
-hdfs-nn1 | Name Node for Hadoop
-hdfs-nn2 | secondary name node
-whybee1 | Node hosting ZFS server (/data/cmszfs1)
+  - Extremely useful in rare situations
+  - Make sure our storage node is available to it
+  - UMN has expanded its license so we are probably good
+  - ID tied to internet ID
 
 ### Other considerations:
-- Identity Management - Versatile Authentication Service (VAS) authentication against Active Directory (AD) or local accounts.
-- Storage access - For example whybee1 serves NFS based on AD accounts/groups
-- Home Directories - If others outside of CSE-IT have root access to machines, we cannot use CSE home directories due to security. We will need to manage our own home directories.
-- Jeremy has ~25 6TB hard drives. We could put them into a JBoD (Just a Bunch of Disks) and connect to whybee1 or use another box for a new ZFS pool.
-- Old drives consistently dieing leads to consistent re-calibration of Hadoop.
-
-### Authentication Discussion
-- Verify OIT will allow CMS to join machines
-- Create an Organizational Unit for CMS within CSE\CSE-IT\ to contain machines.
-- Create Joiner account to safely join machines to CMS OU
-- Create cse- account for person(s) to remove/modify objects in CMS OU
-- Use VAS or SSSD for joining machines to domain and authentication backend.
-
-## References
-
-- [OSG Worker Node Docker Build Context](https://github.com/opensciencegrid/docker-osg-wn)
-- [OSG Worker Node Docs](https://opensciencegrid.org/docs/worker-node/using-wn/)
-- [Consumable Resources in Slurm](https://slurm.schedmd.com/cons_res.html)
+- Jeremy has 21 6TB hard drives. We could put them into a JBoD (Just a Bunch of Disks) and connect to whybee1 or use another box for a new ZFS pool.
+- Want 5TB drives for JBoD to maintain performance with current set (which are 5TB)
