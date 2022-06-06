@@ -1,0 +1,4 @@
+executable = print-details.sh
+output = cwd-details.out
+error  = $(output)
+queue 1

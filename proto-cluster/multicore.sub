@@ -1,0 +1,8 @@
+
+executable = /usr/bin/sleep
+transfer_executable = no
+arguments = 20
+
+request_cpus = 2
+
+queue
