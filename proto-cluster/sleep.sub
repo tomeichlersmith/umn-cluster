@@ -1,0 +1,5 @@
+universe = vanilla
+executable = /usr/bin/sleep
+transfer_executable = no
+arguments = 60
+queue 50
