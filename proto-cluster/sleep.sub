@@ -1,5 +1,7 @@
 universe = vanilla
 executable = /usr/bin/sleep
 transfer_executable = no
-arguments = 60
+arguments = "60 && pwd"
+output = out.$(Process)
+transfer_files = ON_EXIT
 queue 50
