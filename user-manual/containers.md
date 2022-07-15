@@ -25,6 +25,25 @@ A full description on how to write your first container image and use a containe
 of this manual; however, below I have included links to example repositories and documentation that
 can help you get started.
 
+### Specific Notes
+
+Here are specific comments about using containers on our cluster.
+
+- singularity caches image layers downloaded from the internet by default in your home directory.
+  Your home directory is not large enough to cache these layers, so either download images using
+  the `--disable-cache` option of `singularity build` or move the layer cache by defining the
+  `SINGULARITY_CACHEDIR` to be a location with more space (either `/local/cms` or `/export/scratch`).
+- The executable singularity is installed on all the worker nodes, but your container image is an
+  input file. This means it should be included in input files that need to be transferred to the
+  worker node.
+  - **Future**: One improvement to the cluster would be to have a parallel network filesystem designed
+    specifically to share images and other files that are only read at the start of jobs. This would 
+    decrease the transfer time without putting extra burden on the data storage space.
+- For security reasons, standard users _cannot_ build container images from a singularity definition
+  file on the cluster nor can they unpack a singularity image into a "sandbox" image. You are
+  restricted to only "building" container images by downloading them from DockerHub (or similar host)
+  and running them.
+
 ### Helpful Resources
 - [singularity documentation](https://docs.sylabs.io/guides/3.8/user-guide/)
 - [docker docs Get Started](https://docs.docker.com/get-started/)
