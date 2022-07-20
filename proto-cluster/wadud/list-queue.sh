@@ -5,8 +5,6 @@
 outputDir=/local/cms/user/eichl008/umn-cluster/proto-cluster/wadud
 splitfiles=1
 
-echo "queue input_file, output_file, xsec, pileup_file from ("
-
 readarray -t jobList < jobList.txt
 {
   read
@@ -36,5 +34,4 @@ readarray -t jobList < jobList.txt
   done
 } < ntuples_RunIIUL.csv
 
-echo ")"
 exit 0

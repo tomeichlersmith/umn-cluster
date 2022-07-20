@@ -54,4 +54,4 @@ Requirements	= (Machine == "scorpion1.spa.umn.edu") \
                 || (Machine == "scorpion48.spa.umn.edu")
 
 arguments = "$(input_file) $(output_file) $(xsec) $(pileup_file)"
-
+queue input_file, output_file, xsec, pileup_file from ./list-queue.sh |
