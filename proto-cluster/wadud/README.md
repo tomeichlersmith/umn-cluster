@@ -2,6 +2,10 @@
 
 We want to look at how the performance changes when running analyses on the new cluster with the copy-to-scratch compared to the old cluster reading directly from HDFS. We are expecting jobs to take longer since they have an extra task, but we would like to quantify the difference.
 
+The file `condor_history_wadud_scorpion1.log` lists the job IDs, their submission, start, and end times for all of Mohammad's jobs
+submitted from scorpion1 that were still kept in the condor spool as of July 20, 2022. We can extract batches of jobs from the 
+submission times and then study how long they took to run as well as how long the entire campaign ran.
+
 ### Usage Notes
 I've pulled out the stuff from Mohammad's submission script so that I can give more control to Condor for later file copying. The basic usage is 
 
