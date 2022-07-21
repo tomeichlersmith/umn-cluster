@@ -53,6 +53,13 @@ be prevented from running; nevertheless, the cluster is designed with these job-
 so jobs not conforming to them may be more difficult to configure properly.
 
 ### Queue Commands
+The `queue` command in a condor submit file has multiple different argument options, two are
+of particular interest to us.
+
+First (and more simply), we can use the basic integer argument for "production" style jobs.
+This will allow define a unique integer `$(Process)` that we can use elsewhere in our submit
+script to make sure the jobs produce unique simulated data (e.g. as a random seed number).
+
 
 ### Executables
 

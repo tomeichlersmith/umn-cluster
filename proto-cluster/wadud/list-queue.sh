@@ -2,7 +2,7 @@
 
 # list job queue for analysis
 
-outputDir=/local/cms/user/eichl008/umn-cluster/proto-cluster/wadud
+outputDir=/local/cms/user/eichl008/umn-cluster/proto-cluster/wadud/output
 splitfiles=1
 
 readarray -t jobList < jobList.txt
@@ -22,15 +22,13 @@ readarray -t jobList < jobList.txt
     [ -d "${jobOutDir}" ] || mkdir -p "${jobOutDir}"
 
     nFiles=$(sed -n '=' ${singleJobFileList} | wc -l)
-    split -d -a 5 -l ${splitfiles} ${singleJobFileList} "${jobOutDir}/${jobBaseName}_"
+    sed "s|/hdfs/cms/user/wadud/anTGC|/local/cms/user/wadud/aNTGCmet|" ${singleJobFileList} > ${jobOutDir}/input_files.list
 
-    for subJobList in $(find "${jobOutDir}" -name "${jobBaseName}_*" | sort);
-    do
-      jobName=$(basename ${subJobList})
-      jobName="${jobName%.*}"
-      outputFile=${jobOutDir}/${jobName}.root
-      echo "  ${subJobList}, ${outputFile}, ${xSec}, ${mcPUfile}"
-    done
+    i=0
+    while read input_file; do
+      i=$((i+1))
+      echo "${input_file}, $(printf "%s_%05d.root" ${jobBaseName} ${i}), ${xSec}, ${mcPUfile}"
+    done < ${jobOutDir}/input_files.list
   done
 } < ntuples_RunIIUL.csv
 
