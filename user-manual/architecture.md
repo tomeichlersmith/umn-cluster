@@ -23,3 +23,37 @@ the cluster design.
   how we currently have multiple zebra interactive nodes.
 - Future plans for the cluster includes connecting the workstations to the
   condor cluster allowing them to submit jobs directly as well.
+
+## Important Nodes
+Most nodes in the cluster are simply "worker" nodes (non-interactive computers for 
+running batch jobs) or "workstation towers" (interactive desktop towers used directly),
+but there are a few nodes in the cluster that do critical tasks and cannot be simply
+recycled when they break down.
+
+### spa-osg-hn
+This is the "head node". It does the managerial aspects of our workload manager condor
+as well as potentially other cluster-wide, background tasks. It needs to have many cores
+to easily run the O(5) daemons running these necessary administrative tasks.
+
+### spa-osg-login
+This is the "login node". It is the central interactive node to which people ssh into
+in order to login to the cluster and submit batches of jobs to the cluster worker nodes.
+It needs to have a large number of cores and memory so that it can hold the O(dozen) users
+accessing it at any one time.
+
+In order to distribute the load of users directly interacting with the cluster,
+there is an intention to introduce other interactive "login" nodes that have the same
+configuration as spa-osg-login but are simply different hardware.
+
+### whybee1
+This is the "storage node". It hosts the NFS server which shares `/local/cms/...` across
+the entire cluster. It needs to have a high quality and large bandwidth network connection
+so users can access the network-attached storage as seamlessly as possible.
+
+**Specs** (as of Aug 2, 2022):
+- Dell R320 with iDRAC for remote access
+- 48GB of Memory
+- 4-core Xeon (on the low side, but NFS server has not been CPU-bound in the past)
+- 2 80GB SSDs (raid 1) for TrueNAS OS
+- 10GB Fiber Network
+- LSI HBA Card for connected JBoDs holding disks
