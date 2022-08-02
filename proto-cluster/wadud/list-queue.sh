@@ -27,6 +27,9 @@ readarray -t jobList < jobList.txt
     i=0
     while read input_file; do
       i=$((i+1))
+      # skip files that don't exist
+      [ -f ${input_file} ] || continue
+      # print row of inputs to run script
       echo "${input_file}, $(printf "%s_%05d.root" ${jobBaseName} ${i}), ${xSec}, ${mcPUfile}"
     done < ${jobOutDir}/input_files.list
   done
