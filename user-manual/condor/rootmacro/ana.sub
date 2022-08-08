@@ -1,0 +1,22 @@
+executable = /cvmfs/cms.cern.ch/common/cmssw-cc7
+transfer_executable = no
+
+should_transfer_files   = Yes
+when_to_transfer_output = ON_EXIT
+
+next_job_start_delay	= 3
+
+transfer_input_files = $(input_file)
+initial_dir = /local/cms/user/eichl008/umn-cluster/proto-cluster/wadud/output/
+
+output = $BASENAME(input_file).out
+error  = $(output)
+log    = $BASENAME(input_file).log
+
+on_exit_hold = ExitCode != 0
+on_exit_hold_subcode = ExitCode
+on_exit_hold_reason = "Program exited with non-zero error status (stored in HoldReasonSubCode)"
+
+environment = SINGULARITY_BIND=/home/,/local/cms/,/export/scratch/
+arguments = "--command-to-run /local/cms/user/eichl008/umn-cluster/proto-cluster/wadud/run_script.sh $BASENAME(input_file) $(output_file) $(xsec) $(pileup_file)"
+queue input_file, output_file, xsec, pileup_file from ./list-queue.sh |

@@ -59,11 +59,35 @@ of particular interest to us.
 First (and more simply), we can use the basic integer argument for "production" style jobs.
 This will allow define a unique integer `$(Process)` that we can use elsewhere in our submit
 script to make sure the jobs produce unique simulated data (e.g. as a random seed number).
+The command below would submit 200 jobs where the value of `$(Process)` would range from 0 to 199.
+```
+queue 200
+```
 
+Next, we can have condor create a job for each file matching a certain shell "glob" pattern.
+The command below would submit a job for each `.root` file in the listed directory defining
+the value of `$(input_file)` to be the file.
+```
+queue input_file matching files /full/path/to/directory/*.root
+```
+
+Finally, for more complicated situations, we can call a shell script to print out the argument
+lines for the `queue` command. This is helpful for situations where we need more than one changing
+argument per job (for example, some input files have a certain parameter while others have a different
+parameter).
+```
+queue arg1, arg2, arg3 from list_args.sh |
+```
+The arguments `argN` are comma separated and simply taken from the lins printed by `list_args.sh` to
+the terminal. This is also a helpful setup because you can run `list_args.sh` directly to see the
+list of job arguments before submitting them.
 
 ### Executables
 
 ## Examples
+- [Analysis with a ROOT Macro](rootmacro)
+- [Analysis with cmsRun](cmsRun)
+- [Production with a container](container)
 
 #### Analysis Submit Script
 ```

@@ -8,9 +8,9 @@ notes for the administrators documenting why certain design choices were made.
 ## Table of Contents
 - [Architecture](architecture.md)
 - [Locations](locations.md)
-- Condor
-  - [configuration](condor_config.md)
-  - [usage](condor_usage.md)
+- [Condor](condor)
+  - [configuration](condor/configuration.md)
+  - [usage](condor/README.md)
 - [Containers and Their Runners](containers.md)
 - [Misc Tips and Tricks](misc.md)
 
