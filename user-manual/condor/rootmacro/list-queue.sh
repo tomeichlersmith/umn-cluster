@@ -2,8 +2,9 @@
 
 # list job queue for analysis
 
-outputDir=/local/cms/user/eichl008/umn-cluster/proto-cluster/wadud/output
+outputDir=/local/cms/user/full/path/to/output/dir
 splitfiles=1
+sample_file=ntuples_RunIIUL.csv
 
 readarray -t jobList < jobList.txt
 {
@@ -33,6 +34,6 @@ readarray -t jobList < jobList.txt
       echo "${input_file}, $(printf "%s_%05d.root" ${jobBaseName} ${i}), ${xSec}, ${mcPUfile}"
     done < ${jobOutDir}/input_files.list
   done
-} < ntuples_RunIIUL.csv
+} < ${sample_file}
 
 exit 0
