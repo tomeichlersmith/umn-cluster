@@ -1,5 +1,5 @@
 # we run inside of CMS's CentOS7 container
-executable = /cvmfs/cms.cern.ch/common/cmssw-cc7
+executable = /bin/bash
 
 # we need to pass a specific environment variable to the condor job so
 #   the directories we need are mounted to the container
@@ -55,7 +55,7 @@ on_exit_hold_reason = "Program exited with non-zero error status (stored in Hold
 #   so we need to pass the container commands first and then the run script we will run inside
 #   I use the condor macro `BASENAME` here since condor will copy the input file to the working directory
 #   the other arguments are also pulled from the variables defined by the `queue` command
-arguments = "--command-to-run $(run_script) $BASENAME(input_file) $(output_file) $(xsec) $(pileup_file)"
+arguments = "/cvmfs/cms.cern.ch/common/cmssw-cc7 --command-to-run $(run_script) $BASENAME(input_file) $(output_file) $(xsec) $(pileup_file)"
 
 # submit a job for each line of arguments printed by the list-queue.sh bash script
 #   the arguments are comma-separated, run ./list-queue.sh directly to see what
