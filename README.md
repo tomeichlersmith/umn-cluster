@@ -78,5 +78,6 @@ All nodes have the Stack detailed above.
   - Already in Keller
 
 ## Other considerations:
-- Jeremy has 21 6TB hard drives. We could put them into a JBoD (Just a Bunch of Disks) and connect to whybee1 or use another box for a new ZFS pool.
-- Want 5TB drives for JBoD to maintain performance with current set (which are 5TB)
+- 21 6TB hard driveshave been added to whybee1's ZFS pool.
+- 6 additional 6TB drives pulled from Hadoop. Need ~10 to add more to Whybee1's second jbod. Hot spares are also very good to have.
+- 2nd jbod has around 24 open slots for expansion
