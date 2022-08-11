@@ -1,10 +1,6 @@
 # we run inside of CMS's CentOS7 container
 executable = /bin/bash
 
-# we need to pass a specific environment variable to the condor job so
-#   the directories we need are mounted to the container
-environment = SINGULARITY_BIND=/home/,/local/cms/,/export/scratch/
-
 # CVMFS is distributed to all nodes so the executable itself
 #   does not need to be copied
 transfer_executable = no
@@ -31,10 +27,6 @@ run_script = /local/cms/user/eichl008/umn-cluster/user-manual/condor/rootmacro/r
 #   notice we can use the variable that is defined in the `queue` command below
 transfer_input_files = $(input_file)
 
-# the "initialdir" is used as the default directory for relative paths in a lot of condor_submit stuff
-#   for us this is the relative path for output files so set this to the full path to the output directory
-initial_dir = /local/cms/user/eichl008/umn-cluster/user-manual/condor/rootmacro/output
-
 # terminal and condor output log files
 #   this is helpful for debugging purposes but you can delete these lines
 #   for slightly better performance
@@ -50,6 +42,10 @@ on_exit_hold = ExitCode != 0
 on_exit_hold_subcode = ExitCode
 on_exit_hold_reason = "Program exited with non-zero error status (stored in HoldReasonSubCode)"
 
+# we need to pass a specific environment variable to the condor job so
+#   the directories we need are mounted to the container
+environment = SINGULARITY_BIND=/home/,/local/cms/,/export/scratch/
+
 # the command line arguments given to the executable
 #   from condor's point of view, the executable is the container above,
 #   so we need to pass the container commands first and then the run script we will run inside
@@ -60,4 +56,6 @@ arguments = "/cvmfs/cms.cern.ch/common/cmssw-cc7 --command-to-run $(run_script) 
 # submit a job for each line of arguments printed by the list-queue.sh bash script
 #   the arguments are comma-separated, run ./list-queue.sh directly to see what
 #   the output looks like without being consumed by condor
-queue input_file, output_file, xsec, pileup_file from ./list-queue.sh |
+# the "initialdir" is used as the default directory for relative paths in a lot of condor_submit stuff
+#   for us this is the relative path for output files so set this to the full path to the output directory
+queue input_file, output_file, xsec, pileup_file, initialdir from ./list-queue.sh |

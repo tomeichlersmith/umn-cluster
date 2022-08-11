@@ -2,7 +2,7 @@
 
 # list job queue for analysis
 
-outputDir=/local/cms/user/eichl008/umn-cluster/user-manual/condor/rootmacro/output
+outputDir=/local/cms/user/eichl008/umn-cluster/user-manual/condor/rootmacro/2out2put
 sample_file=/local/cms/user/gsorrent/antgc_analysis/samples/aNTGC_Samples-ntuples_2017UL.csv
 job_list=/local/cms/user/gsorrent/antgc_analysis/hltSF/UL17/batch/jobList.txt
 splitfiles=1
@@ -34,7 +34,7 @@ readarray -t jobList < ${job_list}
       # skip files that don't exist
       [ -f ${input_file} ] || continue
       # print row of inputs to run script
-      echo "${input_file}, $(printf "%s_%05d.root" ${jobBaseName} ${i}), ${xSec}, ${mcPUfile}"
+      echo "${input_file}, $(printf "%s_%05d.root" ${jobBaseName} ${i}), ${xSec}, ${mcPUfile}, ${jobOutDir}"
     done < ${jobOutDir}/input_files.list
   done
 } < ${sample_file}
