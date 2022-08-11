@@ -17,3 +17,11 @@
   - allows condor to handle file transfer to scratch space
   - centrally managed file transfer means the system can slow down jobs 
     if the storage node is getting too many read calls (aka "throttling")
+
+### Potential Future Changes
+- Centrally managed absolute job throttle
+  - prevents many jobs from starting all at the same time
+  - helps prevent overloading local since many jobs read initialization files directly
+    from it
+- Tune file transfer settings
+  - Potentially pull more performance without overloading local
