@@ -33,7 +33,7 @@ transfer_input_files = $(input_file)
 
 # the "initialdir" is used as the default directory for relative paths in a lot of condor_submit stuff
 #   for us this is the relative path for output files so set this to the full path to the output directory
-initial_dir = /full/path/on/local/
+initial_dir = /local/cms/user/eichl008/umn-cluster/user-manual/condor/rootmacro/output
 
 # terminal and condor output log files
 #   this is helpful for debugging purposes but you can delete these lines
