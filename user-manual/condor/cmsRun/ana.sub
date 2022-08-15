@@ -17,11 +17,6 @@ should_transfer_files   = Yes
 #   output files when the run script returns 0
 when_to_transfer_output = ON_EXIT
 
-# stagger job starts so that the multiple jobs can read from the config/software files
-#    on /local at the start of each job without overloading /local
-# hopefully, we will replace this by a centrally controlled job stagger so this can be omitted by users
-next_job_start_delay	= 3
-
 # the script to run our job within the CentOS7 container
 #   this should be a full path and should be on /local/cms/...
 #   so that it can be seen by all nodes
