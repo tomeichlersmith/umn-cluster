@@ -25,11 +25,6 @@ then
     /bin/rm -f $7
 fi
 
-if [ $# -gt "7" ]
-then
-    sleep $8
-fi
-
 CMSRUN_ARGUMENTS=""
 for var in "${@:9}"
 do
