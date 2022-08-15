@@ -1,0 +1,5 @@
+executable = /usr/bin/touch
+arguments = /local/cms/user/eichl008/touch/$(Process).touch
+output = /local/cms/user/eichl008/touch/$(Process).out
+error = $(output)
+queue 5
