@@ -38,7 +38,6 @@ parser.add_argument("--program",type=str,help="Program to run inside the contain
 parser.add_argument("--config_args",type=str,default='',help="Extra arguments to be passed to the configuration script. Passed after the run_number or input_file.")
 parser.add_argument("--nocheck",action='store_true',help="Don't pause to look at job details before submitting.")
 parser.add_argument("--nonice",action='store_true',dest="nonice",help="Do not run this at nice priority.")
-parser.add_argument("--sleep",type=int,help="Time in seconds to sleep before starting the next job.",default=5)
 parser.add_argument("--max_memory",type=str,default='4G',help='Maximum amount of memory to give jobs. Can use \'K\', \'M\', \'G\' as suffix specifiers.')
 parser.add_argument("--max_disk",type=str,default='1G',help='Maximum amount of disk space to give jobs. Can use \'K\', \'M\', \'G\' as suffix specifiers.')
 parser.add_argument("--periodic_release",action='store_true',help="Periodically release any jobs that exited because the worker node was not connected to cvmfs or hdfs.")
@@ -66,7 +65,6 @@ job_instructions = JobInstructions(arg.run_script, arg.out_dir, singularity_img,
 job_instructions.memory(arg.max_memory)
 job_instructions.disk(arg.max_disk)
 job_instructions.nice(not arg.nonice)
-job_instructions.sleep(arg.sleep)
 
 if arg.priority is not None :
     job_instructions.priority(arg.priority)

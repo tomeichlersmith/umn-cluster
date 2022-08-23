@@ -211,17 +211,6 @@ class JobInstructions(htcondor.Submit) :
 
         self['requirements'] = classad.ExprTree(self['requirements']).or_(utility.use_machine(m))
 
-    def sleep(self,time) :
-        """Sleep for the input number of seconds between starting jobs.
-
-        It is helpful to have some lag time so that transferring large files
-        or reading from executable files can happen without overloading
-        the filesystem. 
-        
-        This generally doesn't need to be very long, only a few seconds.
-        """
-        self['next_job_start_delay'] = time
-
     def periodic_release(self) :
         """Tell this HTCondor to release all jobs that returned specific exit codes
 
