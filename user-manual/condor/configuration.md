@@ -17,11 +17,11 @@
   - allows condor to handle file transfer to scratch space
   - centrally managed file transfer means the system can slow down jobs 
     if the storage node is getting too many read calls (aka "throttling")
+- Increase job throttling limit `FILE_TRANSFER_DISK_LOAD_THROTTLE = 5.0`
+  - Default `FILE_TRANSFER_DISK_LOAD_THROTTLE` is `2.0` which is pretty conservative,
+    we tried a value of `10.0` but that seemed to cause the submit node to lose
+    connection with the NFS host so we settled on the moderate value of `5.0`.
+- Set `JOB_START_DELAY` to `5`
+  - This makes sure no two jobs start within 5s of each other. This staggering
+    is helpful to avoid overwhelming the shared data storage location.
 
-### Potential Future Changes
-- Centrally managed absolute job throttle
-  - prevents many jobs from starting all at the same time
-  - helps prevent overloading local since many jobs read initialization files directly
-    from it
-- Tune file transfer settings
-  - Potentially pull more performance without overloading local
