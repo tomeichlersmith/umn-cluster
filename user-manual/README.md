@@ -27,3 +27,29 @@ of using a NFS-mounted ZFS storage node already existing (whybee1) as the main
 storage for our cluster computing. This study showed that copying files to a
 scratch space, processing them, and then copying the output files to the
 storage area was satisfiably performant.
+
+Many different folks require many different libraries and some of those libraries
+conflict with each other and cannot even be installed on the same machine. For this reason,
+we are standardizing the usage of containers for compiling and running all software.
+CMS has put shared a set of helpful containers on CVMFS, so CMS folks can use it from there.
+
+Launching the development environment looks like the following
+```
+source /cvmfs/cms.cern.ch/cmsset_default.sh
+export SINGULARITY_BIND=/home/,/local/cms/user/,/export/scratch/
+cmssw-cc7 --ignore-mount /cvmfs/grid.cern.ch/etc/grid-security,/cvmfs/grid.cern.ch/etc/grid-security/vomses
+```
+Then you can run your normal compiling/running commands from within this container.
+
+**Note**: Your favorite text editor may not be available within the container,
+so you may want a separate window for file editing.
+
+### CVMFS Instability
+For some reason, the CVMFS mount is failing to reinitialize after it enters some error states.
+This causes some machines to occasionally lose access to CVMFS. You can check if CVMFS is available
+by running the following command. If CVMFS is operational on that machine, you will see a long
+list of different software options provided by CVMFS.
+```
+ls /cvmfs/cms.cern.ch
+```
+
