@@ -6,6 +6,7 @@ This manual is meant to be a helpful guide for users of this cluster, and be
 notes for the administrators documenting why certain design choices were made.
 
 ## Table of Contents
+- [New Users](new-user.md)
 - [Architecture](architecture.md)
 - [Locations](locations.md)
 - [Condor](condor)
