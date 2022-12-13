@@ -39,3 +39,30 @@ eichl008@spa-cms017 /local/cms/user> for d in *; do
 > echo "$d ${last_access}"
 > done | tee /export/scratch/users/eichl008/local_access.txt
 ```
+
+#### agedu
+[agedu](https://www.chiark.greenend.org.uk/~sgtatham/agedu/manpage.html) is a helpful tool that indexes all data-on-disk according to size _and_ age.
+This is very useful for our use case. It operates by scanning an input directory, generating a data file storing this index and 
+then opens a rudimentary web page for exploring the data.
+
+It is not available already installed on our systems, but it is relatively easy to build.
+_Build and run `agedu` from `/export/scratch` to avoid having it's data file clutter `/local/`_.
+```
+git clone https://git.tartarus.org/simon/agedu.git
+cd agedu
+cmake -B build -S . -DCMAKE_C_STANDARD=99
+cd build
+make
+```
+
+Scanning a directory looks like the following.
+This is the command that will take a long time to run since it has to go through all files in the provided directory.
+```
+./agedu/build/agedu --scan /local/cms/user/
+```
+There are many options for tuning the scan. Look at the online manual or the `--help` option for details.
+
+After the scan is done, you can open up a local, simple web page for exploring the data.
+```
+./agedu/build/agedu --web
+```
