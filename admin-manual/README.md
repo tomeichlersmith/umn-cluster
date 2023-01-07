@@ -13,6 +13,11 @@ notes that were taken during the construction of the updated cluster.
 
 ## Helpful Tips
 
+#### sudo access
+A select few members of the research group are given "intermediate" sudo access by the IT administrators.
+If you wish to be apart of this group, you should contact IT (specifically Chad).
+If you are apart of this group, you can list the commands you have sudo access to with `sudo -l`.
+
 #### Disk Usage Report
 Need to itemize the space used by folks? Go to that directory and use `du -sh`. Pipe the output to a file for persistency.
 **For example**:
