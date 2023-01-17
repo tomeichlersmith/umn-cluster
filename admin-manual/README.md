@@ -13,6 +13,16 @@ notes that were taken during the construction of the updated cluster.
 
 ## Helpful Tips
 
+#### singularity details
+The container runner we have installed on the cluster is called `apptainer` and is a fork of `singularity`;
+therefore, it can be accessed under the program name `singularity` as well.
+
+For extra confusion, there is another fork of `singularity` maintained by SyLabs called SingularityCE
+(CE for Community Edition) which _has not_ been renamed.
+
+- [Singularity (software) Wikipedia](https://en.wikipedia.org/wiki/Singularity_(software))
+- [SingularityCE vs Apptainer Difference](https://groups.google.com/g/singularity-ce/c/WNkeJ43M6Bo)
+
 #### sudo access
 A select few members of the research group are given "intermediate" sudo access by the IT administrators.
 If you wish to be apart of this group, you should contact IT (specifically Chad).
