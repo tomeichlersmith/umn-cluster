@@ -30,6 +30,17 @@ This installs Jupyter packages into your home directory meaning that it will be 
 You should add `~/.local/bin` to your `PATH` so that you can run the `--user` installed commands without
 needing to specify the full path.
 
+_Note_: You will see improved performance of JupyterLab if you install it into a python virtual environment
+on `/export/scratch`. This is because `/export/scratch` is not network mounted.
+```
+cd /export/scratch/users/
+mkdir $USER
+cd $USER
+python3 -m venv pyvenv --prompt jlab
+source pyvenv/bin/activate
+pip install --upgrade jupyterlab
+```
+
 Next, _on your desktop/laptop_ update the SSH configuration settings to connect the port on the cluster
 that jupyter will talk to to the same port on your laptop.
 ```
@@ -44,6 +55,8 @@ Finally, go to the cluster and launch jupyter to the same port that you put into
 ```
 ssh <shortname>
 cd <working directory>
+# if you installed it to /export/scratch you need to re-enter the python virtual environment
+source /export/scratch/users/$USER/pyvenv/bin/activate
 jupyter lab --no-browser --port 1234
 ```
 This last command will print out a few links which you can click on and open in the browser on your desktop/laptop.
@@ -70,7 +83,7 @@ a long time to run, detach from that terminal, disconnect from ssh, and only rec
 program. This ssh+tmux workflow is so common for me that I wrote a small bash wrapper connecting the two called `smux`.
 
 Below, I have copied the bash code which I've been using for a few years now. Feel free to put it in your `.bashrc` or some other
-file for later use.
+file for later use. I've also isolated it into a POSIX-compliant shell executable [on GitHub](https://github.com/tomeichlersmith/smux).
 
 ### smux
 ```bash
