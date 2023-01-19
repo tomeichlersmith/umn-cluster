@@ -13,6 +13,25 @@ notes that were taken during the construction of the updated cluster.
 
 ## Helpful Tips
 
+#### zfs snapshots
+[ZFS takes "snapshots"](https://docs.oracle.com/cd/E23824_01/html/821-1448/gbciq.html)
+of the data-on-disk periodically in order to prevent unintentional dataloss.
+The size of these snapshots roughly scale with the size of any _changes_ in data-on-disk, so large
+snapshots will clutter the disks if we remove a lot of data at once. CSE-IT can manually remove ZFS
+snapshots if we ask them to.
+
+It is important to keep these snapshots in mind when inspecting the available space on `/local/`.
+ZFS _does not_ include these snapshots in the total size of the filesystem since (for most situations)
+are negligible. Generally, you can think of the following equation.
+
+Total Raw Disk Space = (ZFS Snapshot Size) + (Size reported from `df`)
+
+This means you will want to ask CSE IT to manually drop snapshots if you intentionally delete
+a large amount of data.
+
+**These snapshots are not meant as a form of backup. They are only useful for restoring _the entire
+filesystem_ to a previous state.**
+
 #### singularity details
 The container runner we have installed on the cluster is called `apptainer` and is a fork of `singularity`;
 therefore, it can be accessed under the program name `singularity` as well.
