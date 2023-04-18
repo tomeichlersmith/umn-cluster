@@ -13,6 +13,8 @@ $use_xrootd=''; # '' is false in perl
 
 
 $rt=$ENV{"LOCALRT"};
+#$rt="/data/cmszfs1/user/revering/dphoton/slc7/CMSSW_10_6_17_patch1"; 
+#$arch="slc7_amd64_gcc700";
 $arch=$ENV{"SCRAM_ARCH"};
 
 $jobBase="default";
@@ -24,16 +26,18 @@ GetOptions(
     "prodspace=s" => \$prodSpace,
     "jobname=s" => \$jobBase,
     "xrootd" => \$use_xrootd,
-    "nice" => \$nice_user
+    "nice" => \$nice_user,
+    "resubmit" => \$resub
 );
 
 $executable="$prodSpace/$jobBase/cfg/$jobBase";
 print "$executable\n";
 open(OUTP,">$executable");
 print OUTP "#!/bin/sh\n";
-print OUTP "source /local/grid/cmssoft/cms/cmsset_default.sh\n";
+print OUTP "source /local/cms/sw/cmsset_default.sh\n";
 print OUTP "pwd\n";
-print OUTP "export SINGULARITY_BIND=\"/local/cms/user/,/export/scratch/,/home/\"\n";
+print OUTP "hostname\n";
+print OUTP "export SINGULARITY_BIND=\"/local/,/export/scratch/,/home/\"\n";
 print OUTP "cmssw-cc7 --command-to-run ".$ENV{"HOME"}."/bin/batch_cmsRun \$@";
 close(OUTP);
 chmod 0755,$executable;
@@ -74,7 +78,7 @@ if ($jobBase eq "default") {
 if (length($rt)<2) {
     print "You must run \"cmsenv\" in the right release area\n";
     print "before running this script!\n";
-    exit(1);
+   exit(1);
 }
 
 if ($use_xrootd) {
@@ -93,13 +97,16 @@ print "Setting up a job based on $basecfg into $jobBase using $filelist\n";
 if ($nosubmit) {
     print "  Will not actually submit this job\n";
 }
+if ($resub) {
+	print " Resubmitting failed jobs\n";
+} else {
 
 $cfg=$basecfg;
 
 system("mkdir -p $prodSpace/$jobBase");
 mkdir("$prodSpace/$jobBase/cfg");
 mkdir("$prodSpace/$jobBase/log");
-
+}
 $linearn=0;
 
 srand(); # make sure rand is ready to go
@@ -155,21 +162,32 @@ while ($i<=$#flist) {
         push @jobf,$flist[$i];
         $i++;
     }
-
-    $jobCfg=specializeCfg($cfg,$ii,@jobf);
-
-    $stub=$jobCfg;
-    $stub=~s|.*/([^/]+)_cfg.py$|$1|;
-    $log="$prodSpace/$jobBase/log/$stub.log";
-    $elog="$prodSpace/$jobBase/log/$stub.err";
-    $sleep=(($ii*2) % 60)+2;  # Never sleep more than a ~minute, but always sleep at least 2
-    print(SUBMIT "Arguments = $arch $rt $prodSpace/$jobBase $jobCfg $log $elog $fname $sleep $cmsRunArguments\n");
-    print(SUBMIT "transfer_input_files = ");
-    for ($jobNum=0; $jobNum<=$#jobf-1; $jobNum++) {
-    	print(SUBMIT "$jobf[$jobNum],");
+    if($resub)
+    {    
+       $stub2=$jobBase;
+       $stub2.=sprintf("_%03d",$ii);
+       $fname=$stub2.".root";
+       $jobCfg="$prodSpace/$jobBase/cfg/".$stub2."_cfg.py";
+       unless(-e "$prodSpace/$jobBase/$fname") {print("Resubmitting $stub2\n")}
+    } else {
+       $jobCfg=specializeCfg($cfg,$ii,@jobf);
     }
-    print(SUBMIT "$jobf[$#jobf]\n");
-    print(SUBMIT "Queue\n");
+    unless($resub and -e "$prodSpace/$jobBase/$fname")
+    {
+       $stub=$jobCfg;
+       $stub=~s|.*/([^/]+)_cfg.py$|$1|;
+       $log="$prodSpace/$jobBase/log/$stub.log";
+       $elog="$prodSpace/$jobBase/log/$stub.err";
+       $sleep=(($ii*2) % 60)+2;  # Never sleep more than a ~minute, but always sleep at least 2
+       print(SUBMIT "Arguments = $arch $rt $prodSpace/$jobBase $jobCfg $log $elog $fname $sleep $cmsRunArguments\n");
+       print(SUBMIT "transfer_input_files = ");
+       print(SUBMIT "/local/cms/user/revering/dphoton/slc7/CMSSW_10_6_17_patch1/src/DarkPhoton/MuAnalyzer/Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt,/local/cms/user/revering/dphoton/slc7/CMSSW_10_6_17_patch1/src/DarkPhoton/MuAnalyzer/text/RoccoR2018UL.txt,");
+       for ($jobNum=0; $jobNum<=$#jobf-1; $jobNum++) {
+       	print(SUBMIT "$jobf[$jobNum],");
+       }
+       print(SUBMIT "$jobf[$#jobf]\n");
+       print(SUBMIT "Queue\n");
+    }
 }
 
 close(SUBMIT);
@@ -208,7 +226,7 @@ sub specializeCfg($$@) {
         # TFile Service Block
         if ($sector==2 && /^[^\#]*fileName\s*=/) {
             if ($had3==1) {
-                $fname="$prodSpace/$jobBase/".$stub2."-hist.root";
+                $fname=$stub2."-hist.root";
             } else {
                 $fname=$stub2.".root";
             }
@@ -219,7 +237,7 @@ sub specializeCfg($$@) {
             if ($had2==1) {
                 $fname="$prodSpace/$jobBase/".$stub2."-pool.root";
             } else {
-                $fname="$prodSpace/$jobBase/".$stub2.".root";
+                $fname=$stub2.".root";
             }
             unlink($fname);
             print OUTP "       fileName = cms.untracked.string(\"$fname\"),\n";
