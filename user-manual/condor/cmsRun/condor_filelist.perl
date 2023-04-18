@@ -13,8 +13,6 @@ $use_xrootd=''; # '' is false in perl
 
 
 $rt=$ENV{"LOCALRT"};
-#$rt="/data/cmszfs1/user/revering/dphoton/slc7/CMSSW_10_6_17_patch1"; 
-#$arch="slc7_amd64_gcc700";
 $arch=$ENV{"SCRAM_ARCH"};
 
 $jobBase="default";
@@ -44,18 +42,6 @@ chmod 0755,$executable;
 print "$#ARGV\n";
 $nargs = $#ARGV;
 
-#if ($#ARGV!=3 && $#ARGV!=6) {
-#    print "Usage: [BASE CONFIG] [NAME OF FILE CONTAINING LIST OF FILENAMES] [isMC=True/False] [runRandomTrack=True/False] [runLocally=True/False] [isSig=True/False] [hasDpho=True/False]\n\n";
-#    print "    --batch (number of files per jobs) (default $batch)\n";
-#    print "    --start (output file number for first job) (default $startPoint)\n";
-#    print "    --jobname (name of the job) (default based on base config)\n";
-#    print "    --prodSpace (production space) (default $prodSpace)\n";
-#    print "    --nosubmit (don't actually submit, just make files)\n";
-#    print "    --xrootd (use xrootd for file access)\n";
-#    print "    --nice (set nice_user=true)\n";
-#    exit(1);
-#}
-
 $basecfg=shift @ARGV;
 $filelist=shift @ARGV;
 $cmsRunArguments=shift @ARGV;
@@ -73,7 +59,6 @@ if ($jobBase eq "default") {
     $stub3=~s|[.]py||;
     $jobBase=$stub3;
 }
-
 
 if (length($rt)<2) {
     print "You must run \"cmsenv\" in the right release area\n";
@@ -181,7 +166,6 @@ while ($i<=$#flist) {
        $sleep=(($ii*2) % 60)+2;  # Never sleep more than a ~minute, but always sleep at least 2
        print(SUBMIT "Arguments = $arch $rt $prodSpace/$jobBase $jobCfg $log $elog $fname $sleep $cmsRunArguments\n");
        print(SUBMIT "transfer_input_files = ");
-       print(SUBMIT "/local/cms/user/revering/dphoton/slc7/CMSSW_10_6_17_patch1/src/DarkPhoton/MuAnalyzer/Cert_314472-325175_13TeV_Legacy2018_Collisions18_JSON.txt,/local/cms/user/revering/dphoton/slc7/CMSSW_10_6_17_patch1/src/DarkPhoton/MuAnalyzer/text/RoccoR2018UL.txt,");
        for ($jobNum=0; $jobNum<=$#jobf-1; $jobNum++) {
        	print(SUBMIT "$jobf[$jobNum],");
        }
