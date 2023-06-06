@@ -30,7 +30,8 @@ mkdir $USER
 cd $USER
 python3 -m venv pyvenv --prompt jlab
 source pyvenv/bin/activate
-pip install --upgrade wheel
+pip install --upgrade pip
+pip install --upgrade setuptools
 pip install --upgrade jupyterlab
 ```
 
