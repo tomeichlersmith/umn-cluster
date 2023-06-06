@@ -21,23 +21,16 @@ if you simply copy the data there to analyze.
 
 ### Start Up
 First you need to install various `python` libraries that will allow you to run jupyter.
-This should be done _on the cluster_ where jupyter will be run.
-```bash
-python3 -m pip install --user --upgrade wheel
-python3 -m pip install --user --upgrade jupyterlab
-```
-This installs Jupyter packages into your home directory meaning that it will be available across the cluster.
-You should add `~/.local/bin` to your `PATH` so that you can run the `--user` installed commands without
-needing to specify the full path.
-
-_Note_: You will see improved performance of JupyterLab if you install it into a python virtual environment
-on `/export/scratch`. This is because `/export/scratch` is not network mounted.
+This should be done _on the cluster_ where jupyter will be run. You will see improved performance of JupyterLab 
+if you install it into a python virtual environmenton `/export/scratch`. 
+This is because `/export/scratch` is not network mounted.
 ```
 cd /export/scratch/users/
 mkdir $USER
 cd $USER
 python3 -m venv pyvenv --prompt jlab
 source pyvenv/bin/activate
+pip install --upgrade wheel
 pip install --upgrade jupyterlab
 ```
 
