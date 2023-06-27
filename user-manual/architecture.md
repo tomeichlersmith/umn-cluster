@@ -18,9 +18,13 @@ the cluster design.
 - The head node (`spa-osg-hn`) and the worker nodes are only accessible by
   CSE-IT admins and those of us added as "cluster admins" by IT. Currently, the
   cluster admins are Jeremy and Tom.
-- The login node (`spa-osg-login`) is intended to be the point from which
-  condor jobs are submitted. Additional login nodes could be added similar to
-  how we currently have multiple zebra interactive nodes.
+- The login nodes (`spa-osg-login` and `zebra0{1..4}`) are intended to be the point
+  from which condor jobs are submitted. Additional login nodes could be added if we
+  have more users in the future demanding more interactive nodes.
+- The external ssh node (`spa-ssh-01`) is actually just a simple redirect to a
+  virtual machine which handles all the incoming traffic (`cs-remote-spa-01`).
+  Many historic names for this node are included in the list of redirects
+  (`spartha`, `login.physics`, `ssh.physics`).
 - Future plans for the cluster includes connecting the workstations to the
   condor cluster allowing them to submit jobs directly as well.
 
