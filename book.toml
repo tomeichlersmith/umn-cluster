@@ -4,3 +4,8 @@ language = "en"
 multilingual = false
 src = "src"
 title = "UMN SPA Cluster"
+
+[build]
+# change build-dir to _site so that it aligns
+# with the default GitHub pages publishing actions
+build-dir = "_site"
