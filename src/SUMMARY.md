@@ -3,7 +3,7 @@
 # User Manual
 
 - [Intro](user-manual/README.md)
-- [New User](user-manual/new-user.md)
+- [New Users](user-manual/new-user.md)
 - [Architecture](user-manual/architecture.md)
 - [Locations](user-manual/locations.md)
 - [Condor](user-manual/condor/README.md)
@@ -16,6 +16,7 @@
 - [Misc](user-manual/misc/README.md)
   - [Common Issues](user-manual/misc/common_issues.md)
   - [ssh PubKey Auth](user-manual/misc/ssh_pubkey_auth.md)
+  - [ssh Config](user-manual/misc/ssh_config.md)
   - [How to Use Jupyter](user-manual/misc/jupyter.md)
   - [tmux and It's Extension smux](user-manual/misc/tmux.md)
 
