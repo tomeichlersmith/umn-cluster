@@ -5,16 +5,6 @@ A computing cluster for the UMN HEP research groups (mainly CMS).
 This manual is meant to be a helpful guide for users of this cluster, and be
 notes for the administrators documenting why certain design choices were made.
 
-## Table of Contents
-- [New Users](new-user.md)
-- [Architecture](architecture.md)
-- [Locations](locations.md)
-- [Condor](condor)
-  - [configuration](condor/configuration.md)
-  - [usage](condor/README.md)
-- [Containers and Their Runners](containers.md)
-- [Misc Tips and Tricks](misc.md)
-
 ## General Comments 
 
 This cluster is roughly 140 machines. These machines are
@@ -43,5 +33,5 @@ cmssw-cc7 --ignore-mount /cvmfs/grid.cern.ch/etc/grid-security,/cvmfs/grid.cern.
 Then you can run your normal compiling/running commands from within this container.
 
 **Note**: Your favorite text editor may not be available within the container,
-so you may want a separate window for file editing.
-
+so you may want a separate window for file editing. Having two windows open side-by-side
+can be done with [tmux](misc/tmux.md).
