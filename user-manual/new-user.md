@@ -13,7 +13,8 @@ For UMN students (grad or undergrad), this is automatic. For summer students, th
 Email `csehelp@umn.edu` and ask them to activiate your SPA computing account.
 Provide the following information in your email:
 - Which professor is your advisor (they may want to double-check with that person if they can't find your name in their system)
-- That you would like a SPA computing account and have access to the "SPA OSG cluster" (that's their name for this cluster)
+- That you would like a SPA computing account and have access to the "SPA OSG cluster" (that's their name for this cluster).
+  I belive this second substep amounts to adding you to the `SPA-hepcms` Active Directory group.
 
 **Test**: You can SSH to the general-access node with your UMN credentials.
 ```
