@@ -51,3 +51,4 @@ Here are specific comments about using containers on our cluster.
   that works with either singularity or docker
 - [LDMX-Software/docker](https://github.com/LDMX-Software/docker) : containerized development environment
   for ldmx-sw
+- [Software containers for CMSSW](https://awesome-workshop.github.io/docker-cms/): interacting with CMSSW from containers
