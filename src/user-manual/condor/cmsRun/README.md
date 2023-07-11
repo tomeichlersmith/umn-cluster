@@ -22,3 +22,14 @@ will be called for each job to set up the environment and run cmssw.
 This version is set up for running on the UMN cluster, and uses the built-in file transferring 
 utilities of condor to move the input files. In addition, each job generates a new executable 
 named after the job name which calls `batch_cmsRun` from within a slc7 cmssw singularity container. 
+
+### batch_cmsRun
+```bash
+{{#include batch_cmsRun}}
+```
+
+### condor_filelist.perl
+
+```perl
+{{#include condor_filelist.perl}}
+```
