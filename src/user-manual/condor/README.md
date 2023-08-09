@@ -98,6 +98,27 @@ for these "run scripts" which I list here for future reference.
 - The output file(s) are written to the current working directory.
   - Condor copies all generated files in that directory after the script exits
 
+## Interactive "Job"
+HTCondor doesn't really have a defined method for spawning an interactive job.
+You may want an interactive job so that you can walk through executing your program manually
+to debug what is going wrong. You can spawn an interactive job pretty easily by
+having condor run a job that just sleeps indefinitely and then using `condor_ssh_to_job` to
+connect to that job in its environment where you can start walking through your job script.
+```bash
+condor_submit interactive.sub
+condor_ssh_to_job <job-number-from-above>
+# make sure to remove idle job when you return
+condor_rm <job-number-from-above>
+```
+
+### interactive.sub
+```
+executable = /bin/bash
+transfer_executable = no
+arguments = "-c 'while true; do sleep 20; done'"
+queue
+```
+
 ## Examples
 The linked directories below are _examples_ and are not usable out of the box.
 These are here just to help explain how to get set up with your own batch ecosystem.
