@@ -24,4 +24,5 @@
 - Set `JOB_START_DELAY` to `5`
   - This makes sure no two jobs start within 5s of each other. This staggering
     is helpful to avoid overwhelming the shared data storage location.
-
+- Maximum number of jobs kept in any single schedulers history is 10000
+  - This is the default set by HTCondor and means we should keep our clusters of jobs to less than 10k so we can inspect them via the history.
