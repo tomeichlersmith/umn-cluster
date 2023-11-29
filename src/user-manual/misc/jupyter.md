@@ -50,3 +50,27 @@ This last command will print out a few links which you can click on and open in 
   images. This means running jupyter from a network-attached filesystem _will_ be noticeably slow. It is suggested to
   put your jupyter notebooks into `/export/scratch/...` and back them up to GitHub similar to other code.
 
+
+## Newer Python
+We can use containers in order to aquire a newer python version that isn't currently available on the cluster.
+The example below uses [denv](tomeichlersmith.github.io/denv) similar to [the case study](../container-case-study/denv.md) which focused more on using command line tools.
+
+Since Jupyter is running on the cluster, the other steps from the start-up section abvoe are not changed.
+The only steps that are changed are how jupyter is installed and how it is run.
+
+### Installation
+Rather than using a virtual environment in `/export/scratch`, we can create a denv within `/export/scratch`
+referencing the newest python version available. _Note_: before using `denv` (or any containers), make
+sure to move the caching directory to a larger directory than your home (e.g. with `export APPTAINER_CACHEDIR=/export/scratch/users/${USER}`).
+```
+cd /export/scratch/users/${USER}
+denv init python:3
+denv python3 -m pip install --user --upgrade jupyterlab
+```
+
+Then, whenever you wish to launch jupyter lab you just need to prefix the program with `denv`.
+```
+cd /export/scratch/users/${USER}
+denv jupyter lab --port 1234
+```
+
