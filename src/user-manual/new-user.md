@@ -34,6 +34,26 @@ _Note_: If you are off campus, you will need to connect to the general-access no
 
 **Alternative Test**: You can log-in to one of the interactive desktops in the HEP-CMS offices.
 
+### 3. Permissions on the SPA OSG Cluster
+This is helpful for double checking that you have the correct access when connecting to the cluster.
+
+**Test 1**: Make sure you can view the contents of our group's directory.
+Type the following into the shell and press enter _after_ logging in.
+```
+ls /local/cms/user
+```
+You should see a listing of files in this directory. If you see `Permission denied` or similar,
+then you should contact CSE IT.
+
+**Test 2**: Make sure you can modify the contents of our group's directory.
+While still logged in to the cluster run the following command.
+```
+mkdir /local/cms/user/${USER}
+```
+This command will not printout anything if it was successful. If you see `Permission denied`,
+then contact CSE IT. If you see `File exists`, then you (or someone else) already created this
+directory and you should ask around the office for help if you don't remember doing it yourself.
+
 ## Quality of Life Improvements
 There are a few things you can do to make the SSH connection process easier.
 I encourage you to google around and read articles about SSH and how to configure it
