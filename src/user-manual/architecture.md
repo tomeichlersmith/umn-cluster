@@ -22,7 +22,7 @@ the cluster design.
   from which condor jobs are submitted. Additional login nodes could be added if we
   have more users in the future demanding more interactive nodes.
 - The external ssh node (`spa-ssh-01`) is actually just a simple redirect to a
-  virtual machine which handles all the incoming traffic (`cs-remote-spa-01`).
+  virtual machine which handles all the incoming traffic (`cse-remote-spa-01`).
   Many historic names for this node are included in the list of redirects
   (`spartha`, `login.physics`, `ssh.physics`).
 - Future plans for the cluster includes connecting the workstations to the
