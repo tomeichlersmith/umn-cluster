@@ -56,6 +56,14 @@ backed-up somewhere else (for example, GitHub or GitLab).
 I spend most of my time in the scratch space of my workstation, only moving to the shared data space
 when I need to start using the multi-node nature of the cluster (i.e. submit jobs to condor).
 
+Since each node has its own distinct scratch space, you will need to create a directory for your work.
+```
+mkdir -p /export/scratch/users/${USER}
+```
+These directories are only removed when the computer is re-installed with a new OS
+(only happens every few years), so you can keep returning to the same workstation and its scratch space
+for your work.
+
 The scratch space is also used by condor as the "sandbox" directory that jobs are run within.
 
 **Suggested Use**: Code development and test running.
