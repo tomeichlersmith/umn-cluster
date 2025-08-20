@@ -32,7 +32,7 @@ jobs:
       MDBOOK_VERSION: 0.4.45
       MDBOOK_ADMONISH_VERSION: 1.19.0 # need to re-run mdbook-admonish install if updating version
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v5
       - run: ./.github/install-mdbook
       - name: Setup Pages
         id: pages
