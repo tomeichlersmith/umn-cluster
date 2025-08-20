@@ -93,7 +93,7 @@ jupyter lab --no-browser --port 1234
 
 ### Containers
 We can use containers in order to aquire a newer python version that isn't currently available on the cluster.
-The example below uses [denv](tomeichlersmith.github.io/denv) similar to [the case study](../container-case-study/denv.md)
+The example below uses [denv](https://tomeichlersmith.github.io/denv) similar to [the case study](../container-case-study/denv.md)
 which focused more on using command line tools.
 
 The benefit of using containers is that they provide a truly isolated environment and, specifically for Python,

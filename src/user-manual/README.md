@@ -34,4 +34,4 @@ Then you can run your normal compiling/running commands from within this contain
 
 **Note**: Your favorite text editor may not be available within the container,
 so you may want a separate window for file editing. Having two windows open side-by-side
-can be done with [tmux](misc/tmux.md).
+can be done with [tmux](./misc/tmux.md).
