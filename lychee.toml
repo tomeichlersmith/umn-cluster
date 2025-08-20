@@ -8,6 +8,10 @@ cache = true
 exclude = [
   # skip adobe homepage which times out
   '^http://www\.adobe\.com/$',
+  # squid cache link times out as well but I can see it manually
+  '^http://www\.squid-cache\.org/$',
+  # the gnu emacs site seems to be down but I can't find a different official site
+  '^https://www\.gnu\.org/software/emacs/$'
 ]
 
 # don't check these files
