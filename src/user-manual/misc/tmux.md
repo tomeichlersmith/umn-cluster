@@ -12,10 +12,10 @@ a long time to run, detach from that terminal, disconnect from ssh, and only rec
 program. This ssh+tmux workflow is so common for me that I wrote a small bash wrapper connecting the two called `smux`.
 
 Below, I have copied the bash code which I've been using for a few years now. Feel free to put it in your `.bashrc` or some other
-file for later use. I've also isolated it into a POSIX-compliant shell executable [on GitHub](https://github.com/tomeichlersmith/smux)
+file for later use. I've also isolated it into a POSIX-compliant shell executable [on Codeberg](https://codeberg.org/tomeichlersmith/smux)
 which is light enough to install into your home directory pretty much anywhere.
 ```
-curl -s https://raw.githubusercontent.com/tomeichlersmith/smux/main/install | sh 
+curl -s https://codeberg.org/tomeichlersmith/smux/raw/branch/main/install | sh 
 ```
 
 ### smux
