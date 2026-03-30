@@ -49,6 +49,6 @@ At the time of this writing, we are transitioning from CentOS7 to Rocky8 as the 
 installed on these desktops, so the specific GUI editors installed may change.
 Just like TUI editors, there are many GUI editors and so I only list a subset of them here.
 
-- [gedit](https://help.gnome.org/users/gedit/stable/)
+- [gedit](https://gedit-text-editor.org/)
 - [geany](https://www.geany.org/)
 - [joe](https://joe-editor.sourceforge.io/)
