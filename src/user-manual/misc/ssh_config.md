@@ -12,7 +12,7 @@ Now, this allows me to type `ssh umn-cluster` which is the same as `ssh spa-ssh-
 Basically, SSH looks through the config file for any `Host` matching what your typed on the command line.
 It then applies the settings underneath that `Host`. This allows use to do fancier things like grouping together
 servers that share the same settings. A more complicated example config is the one 
-[I use](https://gitlab.com/tbeichlersmith/config/-/blob/main/.ssh/config).
+[I use](https://codeberg.org/tomeichlersmith/config/src/branch/main/.ssh/config).
 
 #### User
 This sets a default username for SSH to use for the host so you don't have to type it on the command line.
