@@ -6,7 +6,7 @@ setup(
     name='umn_htcondor',
     version='0.1.0',
     description='UMN-specific wrapper around HTCondor',
-    url='https://github.com/tomeichlersmith/umn-cluster',
+    url='https://github.com/UMN-CMS/cluster',
     author='Tom Eichlersmith',
     author_email='eichl008@umn.edu',
     license='MIT',

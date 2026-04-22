@@ -24,7 +24,7 @@ Partially administrated and maintained by HEP students.
     - at minimum, harvest HDFS disks so that scratch areas can be larger
 - Admin Config Manager✔️
   - Handled by CSE-IT
-  - [Ansible](https://docs.ansible.com/) for ease of use https://github.com/tomeichlersmith/umn-cluster/issues/5
+  - [Ansible](https://docs.ansible.com/) for ease of use https://github.com/UMN-CMS/cluster/issues/5
   - [Puppet](https://puppet.com/docs/) ruled out due to complexity
 - [Squid caching](http://www.squid-cache.org/) to help limit external network access to only what is necessary ✔️
   - This is required for CMSSW (I think) and is helpful for CVMFS

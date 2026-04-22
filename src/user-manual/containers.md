@@ -47,7 +47,7 @@ Here are specific comments about using containers on our cluster.
 ### Helpful Resources
 - [singularity documentation](https://docs.sylabs.io/guides/3.8/user-guide/)
 - [docker docs Get Started](https://docs.docker.com/get-started/)
-- [dark-brem-lib-gen](https://github.com/tomeichlersmith/dark-brem-lib-gen) : containerized MadGraph4 
+- [dark-brem-lib-gen](https://github.com/LDMX-Software/dark-brem-lib-gen) : containerized MadGraph4 
   that works with either singularity or docker
 - [LDMX-Software/docker](https://github.com/LDMX-Software/docker) : containerized development environment
   for ldmx-sw

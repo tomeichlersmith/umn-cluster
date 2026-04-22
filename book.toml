@@ -1,5 +1,5 @@
 [book]
-authors = ["tomeichlersmith"]
+authors = ["tomeichlersmith", "UMN-CMS"]
 language = "en"
 multilingual = false
 src = "src"
@@ -7,6 +7,6 @@ title = "UMN SPA Cluster"
 
 [output.html]
 mathjax-support = true
-site-url = "/umn-cluster/"
-git-repository-url = "https://github.com/tomeichlersmith/umn-cluster/tree/main/"
-edit-url-template = "https://github.com/tomeichlersmith/umn-cluster/edit/main/{path}"
+site-url = "/cluster/"
+git-repository-url = "https://github.com/UMN-CMS/cluster/tree/main/"
+edit-url-template = "https://github.com/UMN-CMS/cluster/edit/main/{path}"
